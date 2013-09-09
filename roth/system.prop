@@ -18,3 +18,9 @@ ro.streaming.video.drs=true
 
 # disable EGL_BUFFER_PRESERVED extension for OpenGLRenderer
 debug.hwui.render_dirty_regions=false
+
+#enable Miracast game mode support
+nvwfd.gamemode = 1
+
+#max resolution supported for Miracast is 720p, represented interms of macroblocks
+nvwfd.maxresolution_macroblocks = 3600

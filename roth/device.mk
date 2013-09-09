@@ -91,7 +91,16 @@ ifeq ($(NV_ANDROID_FRAMEWORK_ENHANCEMENTS),TRUE)
 PRODUCT_COPY_FILES += \
   $(LOCAL_PATH)/media_profiles.xml:system/etc/media_profiles.xml \
   $(LOCAL_PATH)/media_codecs.xml:system/etc/media_codecs.xml \
-  $(LOCAL_PATH)/audio_policy.conf:system/etc/audio_policy.conf
+  $(LOCAL_PATH)/audio_policy.conf:system/etc/audio_policy.conf \
+  $(LOCAL_PATH)/overlay/packages/apps/Settings/res/raw/shield_legal.html:system/etc/shield_legal.html \
+  $(LOCAL_PATH)/overlay/packages/apps/Settings/res/raw/tos.html:system/etc/tos.html \
+  $(LOCAL_PATH)/overlay/packages/apps/Settings/res/raw/priv.html:system/etc/priv.html \
+  $(LOCAL_PATH)/overlay/packages/apps/Settings/res/raw/shield_legal_zh_tw.html:system/etc/shield_legal_zh_tw.html \
+  $(LOCAL_PATH)/overlay/packages/apps/Settings/res/raw/tos_zh_tw.html:system/etc/tos_zh_tw.html \
+  $(LOCAL_PATH)/overlay/packages/apps/Settings/res/raw/priv_zh_tw.html:system/etc/priv_zh_tw.html \
+  $(LOCAL_PATH)/overlay/packages/apps/Settings/res/raw/shield_legal_zh_cn.html:system/etc/shield_legal_zh_cn.html \
+  $(LOCAL_PATH)/overlay/packages/apps/Settings/res/raw/tos_zh_cn.html:system/etc/tos_zh_cn.html \
+  $(LOCAL_PATH)/overlay/packages/apps/Settings/res/raw/priv_zh_cn.html:system/etc/priv_zh_cn.html
 else
 PRODUCT_COPY_FILES += \
   $(LOCAL_PATH)/media_profiles_noenhance.xml:system/etc/media_profiles.xml \
@@ -232,7 +241,8 @@ PRODUCT_PACKAGES += \
 	drmserver \
 	Gallery2 \
 	libdrmframework_jni \
-	InputViewer
+	InputViewer \
+	nvidiafeedback
 
 PRODUCT_PACKAGES += nvaudio_test
 
