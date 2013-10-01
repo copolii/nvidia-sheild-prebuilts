@@ -43,6 +43,12 @@ on fs
     mount_all /fstab.tegratab
     mount ext4 /dev/block/platform/sdhci-tegra.3/by-name/LBH /lbh wait ro
 
+on fs-charger
+    setprop ro.crypto.tmpfs_options size=128m,mode=0771,uid=1000,gid=1000
+    setprop ro.crypto.umount_sd false
+    mount ext4 /dev/block/platform/sdhci-tegra.3/by-name/APP /system wait ro
+    mount ext4 /dev/block/platform/sdhci-tegra.3/by-name/LBH /lbh wait ro
+
 on post-fs-data
     # create directory for runtime calibration data
     mkdir /data/touchscreen 0755 system system
