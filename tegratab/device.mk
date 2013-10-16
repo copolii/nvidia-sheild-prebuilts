@@ -274,8 +274,7 @@ PRODUCT_PACKAGES += \
 	drmserver \
 	Gallery2 \
 	libdrmframework_jni \
-	e2fsck \
-	nvidiafeedback
+	e2fsck
 
 PRODUCT_PACKAGES += \
 	charger\
@@ -373,22 +372,12 @@ PRODUCT_PACKAGES += \
 	factory_adbd \
 	oemcrypto_api_test
 
-# Markers app (renamed to Tegra Draw)
+# Markers app (renamed to Tegra NOTE Draw)
 PRODUCT_PACKAGES += \
-        TegraDraw
+        TegraNOTEDraw
 
 # OV5693 bayer sensor calibration manager
 PRODUCT_PACKAGES += otp-ov5693
-
-#bugreport
-PRODUCT_PACKAGES += send_bug
-  PRODUCT_COPY_FILES += \
-    system/extras/bugmailer/bugmailer.sh:system/bin/bugmailer.sh \
-    system/extras/bugmailer/send_bug:system/bin/send_bug
-
-ifeq ($(TARGET_PRODUCT),kalamata)
-PRODUCT_PACKAGES += gen_tegranote_fuseblob
-endif
 
 include frameworks/native/build/tablet-7in-hdpi-1024-dalvik-heap.mk
 include $(LOCAL_PATH)/touchscreen/maxim/maxim.mk

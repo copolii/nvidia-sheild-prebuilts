@@ -53,7 +53,6 @@ LBH_ID=0001
 LBH_CLASS=0001
 echo $CM_ID > ./lbh/.cm_id
 echo $LBH_ID > ./lbh/.lbh_id
-echo $LBH_CLASS > ./lbh/.lbh_class
 
 #------------------------------------------------
 # Set ro properties to override

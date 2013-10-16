@@ -22,6 +22,6 @@
     <!-- Default list of apps to be shown in DirectStylus Launcher -->
     <add-resource type="string" name="def_stylus_launcher_default_apps"></add-resource>
     <string name="def_stylus_launcher_default_apps" translatable="false">
-        com.nvidia.TegraDraw/com.google.android.apps.markers.MarkersActivity,com.styluslabs.write/com.styluslabs.write.PaintMain
+        com.nvidia.TegraNOTEDraw/com.google.android.apps.markers.MarkersActivity,com.styluslabs.write/com.styluslabs.write.PaintMain
     </string>
 </resources>

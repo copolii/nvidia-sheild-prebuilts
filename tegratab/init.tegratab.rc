@@ -43,12 +43,6 @@ on fs
     mount_all /fstab.tegratab
     mount ext4 /dev/block/platform/sdhci-tegra.3/by-name/LBH /lbh wait ro
 
-on fs-charger
-    setprop ro.crypto.tmpfs_options size=128m,mode=0771,uid=1000,gid=1000
-    setprop ro.crypto.umount_sd false
-    mount ext4 /dev/block/platform/sdhci-tegra.3/by-name/APP /system wait ro
-    mount ext4 /dev/block/platform/sdhci-tegra.3/by-name/LBH /lbh wait ro
-
 on post-fs-data
     # create directory for runtime calibration data
     mkdir /data/touchscreen 0755 system system
@@ -383,7 +377,7 @@ service hostapd_bin  /system/bin/hostapd -dd /data/misc/wifi/hostapd.conf
     oneshot
 
 # bugreport is triggered by the VOLUME-DOWN and VOLUME-UP keys
-service bugreport /system/bin/bugmailer.sh -b /system/media/audio/ui/Dock.ogg -e /system/media/audio/ui/Undock.ogg
+service bugreport /system/bin/dumpstate -d -v -o /data/storage/bugreports/bugreport
     class main
     disabled
     oneshot
@@ -411,12 +405,6 @@ service nvcpud /system/bin/nvcpud
     class main
     user system
     group system
-
-# Maxim touch setting
-service touch_fusion \
-    /vendor/bin/touch_fusion \
-    daemon touch_fusion /vendor/firmware/touch_fusion.cfg
-    class main
 
 # Charger Mode
 service charger /charger
@@ -525,7 +513,6 @@ on init
     setprop input.tch_blk.ext_for_ptrs 1
     setprop input.tch_blk.timeout_ms 500
     setprop input.tch_prs.ebc 0.9
-    setprop input.stl_blk.edge_pxls 2
 
 # Customers should remove this line
 import init.qvs.rc
