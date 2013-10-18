@@ -18,7 +18,7 @@
 #ifndef _BDROID_BUILDCFG_H
 #define _BDROID_BUILDCFG_H
 
-#define BTM_DEF_LOCAL_NAME "TegraNote"
+#define BTM_DEF_LOCAL_NAME "TegraNote-P1640"
 
 // SERVICE_CLASS:0x5A (Bit17 -Networking,Bit19 - Capturing,Bit20 -Object Transfer,Bit22 -Telephony)
 // MAJOR CLASS: COMPUTER

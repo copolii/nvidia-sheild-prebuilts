@@ -89,11 +89,13 @@ on post-fs-data
     mount ext4 /dev/block/platform/sdhci-tegra.3/by-name/FCT /mnt/factory rw remount
     mkdir /mnt/factory/touchscreen 0777 system system
     mkdir /mnt/factory/mpu 0777 system system
+    chmod 0666 /mnt/factory/mpu/inv_cal_data.bin
 
     export TOUCH_CONF_DIR /mnt/factory/touchscreen
     export TOUCH_DATA_DIR /mnt/factory/touchscreen
     export MPU_CONF_DIR /mnt/factory/mpu
     export MPU_DATA_DIR /mnt/factory/mpu
+    export MPU_LOAD_CAL_ON_DISABLE 1
 
     # FACTORY MODE
     # change access permission of cache for factory reset

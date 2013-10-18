@@ -117,7 +117,8 @@ GP_LBH_COPY_FILES += \
    vendor/nvidia/tegra/tegratab/partition-data/media/images/tegratab_7in_1454x1280_28.jpg:$(GP_LBH_TAG)/media/images/default_wallpaper.jpg \
    3rdparty/applications/prebuilt/common/apps/XoloCare.apk:$(GP_LBH_TAG)/app/XoloCare.apk \
    3rdparty/applications/prebuilt/common/apps/TertiaryTracker.apk:$(GP_LBH_TAG)/app/TertiaryTracker.apk \
-   3rdparty/applications/prebuilt/common/apps/ZenPinballHD.apk:$(GP_LBH_TAG)/app/ZenPinballHD.apk
+   3rdparty/applications/prebuilt/common/apps/ZenPinballHD.apk:$(GP_LBH_TAG)/app/ZenPinballHD.apk \
+   3rdparty/applications/prebuilt/common/apps/JukeApp-2.0.1.50644-prod.apk:$(GP_LBH_TAG)/app/JukeApp-2.0.1.50644-prod.apk
 
 ifneq ($(GP_CAMERA_FRONT_SENSOR_GUID),)
 GP_LBH_COPY_FILES += \

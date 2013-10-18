@@ -31,6 +31,8 @@ chown system:system /sys/class/invensense/mpu/motion_enable
 chown system:system /sys/class/invensense/mpu/motion_threshold
 chown system:system /sys/class/invensense/mpu/power_state
 chown system:system /sys/class/invensense/mpu/key
+chmod 0666 /sys/class/invensense/mpu/loadcal
+chown system:system /sys/class/invensense/mpu/loadcal
 
 chown system:system /sys/class/input/input*/akm89xx/enable
 chown system:system /sys/class/input/input*/akm89xx/delay

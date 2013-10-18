@@ -34,6 +34,7 @@
 #include <utils/String8.h>
 #include <string.h>
 #include <linux/input.h>
+#include <cutils/properties.h>
 
 #include "MPLSensor.h"
 #include "MPLSupport.h"
@@ -54,6 +55,8 @@
 #define DEFAULT_MPL_COMPASS_RATE        (20000L)     //us
 
 MPLSensor *MPLSensor::gMPLSensor = NULL;
+static int mpl_load_cal_on_disable = 0;
+static int loaded = 0;
 
 extern "C" {
 //callback wrappers go here
@@ -366,6 +369,12 @@ MPLSensor::MPLSensor(CompassSensor *compass)
     if (logfile)
         inv_turn_on_data_logging(logfile);
 #endif
+    char *mpl_env = NULL;
+    mpl_env = getenv("MPU_LOAD_CAL_ON_DISABLE");
+    if (mpl_env && mpl_env[0] == '1' && mpl_env[1] == 0)
+        mpl_load_cal_on_disable = 1;
+    else
+        mpl_load_cal_on_disable = 0;
 }
 
 int MPLSensor::inv_constructor_init()
@@ -1166,6 +1175,29 @@ int MPLSensor::setDelay(int32_t handle, int64_t ns)
     /* TODO: Capable to run at 200Hz? */
     if (ns < 10000000LL) {
         ns = 10000000LL;
+    }
+
+    if (mpl_load_cal_on_disable) {
+        int load = 0;
+        FILE *fptr;
+
+        fptr = fopen("/sys/class/invensense/mpu/loadcal", "r");
+        if (fptr != NULL) {
+            fscanf(fptr, "%d", &load);
+            fclose(fptr);
+        }
+
+        if (!load)
+            loaded = 0;
+
+        if (load && !loaded) {
+            inv_error_t rv = inv_load_calibration();
+            if (rv == INV_SUCCESS) {
+                ALOGV("HAL:Calibration file successfully loaded");
+                loaded = 1;
+            } else
+                ALOGE("HAL:Could not open or load MPL calibration file (%d)", rv);
+        }
     }
 
     /* store request rate to mDelays arrary for each sensor */
