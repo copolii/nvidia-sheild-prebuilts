@@ -691,6 +691,12 @@ void common_power_hint(struct power_module *module, struct powerhal_info *pInfo,
     case POWER_HINT_BT_A2DP:
         set_bt_a2dp_hint(pInfo, (int*)data);
         break;
+    case POWER_HINT_AUDIO_OUT:
+        // Boost to 204Mhz frequency
+        pInfo->mTimeoutPoker->requestPmQosTimed("/dev/cpu_freq_min",
+                                                 204000,
+                                                 ms2ns(100));
+        break;
     default:
         break;
     }

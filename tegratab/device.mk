@@ -382,6 +382,7 @@ PRODUCT_PACKAGES += \
         preassembly_testcases.xml \
         audio_testcases.xml \
         usbhostumsread \
+	tdc \
 	tmc \
 	tst \
 	camera_existence \
