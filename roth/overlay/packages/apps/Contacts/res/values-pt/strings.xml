@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Description in the dialog that appears if there are no pictures from which to create an icon for a contact -->
+    <string name="photoPickerNotFoundText" product="shield">Não há imagens disponíveis.</string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is disabled.  [CHAR LIMIT=NONE] -->
+    <string name="noContactsHelpText" product="shield">"Você não tem contatos para exibir.\n\nPara adicionar contatos, toque em <font fgcolor="#ffffffff"><b>Menu</b></font>, e depois:\n
+        \n <li><font fgcolor="#ffffffff"><b>Contas</b></font> para adicionar ou configurar uma conta com contatos que podem ser sincronizados no SHIELD \n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Novo contato</b></font> para criar um novo contato do zero\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Importar/exportar</b></font> para importar contatos do cartão SIM ou SD\n</li>"
+    </string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is enabled.  [CHAR LIMIT=NONE] -->
+    <string name="noContactsHelpTextWithSync" product="shield">"Você não tem contatos para exibir. (Se um contato acabou de ser adicionado, pode demorar alguns minutos para que o mesmo seja sincronizado.)\n\nPara adicionar contatos, toque em <font fgcolor="#ffffffff"><b>Menu</b></font>,e depois:\n
+        \n<li><font fgcolor="#ffffffff"><b>Contas</b></font> para adicionar ou configurar uma conta com contatos que podem ser sincronizados no SHIELD \n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Exibir opções</b></font> para alterar os contatos que estão visíveis.\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Novo contato</b></font> para criar um novo contato do zero\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Importar/exportar</b></font> para importar contatos do cartão SIM ou SD\n</li>"
+    </string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is disabled, and there is no sim card (cdma).  [CHAR LIMIT=NONE]-->
+    <string name="noContactsNoSimHelpText" product="shield">"Você não tem contatos para exibir.\n\nPara adicionar contatos, toque em <font fgcolor="#ffffffff"><b>Menu</b></font>, e depois:\n
+        \n<li><font fgcolor="#ffffffff"><b>Contas</b></font> para adicionar ou configurar uma conta com contatos que podem ser sincronizados no SHIELD \n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Novo contato</b></font> para criar um novo contato do zero\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Importar/exportar</b></font> para importar contatos do cartão SD\n</li>"
+    </string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is enabled, and there is no sim card (cdma).  [CHAR LIMIT=NONE] -->
+    <string name="noContactsNoSimHelpTextWithSync" product="shield">"Você não tem contatos para exibir. (Se um contato acabou de ser adicionado, pode demorar alguns minutos para que o mesmo seja sincronizado.)\n\nPara adicionar contatos, toque em <font fgcolor="#ffffffff"><b>Menu</b></font>,e depois:\n
+        \n<li><font fgcolor="#ffffffff"><b>Contas</b></font> para adicionar ou configurar uma conta com contatos que podem ser sincronizados no SHIELD \n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Exibir opções</b></font> para alterar os contatos que estão visíveis.\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Novo contato</b></font> para criar um novo contato do zero\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Importar/exportar</b></font> para importar contatos do cartão SD\n</li>"
+    </string>
+    <!-- This error message shown when the user actually have no contact (e.g. just after data-wiping), or, data providers of the contact list prohibits their contacts from being exported to outside world via vcard exporter, etc. [CHAR LIMIT=NONE] -->
+    <string name="composer_has_no_exportable_contact" product="shield">Não há contatos exportáveis.  Se houver contatos no SHIELD, alguns provedores de dados podem não permitir que os contatos sejam exportados.</string>
+    <!-- Title for data source when creating or editing a contact that doesn't belong to a specific account.  This contact will only exist on the phone and will not be synced. -->
+    <string name="account_phone" product="shield">Somente SHIELD, não sincronizado</string>
+
+</resources>

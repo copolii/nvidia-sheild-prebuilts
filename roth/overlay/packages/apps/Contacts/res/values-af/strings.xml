@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Description in the dialog that appears if there are no pictures from which to create an icon for a contact -->
+    <string name="photoPickerNotFoundText" product="shield">Geen prente is beskikbaar nie.</string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is disabled.  [CHAR LIMIT=NONE] -->
+    <string name="noContactsHelpText" product="shield">"Jy het geen kontakte om te vertoon nie.\n\nOm kontakte by te voeg, raak <font fgcolor="#ffffffff"><b>Kieslys</b></font>, raak dan:\n
+        \n<li><font fgcolor="#ffffffff"><b>Rekeninge</b></font> om \'n rekening by te voeg of op te stel met kontakte wat jy kan sinchroniseer na SHIELD\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Nuwe kontak</b></font> om \'n nuwe kontak te skep van die begin af\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Invoer/uitvoer</b></font> om kontakte van jou SIM-kaart of SD-kaart in te voer\n</li>"
+    </string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is enabled.  [CHAR LIMIT=NONE] -->
+    <string name="noContactsHelpTextWithSync" product="shield">"Jy het geen kontakte om te wys nie. (As jy pas 'n rekening bygevoeg het, mag dit 'n paar minute neem om kontakte te sinchroniseer.)\n\nOm kontakte by te voeg, raak <font fgcolor="#ffffffff"><b>Kieslys</b></font>, raak dan:\n
+        \n<li><font fgcolor="#ffffffff"><b>Rekeninge</b></font> om \'n rekening by te voeg of op te stel met kontakte wat jy kan sinchroniseer na SHIELD\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Vertoonopsies</b></font> om te verander watter kontakte is sigbaar\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Nuwe kontak</b></font> om \'n nuwe kontak te skep van die begin af\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Invoer/Uitvoer</b></font> om kontakte van jou SIM-kaart of SD-kaart in te voer\n</li>"
+    </string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is disabled, and there is no sim card (cdma).  [CHAR LIMIT=NONE]-->
+    <string name="noContactsNoSimHelpText" product="shield">"Jy het geen kontakte om te vertoon nie.\n\nOm kontakte by te voeg, raak <font fgcolor="#ffffffff"><b>Kieslys</b></font>, raak dan:\n
+        \n<li><font fgcolor="#ffffffff"><b>Rekeninge</b></font> om \'n rekening by te voeg of op te stel met kontakte wat jy kan sinchroniseer na SHIELD\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Nuwe kontak</b></font> om \'n nuwe kontak te skep van die begin af\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Invoer/Uitvoer</b></font> om kontakte van jou SIM-kaart of SD-kaart in te voer\n</li>"
+    </string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is enabled, and there is no sim card (cdma).  [CHAR LIMIT=NONE] -->
+    <string name="noContactsNoSimHelpTextWithSync" product="shield">"Jy het geen kontakte om te wys nie. (As jy pas 'n rekening bygevoeg het, mag dit 'n paar minute neem om kontakte te sinchroniseer.)\n\nOm kontakte by te voeg, raak <font fgcolor="#ffffffff"><b>Kieslys</b></font>, raak dan:\n
+        \n<li><font fgcolor="#ffffffff"><b>Rekeninge</b></font> om \'n rekening by te voeg of op te stel met kontakte wat jy kan sinchroniseer na SHIELD\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Vertoonopsies</b></font> om te verander watter kontakte is sigbaar\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Nuwe kontak</b></font> om \'n nuwe kontak te skep van die begin af\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Invoer/Uitvoer</b></font> om kontakte van jou SIM-kaart of SD-kaart in te voer\n</li>"
+    </string>
+    <!-- This error message shown when the user actually have no contact (e.g. just after data-wiping), or, data providers of the contact list prohibits their contacts from being exported to outside world via vcard exporter, etc. [CHAR LIMIT=NONE] -->
+    <string name="composer_has_no_exportable_contact" product="shield">Daar is geen kontakte wat uitgevoer kan word nie. As jy kontakte op SHIELD het, sal sommige dataverskaffers nie toelaat dat kontakte uitgevoer word nie.</string>
+    <!-- Title for data source when creating or editing a contact that doesn't belong to a specific account.  This contact will only exist on the phone and will not be synced. -->
+    <string name="account_phone" product="shield">Net SHIELD, ongesinchroniseer</string>
+
+</resources>

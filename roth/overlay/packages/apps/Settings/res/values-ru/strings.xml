@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Bluetooth settings screen, menu item to change this device's Bluetooth name. [CHAR LIMIT=30] -->
+    <string name="bluetooth_rename_device" product="shield">Переименовать SHIELD</string>
+    <!-- Strings for asking to the user whether to allow an app to enable discovery mode -->
+    <string name="bluetooth_ask_discovery" product="shield">"Одному из приложений в SHIELD требуется сделать SHIELD доступным для поиска на других устройствах Bluetooth в течение <xliff:g id="timeout">%1$d</xliff:g> сек. Разрешить?"</string>
+    <!-- The title of the activity to see phone info -->
+    <string name="phone_info_label" product="shield">Сведения о SHIELD</string>
+    <!-- mobile network settings screen, message in dialog box that appears when you select the "Data roaming" check box. This is for multiuser SHIELDS [CHAR LIMIT=none] -->
+    <string name="roaming_warning_multiuser" product="shield">Использование роуминга может повлечь за собой непредвиденные расходы.\n\nПараметры настройки будут изменены для всех пользователей устройства.</string>
+    <!-- Title of the preferences item to control encryption -->
+    <string name="crypt_keeper_encrypt_title" product="shield">Зашифровать данные</string>
+    <!-- Summary of the preferences item to control encryption, when encryption is inactive -->
+    <string name="crypt_keeper_encrypt_summary" product="shield">Запрос числового PIN-кода или пароля для дешифрования при каждом включении SHIELD</string>
+    <!-- Informational text in the first confirmation screen before starting device encryption -->
+    <string name="crypt_keeper_desc" product="shield">
+    Можно зашифровать данные различных типов: аккаунты, параметры настройки, загруженные приложения и их содержимое, мультимедийные и другие файлы. После этого при каждом включении устройства потребуется вводить PIN-код или пароль.  Шифрование снимается только путем сброса параметров настройки, в результате которого удаляются все данные.\n\nШифрование занимает не менее часа. Батарея должна быть полностью заряжена, а устройство подключено к источнику питания, пока шифрование не завершится.  Если процесс шифрования будет прерван, это приведет к частичной или полной потере пользовательских данных. </string>
+    <!-- Button text to start encryption process -->
+    <string name="crypt_keeper_button_text" product="shield">Зашифровать данные</string>
+    <!-- Warning text in the final confirmation screen before starting device encryption -->
+    <string name="crypt_keeper_final_desc" product="shield">
+    Если прервать шифрование, данные будут необратимо потеряны.
+    Операция займет не менее часа, в течение которого устройство будет перезагружено несколько раз.
+    </string>
+
+    <!-- Informational text on the progress screen while encrypting the device -->
+    <string name="crypt_keeper_setup_description" product="shield">Дождитесь завершения шифрования SHIELD. Выполнено: <xliff:g id="percent" example="50">^1</xliff:g>%</string>
+    <!-- Informational text when encryption fails -->
+    <string name="crypt_keeper_failed_summary" product="shield"> Шифрование было прервано и не может быть завершено. В результате потерян доступ к данным на SHIELD.\n\n
+      Чтобы продолжить использовать устройство, необходимо сбросить параметры настройки.
+      После этого вы сможете восстановить все данные, для которых в аккаунте Google были созданы резервные копии.
+    </string>
+    <!-- Bluetooth settings.  Message for disconnecting from the PAN profile (NAP role). [CHAR LIMIT=80] -->
+    <string name="bluetooth_disconnect_pan_nap_profile" product="shield"> Интернет-подключение SHIELD перестанет использоваться устройством <xliff:g id="device_name">%1$s</xliff:g>.</string>
+
+    <!-- Description of NFC in the 1st level settings screen, for a SHIELD. [CHAR LIMIT=NONE] -->
+    <string name="nfc_quick_toggle_summary" product="shield">Разрешить обмен данными при совмещении SHIELD с другим устройством</string>
+    <!-- Text warning about skipping Wi-Fi with a mobile connect (SHIELD) [CHAR LIMIT=NONE]-->
+    <string name="wifi_skipped_message" product="shield" msgid="6518433975501257341">ВНИМАНИЕ!  Возможны дополнительные расходы на услуги оператора связи.\n\nНастройка устройства может потребовать передачи большого объема данных по сети.</string>
+    <!-- Text warning about skipping Wi-Fi without a mobile connect (SHIELD) [CHAR LIMIT=NONE] -->
+    <string name="wifi_and_mobile_skipped_message" product="shield" msgid="5647058314212144925">ВНИМАНИЕ!  Поиск обновлений для программного обеспечения не поддерживается.</string>
+    <!-- Text alerting that Wi-Fi couldn't connect (SHIELD) [CHAR LIMIT=NONE] -->
+    <string name="wifi_connect_failed_message" product="shield" msgid="2006689630582761529">Не удалось подключиться к сети Wi-Fi.</string>
+    <!-- Dock audio summary for undocked -->
+    <string name="dock_audio_summary_none" product="shield">SHIELD не установлен в док-станцию</string>
+    <!-- Dock not found dialog text -->
+    <string name="dock_not_found_text" product="shield">Чтобы настроить звук док-станции, установите в нее SHIELD.</string>
+    <!-- Dock settings screen, setting option summary text when check box is selected -->
+    <string name="dock_sounds_enable_summary_on" product="shield">Воспроизводить звук при установке или извлечении SHIELD из док-станции</string>
+    <!-- Sound settings screen, setting option summary text when check box is clear -->
+    <string name="dock_sounds_enable_summary_off" product="shield">Не воспроизводить звук при установке или извлечении SHIELD из док-станции</string>
+
+    <!-- Sound & display settings screen, accelerometer-based rotation summary text when check box is selected -->
+    <string name="accelerometer_summary_on" product="shield">Автоматически изменять ориентацию экрана при повороте SHIELD</string>
+    <!-- Sound & display settings screen, accelerometer-based rotation summary text when check box is clear -->
+    <string name="accelerometer_summary_off" product="shield">Автоматически изменять ориентацию экрана при повороте SHIELD</string>
+    <!-- SIM card lock settings screen, setting option summary text when SIM lock check box is selected -->
+    <string name="sim_lock_on" product="shield">Запрашивать PIN-код для доступа к SHIELD</string>
+    <!-- SIM card lock settings screen, setting option summary text when SIM lock check box is clear -->
+    <string name="sim_lock_off" product="shield">Запрашивать PIN-код для доступа к SHIELD</string>
+    <!-- Advanced (used for diagnostics) device info activity title -->
+    <string name="device_info_settings" product="shield">Статус SHIELD</string>
+
+    <!-- About tablet screen, summary of the item that takes you to tablet status screen -->
+    <string name="device_status_summary" product="shield">Статус батареи, сети и другая информация</string>
+    <!-- About tablet, status item title.  The Mobile Directory Number [CHAR LIMIT=30] -->
+    <string name="status_number" product="shield">MDN</string>
+    <!-- SD card & phone storage settings screen, setting option summary text under Internal phone storage heading -->
+    <string name="master_clear_summary" product="shield">Удаление всех данных из памяти SHIELD</string>
+    <!-- SD card & phone storage settings screen, message on screen after user selects Factory data reset [CHAR LIMIT=NONE] -->
+    <string name="master_clear_desc" product="shield">"Будут удалены все данные из <b>внутренней памяти</b> SHIELD, в том числе:\n\n<li>Ваш аккаунт Google</li>\n<li>Параметры настройки/данные системы и приложений</li>\n<li>Загруженные приложения</li>"</string>
+    <!-- SD card & phone storage settings screen, button on screen after user selects Factory data reset -->
+    <string name="master_clear_button_text" product="shield">Сброс SHIELD</string>
+    <!-- Bluetooth available subtext - shown when Bluetooth tethering is turned on but it is not currently tethered to any devices [CHAR LIMIT=50]-->
+    <string name="bluetooth_tethering_available_subtext" product="shield">Устройство работает в режиме модема</string>
+    <!-- Bluetooth connected subtext - shown when a device is tethered over Bluetooth [CHAR LIMIT=60]-->
+    <string name="bluetooth_tethering_device_connected_subtext" product="shield">Интернет-подключение SHIELD используется 1 устройством</string>
+    <!-- Bluetooth connected subtext - shown when multiple devices are tethered over Bluetooth [CHAR LIMIT=60]-->
+    <string name="bluetooth_tethering_devices_connected_subtext" product="shield">Интернет-подключение SHIELD используется <xliff:g id="connectedDeviceCount">%1$d</xliff:g> устройствами</string>
+    <!-- Bluetooth tethering off subtext - shown when Bluetooth Tethering is turned off [CHAR LIMIT=50]-->
+    <string name="bluetooth_tethering_off_subtext" product="shield">Режиме модема выключен</string>
+    <!-- [CHAR LIMIT=100] Security & location settings screen, setting check box summary for GPS satellites on a SHIELD -->
+    <string name="location_street_level" product="shield">Разрешить приложениям использовать GPS для точного определения вашего местоположения</string>
+    <!-- Main settings screen, setting title for the user to go into the About phone screen -->
+    <string name="about_settings" product="shield">Сведения о SHIELD</string>
+    <!-- Applications settings screen, message text of alert that appears if user selects the "Unknown sources" check box -->
+    <string name="install_all_warning" product="shield">Ваши личные данные и данные SHIELD более уязвимы для атак приложений из неизвестных источников.  Вы соглашаетесь с тем, что несете полную ответственность за любой ущерб, нанесенный SHIELD, и потерю данных, связанные с использованием этих приложений.</string>
+    <!-- Manage applications, individual application info screen, text that appears under the "Permissions" heading. This describes the permissions that the application has. -->
+    <string name="security_settings_desc" product="shield">У этого приложения есть доступ к следующей информации на устройстве:</string>
+    <!-- [CHAR_LIMIT=NONE] Manage applications, individual application info screen, text that appears under the "Permissions" heading.
+         This describes the permissions that the application has.  It is used when multiple packages are contributing to the permissions and need to be listed here. -->
+    <string name="security_settings_desc_multi" product="shield">У этого приложения есть доступ к следующей информации на устройстве. Чтобы повысить производительность и уменьшить объем используемой памяти, приложению <xliff:g id="base_app_name">%1$s</xliff:g> предоставлены некоторые из этих разрешений, так как оно выполняется в рамках того же процесса, что и <xliff:g id="additional_apps_list">%2$s</xliff:g>:</string>
+
+    <!-- Manage applications, text for Move button to move app to internal storage -->
+    <string name="move_app_to_internal" product="shield">Перейти на SHIELD</string>
+    <!-- Running service details, stop confirmation descriptive text. Displays when user selects selects to stop a system service. -->
+    <string name="runningservicedetails_stop_dlg_text" product="shield">Отключение этой системной службы может повлиять на функциональность SHIELD до следующего цикла выключения и включения питания.</string>
+    <!-- In the Testing screen.  The item title of the activity that shows a bunch of phone-related information.  -->
+    <string name="testing_phone_info" product="shield">Информация SHIELD</string>
+
+    <!-- Label for power consumed when Idle -->
+    <string name="power_idle" product="shield">Режим простоя SHIELD</string>
+
+    <!-- Label for Phone usage time -->
+    <string name="usage_type_phone" product="shield">SHIELD</string>
+    <!-- Description for standby detail -->
+    <string name="battery_desc_standby" product="shield">Расход заряда батареи в режиме простоя</string>
+    <!-- Remove account message in dialog [CHAR LIMIT=NONE] -->
+    <string name="really_remove_account_message" product="shield">Удаление этого аккаунта приведет к потере всех связанных с ним сообщений, контактов и других данных, имеющихся на SHIELD!</string>
+    <!-- This is shown if the autheticator for a given account fails to remove it. -->
+    <string name="remove_account_failed" product="shield">Аккаунт необходим для доступа к некоторым приложениям.  Чтобы удалить его, нужно восстановить на устройстве параметры настройки по умолчанию (в результате все личные данные будут удалены) через меню «Параметры &gt; Восстановление и сброс».</string>
+    <!--  Body of dialog shown when user enables global auto sync, for shield [CHAR LIMIT=none] -->
+    <string name="data_usage_auto_sync_on_dialog" product="shield">Все изменения, внесенные в аккаунты на компьютере, будут автоматически скопированы на устройство.\n\nВ некоторых случаях также выполняется обратная синхронизация. Подобным образом работает аккаунт Google.\n\nЧтобы указать для каждого аккаунта, какие данные нужно синхронизировать, перейдите в меню «Настройки &gt; Аккаунты».</string>
+    <!-- Body of dialog shown before user limits mobile data usage. [CHAR LIMIT=NONE] -->
+    <string name="data_usage_limit_dialog_mobile" product="shield">По достижении лимита трафика передача данных по мобильной сети будет отключена.\n\nВо избежание дополнительных расходов старайтесь не достигать этого лимита, так как оператор и SHIELD могут по-разному учитывать трафик.</string>
+    <!-- Body of dialog shown before user restricts background data usage. This is for multiuser SHIELDS. [CHAR LIMIT=NONE] -->
+    <string name="data_usage_restrict_background_multiuser" product="shield">Если ограничить передачу данных в фоновом режиме, некоторые приложения и службы не будут работать без подключения к сети Wi-Fi.\n\nПараметры настройки будут изменены для всех пользователей этого устройства.</string>
+
+    <!-- Label displaying total network data transferred during a specific time period, including a disclaimer that contrasts device versus carrier reporting. [CHAR LIMIT=80] -->
+    <string name="data_usage_total_during_range_mobile" product="shield"> <xliff:g id="range" example="Jul 1 - Jul 31">%2$s</xliff:g>: использовано около <xliff:g id="total" example="128KB">%1$s</xliff:g> согласно данным учета трафика в SHIELD. Данные оператора могут отличаться.</string>
+    <!-- Message to secondary users that only owner can manage users [CHAR LIMIT=none] -->
+    <string name="user_cannot_manage_message" product="shield">Только владелец SHIELD может настроить устройство для других пользователей.</string>
+    <!-- User (self) removal confirmation message [CHAR LIMIT=none] -->
+    <string name="user_confirm_remove_self_message" product="shield">Ваши данные, сохраненные на этом устройстве, будут удалены без возможности восстановления.</string>
+    <!-- User removal confirmation message [CHAR LIMIT=none] -->
+    <string name="user_confirm_remove_message" product="shield">Сохраненные на SHIELD данные этого пользователя будут удалены без возможности восстановления.</string>
+    <!-- Warning message when changing a global setting for a SHIELD.[CHAR LIMIT=none] -->
+    <string name="global_change_warning" product="shield">Параметры настройки будут изменены для всех пользователей этого SHIELD.</string>
+
+    <!-- On Language & input settings screen, setting summary.  Setting for thor button brightness. [CHAR LIMIT=35] -->
+    <add-resource type="string" name="nv_led_brightness" />
+    <string name="nv_led_brightness">Яркость индикаторов</string>
+    <!-- Category title for Virtual mouse [CHAR LIMIT=40] -->
+    <add-resource type="string" name="nv_nvidia_button" />
+    <string name="nv_nvidia_button">Кнопка NVIDIA</string>
+
+    <add-resource type="string" name="nv_category_controller_volume" />
+    <string name="nv_category_controller_volume">Громкость</string>
+
+    <add-resource type="string" name="controller_volume_text" />
+    <string name="controller_volume_text">Используйте бамперы для регулировки уровня громкости</string>
+
+    <add-resource type="string" name="controller_volume_summary" />
+    <string name="controller_volume_summary">Кнопками LB и RB можно будет отрегулировать уровень после нажатия кнопки громкости</string>
+     <!-- Controller pulse nvidia led when sleeping-->
+     <add-resource type="string" name="controller_pulse_led" />
+     <string name="controller_pulse_led">Мигание индикатора при переходе устройства в спящий режим </string>
+
+    <!-- Security & location settings screen, setting check box title. This controls whether the device locks immediately when the user closes the lid. [CHAR LIMIT=28]-->
+    <string name="lockpattern_settings_enable_power_button_instantly_locks">Мгновенное блокирование при закрытии крышки</string>
+
+    <add-resource type="string" name="nv_license_title" />
+    <string name="nv_license_title">Юридическая информация NVIDIA</string>
+    <add-resource type="string" name="nv_swla" />
+    <string name="nv_swla">Лицензионное соглашение на использование ПО</string>
+    <add-resource type="string" name="nv_privacy" />
+    <string name="nv_privacy">Политика конфиденциальности</string>
+    <add-resource type="string" name="nv_tegra_exp_tos" />
+    <string name="nv_tegra_exp_tos">Пользовательское соглашение Tegra Experience</string>
+    <add-resource type="string" name="nv_warranty" />
+    <string name="nv_warranty">Информация о гарантийных обязательствах</string>
+    <add-resource type="string" name="nv_settings_license_activity_title" />
+    <string name="nv_settings_license_activity_title">Лицензии NVIDIA</string>
+
+    <!-- About device screen, report bug to nvidia -->
+    <add-resource type="string" name="nv_feedback" />
+    <string name="nv_feedback">Отправить отзыв в NVIDIA</string>
+
+</resources>

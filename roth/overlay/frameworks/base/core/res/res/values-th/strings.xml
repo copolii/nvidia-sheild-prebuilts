@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- If MMS discovers there isn't much space left on the device, it will show a toast with this message. -->
+    <string name="low_memory" product="shield">ที่จัดเก็บข้อมูลของ SHIELD เต็ม ลบไฟล์บางไฟล์เพื่อเพิ่มพื้นที่ว่าง</string>
+    <!-- Title for the Phone Options dialog to lock the screen, turn off the phone etc. -->
+    <string name="power_dialog" product="shield">ตัวเลือกของ SHIELD</string>
+    <!-- Shutdown Confirmation Dialog.  When the user chooses to power off the phone, there will be a confirmation dialog.  This is the message. -->
+    <string name="shutdown_confirm" product="shield">SHIELD จะปิดการทำงาน</string>
+    <!-- Title of the Global Actions Dialog -->
+    <string name="global_actions" product="shield">ตัวเลือกของ SHIELD</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readSms" product="shield">อนุญาตให้แอปอ่านข้อความ SMS ที่จัดเก็บไว้ใน SHIELD หรือซิมการ์ด ซึ่งจะทำให้แอปสามารถอ่านข้อความ SMS ทั้งหมดได้ไม่ว่าจะเป็นเนื้อหาใดหรือมีการรักษาข้อมูลที่เป็นความลับแบบใด</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeSms" product="shield">อนุญาตให้แอปเขียนถึงข้อความ SMS ที่จัดเก็บไว้ใน SHIELD หรือซิมการ์ด แอปที่เป็นอันตรายอาจลบข้อความของคุณ</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_injectEvents" product="shield">อนุญาตให้แอปส่งกิจกรรมการนำเข้าข้อมูลของตนเอง (เช่น การกดปุ่ม ฯลฯ) ไปยังแอปอื่นๆ แอปที่เป็นอันตรายอาจใช้การอนุญาตนี้เข้าควบคุม SHIELD</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_persistentActivity" product="shield">อนุญาตให้แอปทำให้ส่วนหนึ่งของตัวเองคงอยู่ถาวรในหน่วยความจำ  ซึ่งจะจำกัดพื้นที่หน่วยความจำที่ใช้งานได้ของแอปอื่นๆ และทำให้ SHIELD ทำงานช้าลง</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_clearAppCache" product="shield">อนุญาตให้แอปสร้างพื้นที่ว่างในที่จัดเก็บข้อมูลของ SHIELD โดยลบไฟล์ในไดเรกทอรีแคชของแอปอื่นๆ  ซึ่งอาจทำให้แอปอื่นเริ่มทำงานช้ากว่าเดิมเนื่องจากต้องดึงข้อมูลของตนซ้ำ</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readLogs" product="shield">อนุญาตให้แอปอ่านจากไฟล์บันทึกต่างๆ ของระบบ  ซึ่งจะทำให้สามารถพบข้อมูลทั่วไปเกี่ยวกับสิ่งที่คุณกำลังทำอยู่กับ SHIELD ซึ่งอาจรวมไปถึงข้อมูลส่วนบุคคลหรือส่วนตัว</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_changeComponentState" product="shield">อนุญาตให้แอปเปลี่ยนแปลงการเปิดใช้งานส่วนประกอบของแอปอื่น แอปที่เป็นอันตรายอาจใช้การอนุญาตนี้ปิดใช้งานความสามารถของ SHIELD ที่สำคัญ ต้องใช้ความระมัดระวังสำหรับการอนุญาตนี้ เนื่องจากอาจทำให้ส่วนประกอบต่างๆ ของแอปไม่สามารถใช้งาน ไม่สอดคล้อง หรือมีสถานะที่ไม่เสถียร</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_receiveBootCompleted" product="shield">อนุญาตให้แอปเริ่มต้นตัวเองทันทีที่ระบบบูตเสร็จสิ้น ซึ่งจะทำให้การเริ่มต้น SHIELD ใช้เวลานานกว่าปกติและแอปจะทำให้การทำงานของ SHIELD โดยรวมช้าลงด้วยการทำงานอยู่ตลอดเวลา</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_broadcastSticky" product="shield">อนุญาตให้แอปส่งการกระจายข้อมูลที่ติดหนึบ ซึ่งจะยังคงอยู่หลังจากการกระจายข้อมูลจบไปแล้ว การใช้งานมากเกินไปอาจทำให้ SHIELD ทำงานช้าลงหรือไม่เสถียรโดยการใช้หน่วยความจำมากเกินไป</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readContacts" product="shield">อนุญาตให้แอปอ่านข้อมูลผู้ติดต่อที่จัดเก็บไว้ใน SHIELD ซึ่งรวมถึงความถี่ในการโทร ส่งอีเมล หรือการติดต่อด้วยวิธีอื่นๆ กับบุคคลใดบุคคลหนึ่ง การอนุญาตนี้ทำให้แอปสามารถบันทึกข้อมูลผู้ติดต่อของคุณ และแอปที่เป็นอันตรายอาจแบ่งปันข้อมูลผู้ติดต่อโดยไม่แจ้งให้คุณทราบ</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeContacts" product="shield">อนุญาตให้แอปเปลี่ยนแปลงข้อมูลผู้ติดต่อที่จัดเก็บไว้ใน SHIELD ซึ่งรวมถึงความถี่ในการโทร ส่งอีเมล หรือการติดต่อด้วยวิธีอื่นๆ กับบุคคลใดบุคคลหนึ่ง การอนุญาตนี้ทำให้แอปสามารถลบข้อมูลผู้ติดต่อได้</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readCallLog" product="shield">อนุญาตให้แอปอ่านประวัติการโทรจาก SHIELD รวมถึงข้อมูลเกี่ยวกับสายเรียกเข้าและสายโทรออก การอนุญาตนี้ทำให้แอปสามารถบันทึกประวัติการโทรของคุณ และแอปที่เป็นอันตรายอาจแบ่งปันประวัติการโทรโดยไม่แจ้งให้คุณทราบ</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeCallLog" product="shield">อนุญาตให้แอปแก้ไขประวัติการโทรจาก SHIELD รวมถึงข้อมูลเกี่ยวกับสายเรียกเข้าและสายโทรออก
+        แอปที่เป็นอันตรายอาจใช้สิ่งนี้เพื่อลบหรือแก้ไขประวัติการโทรของคุณ</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+
+    <string name="permdesc_readCalendar" product="shield">อนุญาตให้แอปอ่านกิจกรรมในปฏิทินทั้งหมดที่จัดเก็บไว้ใน SHIELD ซึ่งรวมถึงกิจกรรมของเพื่อนหรือเพื่อนร่วมงานด้วย ซึ่งอาจทำให้แอปสามารถแบ่งปันหรือบันทึกข้อมูลในปฏิทินของคุณได้ไม่ว่าจะมีการรักษาข้อมูลที่เป็นความลับหรือหรือข้อมูลที่อ่อนไหวแบบใดก็ตาม</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+
+<string name="permdesc_writeCalendar" product="shield">อนุญาตให้แอปเพิ่ม ลบ เปลี่ยนกิจกรรมที่คุณสามารถเปลี่ยนแปลงใน SHIELD ได้ รวมถึงกิจกรรมของเพื่อนหรือเพื่อนร่วมงานด้วย การอนุญาตนี้อาจทำให้แอปสามารถส่งข้อความที่มาจากเจ้าของปฏิทิน หรือเปลี่ยนแปลงกิจกรรมโดยที่เจ้าของไม่ทราบ</string>
+
+
+
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_brick" product="shield">ปิดการใช้งาน SHIELD ถาวร</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_brick" product="shield">อนุญาตให้แอปปิดการใช้งาน SHIELD ถาวร ซึ่งอันตรายมาก</string>
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_reboot" product="shield">บังคับให้ SHIELD รีบูต</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_reboot" product="shield">อนุญาตให้แอปบังคับให้ SHIELD รีบูต</string>
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_performCdmaProvisioning" product="shield">เริ่มการตั้งค่า SHIELD CDMA โดยตรง</string>
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_wakeLock" product="shield">ป้องกันไม่ให้SHIELD เข้าโหมดสลีป</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_wakeLock" product="shield">อนุญาตให้แอปป้องกันไม่ให้ SHIELD เข้าสู่โหมดสลีป</string>
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_devicePower" product="shield">เปิดหรือปิด SHIELD</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_devicePower" product="shield">อนุญาตให้แอปเปิดหรือปิด SHIELD</string>
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_nvidiaCPUPower" product="shield">ปรับ CPU ของ NVIDIA Tegra</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_nvidiaCPUPower" product="shield">อนุญาตให้แอปปรับพารามิเตอร์ CPU ของ NVIDIA Tegra  ซึ่งอาจใช้พลังงานเพิ่มขึ้น</string>
+
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_factoryTest" product="shield">เรียกใช้การทดสอบจากผู้ผลิตในระดับต่ำ โดยอนุญาตให้เข้าถึงฮาร์ดแวร์ SHIELD อย่างสมบูรณ์ มีให้เฉพาะเมื่อ SHIELD กำลังทำงานในโหมดการทดสอบจากผู้ผลิต</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_setTime" product="shield">อนุญาตให้แอปเปลี่ยนเวลานาฬิกาของ SHIELD</string>    
+<!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_setTimeZone" product="shield">อนุญาตให้แอปเปลี่ยนเขตเวลาของ SHIELD</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_getAccounts" product="shield">อนุญาตให้แอปรับรายการบัญชีที่ SHIELD รู้จัก  ซึ่งอาจรวมถึงบัญชีใดๆ ก็ตามที่แอปพลิเคชันซึ่งคุณติดตั้งไว้ได้สร้างขึ้น</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_changeWifiMulticastState" product="shield">อนุญาตให้แอปรับแพ็คเก็ตที่ส่งไปยังทุกอุปกรณ์บนเครือข่าย WIFI โดยใช้ที่อยู่มัลติแคสต์ ไม่ใช่เพียง SHIELD ของคุณเท่านั้น  ซึ่งจะใช้พลังงานมากกว่าในโหมดที่ไม่ใช่มัลติแคสต์</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_bluetoothAdmin" product="shield">อนุญาตให้แอปกำหนดค่า SHIELD บลูทูธในตัวเครื่อง ตลอดจนค้นหาและจับคู่กับอุปกรณ์ที่อยู่ระยะไกล</string>
+
+    <string name="permdesc_changeWimaxState" product="shield">อนุญาตให้แอปเชื่อมต่อ SHIELD กับและตัดการเชื่อมต่อ SHIELD จากเครือข่าย WiMAX</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_bluetooth" product="shield">อนุญาตให้แอปดูการกำหนดค่าบลูทูธของ SHIELD ตลอดจนเชื่อมต่อและยอมรับการเชื่อมต่อกับอุปกรณ์ที่จับคู่ไว้</string>
+    <!-- Description of policy access to watch user login attempts -->
+    <string name="policydesc_watchLogin" product="shield">ตรวจสอบจำนวนของรหัสผ่านที่พิมพ์ไม่ถูกต้องขณะปลดล็อกหน้าจอ และล็อก SHIELD หรือลบข้อมูลทั้งหมดใน SHIELD หากมีการพิมพ์รหัสผ่านที่ไม่ถูกต้องมากเกินไป</string>
+    <!-- Description of policy access to wipe the user's data -->
+    <string name="policydesc_wipeData" product="shield">ลบข้อมูลของ SHIELD โดยไม่มีการเตือน ด้วยการดำเนินการรีเซ็ตข้อมูลเป็นค่าเริ่มต้น</string>
+    <!-- Shown in the lock screen when there is no SIM card. -->
+    <string name="lockscreen_missing_sim_message" product="shield">ไม่มีซิมการ์ดใน SHIELD</string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user is almost at the limit where they will be locked out and may have to enter an alternate username/password to unlock the phone -->
+    <string name="lockscreen_failed_attempts_almost_glogin" product="shield">คุณวาดรูปแบบการปลดล็อกไม่ถูกต้องไป <xliff:g id="number">%d</xliff:g> ครั้ง หลังจากความพยายามที่ไม่สำเร็จมากกว่า <xliff:g id="number">%d</xliff:g> ครั้ง คุณจะถูกขอให้ปลดล็อก SHIELD ของคุณด้วยการลงชื่อเข้าใช้ Google\n\nลองอีกครั้งใน <xliff:g id="number">%d</xliff:g> วินาที</string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user is almost at the limit where the device will be wiped. -->
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="shield">คุณพยายามปลดล็อก SHIELD อย่างไม่ถูกต้อง <xliff:g id="number">%d</xliff:g> ครั้ง หลังจากความพยายามที่ไม่สำเร็จมากกว่า <xliff:g id="number">%d</xliff:g> ครั้ง SHIELD จะถูกรีเซ็ตเป็นค่าเริ่มต้นและข้อมูลผู้ใช้ทั้งหมดจะสูญหาย</string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user has exceeded the maximum attempts and the device will now be wiped -->
+    <string name="lockscreen_failed_attempts_now_wiping" product="shield">คุณพยายามปลดล็อก SHIELD อย่างไม่ถูกต้อง <xliff:g id="number">%d</xliff:g> ครั้ง SHIELD จะถูกรีเซ็ตเป็นค่าเริ่มต้นตอนนี้
+    </string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeHistoryBookmarks" product="shield">อนุญาตให้แอปเปลี่ยนแปลงประวัติหรือบุ๊กมาร์กของเบราว์เซอร์ที่จัดเก็บไว้ใน SHIELD ซึ่งทำให้แอปสามารถลบหรือเปลี่ยนข้อมูลเบราว์เซอร์ได้  หมายเหตุ:  การอนุญาตนี้อาจไม่สามารถใช้งานได้กับเบราว์เซอร์ของบุคคลที่สามหรือแอปพลิเคชันอื่นๆ ที่มีความสามารถในการเรียกดูบนเว็บ</string>
+    <!-- Summary for a warning message about the interaction model changes after allowing an accessibility service to put the device into explore by touch mode, displayed as a dialog message when the user selects to enables the service. (shield). [CHAR LIMIT=NONE] -->
+    <string name="enable_explore_by_touch_warning_message" product="shield">
+            <xliff:g id="accessibility_service_name">%1$s</xliff:g> ต้องการเปิดใช้งาน “สำรวจโดยการแตะ” ต้องการเปิดใช้งาน "สำรวจโดยการแตะ" เมื่อเปิดใช้งานแล้ว คุณสามารถฟังหรือดูคำอธิบายของสิ่งที่อยู่ใต้นิ้วข องคุณ หรือใช้ท่าทางสัมผัสต่างๆ เพื่อโต้ตอบกับ SHIELD ได้</string>
+    <!-- Name of the default audio route for SHIELD when nothing is connected to a headphone or other wired audio output jack. [CHAR LIMIT=50] -->
+    <string name="default_audio_route_name" product="shield">SHIELD</string>
+    <!-- Message shown when user is almost at the limit of password attempts where the device will be wiped. -->
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield">คุณพยายามปลดล็อก SHIELD อย่างไม่ถูกต้อง <xliff:g id="number">%d</xliff:g> ครั้ง หลังจากความพยายามที่ไม่สำเร็จมากกว่า <xliff:g id="number">%d</xliff:g> ครั้ง SHIELD จะถูกรีเซ็ตเป็นค่าเริ่มต้นและข้อมูลผู้ใช้ทั้งหมดจะสูญหาย</string>
+    <!-- Message shown in dialog when user has exceeded the maximum attempts and the device will now be wiped -->
+    <string name="kg_failed_attempts_now_wiping" product="shield">คุณพยายามปลดล็อก SHIELD อย่างไม่ถูกต้อง <xliff:g id="number">%d</xliff:g> ครั้ง SHIELD จะถูกรีเซ็ตเป็นค่าเริ่มต้นตอนนี้</string>
+    <!-- Message shown in dialog when user is almost at the limit where they will be locked out and may have to enter an alternate username/password to unlock the phone -->
+    <string name="kg_failed_attempts_almost_at_login" product="shield">คุณวาดรูปแบบการปลดล็อกไม่ถูกต้อง <xliff:g id="number">%d</xliff:g> ครั้ง หลังจากความพยายามที่ไม่สำเร็จมากกว่า <xliff:g id="number">%d</xliff:g> ครั้ง คุณจะถูกขอให้ปลดล็อก SHIELD ของคุณโดยใช้บัญชีอีเมล\n\n ลองใหม่อีกครั้งใน <xliff:g id="number">%d</xliff:g> วินาที</string>
+
+    <!-- label for item that turns off power in phone options dialog -->
+    <add-resource type="string" name="global_action_sleep" />
+    <string name="global_action_sleep">สลีป</string>
+
+</resources>

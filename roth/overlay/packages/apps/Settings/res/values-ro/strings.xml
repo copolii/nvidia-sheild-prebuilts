@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Bluetooth settings screen, menu item to change this device's Bluetooth name. [CHAR LIMIT=30] -->
+    <string name="bluetooth_rename_device" product="shield">Redenumire SHIELD</string>
+    <!-- Strings for asking to the user whether to allow an app to enable discovery mode -->
+    <string name="bluetooth_ask_discovery" product="shield">"O aplicaţie de pe SHIELD încearcă să facă SHIELD vizibil pentru alte dispozitive Bluetooth pentru <xliff:g id="timeout">%1$d</xliff:g> (de) secunde. Permiteţi?"</string>
+    <!-- The title of the activity to see phone info -->
+    <string name="phone_info_label" product="shield">Informaţii SHIELD</string>
+    <!-- mobile network settings screen, message in dialog box that appears when you select the "Data roaming" check box. This is for multiuser SHIELDS [CHAR LIMIT=none] -->
+    <string name="roaming_warning_multiuser" product="shield">Dacă permiteţi roamingul de date, puteţi acumula cheltuieli considerabile pentru roaming!\n\nAceastă setare afectează toţi utilizatorii de pe acest SHIELD.</string>
+    <!-- Title of the preferences item to control encryption -->
+    <string name="crypt_keeper_encrypt_title" product="shield">Criptare SHIELD</string>
+    <!-- Summary of the preferences item to control encryption, when encryption is inactive -->
+    <string name="crypt_keeper_encrypt_summary" product="shield">Necesită un cod PIN numeric sau o parolă de decriptare a SHIELD la fiecare pornire a acestuia</string>
+    <!-- Informational text in the first confirmation screen before starting device encryption -->
+    <string name="crypt_keeper_desc" product="shield">
+    Puteţi să criptaţi conturi, setări, aplicaţii descărcate şi datele acestora, fişiere media şi alte tipuri de fişiere. După criptarea SHIELD, trebuie să introduceţi un cod PIN numeric sau o parolă pentru a-l decripta de fiecare dată când îl porniţi. Nu puteţi decripta SHIELD decât prin resetarea configurării din fabrică, ceea ce va şterge toate datele de pe acesta.\n\nCriptarea poate dura cel puţin o oră. Trebuie să începeţi cu o baterie încărcată şi să ţineţi SHIELD conectat până la finalizarea criptării. Întreruperea procesului de criptare poate duce la pierderea tuturor datelor sau a unor părţi din acestea.</string>
+    <!-- Button text to start encryption process -->
+    <string name="crypt_keeper_button_text" product="shield">Criptare SHIELD</string>
+    <!-- Warning text in the final confirmation screen before starting device encryption -->
+    <string name="crypt_keeper_final_desc" product="shield">
+    Operaţiunea de criptare este ireversibilă şi întreruperea ei va duce la pierderea datelor.
+    Criptarea durează cel puţin o oră, timp în care SHIELD se va reporni de mai multe ori.
+    </string>
+
+    <!-- Informational text on the progress screen while encrypting the device -->
+    <string name="crypt_keeper_setup_description" product="shield">Aşteptaţi până când SHIELD este criptat. Finalizat <xliff:g id="percent" example="50">^1</xliff:g>%.</string>
+    <!-- Informational text when encryption fails -->
+    <string name="crypt_keeper_failed_summary" product="shield"> Criptarea a fost întreruptă şi nu se poate finaliza. Prin urmare, datele de pe SHIELD dvs. nu mai sunt accesibile.\n\n
+      Pentru a relua utilizarea SHIELD, trebuie să efectuaţi o resetare la valorile din fabrică.
+      Atunci când configuraţi SHIELD după resetare, veţi avea oportunitatea de a restaura datele pentru care s-a creat o copie de rezervă în contul dumneavoastră de Google.
+    </string>
+    <!-- Bluetooth settings.  Message for disconnecting from the PAN profile (NAP role). [CHAR LIMIT=80] -->
+    <string name="bluetooth_disconnect_pan_nap_profile" product="shield"> <xliff:g id="device_name">%1$s</xliff:g> va fi deconectat de la conexiunea SHIELD la internet.</string>
+
+    <!-- Description of NFC in the 1st level settings screen, for a SHIELD. [CHAR LIMIT=NONE] -->
+    <string name="nfc_quick_toggle_summary" product="shield">Permiteţi schimbul de date atunci când SHIELD atinge alt dispozitiv</string>
+    <!-- Text warning about skipping Wi-Fi with a mobile connect (SHIELD) [CHAR LIMIT=NONE]-->
+    <string name="wifi_skipped_message" product="shield" msgid="6518433975501257341">AVERTISMENT: puteţi acumula costuri suplimentare pentru date de la operator.\n\nConfigurarea SHIELD poate presupune o activitate semnificativă în reţea.</string>
+    <!-- Text warning about skipping Wi-Fi without a mobile connect (SHIELD) [CHAR LIMIT=NONE] -->
+    <string name="wifi_and_mobile_skipped_message" product="shield" msgid="5647058314212144925">AVERTISMENT: SHIELD nu va putea să verifice dacă software-ul este actualizat.</string>
+    <!-- Text alerting that Wi-Fi couldn't connect (SHIELD) [CHAR LIMIT=NONE] -->
+    <string name="wifi_connect_failed_message" product="shield" msgid="2006689630582761529">SHIELD nu s-a putut conecta la această reţea Wi-Fi.</string>
+    <!-- Dock audio summary for undocked -->
+    <string name="dock_audio_summary_none" product="shield">SHIELD nu este andocat</string>
+    <!-- Dock not found dialog text -->
+    <string name="dock_not_found_text" product="shield">Trebuie să andocaţi SHIELD înainte de configurarea dispozitivului de andocare audio.</string>
+    <!-- Dock settings screen, setting option summary text when check box is selected -->
+    <string name="dock_sounds_enable_summary_on" product="shield">Doresc să se redea sunet la introducerea sau scoaterea SHIELD din dispozitivul de andocare</string>
+    <!-- Sound settings screen, setting option summary text when check box is clear -->
+    <string name="dock_sounds_enable_summary_off" product="shield">Nu doresc să se redea sunet la introducerea sau scoaterea SHIELD din dispozitivul de andocare</string>
+
+    <!-- Sound & display settings screen, accelerometer-based rotation summary text when check box is selected -->
+    <string name="accelerometer_summary_on" product="shield">Doresc comutarea automată a orientării atunci când se roteşte SHIELD</string>
+    <!-- Sound & display settings screen, accelerometer-based rotation summary text when check box is clear -->
+    <string name="accelerometer_summary_off" product="shield">Doresc comutarea automată a orientării atunci când se roteşte SHIELD</string>
+    <!-- SIM card lock settings screen, setting option summary text when SIM lock check box is selected -->
+    <string name="sim_lock_on" product="shield">Utilizarea SHIELD necesită un cod PIN</string>
+    <!-- SIM card lock settings screen, setting option summary text when SIM lock check box is clear -->
+    <string name="sim_lock_off" product="shield">Utilizarea SHIELD necesită un cod PIN</string>
+    <!-- Advanced (used for diagnostics) device info activity title -->
+    <string name="device_info_settings" product="shield">Stare SHIELD</string>
+
+    <!-- About tablet screen, summary of the item that takes you to tablet status screen -->
+    <string name="device_status_summary" product="shield">Starea bateriei, reţeaua şi alte informaţii</string>
+    <!-- About tablet, status item title.  The Mobile Directory Number [CHAR LIMIT=30] -->
+    <string name="status_number" product="shield">MDN</string>
+    <!-- SD card & phone storage settings screen, setting option summary text under Internal phone storage heading -->
+    <string name="master_clear_summary" product="shield">Şterge toate datele de pe SHIELD</string>
+    <!-- SD card & phone storage settings screen, message on screen after user selects Factory data reset [CHAR LIMIT=NONE] -->
+    <string name="master_clear_desc" product="shield">"Această acţiune va şterge toate datele din <b>stocarea internă</b> a SHIELD, inclusiv:\n\n<li>Contul dvs. Google</li>\n<li>Datele şi setările de sistem şi ale aplicaţiilor</li>\n<li>Aplicaţiile descărcate</li>"</string>
+    <!-- SD card & phone storage settings screen, button on screen after user selects Factory data reset -->
+    <string name="master_clear_button_text" product="shield">Resetare SHIELD</string>
+    <!-- Bluetooth available subtext - shown when Bluetooth tethering is turned on but it is not currently tethered to any devices [CHAR LIMIT=50]-->
+    <string name="bluetooth_tethering_available_subtext" product="shield">Se permite acces la conexiunea de internet a SHIELD</string>
+    <!-- Bluetooth connected subtext - shown when a device is tethered over Bluetooth [CHAR LIMIT=60]-->
+    <string name="bluetooth_tethering_device_connected_subtext" product="shield">Se permite acces la conexiunea de internet a SHIELD pentru 1 dispozitiv</string>
+    <!-- Bluetooth connected subtext - shown when multiple devices are tethered over Bluetooth [CHAR LIMIT=60]-->
+    <string name="bluetooth_tethering_devices_connected_subtext" product="shield">Se permite acces la conexiunea de internet a SHIELD pentru <xliff:g id="connectedDeviceCount">%1$d</xliff:g> dispozitive</string>
+    <!-- Bluetooth tethering off subtext - shown when Bluetooth Tethering is turned off [CHAR LIMIT=50]-->
+    <string name="bluetooth_tethering_off_subtext" product="shield">Nu se permite acces la conexiunea de internet a SHIELD</string>
+    <!-- [CHAR LIMIT=100] Security & location settings screen, setting check box summary for GPS satellites on a SHIELD -->
+    <string name="location_street_level" product="shield">Permiteţi aplicaţiilor să utilizeze GPS de pe SHIELD pentru a indica locaţia dvs.</string>
+    <!-- Main settings screen, setting title for the user to go into the About phone screen -->
+    <string name="about_settings" product="shield">Despre SHIELD</string>
+    <!-- Applications settings screen, message text of alert that appears if user selects the "Unknown sources" check box -->
+    <string name="install_all_warning" product="shield">SHIELD şi datele dvs. personale sunt mai vulnerabile la un atac din partea aplicaţiilor ce provin din surse necunoscute. Acceptaţi faptul că sunteţi unicul responsabil pentru orice daune aduse SHIELD sau pierderea de date care poate rezulta din utilizarea acestor aplicaţii.</string>
+    <!-- Manage applications, individual application info screen, text that appears under the "Permissions" heading. This describes the permissions that the application has. -->
+    <string name="security_settings_desc" product="shield">Această aplicaţie poate accesa pe SHIELD următoarele:</string>
+    <!-- [CHAR_LIMIT=NONE] Manage applications, individual application info screen, text that appears under the "Permissions" heading.
+         This describes the permissions that the application has.  It is used when multiple packages are contributing to the permissions and need to be listed here. -->
+    <string name="security_settings_desc_multi" product="shield">Această aplicaţie poate accesa pe SHIELD următoarele. Pentru a îmbunătăţi performanţa şi a reduce consumul de memorie, unele dintre aceste permisiuni sunt disponibile pentru <xliff:g id="base_app_name">%1$s</xliff:g>, deoarece aceasta rulează în acelaşi proces ca şi <xliff:g id="additional_apps_list">%2$s</xliff:g>:</string>
+
+    <!-- Manage applications, text for Move button to move app to internal storage -->
+    <string name="move_app_to_internal" product="shield">Mutaţi pe SHIELD</string>
+    <!-- Running service details, stop confirmation descriptive text. Displays when user selects selects to stop a system service. -->
+    <string name="runningservicedetails_stop_dlg_text" product="shield">Dacă opriţi acest serviciu, este posibil ca unele funcţii ale SHIELD să nu mai funcţioneze corect decât după ce îl închideţi şi redeschideţi.</string>
+    <!-- In the Testing screen.  The item title of the activity that shows a bunch of phone-related information.  -->
+    <string name="testing_phone_info" product="shield">Informaţii despre SHIELD</string>
+
+    <!-- Label for power consumed when Idle -->
+    <string name="power_idle" product="shield">SHIELD inactiv</string>
+
+    <!-- Label for Phone usage time -->
+    <string name="usage_type_phone" product="shield">SHIELD</string>
+    <!-- Description for standby detail -->
+    <string name="battery_desc_standby" product="shield">Baterie utilizată când SHIELD este inactiv</string>
+    <!-- Remove account message in dialog [CHAR LIMIT=NONE] -->
+    <string name="really_remove_account_message" product="shield">Eliminarea acestui cont va şterge toate mesajele şi persoanele din agendă pe care le cuprinde, precum şi alte date de pe SHIELD!</string>
+    <!-- This is shown if the autheticator for a given account fails to remove it. -->
+    <string name="remove_account_failed" product="shield">Acest cont este necesar pentru unele aplicaţii. Puteţi elimina contul numai prin resetarea SHIELD la setările prestabilite din fabrică (acţiune care şterge toate datele personale), din Setări &gt; Creaţi copie de rezervă şi resetaţi.</string>
+    <!--  Body of dialog shown when user enables global auto sync, for shield [CHAR LIMIT=none] -->
+    <string name="data_usage_auto_sync_on_dialog" product="shield">Modificările conturilor dvs. pe web vor fi copiate în mod automat pe SHIELD.\n\nUnele conturi pot să copieze, de asemenea, în mod automat toate modificările pe care le efectuaţi pe SHIELD pe web. Un cont Google funcţionează în acest fel.\n\nPentru a alege ce tip de informaţii doriţi să fie sincronizate în fiecare cont, accesaţi Setări &gt; Conturi.</string>
+    <!-- Body of dialog shown before user limits mobile data usage. [CHAR LIMIT=NONE] -->
+    <string name="data_usage_limit_dialog_mobile" product="shield">Conexiunea de date mobile va fi dezactivată la atingerea limitei specificate.\n\nDin moment ce SHIELD măsoară utilizarea de date, iar operatorul poate contabiliza în mod diferit utilizarea, vă recomandăm să utilizaţi o limită estimativă.</string>
+    <!-- Body of dialog shown before user restricts background data usage. This is for multiuser SHIELDS. [CHAR LIMIT=NONE] -->
+    <string name="data_usage_restrict_background_multiuser" product="shield">Dacă limitaţi transferul de date mobile în fundal, unele aplicaţii şi servicii nu vor funcţiona decât dacă sunteţi conectat(ă) la o reţea Wi-Fi.\n\nAceastă setare afectează toţi utilizatorii de pe acest SHIELD.</string>
+
+    <!-- Label displaying total network data transferred during a specific time period, including a disclaimer that contrasts device versus carrier reporting. [CHAR LIMIT=80] -->
+    <string name="data_usage_total_during_range_mobile" product="shield"> <xliff:g id="range" example="Jul 1 - Jul 31">%2$s</xliff:g>: aproximativ <xliff:g id="total" example="128KB">%1$s</xliff:g> utilizaţi, conform SHIELD. Contabilizarea operatorului a utilizării de date poate să difere.</string>
+    <!-- Message to secondary users that only owner can manage users [CHAR LIMIT=none] -->
+    <string name="user_cannot_manage_message" product="shield">Numai proprietarul SHIELD poate gestiona utilizatorii.</string>
+    <!-- User (self) removal confirmation message [CHAR LIMIT=none] -->
+    <string name="user_confirm_remove_self_message" product="shield">Veţi pierde spaţiul şi datele de pe acest SHIELD. Nu puteţi anula această acţiune.</string>
+    <!-- User removal confirmation message [CHAR LIMIT=none] -->
+    <string name="user_confirm_remove_message" product="shield">Spaţiul şi datele acestui utilizator vor dispărea de pe SHIELD. Nu puteţi anula această acţiune.</string>
+    <!-- Warning message when changing a global setting for a SHIELD.[CHAR LIMIT=none] -->
+    <string name="global_change_warning" product="shield">Această setare afectează toţi utilizatorii de pe acest SHIELD.</string>
+
+    <!-- On Language & input settings screen, setting summary.  Setting for thor button brightness. [CHAR LIMIT=35] -->
+    <add-resource type="string" name="nv_led_brightness" />
+    <string name="nv_led_brightness">Luminozitate LED</string>
+    <!-- Category title for Virtual mouse [CHAR LIMIT=40] -->
+    <add-resource type="string" name="nv_nvidia_button" />
+    <string name="nv_nvidia_button">Buton NVIDIA</string>
+
+    <add-resource type="string" name="nv_category_controller_volume" />
+    <string name="nv_category_controller_volume">Control volum</string>
+
+    <add-resource type="string" name="controller_volume_text" />
+    <string name="controller_volume_text">Utilizare butoane „bumpers” pentru a ajusta volumul</string>
+
+    <add-resource type="string" name="controller_volume_summary" />
+    <string name="controller_volume_summary">După apăsarea butonului de volum, LB şi RB vor ajusta volumul</string>
+     <!-- Controller pulse nvidia led when sleeping-->
+     <add-resource type="string" name="controller_pulse_led" />
+     <string name="controller_pulse_led">LED cu pulsaţie atunci când dispozitivul este în modul inactiv</string>
+
+    <!-- Security & location settings screen, setting check box title. This controls whether the device locks immediately when the user closes the lid. [CHAR LIMIT=28]-->
+    <string name="lockpattern_settings_enable_power_button_instantly_locks">Închidere capac pentru blocare imediată</string>
+
+    <add-resource type="string" name="nv_license_title" />
+    <string name="nv_license_title">Informaţii legale NVIDIA</string>
+    <add-resource type="string" name="nv_swla" />
+    <string name="nv_swla">Contract de Licenţă Software</string>
+    <add-resource type="string" name="nv_privacy" />
+    <string name="nv_privacy">Politica privind Confidenţialitatea</string>
+    <add-resource type="string" name="nv_tegra_exp_tos" />
+    <string name="nv_tegra_exp_tos">Termeni privind serviciul Tegra Experience</string>
+    <add-resource type="string" name="nv_warranty" />
+    <string name="nv_warranty">Informaţii privind garanţia</string>
+    <add-resource type="string" name="nv_settings_license_activity_title" />
+    <string name="nv_settings_license_activity_title">Licenţe NVIDIA</string>
+
+    <!-- About device screen, report bug to nvidia -->
+    <add-resource type="string" name="nv_feedback" />
+    <string name="nv_feedback">Trimitere feedback la NVIDIA</string>
+
+</resources>

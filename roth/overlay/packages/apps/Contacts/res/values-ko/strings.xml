@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Description in the dialog that appears if there are no pictures from which to create an icon for a contact -->
+    <string name="photoPickerNotFoundText" product="shield">사용 가능한 사진 없음</string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is disabled.  [CHAR LIMIT=NONE] -->
+    <string name="noContactsHelpText" product="shield">"표시할 연락처가 없습니다.\n\n연락처를 추가하려면 <font fgcolor="#ffffffff"><b>메뉴</b></font>를 터치하고 다음을 터치하세요.\n
+        \n <li>SHIELD에 동기화할 수 있는 연락처로 추가 또는 설정할 <font fgcolor="#ffffffff"><b>계정</b></font>\n</li>
+        \n<li>새로운 연락처를 생성하기 위한 <font fgcolor="#ffffffff"><b>새 연락처</b></font>\n</li>
+        \n<li>SIM 또는 SD 카드에서 연락처를 가져오기 위한 <font fgcolor="#ffffffff"><b>가져오기/내보내기</b></font>\n</li>"
+    </string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is enabled.  [CHAR LIMIT=NONE] -->
+    <string name="noContactsHelpTextWithSync" product="shield">"표시할 연락처가 없습니다. (방금 계정을 추가한 경우 연락처를 동기화하는 데 몇 분 정도 걸릴 수 있습니다.)\n\n연락처를 추가하려면<font fgcolor="#ffffffff"><b>메뉴</b></font>를 터치하고 다음을 터치하세요.\n
+        \n<li>SHIELD에 동기화할 수 있는 연락처로 추가 또는 설정할 <font fgcolor="#ffffffff"><b>계정</b></font>\n</li>
+        \n<li>표시할 연락처를 수정하기 위한 <font fgcolor="#ffffffff"><b>디스플레이 옵션</b></font>\n</li>
+        \n<li>새로운 연락처를 생성하기 위한 <font fgcolor="#ffffffff"><b>새 연락처</b></font>\n</li>
+        \n<li>SIM 또는 SD 카드에서 연락처를 가져오기 위한 <font fgcolor="#ffffffff"><b>가져오기/내보내기</b></font>\n</li>"
+    </string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is disabled, and there is no sim card (cdma).  [CHAR LIMIT=NONE]-->
+    <string name="noContactsNoSimHelpText" product="shield">"표시할 연락처가 없습니다.\n\n연락처를 추가하려면 <font fgcolor="#ffffffff"><b>메뉴</b></font>를 터치하고 다음을 터치하세요.\n
+        \n<li>SHIELD에 동기화할 수 있는 연락처로 추가 또는 설정할 <font fgcolor="#ffffffff"><b>계정</b></font>\n</li>
+        \n<li>새로운 연락처를 생성하기 위한 <font fgcolor="#ffffffff"><b>새 연락처</b></font>\n</li>
+        \n<li>SD 카드에서 연락처를 가져오기 위한 <font fgcolor="#ffffffff"><b>가져오기/내보내기</b></font>\n</li>"
+    </string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is enabled, and there is no sim card (cdma).  [CHAR LIMIT=NONE] -->
+    <string name="noContactsNoSimHelpTextWithSync" product="shield">"표시할 연락처가 없습니다. (방금 계정을 추가한 경우 연락처를 동기화하는 데 몇 분 정도 걸릴 수 있습니다.)\n\n연락처를 추가하려면<font fgcolor="#ffffffff"><b>메뉴</b></font>를 터치하고 다음을 터치하세요.\n
+        \n<li>SHIELD에 동기화할 수 있는 연락처로 추가 또는 설정할 <font fgcolor="#ffffffff"><b>계정</b></font>\n</li>
+        \n<li>표시할 연락처를 수정하기 위한 <font fgcolor="#ffffffff"><b>디스플레이 옵션</b></font>\n</li>
+        \n<li>새로운 연락처를 생성하기 위한 <font fgcolor="#ffffffff"><b>새 연락처</b></font>\n</li>
+        \n<li>SD 카드에서 연락처를 가져오기 위한 <font fgcolor="#ffffffff"><b>가져오기/내보내기</b></font>\n</li>"
+    </string>
+    <!-- This error message shown when the user actually have no contact (e.g. just after data-wiping), or, data providers of the contact list prohibits their contacts from being exported to outside world via vcard exporter, etc. [CHAR LIMIT=NONE] -->
+    <string name="composer_has_no_exportable_contact" product="shield">내보낼 수 있는 연락처가 없습니다. SHIELD에 연락처가 있다면 일부 데이터 제공업체에서 연락처를 내보내지 못하도록 했기 때문일 수 있습니다.</string>
+    <!-- Title for data source when creating or editing a contact that doesn't belong to a specific account.  This contact will only exist on the phone and will not be synced. -->
+    <string name="account_phone" product="shield">SHIELD 전용(동기화되지 않음).</string>
+
+</resources>

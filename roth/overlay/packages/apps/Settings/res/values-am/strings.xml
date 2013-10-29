@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Bluetooth settings screen, menu item to change this device's Bluetooth name. [CHAR LIMIT=30] -->
+    <string name="bluetooth_rename_device" product="shield">SHIELD በድጋሚ ሰይም</string>
+    <!-- Strings for asking to the user whether to allow an app to enable discovery mode -->
+    <string name="bluetooth_ask_discovery" product="shield">"በ SHIELD ላይ መተግበሪያ SHIELD በሌሎች ብሉቱዝ መሳሪያዎች ለ <xliff:g id="timeout">%1$d</xliff:g> ሰከንዶች ውስጥ እንዲገኝ ያደርጋል። ይፈቀድ?"</string>
+    <!-- The title of the activity to see phone info -->
+    <string name="phone_info_label" product="shield">SHIELD መረጃ</string>
+    <!-- mobile network settings screen, message in dialog box that appears when you select the "Data roaming" check box. This is for multiuser SHIELDS [CHAR LIMIT=none] -->
+    <string name="roaming_warning_multiuser" product="shield">የውሂብ ዝውውር በምትፈቅድበት ጊዜ፣ ላቅ ያለ የዝውውር ክፍያዎች ልትከፍል ትችላለህ!\n\nይህ ቅንብር እዚህ SHIELD ላይ ያሉት ሁሉም ተጠቃሚዎች ይመለከታቸዋል።</string>
+    <!-- Title of the preferences item to control encryption -->
+    <string name="crypt_keeper_encrypt_title" product="shield">SHIELD አመስጥር</string>
+    <!-- Summary of the preferences item to control encryption, when encryption is inactive -->
+    <string name="crypt_keeper_encrypt_summary" product="shield">SHIELD ላለማመሳጠር በእያንዳንዱ ጊዜ ስታበራ ጊዜ የቁጥር PIN ወይም የይለፍ ቃል ጠይቅ።</string>
+    <!-- Informational text in the first confirmation screen before starting device encryption -->
+    <string name="crypt_keeper_desc" product="shield">
+    መለያህን፣ ቅንጅቶች፣ የወረዱ መተግበሪያዎች እና ውሂባቸውን፣ ሚዲያቸውን፣ እና ሌሎች ፋይሎችን ማመሳጠር ትችላለህ። አንዴ SHIELD ካመሳጠርክ በኋላ፣ በእያንዳንዱ በምታበራበት ጊዜ እንዳይመሳጠር ለማድረግ የቁጥር PIN ወይም የይለፍ ቃል መተየብ ያስፈልጋል። ሁሉንም የአንተን ውሂብ በመሰረዝ፣ ፋብሪካ ውሂብ ዳግም አስጀምር ብቻ ሳትጠቀም SHIELD ን ማመሳጠር አትችልም።\n\nማመሳጠር አንድ ሰዓት ወይም ተጨማሪ ጊዜ ሊወስድ ይችላል። በተሞላ ባትሪ መጀመር አለብህ እና ማመሳጠር እስኪጠናቀቅ ድረስ SHIELD እንደተሰካ አቆየው። የማመሳጠር ሂደትን ያቋረጥክ እንደሆነ፣ አንዳንድ ወይም ሁሉንም ውሂቦችህን ታጣለህ።</string>
+    <!-- Button text to start encryption process -->
+    <string name="crypt_keeper_button_text" product="shield">SHIELD አመስጥር</string>
+    <!-- Warning text in the final confirmation screen before starting device encryption -->
+    <string name="crypt_keeper_final_desc" product="shield">
+    የማመሳጠር ሂደቱ የማይቀለበስ ነው እና የምታቋርጠው ከሆነ፣ ውሂብ ታጣለህ።
+    ማመሳጠር አንድ ሰዓት ወይም ተጨማሪ ጊዜ ሊወስድ ይችላል፣ በዚህ ጊዜ SHIELD ብዙ ጊዜ ይጀምራል።
+    </string>
+
+    <!-- Informational text on the progress screen while encrypting the device -->
+    <string name="crypt_keeper_setup_description" product="shield">SHIELD እስኪመሳጠር ድረስ ጠብቅ። <xliff:g id="percent" example="50">^1</xliff:g>% ተጠናቋል።</string>
+    <!-- Informational text when encryption fails -->
+    <string name="crypt_keeper_failed_summary" product="shield"> ማመሳጠር ተቋርጦ ነበር እና ሊጠናቀቅ አልቻለም። በዚህ የተነሳ፣ በ SHIELD ላይ ያለው ውሂብ ከአሁን ወዲያ ተደራሽ አይደለም።\n\n
+      SHIELD ን መጠቀም ለመቀጠል፣ የፋብሪካ እንደነበር መልስ ማከናወን ያስፈልግሃል።
+      እንደነበር ከማስመለስ በኋላ SHIELD ን ስታዋቅር፣ በ Google መለያህ ላይ ምትኬ ተደርጎ የነበረውን ማንኛውም ውሂብ እንደነበር የማስመለስ ዕድል ታገኛለህ።
+    </string>
+    <!-- Bluetooth settings.  Message for disconnecting from the PAN profile (NAP role). [CHAR LIMIT=80] -->
+    <string name="bluetooth_disconnect_pan_nap_profile" product="shield"> <xliff:g id="device_name">%1$s</xliff:g> የ SHIELD ን በየነመረብ ግንኙነት ከማጋራት ሊቋረጥ ይችላል።</string>
+
+    <!-- Description of NFC in the 1st level settings screen, for a SHIELD. [CHAR LIMIT=NONE] -->
+    <string name="nfc_quick_toggle_summary" product="shield">ሌላ መሳሪያን SHIELD በሚነካበት ጊዜ የውሂብ ልውውጥ ፍቀድ</string>
+    <!-- Text warning about skipping Wi-Fi with a mobile connect (SHIELD) [CHAR LIMIT=NONE]-->
+    <string name="wifi_skipped_message" product="shield" msgid="6518433975501257341">ማስጠንቀቂያ፥ ተጨማሪ የተሸካሚ ውሂብ ክፍያዎች ልትከፍል ትችላለህ።\n\nSHIELD ቅንብር በቂ የሆነ የአውታረመረብ ግንኙነት ሊፈልግ ይችላል።</string>
+    <!-- Text warning about skipping Wi-Fi without a mobile connect (SHIELD) [CHAR LIMIT=NONE] -->
+    <string name="wifi_and_mobile_skipped_message" product="shield" msgid="5647058314212144925">ማስጠንቀቂያ፥ SHIELD ሶፍትዌርህ የዘመነ እንደሆነ ማረጋገጥ ላይችል ይችላል።</string>
+    <!-- Text alerting that Wi-Fi couldn't connect (SHIELD) [CHAR LIMIT=NONE] -->
+    <string name="wifi_connect_failed_message" product="shield" msgid="2006689630582761529">SHIELD ወደዚህ Wi-Fi አውታረመረብ ላይ ለማገናኘት አልቻለም።</string>
+    <!-- Dock audio summary for undocked -->
+    <string name="dock_audio_summary_none" product="shield">SHIELD አልተተከለም</string>
+    <!-- Dock not found dialog text -->
+    <string name="dock_not_found_text" product="shield">ኦዲዮ ትከልን ከማዋቀርህ በፊት SHIELD ን መትከል ያስፈልግሃል።</string>
+    <!-- Dock settings screen, setting option summary text when check box is selected -->
+    <string name="dock_sounds_enable_summary_on" product="shield">ከትከል ላይ SHIELD ን በማስገባት ወይም በማስወገድ ጊዜ ድምጽ አጫውት</string>
+    <!-- Sound settings screen, setting option summary text when check box is clear -->
+    <string name="dock_sounds_enable_summary_off" product="shield">ከትከል ላይ SHIELD ን በማስገባት ወይም በማስወገድ ጊዜ ድምጽ አታጫውት</string>
+
+    <!-- Sound & display settings screen, accelerometer-based rotation summary text when check box is selected -->
+    <string name="accelerometer_summary_on" product="shield">SHIELD ን በማሽከርከር ጊዜ በራስሰር ቀረቤታን ቀይር</string>
+    <!-- Sound & display settings screen, accelerometer-based rotation summary text when check box is clear -->
+    <string name="accelerometer_summary_off" product="shield">SHIELD ን በማሽከርከር ጊዜ በራስሰር ቀረቤታን ቀይር</string>
+    <!-- SIM card lock settings screen, setting option summary text when SIM lock check box is selected -->
+    <string name="sim_lock_on" product="shield">SHIELD ን ለመጠቀም PIN ጠይቅ</string>
+    <!-- SIM card lock settings screen, setting option summary text when SIM lock check box is clear -->
+    <string name="sim_lock_off" product="shield">SHIELD ን ለመጠቀም PIN ጠይቅ</string>
+    <!-- Advanced (used for diagnostics) device info activity title -->
+    <string name="device_info_settings" product="shield">SHIELD አቋም</string>
+
+    <!-- About tablet screen, summary of the item that takes you to tablet status screen -->
+    <string name="device_status_summary" product="shield">የባትሪው፣ አውታረመረብ፣ እና ሌላ መረጃ አቋም</string>
+    <!-- About tablet, status item title.  The Mobile Directory Number [CHAR LIMIT=30] -->
+    <string name="status_number" product="shield">MDN</string>
+    <!-- SD card & phone storage settings screen, setting option summary text under Internal phone storage heading -->
+    <string name="master_clear_summary" product="shield">በ SHIELD ላይ ሁሉንም ውሂብ ሰርዝ</string>
+    <!-- SD card & phone storage settings screen, message on screen after user selects Factory data reset [CHAR LIMIT=NONE] -->
+    <string name="master_clear_desc" product="shield">"ይሄ ከ SHIELD ላይ <b>ውስጣዊ ማከማቻ</b>ውስጥ ያሉትን ሁሉንም ውሂብ ይሰርዛል፣ እነዚህን ጨምሮ:\n\n<li>የአንተን Google መለያ</li>\n<li>ስርዓት እና መተግበሪያ ውሂብ እና ቅንጅቶችን</li>\n<li>የወረዱ መተግበሪያዎች</li>"</string>
+    <!-- SD card & phone storage settings screen, button on screen after user selects Factory data reset -->
+    <string name="master_clear_button_text" product="shield">SHIELD ን ዳግም አስጀምር</string>
+    <!-- Bluetooth available subtext - shown when Bluetooth tethering is turned on but it is not currently tethered to any devices [CHAR LIMIT=50]-->
+    <string name="bluetooth_tethering_available_subtext" product="shield">የ SHIELD ን በየነመረብ ግንኙነት በማጋራት ላይ</string>
+    <!-- Bluetooth connected subtext - shown when a device is tethered over Bluetooth [CHAR LIMIT=60]-->
+    <string name="bluetooth_tethering_device_connected_subtext" product="shield">ወደ 1 መሳሪያ ላይ የ SHIELD ን በየነመረብ ግንኙነት በማጋራት ላይ</string>
+    <!-- Bluetooth connected subtext - shown when multiple devices are tethered over Bluetooth [CHAR LIMIT=60]-->
+    <string name="bluetooth_tethering_devices_connected_subtext" product="shield">የ SHIELD ን በየነመረብ ግንኙነት ወደ <xliff:g id="connectedDeviceCount">%1$d</xliff:g> መሳሪያዎች በማጋራት ላይ</string>
+    <!-- Bluetooth tethering off subtext - shown when Bluetooth Tethering is turned off [CHAR LIMIT=50]-->
+    <string name="bluetooth_tethering_off_subtext" product="shield">የ SHIELD ን በየነመረብ ግንኙነት በማጋራት ላይ</string>
+    <!-- [CHAR LIMIT=100] Security & location settings screen, setting check box summary for GPS satellites on a SHIELD -->
+    <string name="location_street_level" product="shield">አካባቢህን ለመጠቆም መተግበሪያዎች በ SHIELD ላይ GPS ተጠቀም</string>
+    <!-- Main settings screen, setting title for the user to go into the About phone screen -->
+    <string name="about_settings" product="shield">ስለ SHIELD</string>
+    <!-- Applications settings screen, message text of alert that appears if user selects the "Unknown sources" check box -->
+    <string name="install_all_warning" product="shield">ከማይታወቁ ምንጮች ከሚመጡ መተግበሪያዎች የአንተ SHIELD እና የግል ውሂብ ለጥቃት የተጋለጠ ነው። እነዚህን መተግበሪያዎችን ከመጠቀም የተነሳ ለሚመጣው ማንኛውም በ SHIELD ላይ ለሚደርስ ጉዳት ወይም የውሂብ መጥፋት በግል ሃላፊነቱን ትወስዳልህ።</string>
+    <!-- Manage applications, individual application info screen, text that appears under the "Permissions" heading. This describes the permissions that the application has. -->
+    <string name="security_settings_desc" product="shield">ይሄ መተግበሪያ በ SHIELD ላይ የሚከተሉት ላይ ሊደርስ ይችላል:</string>
+    <!-- [CHAR_LIMIT=NONE] Manage applications, individual application info screen, text that appears under the "Permissions" heading.
+         This describes the permissions that the application has.  It is used when multiple packages are contributing to the permissions and need to be listed here. -->
+    <string name="security_settings_desc_multi" product="shield">ይሄ መተግበሪያ በ SHIELD ላይ የሚከተሉት ላይ ሊደርስ ይችላል። አፈፃፀምን ለማሻሻል እና የማህደረ ትውስታን አጠቃቀም ለመቀነስ፣ ከእነዚህ ፈቃዶች አንዳንዶቹ በ <xliff:g id="base_app_name">%1$s</xliff:g> ላይ ይገኛሉ ምክንያቱም ከሚከተለው ጋር በተመሳሳይ ሂደት ውስጥ ይሄዳል <xliff:g id="additional_apps_list">%2$s</xliff:g>፥</string>
+
+    <!-- Manage applications, text for Move button to move app to internal storage -->
+    <string name="move_app_to_internal" product="shield">ወደ SHIELD አንቀሳቅስ</string>
+    <!-- Running service details, stop confirmation descriptive text. Displays when user selects selects to stop a system service. -->
+    <string name="runningservicedetails_stop_dlg_text" product="shield">ይሄንን አገልግሎት ያቆምክ እንደሆነ፣ አጥፍተህ ከዛም በኋላ እስክታበራው ድረስ አንዳንድ የ SHIELD ባህሪያቶች በትክክል መስራት ሊያቆሙ ይችላሉ።</string>
+    <!-- In the Testing screen.  The item title of the activity that shows a bunch of phone-related information.  -->
+    <string name="testing_phone_info" product="shield">SHIELD መረጃ</string>
+
+    <!-- Label for power consumed when Idle -->
+    <string name="power_idle" product="shield">SHIELD የቦዘነ</string>
+
+    <!-- Label for Phone usage time -->
+    <string name="usage_type_phone" product="shield">SHIELD</string>
+    <!-- Description for standby detail -->
+    <string name="battery_desc_standby" product="shield">SHIELD ሲቦዝን ያገለገለ ባትሪ</string>
+    <!-- Remove account message in dialog [CHAR LIMIT=NONE] -->
+    <string name="really_remove_account_message" product="shield">ይሄንን መለያ ማስወገድ ከ SHIELD ላይ ሁሉንም መልዕክቶቹን፣ እውቅያዎቹን፣ እና ሌላ ውሂብ ይሰርዛል!</string>
+    <!-- This is shown if the autheticator for a given account fails to remove it. -->
+    <string name="remove_account_failed" product="shield">ይሄ መለያ በአንዳንድ መተግበሪያዎች ይፈለጋል። በቅንጅቶች &gt; ምትኬ ማድረግ እና እንደነበር መልስ ውስጥ ወደ ፋብሪካ ነባሪዎች ( ሁሉንም ውሂብን የሚሰርዘው) SHIELD ን እንደነበር በማስመለስ ብቻ ልታስወግደው ትችላለህ።</string>
+    <!--  Body of dialog shown when user enables global auto sync, for shield [CHAR LIMIT=none] -->
+    <string name="data_usage_auto_sync_on_dialog" product="shield">በድር ላይ የሚያደርጉት ማንኛውም በእውቅያዎች ላይ የምታደርገው ለውጥ በራስ ሰር ወደ አንተ SHIELD ላይ ይቀዳል።\n\nአንዳንድ መለያዎች በድር ላይ በአንተ SHIELD ላይ የምታደርጋቸውን ማንኛውም ለውጦች በራሰሰር ይቀዳሉ። የ Google መለያ በዚህ መልኩ ይሰራል።\n\nከእያንዳንዱ መለያ ጋር የትኛው ዓይነት መረጃ መስመር እንዳለበት ለመምረጥ፣ ወደ ቅንጅቶች &gt; መለያዎች ሂድ።</string>
+    <!-- Body of dialog shown before user limits mobile data usage. [CHAR LIMIT=NONE] -->
+    <string name="data_usage_limit_dialog_mobile" product="shield">የተንቀሳቃሽ ስልክ ውሂብ ማገናኛ የተጠቀሰው ገደብ ላይ ሲደረስ ይሰናከላል።\n\nSHIELD የውሂብ አጠቃቀም መሰረት የሚሰፈር እንደመሆኑ መጠን፣ እና ድምጸ ተያያዥ ሞደምህ ለአጠቃቀም በተለየ ሁኔታ ሊሰፍር ስለሚችል፣ ቆጠብ ያለ ገደብ መጠቀሙን ግምት ውስጥ አስገባ።</string>
+    <!-- Body of dialog shown before user restricts background data usage. This is for multiuser SHIELDS. [CHAR LIMIT=NONE] -->
+    <string name="data_usage_restrict_background_multiuser" product="shield">የጀርባ ተንቀሳቃሽ ስልክ ውሂብ ከገደቡ አንዳንድ መተግበሪያዎች እና አገልግሎቶች ከWi-Fi አውታረ መረብ ጋር እስካልተገናኙ ድረስ አይሰሩም።\n\nይህ ቅንብር እዚህ SHIELD ላይ ያሉት ሁሉም ተጠቃሚዎች ይመለከታቸዋል።</string>
+
+    <!-- Label displaying total network data transferred during a specific time period, including a disclaimer that contrasts device versus carrier reporting. [CHAR LIMIT=80] -->
+    <string name="data_usage_total_during_range_mobile" product="shield"> <xliff:g id="range" example="Jul 1 - Jul 31">%2$s</xliff:g>: ስለ <xliff:g id="total" example="128KB">%1$s</xliff:g> ያገለገለ፣ በ SHIELD ላይ እንደተለካው። የተሽካሚህ ወሂብ አጠቃቀም ቆጠራ ልዩ ሊሆን ይችላል።</string>
+    <!-- Message to secondary users that only owner can manage users [CHAR LIMIT=none] -->
+    <string name="user_cannot_manage_message" product="shield">የ SHIELD ባለቤት ብቻ ተጠቃሚዎችን ሊያስተዳድር ይችላል።</string>
+    <!-- User (self) removal confirmation message [CHAR LIMIT=none] -->
+    <string name="user_confirm_remove_self_message" product="shield">በዚህ SHIELD ላይ ቦታህን እና ውሂብህን ታጣለህ። ይሄንን እርምጃ መቀልበስ አትችልም።</string>
+    <!-- User removal confirmation message [CHAR LIMIT=none] -->
+    <string name="user_confirm_remove_message" product="shield">በዚህ SHIELD ላይ ይሄ ተጠቃሚ ቦታውን እና ውሂቡን ያጣል። ይሄንን እርምጃ መቀልበስ አትችልም።</string>
+    <!-- Warning message when changing a global setting for a SHIELD.[CHAR LIMIT=none] -->
+    <string name="global_change_warning" product="shield">ይሄ ቅንጅት በዚህ SHIELD ላይ ያሉ ሁሉንም ተጠቃሚዎች ይመለከታቸዋል።</string>
+
+    <!-- On Language & input settings screen, setting summary.  Setting for thor button brightness. [CHAR LIMIT=35] -->
+    <add-resource type="string" name="nv_led_brightness" />
+    <string name="nv_led_brightness">LED ብርሃማነት</string>
+    <!-- Category title for Virtual mouse [CHAR LIMIT=40] -->
+    <add-resource type="string" name="nv_nvidia_button" />
+    <string name="nv_nvidia_button">NVIDIA አዝራር</string>
+
+    <add-resource type="string" name="nv_category_controller_volume" />
+    <string name="nv_category_controller_volume">የድምጽ መቆጣጠሪያ</string>
+
+    <add-resource type="string" name="controller_volume_text" />
+    <string name="controller_volume_text">ድምጽ ለመቆጣጠር ማዘለያዎችን ይጠቀሙ</string>
+
+    <add-resource type="string" name="controller_volume_summary" />
+    <string name="controller_volume_summary">LB እና RB የድምጽ አዝራሩን ከመጫን በኋላ ድምጹን ያስተካክላል።</string>
+     <!-- Controller pulse nvidia led when sleeping-->
+     <add-resource type="string" name="controller_pulse_led" />
+     <string name="controller_pulse_led">መሳሪያው በሚተኛበት ጊዜ LED አሳይ</string>
+
+    <!-- Security & location settings screen, setting check box title. This controls whether the device locks immediately when the user closes the lid. [CHAR LIMIT=28]-->
+    <string name="lockpattern_settings_enable_power_button_instantly_locks">መዝጊያ ክዳን ፈጥነህ ቆልፍ</string>
+
+    <add-resource type="string" name="nv_license_title" />
+    <string name="nv_license_title">NVIDIA ሕግ</string>
+    <add-resource type="string" name="nv_swla" />
+    <string name="nv_swla">ሶፍትዌር ፈቃድ ስምምነት</string>
+    <add-resource type="string" name="nv_privacy" />
+    <string name="nv_privacy">የግላዊ ምስጢር ፖሊሲ</string>
+    <add-resource type="string" name="nv_tegra_exp_tos" />
+    <string name="nv_tegra_exp_tos">Tegra Experience የአገልግሎት ውል</string>
+    <add-resource type="string" name="nv_warranty" />
+    <string name="nv_warranty">ዋስትና መረጃ</string>
+    <add-resource type="string" name="nv_settings_license_activity_title" />
+    <string name="nv_settings_license_activity_title">NVIDIA ፈቃዶች</string>
+
+   <!-- About device screen, report bug to nvidia -->
+    <add-resource type="string" name="nv_feedback" />
+    <string name="nv_feedback">ወደ NVIDIA ግብረመልስ ይላኩ</string>
+
+</resources>

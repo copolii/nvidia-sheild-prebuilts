@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Description in the dialog that appears if there are no pictures from which to create an icon for a contact -->
+    <string name="photoPickerNotFoundText" product="shield">Không có ảnh nào.</string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is disabled.  [CHAR LIMIT=NONE] -->
+    <string name="noContactsHelpText" product="shield">"Bạn không có liên hệ nào để hiển thị.\n\nĐể thêm liên hệ, chạm vào <font fgcolor="#ffffffff"><b>Menu</b></font>, sau đó chạm vào:\n
+        \n <li><font fgcolor="#ffffffff"><b>Tài khoản</b></font> để thêm hoặc thiết lập tài khoản với các liên hệ bạn có thể đồng bộ hóa với SHIELD\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Liên hệ mới</b></font> để tạo liên hệ mới từ đầu\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Nhập/xuất</b></font> để nhập liên hệ từ thẻ SIM hoặc thẻ SD\n</li>"
+    </string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is enabled.  [CHAR LIMIT=NONE] -->
+    <string name="noContactsHelpTextWithSync" product="shield">"Bạn không có liên hệ nào để hiển thị.  (Nếu bạn vừa thêm tài khoản, có thể phải mất vài phút để đồng bộ hóa liên hệ.)\n\nĐể thêm liên hệ, chạm vào <font fgcolor="#ffffffff"><b>Menu</b></font>, sau đó chạm vào:\n
+        \n<li><font fgcolor="#ffffffff"><b>Tài khoản</b></font> để thêm hoặc thiết lập tài khoản với các liên hệ bạn có thể đồng bộ hóa với SHIELD\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Các tùy chọn hiển thị</b></font> để thay đổi các liên hệ được hiển thị\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Liên hệ mới</b></font> để tạo liên hệ mới từ đầu\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Nhập/Xuất</b></font> để nhập liên hệ từ thẻ SIM hoặc thẻ SD\n</li>"
+    </string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is disabled, and there is no sim card (cdma).  [CHAR LIMIT=NONE]-->
+    <string name="noContactsNoSimHelpText" product="shield">"Bạn không có liên hệ nào để hiển thị.\n\nĐể thêm liên hệ, chạm vào <font fgcolor="#ffffffff"><b>Menu</b></font>, sau đó chạm vào:\n
+        \n<li><font fgcolor="#ffffffff"><b>Tài khoản</b></font> để thêm hoặc thiết lập tài khoản với các liên hệ bạn có thể đồng bộ hóa với SHIELD\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Liên hệ mới</b></font> để tạo liên hệ mới từ đầu\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Nhập/Xuất</b></font> để nhập liên hệ từ thẻ SD của bạn\n</li>"
+    </string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is enabled, and there is no sim card (cdma).  [CHAR LIMIT=NONE] -->
+    <string name="noContactsNoSimHelpTextWithSync" product="shield">"Bạn không có liên hệ nào để hiển thị.  ( Nếu bạn vừa thêm tài khoản, có thể phải mất vài phút để đồng bộ hóa liên hệ.)\n\n Để thêm liên hệ, chạm vào <font fgcolor="#ffffffff"><b>Menu</b></font>, sau đó chạm vào:\n
+        \n<li><font fgcolor="#ffffffff"><b>Tài khoản</b></font> để thêm hoặc thiết lập tài khoản với các liên hệ bạn có thể đồng bộ hóa với SHIELD\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Các tùy chọn hiển thị</b></font> để thay đổi các liên hệ được hiển thị\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Liên hệ mới</b></font> để tạo liên hệ mới từ đầu\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Nhập/Xuất</b></font> để nhập liên hệ từ thẻ SD của bạn\n</li>"
+    </string>
+    <!-- This error message shown when the user actually have no contact (e.g. just after data-wiping), or, data providers of the contact list prohibits their contacts from being exported to outside world via vcard exporter, etc. [CHAR LIMIT=NONE] -->
+    <string name="composer_has_no_exportable_contact" product="shield">Không thể xuất địa chỉ liên hệ nào.  Nếu bạn có danh bạ trên SHIELD của ḿnh, một số nhà cung cấp dữ liệu có thể không cho phép xuất danh bạ từ SHIELD.</string>
+    <!-- Title for data source when creating or editing a contact that doesn't belong to a specific account.  This contact will only exist on the phone and will not be synced. -->
+    <string name="account_phone" product="shield">Chỉ trên SHIELD, chưa được đồng bộ hóa</string>
+
+</resources>

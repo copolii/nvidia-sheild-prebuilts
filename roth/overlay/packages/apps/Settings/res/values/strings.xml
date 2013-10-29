@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Bluetooth settings screen, menu item to change this device's Bluetooth name. [CHAR LIMIT=30] -->
+    <string name="bluetooth_rename_device" product="shield">Rename SHIELD</string>
+    <!-- Strings for asking to the user whether to allow an app to enable discovery mode -->
+    <string name="bluetooth_ask_discovery" product="shield">"An app on SHIELD wants to make SHIELD discoverable by other Bluetooth devices for <xliff:g id="timeout">%1$d</xliff:g> seconds. Allow?"</string>
+    <!-- The title of the activity to see phone info -->
+    <string name="phone_info_label" product="shield">SHIELD info</string>
+    <!-- mobile network settings screen, message in dialog box that appears when you select the "Data roaming" check box. This is for multiuser SHIELDS [CHAR LIMIT=none] -->
+    <string name="roaming_warning_multiuser" product="shield">When you allow data roaming, you may incur significant roaming charges!\n\nThis setting affects all users on this SHIELD.</string>
+    <!-- Title of the preferences item to control encryption -->
+    <string name="crypt_keeper_encrypt_title" product="shield">Encrypt SHIELD</string>
+    <!-- Summary of the preferences item to control encryption, when encryption is inactive -->
+    <string name="crypt_keeper_encrypt_summary" product="shield">
+    Require a numeric PIN or password to decrypt SHIELD each time you
+    power it on</string>
+    <!-- Informational text in the first confirmation screen before starting device encryption -->
+    <string name="crypt_keeper_desc" product="shield">
+    You can encrypt your accounts, settings, downloaded apps and their data,
+    media, and other files. Once you encrypt SHIELD, you need to type a numeric PIN
+    or password to decrypt it each time you power it on. You can\'t decrypt SHIELD
+    except by performing a factory data reset, erasing all your data.\n\nEncryption takes
+    an hour or more. You must start with a charged battery and keep SHIELD plugged in
+    until encryption is complete. If you interrupt the encryption process, you will lose
+    some or all of your data.</string>
+    <!-- Button text to start encryption process -->
+    <string name="crypt_keeper_button_text" product="shield">Encrypt SHIELD</string>
+    <!-- Warning text in the final confirmation screen before starting device encryption -->
+    <string name="crypt_keeper_final_desc" product="shield">
+    The encryption operation is irreversible and if you interrupt it, you\'ll lose data.
+    Encryption takes an hour or more, during which SHIELD will restart several times.
+    </string>
+
+    <!-- Informational text on the progress screen while encrypting the device -->
+    <string name="crypt_keeper_setup_description" product="shield">Wait while SHIELD
+    is encrypted. <xliff:g id="percent" example="50">^1</xliff:g>% complete.</string>
+    <!-- Informational text when encryption fails -->
+    <string name="crypt_keeper_failed_summary" product="shield">
+      Encryption was interrupted and can\'t complete. As a result, the data on
+      SHIELD is no longer accessible.
+      \n\n
+      To resume using SHIELD, you need to perform a factory reset.
+      When you set up SHIELD after the reset, you\'ll have an opportunity
+      to restore any data that was backed up to your Google Account.
+    </string>
+    <!-- Bluetooth settings.  Message for disconnecting from the PAN profile (NAP role). [CHAR LIMIT=80] -->
+    <string name="bluetooth_disconnect_pan_nap_profile" product="shield"><xliff:g id="device_name">%1$s</xliff:g> will be disconnected from sharing SHIELD\'s Internet connection.</string>
+
+    <!-- Description of NFC in the 1st level settings screen, for a SHIELD. [CHAR LIMIT=NONE] -->
+    <string name="nfc_quick_toggle_summary" product="shield">Allow data exchange when SHIELD touches another device</string>
+    <!-- Text warning about skipping Wi-Fi with a mobile connect (SHIELD) [CHAR LIMIT=NONE]-->
+    <string name="wifi_skipped_message" product="shield" msgid="6518433975501257341">WARNING: You may incur extra carrier data charges.\n\nSHIELD setup can require significant network activity.</string>
+    <!-- Text warning about skipping Wi-Fi without a mobile connect (SHIELD) [CHAR LIMIT=NONE] -->
+    <string name="wifi_and_mobile_skipped_message" product="shield" msgid="5647058314212144925">WARNING: SHIELD won\'t be able to verify that your software is up to date.</string>
+    <!-- Text alerting that Wi-Fi couldn't connect (SHIELD) [CHAR LIMIT=NONE] -->
+    <string name="wifi_connect_failed_message" product="shield" msgid="2006689630582761529">SHIELD was unable to connect to this Wi-Fi network.</string>
+    <!-- Dock audio summary for undocked -->
+    <string name="dock_audio_summary_none" product="shield">SHIELD not docked</string>
+    <!-- Dock not found dialog text -->
+    <string name="dock_not_found_text" product="shield">You need to dock SHIELD before setting up dock audio.</string>
+    <!-- Dock settings screen, setting option summary text when check box is selected -->
+    <string name="dock_sounds_enable_summary_on" product="shield">Play sound when inserting or removing SHIELD from dock</string>
+    <!-- Sound settings screen, setting option summary text when check box is clear -->
+    <string name="dock_sounds_enable_summary_off" product="shield">Don\'t play sound when inserting or removing SHIELD from dock</string>
+
+    <!-- Sound & display settings screen, accelerometer-based rotation summary text when check box is selected -->
+    <string name="accelerometer_summary_on" product="shield">Switch orientation automatically when rotating SHIELD</string>
+    <!-- Sound & display settings screen, accelerometer-based rotation summary text when check box is clear -->
+    <string name="accelerometer_summary_off" product="shield">Switch orientation automatically when rotating SHIELD</string>
+    <!-- SIM card lock settings screen, setting option summary text when SIM lock check box is selected -->
+    <string name="sim_lock_on" product="shield">Require PIN to use SHIELD</string>
+    <!-- SIM card lock settings screen, setting option summary text when SIM lock check box is clear -->
+    <string name="sim_lock_off" product="shield">Require PIN to use SHIELD</string>
+    <!-- Advanced (used for diagnostics) device info activity title -->
+    <string name="device_info_settings" product="shield">SHIELD status</string>
+
+    <!-- About tablet screen, summary of the item that takes you to tablet status screen -->
+    <string name="device_status_summary" product="shield">Status of the battery, network, and other information</string>
+    <!-- About tablet, status item title.  The Mobile Directory Number [CHAR LIMIT=30] -->
+    <string name="status_number" product="shield">MDN</string>
+    <!-- SD card & phone storage settings screen, setting option summary text under Internal phone storage heading -->
+    <string name="master_clear_summary" product="shield">Erases all data on SHIELD</string>
+    <!-- SD card & phone storage settings screen, message on screen after user selects Factory data reset [CHAR LIMIT=NONE] -->
+    <string name="master_clear_desc" product="shield">"This will erase all data from SHIELD\'s <b>internal storage</b>, including:\n\n<li>Your Google account</li>\n<li>System and app data and settings</li>\n<li>Downloaded apps</li>"</string>
+    <!-- SD card & phone storage settings screen, button on screen after user selects Factory data reset -->
+    <string name="master_clear_button_text" product="shield">Reset SHIELD</string>
+    <!-- Bluetooth available subtext - shown when Bluetooth tethering is turned on but it is not currently tethered to any devices [CHAR LIMIT=50]-->
+    <string name="bluetooth_tethering_available_subtext" product="shield">Sharing SHIELD\'s Internet connection</string>
+    <!-- Bluetooth connected subtext - shown when a device is tethered over Bluetooth [CHAR LIMIT=60]-->
+    <string name="bluetooth_tethering_device_connected_subtext" product="shield">Sharing SHIELD\'s Internet connection to 1 device</string>
+    <!-- Bluetooth connected subtext - shown when multiple devices are tethered over Bluetooth [CHAR LIMIT=60]-->
+    <string name="bluetooth_tethering_devices_connected_subtext" product="shield">Sharing SHIELD\'s Internet connection to <xliff:g id="connectedDeviceCount">%1$d</xliff:g> devices</string>
+    <!-- Bluetooth tethering off subtext - shown when Bluetooth Tethering is turned off [CHAR LIMIT=50]-->
+    <string name="bluetooth_tethering_off_subtext" product="shield">Not sharing SHIELD\'s Internet connection</string>
+    <!-- [CHAR LIMIT=100] Security & location settings screen, setting check box summary for GPS satellites on a SHIELD -->
+    <string name="location_street_level" product="shield">Let apps use GPS on SHIELD to pinpoint your location</string>
+    <!-- Main settings screen, setting title for the user to go into the About phone screen -->
+    <string name="about_settings" product="shield">About SHIELD</string>
+    <!-- Applications settings screen, message text of alert that appears if user selects the "Unknown sources" check box -->
+    <string name="install_all_warning" product="shield">Your SHIELD and personal data are more vulnerable to attack by apps
+ from unknown sources. You agree that you are solely responsible for any
+ damage to SHIELD or loss of data that may result from using
+ these apps.</string>
+    <!-- Manage applications, individual application info screen, text that appears under the "Permissions" heading. This describes the permissions that the application has. -->
+    <string name="security_settings_desc" product="shield">This app can access the following on SHIELD:</string>
+    <!-- [CHAR_LIMIT=NONE] Manage applications, individual application info screen, text that appears under the "Permissions" heading.
+         This describes the permissions that the application has.  It is used when multiple packages are contributing
+         to the permissions and need to be listed here. -->
+    <string name="security_settings_desc_multi" product="shield">This app can access the following on SHIELD.
+         In order to improve performance and reduce memory usage, some of these permissions
+         are available to <xliff:g id="base_app_name">%1$s</xliff:g>
+         because it runs in the same process as <xliff:g id="additional_apps_list">%2$s</xliff:g>:</string>
+
+    <!-- Manage applications, text for Move button to move app to internal storage -->
+    <string name="move_app_to_internal" product="shield">Move to SHIELD</string>
+    <!-- Running service details, stop confirmation descriptive text. Displays when user selects selects to stop a system service. -->
+    <string name="runningservicedetails_stop_dlg_text" product="shield">If you stop this service, some
+        SHIELD features may stop working correctly until you power it off
+        and then on again.</string>
+    <!-- In the Testing screen.  The item title of the activity that shows a bunch of phone-related information.  -->
+    <string name="testing_phone_info" product="shield">SHIELD information</string>
+
+    <!-- Label for power consumed when Idle -->
+    <string name="power_idle" product="shield">SHIELD idle</string>
+
+    <!-- Label for Phone usage time -->
+    <string name="usage_type_phone" product="shield">SHIELD</string>
+    <!-- Description for standby detail -->
+    <string name="battery_desc_standby" product="shield">Battery used when SHIELD is idle</string>
+    <!-- Remove account message in dialog [CHAR LIMIT=NONE] -->
+    <string name="really_remove_account_message" product="shield">Removing this account will delete all of its messages, contacts, and other data from SHIELD!</string>
+    <!-- This is shown if the autheticator for a given account fails to remove it. -->
+    <string name="remove_account_failed" product="shield">This account is required by some apps. You can only remove it by resetting SHIELD to the factory defaults (which deletes all your personal data) in Settings &gt; Backup &amp; reset.</string>
+    <!--  Body of dialog shown when user enables global auto sync, for shield [CHAR LIMIT=none] -->
+    <string name="data_usage_auto_sync_on_dialog" product="shield">Any changes you make to your accounts on the web will be automatically copied to your SHIELD.\n\nSome accounts may also automatically copy any changes you make on your SHIELD to the web. A Google Account works this way.\n\nTo choose which kinds of information to sync within each account, go to Settings &gt; Accounts.</string>
+    <!-- Body of dialog shown before user limits mobile data usage. [CHAR LIMIT=NONE] -->
+    <string name="data_usage_limit_dialog_mobile" product="shield">Your mobile data connection will be disabled when the specified limit is reached.\n\nBecause SHIELD measures data usage, and your carrier may account for usage differently, consider using a conservative limit.</string>
+    <!-- Body of dialog shown before user restricts background data usage. This is for multiuser SHIELDS. [CHAR LIMIT=NONE] -->
+    <string name="data_usage_restrict_background_multiuser" product="shield">If you restrict background mobile data, some apps and services won\'t work unless you\'re connected to a Wi-Fi network.\n\nThis setting affects all users on this SHIELD.</string>
+
+    <!-- Label displaying total network data transferred during a specific time period, including a disclaimer that contrasts device versus carrier reporting. [CHAR LIMIT=80] -->
+    <string name="data_usage_total_during_range_mobile" product="shield"><xliff:g id="range" example="Jul 1 - Jul 31">%2$s</xliff:g>: about <xliff:g id="total" example="128KB">%1$s</xliff:g> used, as measured by SHIELD. Your carrier\'s data usage accounting may differ.</string>
+    <!-- Message to secondary users that only owner can manage users [CHAR LIMIT=none] -->
+    <string name="user_cannot_manage_message" product="shield">Only SHIELD\'s owner can manage users.</string>
+    <!-- User (self) removal confirmation message [CHAR LIMIT=none] -->
+    <string name="user_confirm_remove_self_message" product="shield">You will lose your space and data on this SHIELD. You can\'t undo this action.</string>
+    <!-- User removal confirmation message [CHAR LIMIT=none] -->
+    <string name="user_confirm_remove_message" product="shield">This user\'s space and data will disappear from this SHIELD. You can\'t undo this action.</string>
+    <!-- Warning message when changing a global setting for a SHIELD.[CHAR LIMIT=none] -->
+    <string name="global_change_warning" product="shield">This setting affects all users on this SHIELD.</string>
+
+    <!-- On Language & input settings screen, setting summary.  Setting for thor button brightness. [CHAR LIMIT=35] -->
+    <add-resource type="string" name="nv_led_brightness" />
+    <string name="nv_led_brightness">LED brightness</string>
+    <!-- Category title for Virtual mouse [CHAR LIMIT=40] -->
+    <add-resource type="string" name="nv_nvidia_button" />
+    <string name="nv_nvidia_button">NVIDIA Button</string>
+
+    <add-resource type="string" name="nv_category_controller_volume" />
+    <string name="nv_category_controller_volume">Volume Control</string>
+
+    <add-resource type="string" name="controller_volume_text" />
+    <string name="controller_volume_text">Use bumpers to adjust volume</string>
+
+    <add-resource type="string" name="controller_volume_summary" />
+    <string name="controller_volume_summary">LB and RB will adjust volume after pressing the volume button</string>
+     <!-- Controller pulse nvidia led when sleeping-->
+     <add-resource type="string" name="controller_pulse_led" />
+     <string name="controller_pulse_led">Pulse LED when device is asleep</string>
+
+    <!-- Security & location settings screen, setting check box title. This controls whether the device locks immediately when the user closes the lid. [CHAR LIMIT=28]-->
+    <string name="lockpattern_settings_enable_power_button_instantly_locks">Closing lid instantly locks</string>
+
+    <!-- Enable Controller Mapper-->
+     <add-resource type="string" name="controller_mapper_enable" />
+     <string name="controller_mapper_enable">Enable Gamepad Mapper</string>
+     <add-resource type="string" name="controller_mapper_enable_summary" />
+     <string name="controller_mapper_enable_summary">Long press START button to launch mapper overlay</string>
+     <add-resource type="string" name="controller_mapper_enable_auto_download" />
+     <string name="controller_mapper_enable_auto_download">Enable auto download</string>
+     <add-resource type="string" name="controller_mapper_enable_auto_download_summary" />
+     <string name="controller_mapper_enable_auto_download_summary">Automatically download mapping from cloud if available</string>
+
+    <add-resource type="string" name="nv_license_title" />
+    <string name="nv_license_title">NVIDIA legal</string>
+    <add-resource type="string" name="nv_swla" />
+    <string name="nv_swla">Software License Agreement</string>
+    <add-resource type="string" name="nv_privacy" />
+    <string name="nv_privacy">Privacy Policy</string>
+    <add-resource type="string" name="nv_tegra_exp_tos" />
+    <string name="nv_tegra_exp_tos">Tegra Experience Terms of Service</string>
+    <add-resource type="string" name="nv_warranty" />
+    <string name="nv_warranty">Warranty Information</string>
+    <add-resource type="string" name="nv_settings_license_activity_title" />
+    <string name="nv_settings_license_activity_title">NVIDIA licenses</string>
+
+    <!-- Fullscreen settings title -->
+    <add-resource type="string" name="fullscreen_mode_title" />
+    <string name="fullscreen_mode_title">Full screen mode</string>
+    <!-- Fullscreen settings text -->
+    <add-resource type="string" name="fullscreen_mode_text" />
+    <string name="fullscreen_mode_text">Only show status bar in home screens</string>
+
+    <!-- Category title for Controller Mapper -->
+    <add-resource type="string" name="nv_controller_mapper" />
+    <string name="nv_controller_mapper">Gamepad Mapper</string>
+
+    <!-- About device screen, report bug to nvidia -->
+    <add-resource type="string" name="nv_feedback" />
+    <string name="nv_feedback">Send feedback to NVIDIA</string>
+
+    <!-- Moving app to SD card -->
+    <add-resource type="string" name="move_app_app_label" />
+    <string name="move_app_app_label">App</string>
+    <add-resource type="string" name="move_app_data_label" />
+    <string name="move_app_data_label">Data</string>
+    <add-resource type="string" name="move_app_to_device_dlg_title" />
+    <string name="move_app_to_device_dlg_title">Move app to SHIELD?</string>
+    <add-resource type="string" name="move_app_to_sdcard_dlg_title" />
+    <string name="move_app_to_sdcard_dlg_title">Move app to SD card?</string>
+    <add-resource type="string" name="move_app_dlg_text" />
+    <string name="move_app_dlg_text">This may take a few minutes. Do not remove the SD card during this operation.</string>
+    <add-resource type="string" name="move_app_free_on_device" />
+    <string name="move_app_free_on_device"><xliff:g id="free_storage">%1$s</xliff:g> free on SHIELD</string>
+    <add-resource type="string" name="move_app_free_on_sdcard" />
+    <string name="move_app_free_on_sdcard"><xliff:g id="free_storage">%1$s</xliff:g> free on SD card</string>
+    <add-resource type="string" name="move_app_progress_to_device" />
+    <string name="move_app_progress_to_device">Moving <xliff:g id="pkg_label">%1$s</xliff:g> to SHIELD...</string>
+    <add-resource type="string" name="move_app_progress_to_sdcard" />
+    <string name="move_app_progress_to_sdcard">Moving <xliff:g id="pkg_label">%1$s</xliff:g> to SD card...</string>
+
+</resources>
+

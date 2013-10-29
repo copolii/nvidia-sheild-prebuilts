@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Description in the dialog that appears if there are no pictures from which to create an icon for a contact -->
+    <string name="photoPickerNotFoundText" product="shield">Inga bilder är tillgängliga.</string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is disabled.  [CHAR LIMIT=NONE] -->
+    <string name="noContactsHelpText" product="shield">"Du har inga kontakter att visa.\n\n  Om du vill lägga till kontakter, tryck på <font fgcolor="#ffffffff"><b>Meny</b></font>, och sedan:\n
+        \n <li><font fgcolor="#ffffffff"><b>Konton</b></font> om du vill lägga till eller skapa ett konto med kontakter som du kan synkronisera till SHIELD\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Ny kontakt</b></font> skapa en ny kontakt från början\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Importera/exportera</b></font> importera kontakter från ditt SIM- eller SD-kort\n</li>"
+    </string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is enabled.  [CHAR LIMIT=NONE] -->
+    <string name="noContactsHelpTextWithSync" product="shield">"Du har inga kontakter att visa. (Om du nyss lade till ett konto kan det ta några minuter innan kontakterna synkroniserats.)\n\n Om du vill lägga till kontakter, tryck på <font fgcolor="#ffffffff"><b>Meny</b></font>, och sedan:\n
+        \n<li><font fgcolor="#ffffffff"><b>Konton</b></font> om du vill lägga till eller skapa ett konto med kontakter som du kan synkronisera till SHIELD\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Visa alternativ</b></font> om du vill ändra vilka kontakter som är synliga\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Ny kontakt</b></font> skapa en ny kontakt från början\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Importera/exportera</b></font> importera kontakter från ditt SIM- eller SD-kort\n</li>"
+    </string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is disabled, and there is no sim card (cdma).  [CHAR LIMIT=NONE]-->
+    <string name="noContactsNoSimHelpText" product="shield">"Du har inga kontakter att visa.\n\nOm du vill lägga till kontakter, tryck på <font fgcolor="#ffffffff"><b>Meny</b></font>, och sedan:\n
+        \n<li><font fgcolor="#ffffffff"><b>Konton</b></font> om du vill lägga till eller skapa ett konto med kontakter som du kan synkronisera till SHIELD\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Ny kontakt</b></font> skapa en ny kontakt från början\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Importera/exportera</b></font> importera kontakter från ditt SIM- eller SD-kort\n</li>"
+    </string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is enabled, and there is no sim card (cdma).  [CHAR LIMIT=NONE] -->
+    <string name="noContactsNoSimHelpTextWithSync" product="shield">"Du har inga kontakter att visa. (Om du nyss lade till ett konto kan det ta några minuter innan kontakterna synkroniserats.)\n\nOm du vill lägga till kontakter, tryck på <font fgcolor="#ffffffff"><b>Meny</b></font>, och sedan:\n
+        \n<li><font fgcolor="#ffffffff"><b>Konton</b></font> om du vill lägga till eller skapa ett konto med kontakter som du kan synkronisera till SHIELD\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Visa alternativ</b></font> om du vill ändra vilka kontakter som är synliga\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Ny kontakt</b></font> skapa en ny kontakt från början\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Importera/exportera</b></font> importera kontakter från ditt SIM- eller SD-kort\n</li>"
+    </string>
+    <!-- This error message shown when the user actually have no contact (e.g. just after data-wiping), or, data providers of the contact list prohibits their contacts from being exported to outside world via vcard exporter, etc. [CHAR LIMIT=NONE] -->
+    <string name="composer_has_no_exportable_contact" product="shield">Det finns inga kontakter att exportera.  Om du har kontakter på SHIELD kanske vissa dataleverantörer inte tillåter att kontakterna exporteras.</string>
+    <!-- Title for data source when creating or editing a contact that doesn't belong to a specific account.  This contact will only exist on the phone and will not be synced. -->
+    <string name="account_phone" product="shield">Bara SHIELD (osynkad)</string>
+
+</resources>

@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Bluetooth settings screen, menu item to change this device's Bluetooth name. [CHAR LIMIT=30] -->
+    <string name="bluetooth_rename_device" product="shield">重新命名 SHIELD</string>
+    <!-- Strings for asking to the user whether to allow an app to enable discovery mode -->
+    <string name="bluetooth_ask_discovery" product="shield">"SHIELD 上的一個應用程式希望使 SHIELD 可在 <xliff:g id="timeout">%1$d</xliff:g> 秒鐘之後被其他 Bluetooth 裝置發現。要允許嗎？"</string>
+    <!-- The title of the activity to see phone info -->
+    <string name="phone_info_label" product="shield">SHIELD 資訊</string>
+    <!-- mobile network settings screen, message in dialog box that appears when you select the "Data roaming" check box. This is for multiuser SHIELDS [CHAR LIMIT=none] -->
+    <string name="roaming_warning_multiuser" product="shield">當您允許使用數據漫遊服務時，您可能需要支付龐大的漫遊費用！\n\n此設定會影響 SHIELD 上的所有使用者。</string>
+    <!-- Title of the preferences item to control encryption -->
+    <string name="crypt_keeper_encrypt_title" product="shield">加密 SHIELD</string>
+    <!-- Summary of the preferences item to control encryption, when encryption is inactive -->
+    <string name="crypt_keeper_encrypt_summary" product="shield">每一次開起 SHIELD 電源之後，需要輸入數字 PIN 或密碼才能解密。</string>
+    <!-- Informational text in the first confirmation screen before starting device encryption -->
+    <string name="crypt_keeper_desc" product="shield">
+您可以將帳戶、設定、已下載的應用程式及其資料、媒體和其他檔案加密。一旦您將 SHIELD 加密，就必須在每一次開啟電源時輸入數字 PIN 或密碼才能解密。除非您執行原廠資料重設，將您的所有資料清除，否則便無法將 SHIELD 解密。\n\n加密過程可能需要 1 個小時以上的時間。加密前必須先將電池充滿電，並且在過程中讓 SHIELD 持續連接電源，直到加密完成為止。如果您中斷加密流程，您將會失去您的某些或所有資料。</string>
+    <!-- Button text to start encryption process -->
+    <string name="crypt_keeper_button_text" product="shield">加密 SHIELD</string>
+    <!-- Warning text in the final confirmation screen before starting device encryption -->
+    <string name="crypt_keeper_final_desc" product="shield">
+您無法取消加密操作，如果過程中斷，您的資料將會遺失。
+加密過程可能需要 1 個小時以上的時間，您的 SHIELD 會在這期間重新啟動數次。
+    </string>
+
+    <!-- Informational text on the progress screen while encrypting the device -->
+    <string name="crypt_keeper_setup_description" product="shield">在 SHIELD 進行加密時稍候。<xliff:g id="percent" example="50">^1</xliff:g>% 完成。</string>
+    <!-- Informational text when encryption fails -->
+    <string name="crypt_keeper_failed_summary" product="shield"> 加密過程中斷，無法完成。因此，您再也不能存取 SHIELD 上的資料。\n\n
+若要繼續使用 SHIELD，您需要執行原廠重設。
+當您將 SHIELD 重設之後進行設定時，會有機會將所有備份資料還原至您的 Google 帳戶。
+    </string>
+    <!-- Bluetooth settings.  Message for disconnecting from the PAN profile (NAP role). [CHAR LIMIT=80] -->
+    <string name="bluetooth_disconnect_pan_nap_profile" product="shield"> <xliff:g id="device_name">%1$s</xliff:g> 將切斷與共用 SHIELD 的網際網路連線。</string>
+
+    <!-- Description of NFC in the 1st level settings screen, for a SHIELD. [CHAR LIMIT=NONE] -->
+    <string name="nfc_quick_toggle_summary" product="shield">允許當 SHIELD 與其他裝置接觸時交換資料</string>
+    <!-- Text warning about skipping Wi-Fi with a mobile connect (SHIELD) [CHAR LIMIT=NONE]-->
+    <string name="wifi_skipped_message" product="shield" msgid="6518433975501257341">警告﹕您可能需要支付額外的資料傳輸費用。\n\nSHIELD 安裝程式可能需要大量的網路活動。</string>
+    <!-- Text warning about skipping Wi-Fi without a mobile connect (SHIELD) [CHAR LIMIT=NONE] -->
+    <string name="wifi_and_mobile_skipped_message" product="shield" msgid="5647058314212144925">警告﹕SHIELD 無法驗證您的軟體是否為最新版本。</string>
+    <!-- Text alerting that Wi-Fi couldn't connect (SHIELD) [CHAR LIMIT=NONE] -->
+    <string name="wifi_connect_failed_message" product="shield" msgid="2006689630582761529">SHIELD 無法連接至這個 Wi-Fi 網路。</string>
+    <!-- Dock audio summary for undocked -->
+    <string name="dock_audio_summary_none" product="shield">SHIELD 並未固定</string>
+    <!-- Dock not found dialog text -->
+    <string name="dock_not_found_text" product="shield">您必須先將 SHIELD 固定於底座上，才能設定底座音效。</string>
+    <!-- Dock settings screen, setting option summary text when check box is selected -->
+    <string name="dock_sounds_enable_summary_on" product="shield">將 SHIELD 置入或移出底座時播放音效</string>
+    <!-- Sound settings screen, setting option summary text when check box is clear -->
+    <string name="dock_sounds_enable_summary_off" product="shield">將 SHIELD 置入或移出底座時不要播放音效</string>
+
+    <!-- Sound & display settings screen, accelerometer-based rotation summary text when check box is selected -->
+    <string name="accelerometer_summary_on" product="shield">當旋轉 SHIELD 時自動切換瀏覽模式</string>
+    <!-- Sound & display settings screen, accelerometer-based rotation summary text when check box is clear -->
+    <string name="accelerometer_summary_off" product="shield">當旋轉 SHIELD 時自動切換瀏覽模式</string>
+    <!-- SIM card lock settings screen, setting option summary text when SIM lock check box is selected -->
+    <string name="sim_lock_on" product="shield">需要 PIN 才能使用 SHIELD</string>
+    <!-- SIM card lock settings screen, setting option summary text when SIM lock check box is clear -->
+    <string name="sim_lock_off" product="shield">需要 PIN 才能使用 SHIELD</string>
+    <!-- Advanced (used for diagnostics) device info activity title -->
+    <string name="device_info_settings" product="shield">SHIELD 狀態</string>
+
+    <!-- About tablet screen, summary of the item that takes you to tablet status screen -->
+    <string name="device_status_summary" product="shield">電池、網路狀態及其他資訊</string>
+    <!-- About tablet, status item title.  The Mobile Directory Number [CHAR LIMIT=30] -->
+    <string name="status_number" product="shield">MDN</string>
+    <!-- SD card & phone storage settings screen, setting option summary text under Internal phone storage heading -->
+    <string name="master_clear_summary" product="shield">清除 SHIELD 上的所有資料</string>
+    <!-- SD card & phone storage settings screen, message on screen after user selects Factory data reset [CHAR LIMIT=NONE] -->
+    <string name="master_clear_desc" product="shield">"這將會從 SHIELD 的以下<b>內部儲存裝置</b>清除所有資料：\n\n<li>您的 Google 帳戶</li>\n<li>系統和應用程式資料及設定</li>\n<li>下載應用程式</li>"</string>
+    <!-- SD card & phone storage settings screen, button on screen after user selects Factory data reset -->
+    <string name="master_clear_button_text" product="shield">重設 SHIELD</string>
+    <!-- Bluetooth available subtext - shown when Bluetooth tethering is turned on but it is not currently tethered to any devices [CHAR LIMIT=50]-->
+    <string name="bluetooth_tethering_available_subtext" product="shield">共用 SHIELD 的網際網路連線</string>
+    <!-- Bluetooth connected subtext - shown when a device is tethered over Bluetooth [CHAR LIMIT=60]-->
+    <string name="bluetooth_tethering_device_connected_subtext" product="shield">與 1 個裝置共用 SHIELD 的網際網路連線</string>
+    <!-- Bluetooth connected subtext - shown when multiple devices are tethered over Bluetooth [CHAR LIMIT=60]-->
+    <string name="bluetooth_tethering_devices_connected_subtext" product="shield">與 <xliff:g id="connectedDeviceCount">%1$d</xliff:g> 個裝置共用 SHIELD 的網際網路連線</string>
+    <!-- Bluetooth tethering off subtext - shown when Bluetooth Tethering is turned off [CHAR LIMIT=50]-->
+    <string name="bluetooth_tethering_off_subtext" product="shield">未共用這個 SHIELD 的網際網路連線</string>
+    <!-- [CHAR LIMIT=100] Security & location settings screen, setting check box summary for GPS satellites on a SHIELD -->
+    <string name="location_street_level" product="shield">允許應用程式使用 SHIELD 上的 GPS 來找出您的精確位置</string>
+    <!-- Main settings screen, setting title for the user to go into the About phone screen -->
+    <string name="about_settings" product="shield">關於 SHIELD</string>
+    <!-- Applications settings screen, message text of alert that appears if user selects the "Unknown sources" check box -->
+    <string name="install_all_warning" product="shield">來歷不明的應用程式更有可能會損害您的 SHIELD 及個人資料。如因使用這些應用程式導致 SHIELD 受損或資料遺失，請自行負責。</string>
+    <!-- Manage applications, individual application info screen, text that appears under the "Permissions" heading. This describes the permissions that the application has. -->
+    <string name="security_settings_desc" product="shield">這個應用程式可存取 SHIELD 上的下列項目：</string>
+    <!-- [CHAR_LIMIT=NONE] Manage applications, individual application info screen, text that appears under the "Permissions" heading.
+         This describes the permissions that the application has.  It is used when multiple packages are contributing to the permissions and need to be listed here. -->
+    <string name="security_settings_desc_multi" product="shield">這個應用程式可存取您 SHIELD 上的下列項目。由於能夠與 <xliff:g id="additional_apps_list">%2$s</xliff:g> 以相同的流程執行，為了增進效能與降低記憶體使用量，<xliff:g id="base_app_name">%1$s</xliff:g> 可以使用其中某些權限：</string>
+
+    <!-- Manage applications, text for Move button to move app to internal storage -->
+    <string name="move_app_to_internal" product="shield">移至 SHIELD</string>
+    <!-- Running service details, stop confirmation descriptive text. Displays when user selects selects to stop a system service. -->
+    <string name="runningservicedetails_stop_dlg_text" product="shield">如果您停用這項服務，SHIELD 上的某些功能可能無法正常運作，待您重新開機之後才會恢復正常。</string>
+    <!-- In the Testing screen.  The item title of the activity that shows a bunch of phone-related information.  -->
+    <string name="testing_phone_info" product="shield">SHIELD 資訊</string>
+
+    <!-- Label for power consumed when Idle -->
+    <string name="power_idle" product="shield">SHIELD 閒置中</string>
+
+    <!-- Label for Phone usage time -->
+    <string name="usage_type_phone" product="shield">SHIELD</string>
+    <!-- Description for standby detail -->
+    <string name="battery_desc_standby" product="shield">當 SHIELD 閒置時的耗電量</string>
+    <!-- Remove account message in dialog [CHAR LIMIT=NONE] -->
+    <string name="really_remove_account_message" product="shield">移除帳戶之後，SHIELD 上所有的訊息、聯絡人和其他資料將全部遭到刪除！</string>
+    <!-- This is shown if the autheticator for a given account fails to remove it. -->
+    <string name="remove_account_failed" product="shield">某些應用程式需要使用這個帳戶。若要移除帳戶，您必須在「設定 &gt; 備份與重設」中將 SHIELD 重設為原廠預設值（系統會刪除您所有的個人資料）。</string>
+    <!--  Body of dialog shown when user enables global auto sync, for shield [CHAR LIMIT=none] -->
+    <string name="data_usage_auto_sync_on_dialog" product="shield">您在網路上對帳戶進行的任何變更都會自動複製到您的 SHIELD。\n\n某些帳戶也可能自動將您在 SHIELD 上進行的所有變更複製到網路上。Google 帳戶就是這樣運作。\n\n若要選擇要在每個帳戶內同步處理哪種資訊，前往「設定 &gt; 帳戶」。</string>
+    <!-- Body of dialog shown before user limits mobile data usage. [CHAR LIMIT=NONE] -->
+    <string name="data_usage_limit_dialog_mobile" product="shield">達到指定的流量上限時，系統會停用您的行動資料連線。\n\n因為 SHIELD 計算資料使用量，而且您的行動通訊業者對於使用量的計算方式可能有所不同，因此考慮使用傳統限制。</string>
+    <!-- Body of dialog shown before user restricts background data usage. This is for multiuser SHIELDS. [CHAR LIMIT=NONE] -->
+    <string name="data_usage_restrict_background_multiuser" product="shield">如果您限制背景行動資料傳輸量，則必須連接至 WiFi 網路，某些應用程式和服務才能運作。\n\n此設定會影響此 SHIELD 上的所有使用者。</string>
+
+    <!-- Label displaying total network data transferred during a specific time period, including a disclaimer that contrasts device versus carrier reporting. [CHAR LIMIT=80] -->
+    <string name="data_usage_total_during_range_mobile" product="shield"> <xliff:g id="range" example="Jul 1 - Jul 31">%2$s</xliff:g>：根據 SHIELD 計算，已使用大約 <xliff:g id="total" example="128KB">%1$s</xliff:g>。您的行動通訊業者對於資料使用量的計算方式可能會有所不同。</string>
+    <!-- Message to secondary users that only owner can manage users [CHAR LIMIT=none] -->
+    <string name="user_cannot_manage_message" product="shield">只有 SHIELD 的擁有者可以管理使用者。</string>
+    <!-- User (self) removal confirmation message [CHAR LIMIT=none] -->
+    <string name="user_confirm_remove_self_message" product="shield">您將會失去在此 SHIELD 上的可用空間和資料。您無法復原這個動作。</string>
+    <!-- User removal confirmation message [CHAR LIMIT=none] -->
+    <string name="user_confirm_remove_message" product="shield">這位使用者在此 SHIELD 上的可用空間和資料將會消失。您無法復原這個動作。</string>
+    <!-- Warning message when changing a global setting for a SHIELD.[CHAR LIMIT=none] -->
+    <string name="global_change_warning" product="shield">此設定會影響此 SHIELD 上的所有使用者。</string>
+
+    <!-- On Language & input settings screen, setting summary.  Setting for thor button brightness. [CHAR LIMIT=35] -->
+    <add-resource type="string" name="nv_led_brightness" />
+    <string name="nv_led_brightness">LED 亮度</string>
+    <!-- Category title for Virtual mouse [CHAR LIMIT=40] -->
+    <add-resource type="string" name="nv_nvidia_button" />
+    <string name="nv_nvidia_button">NVIDIA 按鈕</string>
+
+    <add-resource type="string" name="nv_category_controller_volume" />
+    <string name="nv_category_controller_volume">音量控制</string>
+
+    <add-resource type="string" name="controller_volume_text" />
+    <string name="controller_volume_text">使用保險桿來調整音量</string>
+
+    <add-resource type="string" name="controller_volume_summary" />
+    <string name="controller_volume_summary">LB 和 RB 將在按下音量按鈕之後調整音量</string>
+     <!-- Controller pulse nvidia led when sleeping-->
+     <add-resource type="string" name="controller_pulse_led" />
+     <string name="controller_pulse_led">當裝置在睡眠時脈衝 LED</string>
+
+    <!-- Security & location settings screen, setting check box title. This controls whether the device locks immediately when the user closes the lid. [CHAR LIMIT=28]-->
+    <string name="lockpattern_settings_enable_power_button_instantly_locks">關上蓋子之後立即鎖定</string>
+
+    <add-resource type="string" name="nv_license_title" />
+    <string name="nv_license_title">NVIDIA 法律</string>
+    <add-resource type="string" name="nv_swla" />
+    <string name="nv_swla">軟體授權協議</string>
+    <add-resource type="string" name="nv_privacy" />
+    <string name="nv_privacy">隱私政策</string>
+    <add-resource type="string" name="nv_tegra_exp_tos" />
+    <string name="nv_tegra_exp_tos">Tegra Experience 服務條款</string>
+    <add-resource type="string" name="nv_warranty" />
+    <string name="nv_warranty">保固資訊</string>
+    <add-resource type="string" name="nv_settings_license_activity_title" />
+    <string name="nv_settings_license_activity_title">NVIDIA 授權</string>
+
+    <!-- Fullscreen settings title -->
+    <add-resource type="string" name="fullscreen_mode_title" />
+    <string name="fullscreen_mode_title">全螢幕模式</string>
+    <!-- Fullscreen settings text -->
+    <add-resource type="string" name="fullscreen_mode_text" />
+    <string name="fullscreen_mode_text">僅在主螢幕顯示狀態列</string>
+
+    <!-- About device screen, report bug to nvidia -->
+    <add-resource type="string" name="nv_feedback" />
+    <string name="nv_feedback">將回饋意見送至 NVIDIA</string>
+
+</resources>

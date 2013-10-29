@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Bluetooth settings screen, menu item to change this device's Bluetooth name. [CHAR LIMIT=30] -->
+    <string name="bluetooth_rename_device" product="shield">SHIELD の名前変更</string>
+    <!-- Strings for asking to the user whether to allow an app to enable discovery mode -->
+    <string name="bluetooth_ask_discovery" product="shield">"アプリが、<xliff:g id="timeout">%1$d</xliff:g> 秒間他の Bluetooth デバイスにこの SHIELD を表示しようとしています。許可しますか?"</string>
+    <!-- The title of the activity to see phone info -->
+    <string name="phone_info_label" product="shield">SHIELD 情報</string>
+    <!-- mobile network settings screen, message in dialog box that appears when you select the "Data roaming" check box. This is for multiuser SHIELDS [CHAR LIMIT=none] -->
+    <string name="roaming_warning_multiuser" product="shield">データ ローミングを許可すると、高額な通信料が発生することがあります。\n\nこの設定はこの SHIELD 上のすべてのユーザーに影響します。</string>
+    <!-- Title of the preferences item to control encryption -->
+    <string name="crypt_keeper_encrypt_title" product="shield">SHIELD の暗号化</string>
+    <!-- Summary of the preferences item to control encryption, when encryption is inactive -->
+    <string name="crypt_keeper_encrypt_summary" product="shield">電源を入れるたびに数値の PIN またはパスワードを入力して SHIELD を復号化する必要がある</string>
+    <!-- Informational text in the first confirmation screen before starting device encryption -->
+    <string name="crypt_keeper_desc" product="shield">
+アカウント、設定、ダウンロードしたアプリとそのデータ、メディアなどのファイルを暗号化できます。SHIELD を一度暗号化すると、電源を入れるたびに数値の PIN またはパスワードを入力して復号化する必要があります。暗号化を解除するためには、SHIELD を出荷時設定にリセットしてすべてのデータを消去しなければなりません。\n\n暗号化には 1 時間以上かかります。開始する前に完全に充電しておき、暗号化が完了するまで電源を接続したままにする必要があります。暗号化処理を中断すると、データの一部または全部が失われます。</string>
+    <!-- Button text to start encryption process -->
+    <string name="crypt_keeper_button_text" product="shield">SHIELD の暗号化</string>
+    <!-- Warning text in the final confirmation screen before starting device encryption -->
+    <string name="crypt_keeper_final_desc" product="shield">
+この暗号化操作は元に戻すことができず、途中で中断するとデータが失われます。
+暗号化には 1 時間以上かかり、途中で SHIELD が何度か再起動されます。
+    </string>
+
+    <!-- Informational text on the progress screen while encrypting the device -->
+    <string name="crypt_keeper_setup_description" product="shield">SHILED の暗号化中です (<xliff:g id="percent" example="50">^1</xliff:g>% 完了)。完了するまでお待ちください。</string>
+    <!-- Informational text when encryption fails -->
+    <string name="crypt_keeper_failed_summary" product="shield"> 暗号化処理が中断されて完了できなかったため、SHIELD 上のデータにアクセスできなくなりました。\n\n
+SHIELD の使用を再開するには、SHIELD を出荷時設定にリセットする必要があります。
+リセット後、SHIELD のセットアップの段階で、Google アカウントにバックアップしたデータの復元を選択できます。
+    </string>
+    <!-- Bluetooth settings.  Message for disconnecting from the PAN profile (NAP role). [CHAR LIMIT=80] -->
+    <string name="bluetooth_disconnect_pan_nap_profile" product="shield"> SHIELD のインターネット接続の共有から <xliff:g id="device_name">%1$s</xliff:g> を切断します。</string>
+
+    <!-- Description of NFC in the 1st level settings screen, for a SHIELD. [CHAR LIMIT=NONE] -->
+    <string name="nfc_quick_toggle_summary" product="shield">SHIELD が他のデバイスと接触したときのデータ交換を許可する</string>
+    <!-- Text warning about skipping Wi-Fi with a mobile connect (SHIELD) [CHAR LIMIT=NONE]-->
+    <string name="wifi_skipped_message" product="shield" msgid="6518433975501257341">警告: 追加のデータ通信料が発生する可能性があります。\n\nSHIELD のセットアップでは大量のネットワーク処理が必要となる場合があります。</string>
+    <!-- Text warning about skipping Wi-Fi without a mobile connect (SHIELD) [CHAR LIMIT=NONE] -->
+    <string name="wifi_and_mobile_skipped_message" product="shield" msgid="5647058314212144925">警告: ソフトウェアが最新の状態であることを SHIELD が確認できなくなります。</string>
+    <!-- Text alerting that Wi-Fi couldn't connect (SHIELD) [CHAR LIMIT=NONE] -->
+    <string name="wifi_connect_failed_message" product="shield" msgid="2006689630582761529">SHIELD からこの Wi-Fi ネットワークに接続できませんでした。</string>
+    <!-- Dock audio summary for undocked -->
+    <string name="dock_audio_summary_none" product="shield">SHIELD が装着されていません</string>
+    <!-- Dock not found dialog text -->
+    <string name="dock_not_found_text" product="shield">ホルダーの音声を設定するには、SHIELD をホルダーに装着する必要があります。</string>
+    <!-- Dock settings screen, setting option summary text when check box is selected -->
+    <string name="dock_sounds_enable_summary_on" product="shield">SHIELD のホルダー脱着時に音を鳴らす</string>
+    <!-- Sound settings screen, setting option summary text when check box is clear -->
+    <string name="dock_sounds_enable_summary_off" product="shield">SHIELD のホルダー脱着時に音を鳴らさない</string>
+
+    <!-- Sound & display settings screen, accelerometer-based rotation summary text when check box is selected -->
+    <string name="accelerometer_summary_on" product="shield">画面の向きに合わせて縦横表示を切り替える</string>
+    <!-- Sound & display settings screen, accelerometer-based rotation summary text when check box is clear -->
+    <string name="accelerometer_summary_off" product="shield">画面の向きに合わせて縦横表示を切り替える</string>
+    <!-- SIM card lock settings screen, setting option summary text when SIM lock check box is selected -->
+    <string name="sim_lock_on" product="shield">SHIELD 使用時に PIN 入力が必要になります</string>
+    <!-- SIM card lock settings screen, setting option summary text when SIM lock check box is clear -->
+    <string name="sim_lock_off" product="shield">SHIELD 使用時に PIN 入力が必要になります</string>
+    <!-- Advanced (used for diagnostics) device info activity title -->
+    <string name="device_info_settings" product="shield">SHIELD ステータス</string>
+
+    <!-- About tablet screen, summary of the item that takes you to tablet status screen -->
+    <string name="device_status_summary" product="shield">電池やネットワークなどの情報のステータス</string>
+    <!-- About tablet, status item title.  The Mobile Directory Number [CHAR LIMIT=30] -->
+    <string name="status_number" product="shield">MDN</string>
+    <!-- SD card & phone storage settings screen, setting option summary text under Internal phone storage heading -->
+    <string name="master_clear_summary" product="shield">SHIELD 内のすべてのデータを消去する</string>
+    <!-- SD card & phone storage settings screen, message on screen after user selects Factory data reset [CHAR LIMIT=NONE] -->
+    <string name="master_clear_desc" product="shield">"SHIELD の<b>内部ストレージ</b>から、以下を含むすべてのデータが消去されます。\n\n<li>Google アカウント</li>\n<li>システムおよびアプリのデータと設定</li>\n<li>ダウンロードしたアプリ</li>"</string>
+    <!-- SD card & phone storage settings screen, button on screen after user selects Factory data reset -->
+    <string name="master_clear_button_text" product="shield">SHIELD のリセット</string>
+    <!-- Bluetooth available subtext - shown when Bluetooth tethering is turned on but it is not currently tethered to any devices [CHAR LIMIT=50]-->
+    <string name="bluetooth_tethering_available_subtext" product="shield">SHIELD のインターネット接続を共有</string>
+    <!-- Bluetooth connected subtext - shown when a device is tethered over Bluetooth [CHAR LIMIT=60]-->
+    <string name="bluetooth_tethering_device_connected_subtext" product="shield">SHIELD のインターネット接続を 1 台のデバイスと共有</string>
+    <!-- Bluetooth connected subtext - shown when multiple devices are tethered over Bluetooth [CHAR LIMIT=60]-->
+    <string name="bluetooth_tethering_devices_connected_subtext" product="shield">SHIELD のインターネット接続を <xliff:g id="connectedDeviceCount">%1$d</xliff:g> 台のデバイスと共有</string>
+    <!-- Bluetooth tethering off subtext - shown when Bluetooth Tethering is turned off [CHAR LIMIT=50]-->
+    <string name="bluetooth_tethering_off_subtext" product="shield">SHIELD のインターネット接続を共有しない</string>
+    <!-- [CHAR LIMIT=100] Security & location settings screen, setting check box summary for GPS satellites on a SHIELD -->
+    <string name="location_street_level" product="shield">SHIELD で GPS を使用して現在地を特定することをアプリに許可する</string>
+    <!-- Main settings screen, setting title for the user to go into the About phone screen -->
+    <string name="about_settings" product="shield">SHIELD のバージョン情報</string>
+    <!-- Applications settings screen, message text of alert that appears if user selects the "Unknown sources" check box -->
+    <string name="install_all_warning" product="shield">提供元不明のアプリから SHIELD や個人データが攻撃を受ける可能性が高くなります。このようなアプリの使用により生じる可能性がある SHIELD への損害やデータの損失について、ユーザーご自身が単独で責任を負うことに同意するものとします。</string>
+    <!-- Manage applications, individual application info screen, text that appears under the "Permissions" heading. This describes the permissions that the application has. -->
+    <string name="security_settings_desc" product="shield">このアプリは SHIELD 上の以下の項目にアクセスする場合があります。</string>
+    <!-- [CHAR_LIMIT=NONE] Manage applications, individual application info screen, text that appears under the "Permissions" heading.
+         This describes the permissions that the application has.  It is used when multiple packages are contributing to the permissions and need to be listed here. -->
+    <string name="security_settings_desc_multi" product="shield">このアプリは SHIELD 上の以下の項目にアクセスする場合があります。パフォーマンスの向上とメモリ使用量の削減のために、これらの権限の一部は、<xliff:g id="additional_apps_list">%2$s</xliff:g> と同じプロセスで実行される <xliff:g id="base_app_name">%1$s</xliff:g> でも使用できます。</string>
+
+    <!-- Manage applications, text for Move button to move app to internal storage -->
+    <string name="move_app_to_internal" product="shield">SHIELD への移動</string>
+    <!-- Running service details, stop confirmation descriptive text. Displays when user selects selects to stop a system service. -->
+    <string name="runningservicedetails_stop_dlg_text" product="shield">このサービスを停止すると、電源を一旦オフにして再度オンにするまで、SHIELD の一部の機能が正常に動作しなくなる場合があります。</string>
+    <!-- In the Testing screen.  The item title of the activity that shows a bunch of phone-related information.  -->
+    <string name="testing_phone_info" product="shield">SHIELD 情報</string>
+
+    <!-- Label for power consumed when Idle -->
+    <string name="power_idle" product="shield">SHIELD アイドル</string>
+
+    <!-- Label for Phone usage time -->
+    <string name="usage_type_phone" product="shield">SHIELD</string>
+    <!-- Description for standby detail -->
+    <string name="battery_desc_standby" product="shield">アイドル時の電池使用量</string>
+    <!-- Remove account message in dialog [CHAR LIMIT=NONE] -->
+    <string name="really_remove_account_message" product="shield">このアカウントを削除すると、メール、連絡先などのすべてのデータも SHIELD から削除されます。</string>
+    <!-- This is shown if the autheticator for a given account fails to remove it. -->
+    <string name="remove_account_failed" product="shield">このアカウントは一部のアプリに必要です。アカウントを削除するには、[設定] &gt; [バックアップとリセット] を選択して、SHIELD を出荷時設定にリセットする必要があります (個人データはすべて削除されます)。</string>
+    <!--  Body of dialog shown when user enables global auto sync, for shield [CHAR LIMIT=none] -->
+    <string name="data_usage_auto_sync_on_dialog" product="shield">Web でアカウントに加えた変更は、自動的に SHIELD に反映されます。\n\nアカウントによっては、SHIELD で加えた変更が自動的に Web に反映される場合もあります。Google アカウントがこれに該当します。\n\n各アカウント内で同期する情報の種類を選択するには、[設定] &gt; [アカウント] を選択します。</string>
+    <!-- Body of dialog shown before user limits mobile data usage. [CHAR LIMIT=NONE] -->
+    <string name="data_usage_limit_dialog_mobile" product="shield">モバイル データ接続は、指定の制限に達した場合に無効になります。\n\nSHIELD によって測定されるデータ使用量が携帯通信会社によって同じように解釈されるとは限らないため、制限値には余裕を設けるようにしてください。</string>
+    <!-- Body of dialog shown before user restricts background data usage. This is for multiuser SHIELDS. [CHAR LIMIT=NONE] -->
+    <string name="data_usage_restrict_background_multiuser" product="shield">バックグラウンドのモバイル データを制限すると、アプリやサービスによっては、Wi-Fi ネットワーク未接続時に機能しない場合があります。\n\nこの設定はこの SHIELD 上のすべてのユーザーに影響します。</string>
+
+    <!-- Label displaying total network data transferred during a specific time period, including a disclaimer that contrasts device versus carrier reporting. [CHAR LIMIT=80] -->
+    <string name="data_usage_total_during_range_mobile" product="shield"> <xliff:g id="range" example="Jul 1 - Jul 31">%2$s</xliff:g>: 約 <xliff:g id="total" example="128KB">%1$s</xliff:g> が使用済み。SHIELD による測定値に基づきます。携帯通信会社の利用明細は異なる場合があります。</string>
+    <!-- Message to secondary users that only owner can manage users [CHAR LIMIT=none] -->
+    <string name="user_cannot_manage_message" product="shield">ユーザーを管理できるのは SHIELD の所有者のみです。</string>
+    <!-- User (self) removal confirmation message [CHAR LIMIT=none] -->
+    <string name="user_confirm_remove_self_message" product="shield">この SHIELD のスペースとデータが失われます。この操作は元に戻せません。</string>
+    <!-- User removal confirmation message [CHAR LIMIT=none] -->
+    <string name="user_confirm_remove_message" product="shield">このユーザーのスペースとデータが SHIELD から消去されます。この操作は元に戻せません。</string>
+    <!-- Warning message when changing a global setting for a SHIELD.[CHAR LIMIT=none] -->
+    <string name="global_change_warning" product="shield">この設定はこの SHIELD 上のすべてのユーザーに影響します。</string>
+
+    <!-- On Language & input settings screen, setting summary.  Setting for thor button brightness. [CHAR LIMIT=35] -->
+    <add-resource type="string" name="nv_led_brightness" />
+    <string name="nv_led_brightness">LED 明るさ</string>
+    <!-- Category title for Virtual mouse [CHAR LIMIT=40] -->
+    <add-resource type="string" name="nv_nvidia_button" />
+    <string name="nv_nvidia_button">NVIDIA ボタン</string>
+
+    <add-resource type="string" name="nv_category_controller_volume" />
+    <string name="nv_category_controller_volume">ボリューム コントロール</string>
+
+    <add-resource type="string" name="controller_volume_text" />
+    <string name="controller_volume_text">ボリューム調整にバンパーを使用</string>
+
+    <add-resource type="string" name="controller_volume_summary" />
+    <string name="controller_volume_summary">ボリューム ボタンを押した後は、LB および RB によってボ>リューム調整されます</string>
+     <!-- Controller pulse nvidia led when sleeping-->
+     <add-resource type="string" name="controller_pulse_led" />
+     <string name="controller_pulse_led">端末がスリープ状態のときに LED を点滅</string>
+
+    <!-- Security & location settings screen, setting check box title. This controls whether the device locks immediately when the user closes the lid. [CHAR LIMIT=28]-->
+    <string name="lockpattern_settings_enable_power_button_instantly_locks">端末を閉じたらすぐにロッ
+ク</string>
+
+    <add-resource type="string" name="nv_license_title" />
+    <string name="nv_license_title">NVIDIA 法的通知</string>
+    <add-resource type="string" name="nv_swla" />
+    <string name="nv_swla">ソフトウェア使用許諾契約書</string>
+    <add-resource type="string" name="nv_privacy" />
+    <string name="nv_privacy">プライバシー ポリシー</string>
+    <add-resource type="string" name="nv_tegra_exp_tos" />
+    <string name="nv_tegra_exp_tos">Tegra エクスペリエンス サービス規約</string>
+    <add-resource type="string" name="nv_warranty" />
+    <string name="nv_warranty">保証情報</string>
+    <add-resource type="string" name="nv_settings_license_activity_title" />
+    <string name="nv_settings_license_activity_title">NVIDIA ライセンス</string>
+
+    <!-- Fullscreen settings title -->
+    <add-resource type="string" name="fullscreen_mode_title" />
+    <string name="fullscreen_mode_title">フルスクリーンモード</string>
+    <!-- Fullscreen settings text -->
+    <add-resource type="string" name="fullscreen_mode_text" />
+    <string name="fullscreen_mode_text">ただホーム画面でステータスバーを表示</string>
+
+    <!-- About device screen, report bug to nvidia -->
+    <add-resource type="string" name="nv_feedback" />
+    <string name="nv_feedback">NVIDIA にフィードバックを送信する</string>
+
+</resources>

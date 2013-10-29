@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Description in the dialog that appears if there are no pictures from which to create an icon for a contact -->
+    <string name="photoPickerNotFoundText" product="shield">ምንም ስዕሎች የሉም።</string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is disabled.  [CHAR LIMIT=NONE] -->
+    <string name="noContactsHelpText" product="shield">"ለማሳየት ምንም እውቅያ የለህም።\n\nእውቅያዎች ለማከል፣ የ <font fgcolor="#ffffffff"><b>ምናሌ</b></font>ንካ፣ ከዛም ነካ አድርግ፥\n
+        \n <li><font fgcolor="#ffffffff"><b>መለያዎች</b></font> ለማከል ወይም ወደ SHIELD ማስመር የምትችለውን እውቅያዎች ጋር መለያ አዋቅር።\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>አዲስ እውቅያ</b></font> እንደ አዲስ አዲስ እውቅያ ለመፍጠር\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>ማስመጣት/መላክ</b></font> ከአንተ SIM ወይም SD ካርድ ላይ እውቅያዎችን ለማስመጣት\n</li>"
+    </string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is enabled.  [CHAR LIMIT=NONE] -->
+    <string name="noContactsHelpTextWithSync" product="shield">"ለማሳየት ምንም እውቅያ የለህም። (አሁን መለያ ያከልክ ከሆነ፣ እውቅያዎችን ለማስመር ጥቂት ደቂቃዎችን ሊወስድ ይችላል።)\n\nእውቅያዎችን ለማከል፣ የ <font fgcolor="#ffffffff"><b>ምናሌ</b></font>ንካ፣ ከዛም ይሄንን ንካ፥\n
+        \n<li><font fgcolor="#ffffffff"><b>መለያዎች</b></font> ለማከል ወይም ወደ SHIELD ማስመር የምትችለውን እውቅያዎች ጋር መለያ አዋቅር።\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>ማሳያ አማራጮች</b></font> የትኛዎቹ እውቅያዎች እንደሚታዩ ለመቀየር\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>አዲስ እውቅያ</b></font> እንደ አዲስ አዲስ እውቅያ ለመፍጠር\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>ማስመጣት/መላክ</b></font> ከአንተ SIM ወይም SD ካርድ ላይ እውቅያዎችን ለማስመጣት\n</li>"
+    </string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is disabled, and there is no sim card (cdma).  [CHAR LIMIT=NONE]-->
+    <string name="noContactsNoSimHelpText" product="shield">"ለማሳየት ምንም እውቅያ የለህም።\n\nእውቅያዎች ለማከል፣ የ <font fgcolor="#ffffffff"><b>ምናሌ</b></font>ንካ፣ ከዛም ነካ አድርግ፥\n
+        \n<li><font fgcolor="#ffffffff"><b>መለያዎች</b></font> ለማከል ወይም ወደ SHIELD ማስመር የምትችለውን እውቅያዎች ጋር መለያ አዋቅር።\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>አዲስ እውቅያ</b></font> እንደ አዲስ አዲስ እውቅያ ለመፍጠር\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>ማስመጣት/መላክ</b></font> ከአንተ SD ካርድ ላይ እውቅያዎችን ለማስመጣት\n</li>"
+    </string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is enabled, and there is no sim card (cdma).  [CHAR LIMIT=NONE] -->
+    <string name="noContactsNoSimHelpTextWithSync" product="shield">"ለማሳየት ምንም እውቅያ የለህም። (አሁን መለያ ያከልክ ከሆነ፣ እውቅያዎችን ለማስመር ጥቂት ደቂቃዎችን ሊወስድ ይችላል።)\n\nእውቅያዎችን ለማከል፣ የ <font fgcolor="#ffffffff"><b>ምናሌ</b></font>ንካ፣ ከዛም ይሄንን ንካ፥\n
+        \n<li><font fgcolor="#ffffffff"><b>መለያዎች</b></font> ለማከል ወይም ወደ SHIELD ማስመር የሚችሉትን እውቅያዎች ጋር መለያ ያዋቅሩ።\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>ማሳያ አማራጮች</b></font> የትኛዎቹ እውቅያዎች እንደሚታዩ ለመቀየር\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>አዲስ እውቅያ</b></font> እንደ አዲስ አዲስ እውቅያ ለመፍጠር\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>ማስመጣት/መላክ</b></font> ከአንተ SD ካርድ ላይ እውቅያዎችን ለማስመጣት\n</li>"
+    </string>
+    <!-- This error message shown when the user actually have no contact (e.g. just after data-wiping), or, data providers of the contact list prohibits their contacts from being exported to outside world via vcard exporter, etc. [CHAR LIMIT=NONE] -->
+    <string name="composer_has_no_exportable_contact" product="shield">ሊላኩ የሚችሉ ምንም እውቅያዎች የሉም። በ SHIELD ላይ እውቅያዎች የሌለህ እንደሆነ፣ አንዳንድ ውሂብ አቅራቢዎች እውቅያዎቹ እንዲላክ ላይፈቅዱ ይችላሉ።</string>
+    <!-- Title for data source when creating or editing a contact that doesn't belong to a specific account.  This contact will only exist on the phone and will not be synced. -->
+    <string name="account_phone" product="shield">SHIELD-ብቻ፣ አልሰመረም</string>
+
+</resources>

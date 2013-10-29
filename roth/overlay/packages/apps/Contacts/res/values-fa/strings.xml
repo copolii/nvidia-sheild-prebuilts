@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Description in the dialog that appears if there are no pictures from which to create an icon for a contact -->
+    <string name="photoPickerNotFoundText" product="shield">عکسی در دسترس نیست.</string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is disabled.  [CHAR LIMIT=NONE] -->
+    <string name="noContactsHelpText" product="shield">"هیچ مخاطبی برای نمایش ندارید.\n\nبرای افزودن مخاطبین <font fgcolor="#ffffffff"><b>منو</b></font> و سپس این موارد را لمس کنید:\n
+        \n <li><font fgcolor="#ffffffff"><b>حساب‌ها</b></font> برای افزودن یا تنظیم حساب با مخاطبینی که می‌توانید با SHIELD همگام‌سازی کنید\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>مخاطب جدید</b></font>  برای ایجاد مخاطب جدیدی از ابتدا\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>وارد کردن/صادر کردن</b></font> برای وارد کردن مخاطبین از سیم کارت یا کارت SD\n</li>"
+    </string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is enabled.  [CHAR LIMIT=NONE] -->
+    <string name="noContactsHelpTextWithSync" product="shield">"مخاطبی برای نمایش ندارید. (اگر به تازگی حسابی را اضافه کردید، همگام‌سازی مخاطبین ممکن است چند دقیقه طول بکشد.)\n\nبرای افزودن مخاطبین، <font fgcolor="#ffffffff"><b>منو</b></font> و سپس این موارد را لمس کنید:\n
+        \n<li><font fgcolor="#ffffffff"><b>حساب‌ها</b></font> برای افزودن یا تنظیم حساب با مخاطبینی که می‌توانید با SHIELD همگام‌سازی کنید\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>گزینه‌های نمایش</b></font> برای تغییر مخاطبینی که قابل مشاهده هستند\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>مخاطب جدید</b></font> برای ایجاد مخاطب جدیدی از ابتدا\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>وارد کردن/صادر کردن</b></font> برای وارد کردن مخاطبین از سیم کارت یا کارت SD\n</li>"
+    </string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is disabled, and there is no sim card (cdma).  [CHAR LIMIT=NONE]-->
+    <string name="noContactsNoSimHelpText" product="shield">"هیچ مخاطبی برای نمایش ندارید.\n\nبرای افزودن مخاطبین <font fgcolor="#ffffffff"><b>منو</b></font> و سپس این موارد را لمس کنید:\n
+        \n<li><font fgcolor="#ffffffff"><b>حساب‌ها</b></font> برای افزودن یا تنظیم حساب با مخاطبینی که می‌توانید با SHIELD همگام‌سازی کنید\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>مخاطب جدید</b></font> برای ایجاد مخاطب جدیدی از ابتدا\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>وارد کردن/صادر کردن</b></font> برای وارد کردن مخاطبین از سیم کارت یا کارت SD\n</li>"
+    </string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is enabled, and there is no sim card (cdma).  [CHAR LIMIT=NONE] -->
+    <string name="noContactsNoSimHelpTextWithSync" product="shield">"مخاطبی برای نمایش ندارید. (اگر به تازگی حسابی را اضافه کردید، همگام‌سازی مخاطبین ممکن است چند دقیقه طول بکشد.)\n\nبرای افزودن مخاطبین، <font fgcolor="#ffffffff"><b>منو</b></font> و سپس این موارد را لمس کنید:\n
+        \n<li><font fgcolor="#ffffffff"><b>حساب‌ها</b></font> برای افزودن یا تنظیم حساب با مخاطبینی که می‌توانید با SHIELD همگام‌سازی کنید\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>گزینه‌های نمایش</b></font> برای تغییر مخاطبینی که قابل مشاهده هستند\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>مخاطب جدید</b></font> برای ایجاد مخاطب جدیدی از ابتدا\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>وارد کردن/صادر کردن</b></font> برای وارد کردن مخاطبین از سیم کارت یا کارت SD\n</li>"
+    </string>
+    <!-- This error message shown when the user actually have no contact (e.g. just after data-wiping), or, data providers of the contact list prohibits their contacts from being exported to outside world via vcard exporter, etc. [CHAR LIMIT=NONE] -->
+    <string name="composer_has_no_exportable_contact" product="shield">مخاطب قابل صدوری وجود ندارد. اگر در SHIELD خود مخاطبینی دارید، بعضی از ارائه‌دهندگان داده ممکن است اجازه ندهند تا مخاطبین از گوشی صادر شوند.</string>
+    <!-- Title for data source when creating or editing a contact that doesn't belong to a specific account.  This contact will only exist on the phone and will not be synced. -->
+    <string name="account_phone" product="shield">فقط SHIELD، همگام‌سازی نشده</string>
+
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Description in the dialog that appears if there are no pictures from which to create an icon for a contact -->
+    <string name="photoPickerNotFoundText" product="shield">कोई चित्र उपलब्ध नहीं हैं.</string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is disabled.  [CHAR LIMIT=NONE] -->
+    <string name="noContactsHelpText" product="shield">"आपके पास प्रदर्शित करने के लिए कोई संपर्क नहीं हैं.\n\nसंपर्क जोड़ने के लिए, <font fgcolor="#ffffffff"><b>मेनू</b></font> स्पर्श करें, फिर छुएँ:\n
+        \n <li><font fgcolor="#ffffffff"><b>खाते</b></font> संपर्कों के साथ खाते जोड़ने के लिए या सेटअप करने के लिए आप SHIELD से सिंक कर सकते हैं\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>नए संपर्क</b></font> शुरूआत से नए संपर्क बनाने के लिए\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>आयात/निर्यात</b></font> आपके SIM या SD कार्ड से संपर्क आयात करने के लिए\n</li>"
+    </string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is enabled.  [CHAR LIMIT=NONE] -->
+    <string name="noContactsHelpTextWithSync" product="shield">"प्रदर्शन के लिए आपके पास कोई भी संपर्क नहीं है.  (यदि आपने अभी कोई खाता जोड़ा है, तो संपर्क सिंक होने में चंद मिनट लग सकते हैं.)\n\nसंपर्क जोड़ने के लिए, <font fgcolor="#ffffffff"><b>मेनू</b></font> स्पर्श करें, फिर छुएँ:\n
+        \n<li><font fgcolor="#ffffffff"><b>खाते</b></font> संपर्कों के साथ खाते जोड़ने के लिए या सेटअप करने के लिए आप SHIELD से सिंक कर सकते हैं\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>प्रदर्शन विकल्प</b></font> दृश्य संपर्कों को बदलने के लिए\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>नए संपर्क</b></font> शुरूआत से नए संपर्क बनाने के लिए\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>आयात/निर्यात</b></font> आपके SIM या SD कार्ड से संपर्क आयात करने के लिए\n</li>"
+    </string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is disabled, and there is no sim card (cdma).  [CHAR LIMIT=NONE]-->
+    <string name="noContactsNoSimHelpText" product="shield">"आपके पास प्रदर्शित करने के लिए कोई संपर्क नहीं हैं.\n\nसंपर्क जोड़ने के लिए, <font fgcolor="#ffffffff"><b>मेनू</b></font> स्पर्श करें, फिर छुएँ:\n
+        \n<li><font fgcolor="#ffffffff"><b>खाते</b></font> संपर्कों के साथ खाते जोड़ने के लिए या सेटअप करने के लिए आप SHIELD से सिंक कर सकते हैं\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>नए संपर्क</b></font> शुरूआत से नए संपर्क बनाने के लिए\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>आयात/निर्यात</b></font> आपके SD कार्ड से संपर्क आयात करने के लिए\n</li>"
+    </string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is enabled, and there is no sim card (cdma).  [CHAR LIMIT=NONE] -->
+    <string name="noContactsNoSimHelpTextWithSync" product="shield">"प्रदर्शन के लिए आपके पास कोई भी संपर्क नहीं है.  (यदि आपने अभी कोई खाता जोड़ा है, तो संपर्क सिंक होने में चंद मिनट लग सकते हैं.)\n\nसंपर्क जोड़ने के लिए, <font fgcolor="#ffffffff"><b>मेनू</b></font> स्पर्श करें, फिर छुएँ:\n
+        \n<li><font fgcolor="#ffffffff"><b>खाते</b></font> संपर्कों के साथ खाते जोड़ने के लिए या सेटअप करने के लिए आप SHIELD से सिंक कर सकते हैं\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>प्रदर्शन विकल्प</b></font> दृश्य संपर्कों को बदलने के लिए\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>नए संपर्क</b></font> शुरूआत से नए संपर्क बनाने के लिए\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>आयात/निर्यात</b></font> आपके SD कार्ड से संपर्क आयात करने के लिए\n</li>"
+    </string>
+    <!-- This error message shown when the user actually have no contact (e.g. just after data-wiping), or, data providers of the contact list prohibits their contacts from being exported to outside world via vcard exporter, etc. [CHAR LIMIT=NONE] -->
+    <string name="composer_has_no_exportable_contact" product="shield">कोई भी निर्यात-योग्य संपर्क नहीं है.  यदि आपके पास अपने SHIELD पर संपर्क  हों, तो संभव है कि कुछ डेटा प्रदाता संपर्कों को निर्यात न करने दें.</string>
+    <!-- Title for data source when creating or editing a contact that doesn't belong to a specific account.  This contact will only exist on the phone and will not be synced. -->
+    <string name="account_phone" product="shield">केवल-SHIELD पर, सिंक नहीं होगा</string>
+
+</resources>

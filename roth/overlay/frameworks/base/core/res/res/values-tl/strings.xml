@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- If MMS discovers there isn't much space left on the device, it will show a toast with this message. -->
+    <string name="low_memory" product="shield">Puno na ang storage ng SHIELD. Magtanggal ng ilang file upang magkaroon ng espasyo.</string>
+    <!-- Title for the Phone Options dialog to lock the screen, turn off the phone etc. -->
+    <string name="power_dialog" product="shield">Mga pagpipilian sa SHIELD</string>
+    <!-- Shutdown Confirmation Dialog.  When the user chooses to power off the phone, there will be a confirmation dialog.  This is the message. -->
+    <string name="shutdown_confirm" product="shield">Magsa-shut down ang SHIELD.</string>
+    <!-- Title of the Global Actions Dialog -->
+    <string name="global_actions" product="shield">Mga pagpipilian sa SHIELD</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readSms" product="shield">Pinapayagan ang app na magbasa ng mga mensaheng SMS na naka-imbak sa iyong SHIELD o SIM card.  Pinapayagan nito ang app na basahin ang lahat ng mensaheng SMS, ano pa man ang nilalaman o pagiging kumpidensyal ng mga ito.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeSms" product="shield">Pinapayagan ang app na gumawa ng mga mensaheng SMS na naka-imbak sa iyong SHIELD o SIM card.  Maaaring tanggalin ng nakakahamak na apps ang iyong mga mensahe.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_injectEvents" product="shield">Pinapayagan ang app na ihatid ang sariling mga input event nito (mga pagpindot sa key, atbp.) sa iba pang apps.  Maaari itong gamitin ng nakakahamak na apps upang pangasiwaan ang SHIELD.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_persistentActivity" product="shield">Pinapayagan ang app na panatilihin ang ilang bahagi nito sa memory.   Maaari nitong limitahan ang memory na available sa iba pang apps at makakapagpabagal ito sa SHIELD.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_clearAppCache" product="shield">Pinapayagan ang app na bawasan ang laman ng storage ng SHIELD sa pamamagitan ng pagtatanggal ng mga file sa mga direktoryo ng cache ng ibang mga application.  Maaaring pabagalin nito ang pagsimula ng iba pang apps dahil kailangang muling kunin ng mga ito ang kanilang data.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readLogs" product="shield">Pinapayagan ang app na magbasa mula sa iba\'t ibang mga log file ng system.  Pinapayagan nito na tumuklas ito ng pangkalahatang impormasyon tungkol sa kung ano ang iyong ginagawa sa SHIELD, kung saan maaaring kabilang ang personal o pribadong impormasyon.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_changeComponentState" product="shield">Pinapayagan ang app na baguhin kung naka-enable ang isang bahagi ng isa pang app o hindi. Maaari itong gamitin ng nakakahamak na apps upang huwag paganahin ang mga mahalagang kakayahan ng SHIELD.  Dapat na mag-ingat sa pagpapahintulot na ito, dahil posibleng mapunta sa isang hindi nagagamit, pabagu-bago, o hindi matatag na katayuan ang mga bahagi ng app.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_receiveBootCompleted" product="shield">Pinapayagan ang app na mapasimula ang sarili nito sa sandaling matapos ang system sa pag-boot. Maaari nitong mapatagal ang pagsimula ng SHIELD at mahahayaang mapabagal ng app ang pagganap ng SHIELD sa kabuuan dahil palagi itong tumatakbo.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_broadcastSticky" product="shield">Pinapayagan ang app na magpadala ng mga sticky na broadcast, na nananatili pagkatapos magwakas ng pag-broadcast.  Maaaring pabagalin o gawing hindi matatag ang SHIELD ng labis na paggamit nito sa pamamagitan ng pagpapagamit nito ng masyadong maraming memory.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readContacts" product="shield">Pinapayagan ang app na mabasa ang data tungkol sa mga contact na naka-imbak sa SHIELD, kabilang ang dalas ng iyong pagtawag, pag-email, o pakikipag-ugnayan sa iba pang mga paraan sa mga partikular na indibidwal.  Pinapayagan ng pahintulot na ito na i-save ng apps ang data ng iyong contact, at maaaring magbahagi ang nakakahamak na apps ng data ng contact nang hindi mo nalalaman.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeContacts" product="shield">Pinapayagan ang app na baguhin ang data tungkol sa iyong mga contact na naka-imbak sa iyong SHIELD, kabilang ang dalas ng iyong pagtawag, pag-email, o pakikipag-ugnayan sa iba pang mga paraan sa mga partikular na contact.  Pinapayagan ng pahintulot na ito ang apps na magtanggal ng data ng contact.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readCallLog" product="shield">Pinapayagan ang app na mabasa ang log ng tawag sa iyong SHIELD, kabilang ang data tungkol sa mga paparating at papalabas na tawag.  Pinapayagan ng pahintulot na ito ang apps na i-save ang iyong data ng log ng tawag, at maaaring magbahagi ang nakakahamak na apps ng data ng log ng tawag nang hindi mo nalalaman.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeCallLog" product="shield">Binibigyan-daan ang app na baguhin ang log ng tawag ng iyong SHIELD, kabilang ang data tungkol sa mga paparating at papalabas na tawag. 
+        Maaari itong gamitin ng nakakahamak na apps upang burahin o baguhin ang iyong log ng tawag.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+
+    <string name="permdesc_readCalendar" product="shield">Pinapayagan ang app na basahin ang lahat ng kaganapan sa kalendaryo na naka-imbak sa iyong SHIELD, kabilang ang sa mga kaibigan o katrabaho.  Maaari nitong payagan ang app na ibahagi o i-save ang data ng iyong kalendaryo, ano pa man ang pagiging kumpidensyal o sensitibo ng mga ito.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+
+<string name="permdesc_writeCalendar" product="shield">Pinapayagan ang app na magdagdag, mag-alis, at magbago ng mga kaganapang maaari mong baguhin sa iyong SHIELD, kabilang ang sa mga kaibigan o katrabaho.  Maaari nitong payagan ang app na magpadala ng mga mensaheng lumililitaw na mula sa mga may-ari ng kalendaryo, o magbago ng mga kaganapan nang hindi nalalaman ng mga may-ari.</string>
+
+
+
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_brick" product="shield">permanenteng i-disable ang SHIELD</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_brick" product="shield">Pinapayagan ang app na permanenteng i-disable ang SHIELD. Napakapanganib nito.</string>
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_reboot" product="shield">pilitin na mag-reboot ang SHIELD</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_reboot" product="shield">Pinapayagan ang app na puwersahin ang SHIELD na mag-reboot.</string>
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_performCdmaProvisioning" product="shield">direktang simulan ang setup ng CDMA SHIELD</string>
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_wakeLock" product="shield">pigilan ang SHIELD sa pag-sleep</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_wakeLock" product="shield">Pinapayagan ang app na pigilan ang SHIELD na mag-sleep.</string>
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_devicePower" product="shield">i-on o i-off ang SHIELD</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_devicePower" product="shield">Pinapayagan ang app na i-on o i-off ang SHIELD.</string>
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_nvidiaCPUPower" product="shield">i-adjust ang NVIDIA Tegra CPU</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_nvidiaCPUPower" product="shield">Pinapayagan ang app na i-adjust ang mga parameter ng NVIDA Tegra CPU.  Maaari itong magkonsumo ng mas maraming power.</string>
+
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_factoryTest" product="shield">Patakbuhin bilang isang low-level manufacturer test, na nagbibigay ng kumpletong access sa hardware ng SHIELD. Available lang kapag tumatakbo ang SHIELD sa manufacturer test mode.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_setTime" product="shield">Pinapayagan ang app na baguhin ang oras ng SHIELD.</string>    
+<!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_setTimeZone" product="shield">Pinapayagan ang app na baguhin ang time zone ng SHIELD.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_getAccounts" product="shield">Pinapayagan ang app na kunin ang listahan ng mga account na alam ng SHIELD.  Maaaring kabilang dito ang anumang mga account na nililikha ng mga application na iyong na-install.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_changeWifiMulticastState" product="shield">Pinapayagan ang app na tumanggap ng mga packet na ipinapadala sa lahat ng device sa isang Wi-Fi network gamit ang mga multicast na address, hindi lang ang iyong SHIELD.  Gumagamit ito ng higit na power kaysa sa non-multicast mode.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_bluetoothAdmin" product="shield">Pinapayagan ang app na i-configure ang lokal na Bluetooth ng SHIELD, at na tumuklas at magpares ng mga remote na device.</string>
+
+    <string name="permdesc_changeWimaxState" product="shield">Pinapayagan ang app na kumonekta sa SHIELD at mag-disconnect sa SHIELD mula sa mga WiMAX na network.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_bluetooth" product="shield">Pinapayagan ang app na tingnan ang configuration ng Bluetooth sa SHIELD, at na gumawa at tumanggap ng mga koneksyong may mga nakapares na device.</string>
+    <!-- Description of policy access to watch user login attempts -->
+    <string name="policydesc_watchLogin" product="shield">Subaybayan ang bilang ng mga hindi tamang password na nai-type kapag ina-unlock ang screen, at i-lock ang SHIELD o burahin ang lahat ng data ng SHIELD kung masyadong marami ang na-type na hindi tamang password.</string>
+    <!-- Description of policy access to wipe the user's data -->
+    <string name="policydesc_wipeData" product="shield">Burahin ang data ng SHIELD nang walang babala sa pamamagitan ng pagsasagawa ng factory reset ng data.</string>
+    <!-- Shown in the lock screen when there is no SIM card. -->
+    <string name="lockscreen_missing_sim_message" product="shield">Walang SIM card sa SHIELD.</string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user is almost at the limit where they will be locked out and may have to enter an alternate username/password to unlock the phone -->
+    <string name="lockscreen_failed_attempts_almost_glogin" product="shield">Mali mong naguhit ang iyong pattern sa pag-unlock nang <xliff:g id="number">%d</xliff:g> (na) beses. Pagkatapos ng <xliff:g id="number">%d</xliff:g> pang hindi matagumpay na pagsubok, hihilingin sa iyo na i-unlock ang iyong SHIELD gamit ang iyong Google signin.\n\nSubukang muli pagkatapos ng <xliff:g id="number">%d</xliff:g> (na) segundo.</string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user is almost at the limit where the device will be wiped. -->
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="shield">Sinubukan mong i-unlock ang SHIELD nang mali nang <xliff:g id="number">%d</xliff:g> (na) beses. Pagkatapos ng <xliff:g id="number">%d</xliff:g> pang hindi matagumpay na pagsubok, magre-reset ang SHIELD sa factory default at mawawala ang lahat ng data ng user.</string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user has exceeded the maximum attempts and the device will now be wiped -->
+    <string name="lockscreen_failed_attempts_now_wiping" product="shield">Sinubukan mong i-unlock ang SHIELD nang mali nang <xliff:g id="number">%d</xliff:g> (na) beses. Ire-reset ngayon ang SHIELD sa factory default.
+    </string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeHistoryBookmarks" product="shield">Pinapayagan ang app na baguhin ang kasaysayan o mga bookmark ng browser na naka-imbak sa SHIELD. Maaari nitong payagan ang app na burahin o baguhin ang data ng browser.   Tandaan:  hindi maaaring ipatupad ang pahintulot na ito ng mga third-party na browser o iba pang mga application na may mga kakayahan sa pagba-browse sa web.</string>
+    <!-- Summary for a warning message about the interaction model changes after allowing an accessibility service to put the device into explore by touch mode, displayed as a dialog message when the user selects to enables the service. (shield). [CHAR LIMIT=NONE] -->
+    <string name="enable_explore_by_touch_warning_message" product="shield">
+            Nais paganahin ng <xliff:g id="accessibility_service_name">%1$s</xliff:g> ang Pag-explore sa Pagpindot.  Kapag naka-on ang Pag-explore sa Pagpindot, maaari mong marinig o makita ang mga paglalarawan ng kung ano ang nasa ilalim ng iyong daliri o maaari kang magsagawa ng mga galaw upang makipag-ugnayan sa SHIELD.</string>
+    <!-- Name of the default audio route for SHIELD when nothing is connected to a headphone or other wired audio output jack. [CHAR LIMIT=50] -->
+    <string name="default_audio_route_name" product="shield">SHIELD</string>
+    <!-- Message shown when user is almost at the limit of password attempts where the device will be wiped. -->
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield">Sinubukan mong i-unlock ang SHIELD nang mali nang <xliff:g id="number">%d</xliff:g> (na) beses. Pagkatapos ng <xliff:g id="number">%d</xliff:g> pang hindi matagumpay na pagsubok, magre-reset ang SHIELD sa factory default at mawawala ang lahat ng data ng user.</string>
+    <!-- Message shown in dialog when user has exceeded the maximum attempts and the device will now be wiped -->
+    <string name="kg_failed_attempts_now_wiping" product="shield">Sinubukan mong i-unlock ang SHIELD nang mali nang <xliff:g id="number">%d</xliff:g> (na) beses. Ire-reset ngayon ang SHIELD sa factory default.</string>
+    <!-- Message shown in dialog when user is almost at the limit where they will be locked out and may have to enter an alternate username/password to unlock the phone -->
+    <string name="kg_failed_attempts_almost_at_login" product="shield">Mali mong naguhit ang iyong pattern sa pag-unlock nang <xliff:g id="number">%d</xliff:g> (na) beses. Pagkatapos ng <xliff:g id="number">%d</xliff:g> pang hindi matagumpay na pagsubok, hihilingin kang i-unlock ang iyong SHIELD gamit ang isang email account.\n\n Subukang muli sa loob ng <xliff:g id="number">%d</xliff:g> (na) segundo.</string>
+
+    <!-- label for item that turns off power in phone options dialog -->
+    <add-resource type="string" name="global_action_sleep" />
+    <string name="global_action_sleep">I-sleep</string>
+
+</resources>

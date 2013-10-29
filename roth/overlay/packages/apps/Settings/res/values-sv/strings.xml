@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Bluetooth settings screen, menu item to change this device's Bluetooth name. [CHAR LIMIT=30] -->
+    <string name="bluetooth_rename_device" product="shield">Byt namn på SHIELD</string>
+    <!-- Strings for asking to the user whether to allow an app to enable discovery mode -->
+    <string name="bluetooth_ask_discovery" product="shield">"En app på SHIELD vill göra SHIELD synlig för andra Bluetooth-enheter i <xliff:g id="timeout">%1$d</xliff:g> sekunder. Tillåt?"</string>
+    <!-- The title of the activity to see phone info -->
+    <string name="phone_info_label" product="shield">SHIELD information</string>
+    <!-- mobile network settings screen, message in dialog box that appears when you select the "Data roaming" check box. This is for multiuser SHIELDS [CHAR LIMIT=none] -->
+    <string name="roaming_warning_multiuser" product="shield">När du tillåter roaming kan det tillkomma vissa avgifter!\n\nDenna inställning påverkar samtliga användare på denna SHIELD.</string>
+    <!-- Title of the preferences item to control encryption -->
+    <string name="crypt_keeper_encrypt_title" product="shield">Kryptera SHIELD</string>
+    <!-- Summary of the preferences item to control encryption, when encryption is inactive -->
+    <string name="crypt_keeper_encrypt_summary" product="shield">Ange en numerisk PIN-kod eller lösenord för att dekryptera SHIELD varje gång du slår på den</string>
+    <!-- Informational text in the first confirmation screen before starting device encryption -->
+    <string name="crypt_keeper_desc" product="shield">
+    Du kan kryptera dina konton, inställningar, hämtade appar och tillhörande data, media och andra filer. När du krypterar SHIELD måste du ange en numerisk PIN-kod eller ett lösenord och dekryptera enheten varje gång du startar den. Det går endast att ta bort krypteringen av SHIELD genom att återställa standardinställningarna, vilket raderar alla dina data.\n\nKrypteringen tar en timme eller mer. Ladda batteriet helt innan du börjar och låt SHIELD vara ansluten tills krypteringen är klar. Om du avbryter den pågående krypteringen kommer du att förlora delar av eller alla dina data.</string>
+    <!-- Button text to start encryption process -->
+    <string name="crypt_keeper_button_text" product="shield">Kryptera SHIELD</string>
+    <!-- Warning text in the final confirmation screen before starting device encryption -->
+    <string name="crypt_keeper_final_desc" product="shield">
+    Krypteringen kan inte ångras och om du avbryter den kan data försvinna.
+    Det kan ta en timme eller mer och under tiden startas SHIELD om flera gånger.
+    </string>
+
+    <!-- Informational text on the progress screen while encrypting the device -->
+    <string name="crypt_keeper_setup_description" product="shield">Vänta medan SHIELD krypteras. <xliff:g id="percent" example="50">^1</xliff:g>% klar.</string>
+    <!-- Informational text when encryption fails -->
+    <string name="crypt_keeper_failed_summary" product="shield"> Krypteringen avbröts och kan inte slutföras. Data på SHIELD är därför inte tillgängliga längre.\n\n
+      För att fortsätta att använda SHIELD måste du återställa fabriksinställningarna.
+      När du ställer in SHIELD efter återställningen får du ett tillfälle att återställa alla data som hade säkerhetskopierats till your Google-konto.
+    </string>
+    <!-- Bluetooth settings.  Message for disconnecting from the PAN profile (NAP role). [CHAR LIMIT=80] -->
+    <string name="bluetooth_disconnect_pan_nap_profile" product="shield"> <xliff:g id="device_name">%1$s</xliff:g> kopplas ifrån delningen av SHIELDs Internetanslutning.</string>
+
+    <!-- Description of NFC in the 1st level settings screen, for a SHIELD. [CHAR LIMIT=NONE] -->
+    <string name="nfc_quick_toggle_summary" product="shield">Tillåt datautbyte när SHIELD vidrör en annan enhet</string>
+    <!-- Text warning about skipping Wi-Fi with a mobile connect (SHIELD) [CHAR LIMIT=NONE]-->
+    <string name="wifi_skipped_message" product="shield" msgid="6518433975501257341">VARNING!  Eventuella operatörsavgifter för datatrafik kan tillkomma.\n\nSHIELD setup (installation) kan kräva significant aktivitet på nätverket.</string>
+    <!-- Text warning about skipping Wi-Fi without a mobile connect (SHIELD) [CHAR LIMIT=NONE] -->
+    <string name="wifi_and_mobile_skipped_message" product="shield" msgid="5647058314212144925">VARNING!  SHIELD kommer inte att kunna kontrollera om programvaran är uppdaterad.</string>
+    <!-- Text alerting that Wi-Fi couldn't connect (SHIELD) [CHAR LIMIT=NONE] -->
+    <string name="wifi_connect_failed_message" product="shield" msgid="2006689630582761529">SHIELD kunde inte anslutas till Wi-Fi-nätverket.</string>
+    <!-- Dock audio summary for undocked -->
+    <string name="dock_audio_summary_none" product="shield">SHIELD är inte dockad</string>
+    <!-- Dock not found dialog text -->
+    <string name="dock_not_found_text" product="shield">Du måste docka SHIELD innan du konfigurerar ljudet för dockning.</string>
+    <!-- Dock settings screen, setting option summary text when check box is selected -->
+    <string name="dock_sounds_enable_summary_on" product="shield">Spela upp ljud när SHIELD placeras i eller tas bort från dockningsstation</string>
+    <!-- Sound settings screen, setting option summary text when check box is clear -->
+    <string name="dock_sounds_enable_summary_off" product="shield">Spela inte upp ljud när SHIELD placeras i eller tas bort från dockningsstation </string>
+
+    <!-- Sound & display settings screen, accelerometer-based rotation summary text when check box is selected -->
+    <string name="accelerometer_summary_on" product="shield">Växla riktning automatiskt när du roterar SHIELD</string>
+    <!-- Sound & display settings screen, accelerometer-based rotation summary text when check box is clear -->
+    <string name="accelerometer_summary_off" product="shield">Växla riktning automatiskt när du roterar SHIELD</string>
+    <!-- SIM card lock settings screen, setting option summary text when SIM lock check box is selected -->
+    <string name="sim_lock_on" product="shield">PIN-kod krävs för att använda SHIELD</string>
+    <!-- SIM card lock settings screen, setting option summary text when SIM lock check box is clear -->
+    <string name="sim_lock_off" product="shield">PIN-kod krävs för att använda SHIELD</string>
+    <!-- Advanced (used for diagnostics) device info activity title -->
+    <string name="device_info_settings" product="shield">SHIELD status</string>
+
+    <!-- About tablet screen, summary of the item that takes you to tablet status screen -->
+    <string name="device_status_summary" product="shield">Status för batteri, nätverk och annan information</string>
+    <!-- About tablet, status item title.  The Mobile Directory Number [CHAR LIMIT=30] -->
+    <string name="status_number" product="shield">Mobilnummer (MDN)</string>
+    <!-- SD card & phone storage settings screen, setting option summary text under Internal phone storage heading -->
+    <string name="master_clear_summary" product="shield">Raderar alla data på SHIELD</string>
+    <!-- SD card & phone storage settings screen, message on screen after user selects Factory data reset [CHAR LIMIT=NONE] -->
+    <string name="master_clear_desc" product="shield">"Detta raderar alla data från SHIELDs <b>internminne</b>, inklusive:\n\n<li>Ditt Google-konto</li>\n<li>System och app data samt inställningar</li>\n<li>Hämtade appar</li>"</string>
+    <!-- SD card & phone storage settings screen, button on screen after user selects Factory data reset -->
+    <string name="master_clear_button_text" product="shield">Återställ SHIELD</string>
+    <!-- Bluetooth available subtext - shown when Bluetooth tethering is turned on but it is not currently tethered to any devices [CHAR LIMIT=50]-->
+    <string name="bluetooth_tethering_available_subtext" product="shield">Dela SHIELDs Internetanslutning</string>
+    <!-- Bluetooth connected subtext - shown when a device is tethered over Bluetooth [CHAR LIMIT=60]-->
+    <string name="bluetooth_tethering_device_connected_subtext" product="shield">SHIELDs Internetanslutning delas med 1 enhet</string>
+    <!-- Bluetooth connected subtext - shown when multiple devices are tethered over Bluetooth [CHAR LIMIT=60]-->
+    <string name="bluetooth_tethering_devices_connected_subtext" product="shield">SHIELDs Internetanslutning delas med 1 enhet<xliff:g id="connectedDeviceCount">%1$d</xliff:g></string>
+    <!-- Bluetooth tethering off subtext - shown when Bluetooth Tethering is turned off [CHAR LIMIT=50]-->
+    <string name="bluetooth_tethering_off_subtext" product="shield">SHIELDs Internetanslutning delas inte</string>
+    <!-- [CHAR LIMIT=100] Security & location settings screen, setting check box summary for GPS satellites on a SHIELD -->
+    <string name="location_street_level" product="shield">Ge appar möjlighet att använda SHIELDs GPS för att fastställa mer exakt var du befinner dig</string>
+    <!-- Main settings screen, setting title for the user to go into the About phone screen -->
+    <string name="about_settings" product="shield">Om SHIELD</string>
+    <!-- Applications settings screen, message text of alert that appears if user selects the "Unknown sources" check box -->
+    <string name="install_all_warning" product="shield">SHIELD och dina personuppgifter är sårbara för angrepp av appar från okända källor. Du godkänner att du ensam är ansvarig för eventuella skador på SHIELD eller förlust av data som orsakats av att du använt dessa appar.</string>
+    <!-- Manage applications, individual application info screen, text that appears under the "Permissions" heading. This describes the permissions that the application has. -->
+    <string name="security_settings_desc" product="shield">Appen har åtkomst till följande på SHIELD:</string>
+    <!-- [CHAR_LIMIT=NONE] Manage applications, individual application info screen, text that appears under the "Permissions" heading.
+         This describes the permissions that the application has.  It is used when multiple packages are contributing to the permissions and need to be listed here. -->
+    <string name="security_settings_desc_multi" product="shield">Appen har åtkomst till följande på SHIELD. I syfte att förbättra prestandan och minska minnesanvändningen är några av dessa behörigheter tillgängliga för <xliff:g id="base_app_name">%1$s</xliff:g>, eftersom den körs i samma process som <xliff:g id="additional_apps_list">%2$s</xliff:g>:</string>
+
+    <!-- Manage applications, text for Move button to move app to internal storage -->
+    <string name="move_app_to_internal" product="shield">Flytta till SHIELD</string>
+    <!-- Running service details, stop confirmation descriptive text. Displays when user selects selects to stop a system service. -->
+    <string name="runningservicedetails_stop_dlg_text" product="shield">Om du avslutar tjänsten kanske vissa funktioner i SHIELD inte fungerar korrekt förrän du stänger av och slår på den igen.</string>
+    <!-- In the Testing screen.  The item title of the activity that shows a bunch of phone-related information.  -->
+    <string name="testing_phone_info" product="shield">SHIELD information</string>
+
+    <!-- Label for power consumed when Idle -->
+    <string name="power_idle" product="shield">SHIELD inaktiv</string>
+
+    <!-- Label for Phone usage time -->
+    <string name="usage_type_phone" product="shield">SHIELD</string>
+    <!-- Description for standby detail -->
+    <string name="battery_desc_standby" product="shield">Batteri används när SHIELD är inaktiv</string>
+    <!-- Remove account message in dialog [CHAR LIMIT=NONE] -->
+    <string name="really_remove_account_message" product="shield">Om du tar bort kontot tar du också bort alla meddelanden, kontakter och andra data från SHIELD!</string>
+    <!-- This is shown if the autheticator for a given account fails to remove it. -->
+    <string name="remove_account_failed" product="shield">Det här kontot krävs för vissa appar.  Du kan bara ta bort det genom att återställa SHIELD till fabriksinställningarna (alla dina personliga data tas bort) i Inställningar &gt; Säkerhetskopiera och återställ.</string>
+    <!--  Body of dialog shown when user enables global auto sync, for shield [CHAR LIMIT=none] -->
+    <string name="data_usage_auto_sync_on_dialog" product="shield">Alla kontoändringar som görs på webben kopieras automatiskt till SHIELD.\n\nVissa konton kan även automatiskt kopiera ändringar som du gör på din SHIELD till webben. Google-konton fungerar på det sättet.\n\nDu kan ange vilken typ av information som ska synkroniseras för varje konto under Inställningar &gt; Konton.</string>
+    <!-- Body of dialog shown before user limits mobile data usage. [CHAR LIMIT=NONE] -->
+    <string name="data_usage_limit_dialog_mobile" product="shield">Mobildataanslutningen inaktiveras när den angivna gränsen är nådd.\n\nEftersom SHIELD mäter dataanvändning, och det kan hända att din operatör beräknar användningen annorlunda, kan det vara bra att använda en lågt beräknad gräns.</string>
+    <!-- Body of dialog shown before user restricts background data usage. This is for multiuser SHIELDS. [CHAR LIMIT=NONE] -->
+    <string name="data_usage_restrict_background_multiuser" product="shield">Om du begränsar användningen av mobildata i bakgrunden kommer vissa appar och tjänster bara att fungera när du är ansluten till ett Wi-Fi-nätverk.\n\nDenna inställning påverkar samtliga användare på denna SHIELD.</string>
+
+    <!-- Label displaying total network data transferred during a specific time period, including a disclaimer that contrasts device versus carrier reporting. [CHAR LIMIT=80] -->
+    <string name="data_usage_total_during_range_mobile" product="shield"> <xliff:g id="range" example="Jul 1 - Jul 31">%2$s</xliff:g>: om <xliff:g id="total" example="128KB">%1$s</xliff:g> som används, mätt av SHIELD. Resultatet kan skilja sig från operatörens beräkning av dataanvändningen.</string>
+    <!-- Message to secondary users that only owner can manage users [CHAR LIMIT=none] -->
+    <string name="user_cannot_manage_message" product="shield">Det är bara SHIELDs ägare som kan hantera användare.</string>
+    <!-- User (self) removal confirmation message [CHAR LIMIT=none] -->
+    <string name="user_confirm_remove_self_message" product="shield">Ditt utrymme och dina data tas bort från denna SHIELD. Det går inte att ångra den här åtgärden.</string>
+    <!-- User removal confirmation message [CHAR LIMIT=none] -->
+    <string name="user_confirm_remove_message" product="shield">Användarens utrymme och data tas bort från denna SHIELD. Det går inte att ångra den här åtgärden.</string>
+    <!-- Warning message when changing a global setting for a SHIELD.[CHAR LIMIT=none] -->
+    <string name="global_change_warning" product="shield">Denna inställning påverkar samtliga användare på denna SHIELD.</string>
+
+    <!-- On Language & input settings screen, setting summary.  Setting for thor button brightness. [CHAR LIMIT=35] -->
+    <add-resource type="string" name="nv_led_brightness" />
+    <string name="nv_led_brightness">LED-ljusstyrka</string>
+    <!-- Category title for Virtual mouse [CHAR LIMIT=40] -->
+    <add-resource type="string" name="nv_nvidia_button" />
+    <string name="nv_nvidia_button">NVIDIA-knapp</string>
+
+    <add-resource type="string" name="nv_category_controller_volume" />
+    <string name="nv_category_controller_volume">Volymkontroll</string>
+
+    <add-resource type="string" name="controller_volume_text" />
+    <string name="controller_volume_text">Använd bumpers till att justera volymen</string>
+
+    <add-resource type="string" name="controller_volume_summary" />
+    <string name="controller_volume_summary">LB och RB justerar volym när du har tryckt på volymknappen</string>
+     <!-- Controller pulse nvidia led when sleeping-->
+     <add-resource type="string" name="controller_pulse_led" />
+     <string name="controller_pulse_led">LED pulserar när enheten sover</string>
+
+    <!-- Security & location settings screen, setting check box title. This controls whether the device locks immediately when the user closes the lid. [CHAR LIMIT=28]-->
+    <string name="lockpattern_settings_enable_power_button_instantly_locks">Stänga locket låser genast</string>
+
+    <add-resource type="string" name="nv_license_title" />
+    <string name="nv_license_title">NVIDIAs juridiska klausuler</string>
+    <add-resource type="string" name="nv_swla" />
+    <string name="nv_swla">Licensavtal för program</string>
+    <add-resource type="string" name="nv_privacy" />
+    <string name="nv_privacy">Sekretesspolicy</string>
+    <add-resource type="string" name="nv_tegra_exp_tos" />
+    <string name="nv_tegra_exp_tos">Tegra Experience servicevillkor</string>
+    <add-resource type="string" name="nv_warranty" />
+    <string name="nv_warranty">Garanti</string>
+    <add-resource type="string" name="nv_settings_license_activity_title" />
+    <string name="nv_settings_license_activity_title">NVIDIA-licenser</string>
+
+    <!-- About device screen, report bug to nvidia -->
+    <add-resource type="string" name="nv_feedback" />
+    <string name="nv_feedback">Skicka återkoppling till NVIDIA</string>
+
+</resources>

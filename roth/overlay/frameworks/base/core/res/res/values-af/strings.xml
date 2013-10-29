@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- If MMS discovers there isn't much space left on the device, it will show a toast with this message. -->
+    <string name="low_memory" product="shield">SHIELD berging is vol. Vee \'n paar lêers uit om ruimte te skep.</string>
+    <!-- Title for the Phone Options dialog to lock the screen, turn off the phone etc. -->
+    <string name="power_dialog" product="shield">SHIELD opsies</string>
+    <!-- Shutdown Confirmation Dialog.  When the user chooses to power off the phone, there will be a confirmation dialog.  This is the message. -->
+    <string name="shutdown_confirm" product="shield">SHIELD sal afsluit.</string>
+    <!-- Title of the Global Actions Dialog -->
+    <string name="global_actions" product="shield">SHIELD opsies</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readSms" product="shield">Laat die program toe om SMS-boodskappe wat op jou SHIELD of SIM-kaart gestoor is, te lees.  Dit laat die program toe om alle SMS-boodskappe te lees, ongeag van die inhoud of vertroulikheid daarvan.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeSms" product="shield">Laat die program toe om na SMS-boodskappe wat op jou SHIELD of SIM-kaart gestoor is, te skryf.  Kwaadwillige programme kan dalk jou boodskappe uitvee.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_injectEvents" product="shield">Laat die program toe om sy eie invoergebeure na ander programme te stuur (soos om sleutels te druk).  Kwaadwillige programme kan dit dalk gebruik om beheer van SHIELD oor te neem.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_persistentActivity" product="shield">Laat die program toe om dele van dit self hardnekkig in die geheue te hou.  Dit kan geheue wat vir ander programme beskikbaar is, beperk, en SHIELD stadiger maak.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_clearAppCache" product="shield">Laat die program toe om SHIELD-berging oop te maak deur lêers in die kas-gidse van ander programme uit te vee.   Dit kan veroorsaak dat ander programme stadiger begin omdat hulle hulle data moet herophaal.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readLogs" product="shield">Laat die program toe om uit die stelsel se verskeie loglêers te lees.   Dit laat \'n program toe om algemene inligting te ontdek oor wat jy met SHIELD doen, wat moontlik persoonlike of private inligting kan insluit.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_changeComponentState" product="shield">Laat die program toe om te verander of \'n komponent van ander program geaktiveer is of nie.  Kwaadwillige programme kan dit gebruik om belangrike SHIELD-vermoëns te deaktiveer.  Wees versigtig met hierdie toestemming, want dit kan programkomponente tot \'n onbruikbare, inkonsekwente of onstabiele toestand bring.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_receiveBootCompleted" product="shield">Laat die program toe om homself te begin so gou as moontlik nadat die stelsel gelaai het.  Dit maak dat dit langer neem vir SHIELD om te begin, en dit laat die program toe om SHIELD verrigting stadiger te maak omdat dit altyd loop.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_broadcastSticky" product="shield">Laat die program toe om taai uitsendings te stuur, wat agterbly nadat die uitsending klaar is.  Oormatige gebruik kan SHIELD stadig of onstabiel maak deurdat dit te veel geheue gebruik.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readContacts" product="shield">Laat die program toe om inligting oor jou kontakte wat op SHIELD gestoor is, te lees, insluitend die gereeldheid van oproepe wat jy gemaak het, e-posse wat jy gestuur het, of ander maniere waarop jy met spesifieke individue gekommunikeer het.  Hierdie toestemming laat programme toe om jou kontakdata te stoor, en kwaadwillige programme kan moontlik kontakdata sonder jou kennis deel.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeContacts" product="shield">Laat die program toe om data oor jou kontakte wat op SHIELD gestoor is te verander, insluitend die gereeldheid van oproepe wat jy gemaak het, e-posse wat jy gestuur het, of ander maniere waarop jy met spesifieke individue gekommunikeer het.  Hierdie toestemming laat programme toe om kontakdata uit te vee.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readCallLog" product="shield">Laat die program toe om SHIELD se oproeprekord, insluitende data oor inkomende en uitgaande oproepe, te lees.  Hierdie toestemming laat die program toe om jou oproeprekorddata te stoor, en kwaadwillige programme kan moontlik oproeprekorddata sonder jou kennis deel.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeCallLog" product="shield">Laat die program toe om SHIELD se oproeprekord, insluitende data oor inkomende en uitgaande oproepe, te verander. 
+        Kwaadwillige programme kan dit gebruik om jou oproeprekord uit te vee of te verander.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+
+    <string name="permdesc_readCalendar" product="shield">Laat die program toe om alle kalendergebeure wat op SHIELD gestoor is, insluitend dié van vriende en medewerkers, te lees.  Dit kan moontlik die program toelaat om jou kalenderdata te deel of te stoor, ongeag van vertroulikheid of sensitiwiteit.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+
+<string name="permdesc_writeCalendar" product="shield">Laat die program toe om gebeure wat op SHIELD aangepas kan word, by te voeg, te verwyder of te verander, insluitend dié van vriende en medewerkers.  Dit kan moontlik die program toelaat om boodskappe wat lyk of dit van kalendereienaars af kom, te stuur, of om gebeure sonder die eienaar se kennis aan te pas.</string>
+
+
+
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_brick" product="shield">skakel SHIELD permanent af</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_brick" product="shield">Laat die program toe om SHIELD permanent af te skakel. Dit is baie gevaarlik.</string>
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_reboot" product="shield">dwing SHIELD herselflaai</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_reboot" product="shield">Laat die program toe om SHIELD te dwing om te herselflaai.</string>
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_performCdmaProvisioning" product="shield">begin direk met CDMA SHIELD opstelling</string>
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_wakeLock" product="shield">verhoed SHIELD om te slaap</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_wakeLock" product="shield">Laat die program toe om SHIELD te keer om te slaap.</string>
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_devicePower" product="shield">Sit SHIELD aan of af</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_devicePower" product="shield">Laat die program toe om SHIELD aan en af te skakel.</string>
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_nvidiaCPUPower" product="shield">pas NVIDIA Tegra SVE aan</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_nvidiaCPUPower" product="shield">Laat die program toe om parameters aan te pas van die NVIDA Tegra SVE.  Dit mag dalk ekstra krag verbruik.</string>
+
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_factoryTest" product="shield">Laat loop as \'n laevlak-vervaardigertoets, sodat volle toegang tot SHIELD hardeware verkry word.  Net beskikbaar wanneer SHIELD in vervaardigertoetsmodus loop.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_setTime" product="shield">Laat die program toe om SHIELD se horlosietyd te verander.</string>    
+<!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_setTimeZone" product="shield">Laat die program toe om SHIELD se tydsone te verander.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_getAccounts" product="shield">Laat die program toe om die lys van rekeninge wat aan SHIELD bekend is, te kry.   Dit kan moontlik enige rekeninge wat geskep is deur programme wat jy geïnstalleer het, insluit.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_changeWifiMulticastState" product="shield">Laat die program toe om pakkies te ontvang wat met behulp van multisaai-adresse na alle toestelle op \'n Wi-Fi-netwerk gestuur is, nie net jou SHIELD nie.   Dit gebruik meer krag as die nie-multisaaimodus.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_bluetoothAdmin" product="shield">Laat die program toe om die plaaslike Bluetooth SHIELD op te stel en afgeleë toestelle te ontdek en daarmee saam te bind.</string>
+
+    <string name="permdesc_changeWimaxState" product="shield">Laat die program toe om SHIELD te koppel aan en te ontkoppel van WiMAX netwerke.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_bluetooth" product="shield">Laat die program toe om die opstelling van Bluetooth op SHIELD te sien, en om verbindings met saamgebinde toestelle te maak en te aanvaar.</string>
+    <!-- Description of policy access to watch user login attempts -->
+    <string name="policydesc_watchLogin" product="shield">Monitor die aantal keer wat verkeerde wagwoorde ingevoer is wanneer die skerm ontsluit word, en sluit SHIELD of vee al die data uit as te veel verkeerde wagwoorde ingevoer word.</string>
+    <!-- Description of policy access to wipe the user's data -->
+    <string name="policydesc_wipeData" product="shield">Vee SHIELD se data uit sonder waarskuwing, deur \'n fabrieksterugstelling uit te voer.</string>
+    <!-- Shown in the lock screen when there is no SIM card. -->
+    <string name="lockscreen_missing_sim_message" product="shield">Geen SIM-kaart in SHIELD nie.</string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user is almost at the limit where they will be locked out and may have to enter an alternate username/password to unlock the phone -->
+    <string name="lockscreen_failed_attempts_almost_glogin" product="shield">Jy het jou ontsluitpatroon  <xliff:g id="number">%d</xliff:g> keer verkeerd geteken. Na nog <xliff:g id="number">%d</xliff:g>  onsuksesvolle probeerslae, sal jy gevra word om jou SHIELD te ontsluit met jou Google intekening.\n\nProbeer weer na <xliff:g id="number">%d</xliff:g> sekondes.</string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user is almost at the limit where the device will be wiped. -->
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="shield">Jy het verkeerdelik probeer om SHIELD <xliff:g id="number">%d</xliff:g> keer te ontsluit. Na nog <xliff:g id="number">%d</xliff:g>  onsuksesvolle probeerslae, sal SHIELD teruggestel word na die fabrieksverstek en alle gebruikersdata sal verlore wees.</string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user has exceeded the maximum attempts and the device will now be wiped -->
+    <string name="lockscreen_failed_attempts_now_wiping" product="shield">Jy het verkeerdelik probeer om SHIELD <xliff:g id="number">%d</xliff:g> keer te ontsluit. SHIELD sal nou teruggestel word na die fabrieksverstek.
+    </string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeHistoryBookmarks" product="shield">Laat die program toe om die blaaier se geskiedenis of boekmerke wat op SHIELD gestoor is, te verander. Dit kan moontlik die program toelaat om blaaierdata uit te vee of te verander.   Let wel:  hierdie toestemming mag dalk nie deur derdeparty-blaaiers of ander programme met webblaaivermoëns afgedwing word nie.</string>
+    <!-- Summary for a warning message about the interaction model changes after allowing an accessibility service to put the device into explore by touch mode, displayed as a dialog message when the user selects to enables the service. (shield). [CHAR LIMIT=NONE] -->
+    <string name="enable_explore_by_touch_warning_message" product="shield">
+            <xliff:g id="accessibility_service_name">%1$s</xliff:g> wil Verken-met-raak aktiveer. Wanneer Verken-met-raak aangeskakel is, kan jy beskrywings van wat onder jou vinger is hoor of sien, of jy kan gebare uitvoer om interaksie met SHIELD te hê.</string>
+    <!-- Name of the default audio route for SHIELD when nothing is connected to a headphone or other wired audio output jack. [CHAR LIMIT=50] -->
+    <string name="default_audio_route_name" product="shield">SHIELD</string>
+    <!-- Message shown when user is almost at the limit of password attempts where the device will be wiped. -->
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield">Jy het verkeerdelik probeer om SHIELD <xliff:g id="number">%d</xliff:g> keer te ontsluit. Na nog <xliff:g id="number">%d</xliff:g>  onsuksesvolle probeerslae, sal SHIELD teruggestel word na die fabrieksverstek en alle gebruikersdata sal verlore wees.</string>
+    <!-- Message shown in dialog when user has exceeded the maximum attempts and the device will now be wiped -->
+    <string name="kg_failed_attempts_now_wiping" product="shield">Jy het verkeerdelik probeer om SHIELD <xliff:g id="number">%d</xliff:g> keer te ontsluit. SHIELD sal nou teruggestel word na die fabrieksverstek.</string>
+    <!-- Message shown in dialog when user is almost at the limit where they will be locked out and may have to enter an alternate username/password to unlock the phone -->
+    <string name="kg_failed_attempts_almost_at_login" product="shield">Jy het jou ontsluitpatroon <xliff:g id="number">%d</xliff:g> keer verkeerd geteken. Na nog <xliff:g id="number">%d</xliff:g> onsuksesvolle probeerslae, sal jy gevra word om jou SHIELD te ontsluit deur middel van \'n e-pos rekening.\n\n Probeer weer in <xliff:g id="number">%d</xliff:g> sekondes.</string>
+
+    <!-- label for item that turns off power in phone options dialog -->
+    <add-resource type="string" name="global_action_sleep" />
+    <string name="global_action_sleep">Slaap</string>
+
+</resources>

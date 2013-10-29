@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Bluetooth settings screen, menu item to change this device's Bluetooth name. [CHAR LIMIT=30] -->
+    <string name="bluetooth_rename_device" product="shield">Đổi tên SHIELD</string>
+    <!-- Strings for asking to the user whether to allow an app to enable discovery mode -->
+    <string name="bluetooth_ask_discovery" product="shield">"Một ứng dụng trên SHIELD muốn có thể tìm thấy SHIELD bằng các thiết bị Bluetooth khác trong <xliff:g id="timeout">%1$d</xliff:g> giây. Bạn có cho phép không?"</string>
+    <!-- The title of the activity to see phone info -->
+    <string name="phone_info_label" product="shield">Thông tin về SHIELD</string>
+    <!-- mobile network settings screen, message in dialog box that appears when you select the "Data roaming" check box. This is for multiuser SHIELDS [CHAR LIMIT=none] -->
+    <string name="roaming_warning_multiuser" product="shield">Khi bạn cho phép chuyển vùng dữ liệu, bạn có thể phải trả khoản phí chuyển vùng đáng kể!\n\nCài đặt này ảnh hưởng đến tất cả người dùng trên SHIELD này.</string>
+    <!-- Title of the preferences item to control encryption -->
+    <string name="crypt_keeper_encrypt_title" product="shield">Mã hóa SHIELD</string>
+    <!-- Summary of the preferences item to control encryption, when encryption is inactive -->
+    <string name="crypt_keeper_encrypt_summary" product="shield">Yêu cầu mã PIN số hoặc mật khẩu để giải mã SHIELD mỗi lần bạn bật máy</string>
+    <!-- Informational text in the first confirmation screen before starting device encryption -->
+    <string name="crypt_keeper_desc" product="shield">
+    Bạn có thể mă hóa tài khoản, cài đặt, ứng dụng đă tải xuống và dữ liệu, phương tiện của các ứng dụng đó cũng như các tệp khác của bạn.  Sau khi mă hóa SHIELD, bạn cần nhập mă PIN số hoặc mật khẩu để giải mă mỗi lần bạn bật SHIELD:  Bạn không thể hủy mă hóa SHIELD trừ khi thiết lập lại dữ liệu ban đầu, xóa tất cả dữ liệu của bạn.\n\nQuá tŕnh mă hóa mất ít nhất một giờ.  Bạn phải bắt đầu khi pin đă được sạc và vẫn cắm SHIELD cho tới khi quá tŕnh mă hóa hoàn tất.  Nếu làm gián đoạn quá tŕnh mă hóa, bạn sẽ mất một số hoặc tất cả dữ liệu của bạn.</string>
+    <!-- Button text to start encryption process -->
+    <string name="crypt_keeper_button_text" product="shield">Mã hóa SHIELD</string>
+    <!-- Warning text in the final confirmation screen before starting device encryption -->
+    <string name="crypt_keeper_final_desc" product="shield">
+    Tác vụ mă hóa không thể hoàn nguyên được và nếu bạn làm gián đoạn tác vụ này, bạn sẽ mất dữ liệu.
+    Việc mã hóa mất ít nhất một tiếng, trong khi đó SHIELD sẽ khởi động lại vài lần.
+    </string>
+
+    <!-- Informational text on the progress screen while encrypting the device -->
+    <string name="crypt_keeper_setup_description" product="shield">Đợi trong khi SHIELD được mã hóa. <xliff:g id="percent" example="50">^1</xliff:g>% hoàn tất.</string>
+    <!-- Informational text when encryption fails -->
+    <string name="crypt_keeper_failed_summary" product="shield"> Quá trình mã hóa đã bị gián đoạn và không thể hoàn tất.  Do đó, dữ liệu trên SHIELD không thể truy cập được nữa.\n\n
+      Để tiếp tục lại bằng cách sử dụng SHIELD, bạn cần thực hiện cài đặt lại ban đầu.
+      Khi bạn thiết lập SHIELD sau khi đặt lại, bạn sẽ có cơ hội khôi phục mọi dữ liệu được sao lưu vào Tài khoản Google của ḿnh.
+    </string>
+    <!-- Bluetooth settings.  Message for disconnecting from the PAN profile (NAP role). [CHAR LIMIT=80] -->
+    <string name="bluetooth_disconnect_pan_nap_profile" product="shield"> <xliff:g id="device_name">%1$s</xliff:g> sẽ được ngắt kết nối khỏi việc chia sẻ kết nối Internet của SHIELD.</string>
+
+    <!-- Description of NFC in the 1st level settings screen, for a SHIELD. [CHAR LIMIT=NONE] -->
+    <string name="nfc_quick_toggle_summary" product="shield">Cho phép trao đổi dữ liệu khi SHIELD chạm vào thiết bị khác</string>
+    <!-- Text warning about skipping Wi-Fi with a mobile connect (SHIELD) [CHAR LIMIT=NONE]-->
+    <string name="wifi_skipped_message" product="shield" msgid="6518433975501257341">CẢNH BÁO:  Bạn có thể phải trả thêm phí dữ liệu cho nhà cung cấp dịch vụ.\n\n Thiết lập SHIELD có thể yêu cầu hoạt động mạng đáng kể.</string>
+    <!-- Text warning about skipping Wi-Fi without a mobile connect (SHIELD) [CHAR LIMIT=NONE] -->
+    <string name="wifi_and_mobile_skipped_message" product="shield" msgid="5647058314212144925">CẢNH BÁO:  SHIELD không thể xác minh rằng phần mềm của bạn được cập nhật.</string>
+    <!-- Text alerting that Wi-Fi couldn't connect (SHIELD) [CHAR LIMIT=NONE] -->
+    <string name="wifi_connect_failed_message" product="shield" msgid="2006689630582761529">SHIELD không thể kết nối với mạng Wi-Fi này.</string>
+    <!-- Dock audio summary for undocked -->
+    <string name="dock_audio_summary_none" product="shield">Chưa gắn SHIELD vào đế</string>
+    <!-- Dock not found dialog text -->
+    <string name="dock_not_found_text" product="shield">Bạn cần gắn SHIELD vào đế trước khi thiết lập âm thanh đế.</string>
+    <!-- Dock settings screen, setting option summary text when check box is selected -->
+    <string name="dock_sounds_enable_summary_on" product="shield">Phát âm thanh khi lắp hoặc tháo SHIELD khỏi đế</string>
+    <!-- Sound settings screen, setting option summary text when check box is clear -->
+    <string name="dock_sounds_enable_summary_off" product="shield">Không phát âm thanh khi lắp hoặc tháo SHIELD khỏi đế</string>
+
+    <!-- Sound & display settings screen, accelerometer-based rotation summary text when check box is selected -->
+    <string name="accelerometer_summary_on" product="shield">Tự động chuyển hướng khi xoay SHIELD</string>
+    <!-- Sound & display settings screen, accelerometer-based rotation summary text when check box is clear -->
+    <string name="accelerometer_summary_off" product="shield">Tự động chuyển hướng khi xoay SHIELD</string>
+    <!-- SIM card lock settings screen, setting option summary text when SIM lock check box is selected -->
+    <string name="sim_lock_on" product="shield">Yêu cầu PIN để sử dụng SHIELD</string>
+    <!-- SIM card lock settings screen, setting option summary text when SIM lock check box is clear -->
+    <string name="sim_lock_off" product="shield">Yêu cầu PIN để sử dụng SHIELD</string>
+    <!-- Advanced (used for diagnostics) device info activity title -->
+    <string name="device_info_settings" product="shield">Trạng thái của SHIELD</string>
+
+    <!-- About tablet screen, summary of the item that takes you to tablet status screen -->
+    <string name="device_status_summary" product="shield">Trạng thái của pin, mạng và thông tin khác</string>
+    <!-- About tablet, status item title.  The Mobile Directory Number [CHAR LIMIT=30] -->
+    <string name="status_number" product="shield">SỐ THƯ MỤC DI ĐỘNG (MDN)</string>
+    <!-- SD card & phone storage settings screen, setting option summary text under Internal phone storage heading -->
+    <string name="master_clear_summary" product="shield">Xóa tất cả dữ liệu trên SHIELD</string>
+    <!-- SD card & phone storage settings screen, message on screen after user selects Factory data reset [CHAR LIMIT=NONE] -->
+    <string name="master_clear_desc" product="shield">"Thao tác này sẽ xóa tất cả dữ liệu khỏi <b>bộ lưu trữ trong</b> của SHIELD, bao gồm:\n\n<li>Tài khoản Google của bạn</li>\n<li>Dữ liệu và cài đặt hệ thống và ứng dụng</li>\n<li>Các ứng dụng đã tải</li>"</string>
+    <!-- SD card & phone storage settings screen, button on screen after user selects Factory data reset -->
+    <string name="master_clear_button_text" product="shield">Thiết lập lại SHIELD</string>
+    <!-- Bluetooth available subtext - shown when Bluetooth tethering is turned on but it is not currently tethered to any devices [CHAR LIMIT=50]-->
+    <string name="bluetooth_tethering_available_subtext" product="shield">Chia sẻ kết nối Internet của SHIELD</string>
+    <!-- Bluetooth connected subtext - shown when a device is tethered over Bluetooth [CHAR LIMIT=60]-->
+    <string name="bluetooth_tethering_device_connected_subtext" product="shield">Chia sẻ kết nối Internet của SHIELD với 1 thiết bị</string>
+    <!-- Bluetooth connected subtext - shown when multiple devices are tethered over Bluetooth [CHAR LIMIT=60]-->
+    <string name="bluetooth_tethering_devices_connected_subtext" product="shield">Chia sẻ kết nối Internet của SHIELD tới <xliff:g id="connectedDeviceCount">%1$d</xliff:g> thiết bị</string>
+    <!-- Bluetooth tethering off subtext - shown when Bluetooth Tethering is turned off [CHAR LIMIT=50]-->
+    <string name="bluetooth_tethering_off_subtext" product="shield">Không chia sẻ kết nối Internet của SHIELD</string>
+    <!-- [CHAR LIMIT=100] Security & location settings screen, setting check box summary for GPS satellites on a SHIELD -->
+    <string name="location_street_level" product="shield">Cho phép ứng dụng sử dụng GPS trên SHIELD để xác định vị trí của bạn</string>
+    <!-- Main settings screen, setting title for the user to go into the About phone screen -->
+    <string name="about_settings" product="shield">Thông tin về SHIELD</string>
+    <!-- Applications settings screen, message text of alert that appears if user selects the "Unknown sources" check box -->
+    <string name="install_all_warning" product="shield">SHIELD và dữ liệu cá nhân của bạn dễ bị tấn công hơn bởi các ứng dụng từ nguồn không xác định.  Bạn đồng ư rằng bạn tự chịu trách nhiệm cho mọi hỏng hóc đối với SHIELD của bạn hoặc mất mát dữ liệu có thể phát sinh do sử dụng những ứng dụng này.</string>
+    <!-- Manage applications, individual application info screen, text that appears under the "Permissions" heading. This describes the permissions that the application has. -->
+    <string name="security_settings_desc" product="shield">Ứng dụng này có thể truy cập các mục sau trên SHIELD của bạn:</string>
+    <!-- [CHAR_LIMIT=NONE] Manage applications, individual application info screen, text that appears under the "Permissions" heading.
+         This describes the permissions that the application has.  It is used when multiple packages are contributing to the permissions and need to be listed here. -->
+    <string name="security_settings_desc_multi" product="shield">Ứng dụng này có thể truy cập thông tin sau đây trên SHIELD của bạn.  Để cải tiến hiệu suất và giảm sử dụng bộ nhớ, một số quyền này khả dụng với <xliff:g id="base_app_name">%1$s</xliff:g> do ứng dụng chạy trong cùng một quá tŕnh với <xliff:g id="additional_apps_list">%2$s</xliff:g>:</string>
+
+    <!-- Manage applications, text for Move button to move app to internal storage -->
+    <string name="move_app_to_internal" product="shield">Chuyển tới SHIELD</string>
+    <!-- Running service details, stop confirmation descriptive text. Displays when user selects selects to stop a system service. -->
+    <string name="runningservicedetails_stop_dlg_text" product="shield">Nếu bạn dừng dịch vụ này, một số tính năng của SHIELD của bạn có thể ngừng hoạt động đúng cho tới khi bạn tắt rồi bật lại SHIELD.</string>
+    <!-- In the Testing screen.  The item title of the activity that shows a bunch of phone-related information.  -->
+    <string name="testing_phone_info" product="shield">Thông tin về SHIELD</string>
+
+    <!-- Label for power consumed when Idle -->
+    <string name="power_idle" product="shield">SHIELD ở chế độ rảnh</string>
+
+    <!-- Label for Phone usage time -->
+    <string name="usage_type_phone" product="shield">SHIELD</string>
+    <!-- Description for standby detail -->
+    <string name="battery_desc_standby" product="shield">Pin được sử dụng khi SHIELD ở chế độ rảnh</string>
+    <!-- Remove account message in dialog [CHAR LIMIT=NONE] -->
+    <string name="really_remove_account_message" product="shield">Việc xóa tài khoản này sẽ xóa tất cả thư, địa chỉ liên hệ và dữ liệu khác khỏi SHIELD!</string>
+    <!-- This is shown if the autheticator for a given account fails to remove it. -->
+    <string name="remove_account_failed" product="shield">Tài khoản này được một số ứng dụng yêu cầu.  Bạn chỉ có thể xóa tài khoản này bằng cách đặt lại SHIELD về mặc định ban đầu (tác vụ này sẽ xóa tất cả dữ liệu cá nhân của bạn) trong đặt lại Cài đặt &gt; Sao lưu.</string>
+    <!--  Body of dialog shown when user enables global auto sync, for shield [CHAR LIMIT=none] -->
+    <string name="data_usage_auto_sync_on_dialog" product="shield">Mọi thay đổi bạn thực hiện cho các tài khoản của bạn trên web sẽ tự động được sao chép sang SHIELD của bạn.\n\n Một số tài khoản cũng có thể tự động sao chép mọi thay đổi bạn thực hiện trên SHIELD lên web.  Tài khoản Google hoạt động theo cách này.\n\nĐể chọn loại thông tin sẽ đồng bộ hóa với từng tài khoản, truy cập Cài đặt &gt; Tài khoản.</string>
+    <!-- Body of dialog shown before user limits mobile data usage. [CHAR LIMIT=NONE] -->
+    <string name="data_usage_limit_dialog_mobile" product="shield">Kết nối dữ liệu di động của bạn sẽ bị tắt khi đạt giới hạn đã quy định.\n\nVì SHIELD đo lường mức sử dụng dữ liệu, và nhà cung cấp dịch vụ có thể tính mức sử dụng theo cách khác, hãy xem xét việc sử dụng giới hạn bảo toàn.</string>
+    <!-- Body of dialog shown before user restricts background data usage. This is for multiuser SHIELDS. [CHAR LIMIT=NONE] -->
+    <string name="data_usage_restrict_background_multiuser" product="shield">Nếu bạn giới hạn dữ liệu nền trên thiết bị di động, một số ứng dụng và dịch vụ sẽ không hoạt động trừ khi bạn kết nối với mạng Wi-Fi.\n\nCài đặt này ảnh hưởng đến tất cả người dùng trên SHIELD này.</string>
+
+    <!-- Label displaying total network data transferred during a specific time period, including a disclaimer that contrasts device versus carrier reporting. [CHAR LIMIT=80] -->
+    <string name="data_usage_total_during_range_mobile" product="shield"> <xliff:g id="range" example="Jul 1 - Jul 31">%2$s</xliff:g>: đã sử dụng khoảng <xliff:g id="total" example="128KB">%1$s</xliff:g>, theo đo lường của SHIELD. Việc tính mức sử dụng dữ liệu của nhà cung cấp dịch vụ của bạn có thể khác nhau.</string>
+    <!-- Message to secondary users that only owner can manage users [CHAR LIMIT=none] -->
+    <string name="user_cannot_manage_message" product="shield">Chỉ chủ sở hữu SHIELD mới có thể quản lư người dùng.</string>
+    <!-- User (self) removal confirmation message [CHAR LIMIT=none] -->
+    <string name="user_confirm_remove_self_message" product="shield">Bạn sẽ mất không gian và dữ liệu của ḿnh trên SHIELD này.  Bạn không thể hoàn tác tác vụ này.</string>
+    <!-- User removal confirmation message [CHAR LIMIT=none] -->
+    <string name="user_confirm_remove_message" product="shield">Không gian và dữ liệu của người dùng này sẽ biến mất khỏi SHIELD này.  Bạn không thể hoàn tác tác vụ này.</string>
+    <!-- Warning message when changing a global setting for a SHIELD.[CHAR LIMIT=none] -->
+    <string name="global_change_warning" product="shield">Cài đặt này ảnh hưởng đến tất cả người dùng trên SHIELD này.</string>
+
+    <!-- On Language & input settings screen, setting summary.  Setting for thor button brightness. [CHAR LIMIT=35] -->
+    <add-resource type="string" name="nv_led_brightness" />
+    <string name="nv_led_brightness">Độ sáng đèn LED</string>
+    <!-- Category title for Virtual mouse [CHAR LIMIT=40] -->
+    <add-resource type="string" name="nv_nvidia_button" />
+    <string name="nv_nvidia_button">Nút NVIDIA</string>
+
+    <add-resource type="string" name="nv_category_controller_volume" />
+    <string name="nv_category_controller_volume">Điều khiển Âm lượng</string>
+
+    <add-resource type="string" name="controller_volume_text" />
+    <string name="controller_volume_text">Sử dụng các nút bumper để điều chỉnh âm lượng</string>
+
+    <add-resource type="string" name="controller_volume_summary" />
+    <string name="controller_volume_summary">LB và RB sẽ điều chỉnh âm lượng sau khi nhấn nút âm lượng</string>
+     <!-- Controller pulse nvidia led when sleeping-->
+     <add-resource type="string" name="controller_pulse_led" />
+     <string name="controller_pulse_led">Xung LED khi thiết bị ở chế độ ngủ</string>
+
+    <!-- Security & location settings screen, setting check box title. This controls whether the device locks immediately when the user closes the lid. [CHAR LIMIT=28]-->
+    <string name="lockpattern_settings_enable_power_button_instantly_locks">Việc đóng nắp sẽ khoán ngay lập tức</string>
+
+    <add-resource type="string" name="nv_license_title" />
+    <string name="nv_license_title">NVIDIA pháp lý</string>
+    <add-resource type="string" name="nv_swla" />
+    <string name="nv_swla">Thỏa thuận Cấp phép Phần mềm</string>
+    <add-resource type="string" name="nv_privacy" />
+    <string name="nv_privacy">Chính sách Riêng tư</string>
+    <add-resource type="string" name="nv_tegra_exp_tos" />
+    <string name="nv_tegra_exp_tos">Các Điều khoản Dịch vụ Tegra Experience</string>
+    <add-resource type="string" name="nv_warranty" />
+    <string name="nv_warranty">Thông tin Bảo hành</string>
+    <add-resource type="string" name="nv_settings_license_activity_title" />
+    <string name="nv_settings_license_activity_title">Các giấy phép của NVIDIA</string>
+
+    <!-- About device screen, report bug to nvidia -->
+    <add-resource type="string" name="nv_feedback" />
+    <string name="nv_feedback">Gửi phản hồi đến NVIDIA</string>
+
+</resources>

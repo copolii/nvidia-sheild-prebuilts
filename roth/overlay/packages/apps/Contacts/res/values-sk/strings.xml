@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Description in the dialog that appears if there are no pictures from which to create an icon for a contact -->
+    <string name="photoPickerNotFoundText" product="shield">Nie sú k dispozícii žiadne obrázky.</string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is disabled.  [CHAR LIMIT=NONE] -->
+    <string name="noContactsHelpText" product="shield">"Nemáte uložené žiadne kontakty, ktoré by bolo možné zobraziť.\n\nAk chcete pridať kontakty, dotknite sa tlačidla <font fgcolor="#ffffffff"><b>Menu</b></font> a potom sa dotknite jednej z nasledujúcich položiek:\n
+        \n <li><font fgcolor="#ffffffff"><b>Účty</b></font>, ak chcete pridať alebo nastaviť účet a kontakty v ňom synchronizovať so systémom SHIELD,\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Nový kontakt</b></font>, ak chcete vytvoriť úplne nový kontakt,\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Import a export</b></font>, ak chcete importovať kontakty zo svojej karty SIM alebo SD.\n</li>"
+    </string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is enabled.  [CHAR LIMIT=NONE] -->
+    <string name="noContactsHelpTextWithSync" product="shield">"Nemáte uložené žiadne kontakty, ktoré by bolo možné zobraziť. (Ak ste práve pridali účet, môže synchronizácia kontaktov trvať niekoľko minút.)\n\nAk chcete pridať kontakty, dotknite sa tlačidla <font fgcolor="#ffffffff"><b>Menu</b></font> a potom sa dotknite jednej z nasledujúcich položiek:\n
+        \n<li><font fgcolor="#ffffffff"><b>Účty</b></font>, ak chcete pridať alebo nastaviť účet a kontakty v ňom synchronizovať so systémom SHIELD,\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Možnosti zobrazenia</b></font>, ak chcete zmeniť možnosti zobrazenia kontaktov,\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Nový kontakt</b></font>, ak chcete vytvoriť úplne nový kontakt,\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Import a export</b></font>, ak chcete importovať kontakty zo svojej karty SIM alebo SD.\n</li>"
+    </string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is disabled, and there is no sim card (cdma).  [CHAR LIMIT=NONE]-->
+    <string name="noContactsNoSimHelpText" product="shield">"Nemáte uložené žiadne kontakty, ktoré by bolo možné zobraziť.\n\nAk chcete pridať kontakty, dotknite sa tlačidla <font fgcolor="#ffffffff"><b>Menu</b></font> a potom sa dotknite jednej z nasledujúcich položiek:\n
+        \n<li><font fgcolor="#ffffffff"><b>Účty</b></font>, ak chcete pridať alebo nastaviť účet a kontakty v ňom synchronizovať so systémom SHIELD,\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Nový kontakt</b></font>, ak chcete vytvoriť úplne nový kontakt,\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Import a export</b></font>, ak chcete importovať kontakty zo svojej karty SIM alebo SD.\n</li>"
+    </string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is enabled, and there is no sim card (cdma).  [CHAR LIMIT=NONE] -->
+    <string name="noContactsNoSimHelpTextWithSync" product="shield">"Nemáte uložené žiadne kontakty, ktoré by bolo možné zobraziť. (Ak ste práve pridali účet, môže synchronizácia kontaktov trvať niekoľko minút.)\n\nAk chcete pridať kontakty, dotknite sa tlačidla <font fgcolor="#ffffffff"><b>Menu</b></font> a potom sa dotknite jednej z nasledujúcich položiek:\n
+        \n<li><font fgcolor="#ffffffff"><b>Účty</b></font>, ak chcete pridať alebo nastaviť účet a kontakty v ňom synchronizovať so systémom SHIELD,\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Možnosti zobrazenia</b></font>, ak chcete zmeniť možnosti zobrazenia kontaktov,\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Nový kontakt</b></font>, ak chcete vytvoriť úplne nový kontakt,\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Import a export</b></font>, ak chcete importovať kontakty zo svojej karty SIM alebo SD.\n</li>"
+    </string>
+    <!-- This error message shown when the user actually have no contact (e.g. just after data-wiping), or, data providers of the contact list prohibits their contacts from being exported to outside world via vcard exporter, etc. [CHAR LIMIT=NONE] -->
+    <string name="composer_has_no_exportable_contact" product="shield">Nenašli sa žiadne kontakty, ktoré by bolo možné exportovať. Ak v systéme SHIELD skutočne máte kontakty, problém môže byť spôsobený tým, že niektorí poskytovatelia údajov nemusia umožňovať export kontaktov.</string>
+    <!-- Title for data source when creating or editing a contact that doesn't belong to a specific account.  This contact will only exist on the phone and will not be synced. -->
+    <string name="account_phone" product="shield">Iba v systéme SHIELD, nesynchronizované</string>
+
+</resources>
