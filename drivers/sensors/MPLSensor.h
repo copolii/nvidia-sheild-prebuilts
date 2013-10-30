@@ -123,6 +123,8 @@ public:
     int readAccelEvents(sensors_event_t* data, int count);
     int readCompassEvents(sensors_event_t* data, int count);
 
+    int masterEnable(int en);
+
 protected:
     CompassSensor *mCompassSensor;
 
@@ -147,7 +149,6 @@ protected:
     int inv_constructor_default_enable();
     int setGyroInitialState();
     int setAccelInitialState();
-    int masterEnable(int en);
     int onPower(int en);
     int enableGyro(int en);
     int enableAccel(int en);

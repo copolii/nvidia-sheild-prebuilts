@@ -23,6 +23,10 @@
 #include "MPLSensorDefs.h"
 #include "CompassSensor.h"
 
+#ifndef OVERWRITE_PM_STDBY
+#define OVERWRITE_PM_STDBY    1
+#endif
+
 static const struct sensor_t sSensorList[] = {
       MPLROTATIONVECTOR_DEF,
       MPLLINEARACCEL_DEF,
@@ -254,6 +258,7 @@ sensors_poll_context_t::sensors_poll_context_t()
         mCompassSensor = new CompassSensor("akm89xx", inputNum, 0);
     MPLSensor *mplSensor = new MPLSensor(mCompassSensor);
 
+    mplSensor->masterEnable(OVERWRITE_PM_STDBY);
     // setup the callback object for handing mpl callbacks
     setCallbackObject(mplSensor);
     mSensors[mpl] = mplSensor;
