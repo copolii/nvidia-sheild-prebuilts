@@ -16,10 +16,10 @@ else
 endif
 
 PRODUCT_COPY_FILES += \
-    $(NVFLASH_FILES_PATH)/nvflash/P1640_Micron_1GB_MT41K128M16-125_408Mhz_v02_Hynix_1GB_H5TC2G63FFR-PBA_408Mhz_v01.cfg:bct.cfg \
-    $(NVFLASH_FILES_PATH)/nvflash/P1640_Micron_1GB_MT41K128M16-125_408Mhz_v02_Hynix_1GB_H5TC2G63FFR-PBA_408Mhz_v01.bct:flash.bct \
-    $(NVFLASH_FILES_PATH)/nvflash/P1640_Micron_1GB_MT41K128M16-125_408Mhz_v02_Hynix_1GB_H5TC2G63FFR-PBA_408Mhz_v01.cfg:flash_tegratab_p1640.cfg \
-    $(NVFLASH_FILES_PATH)/nvflash/P1640_Micron_1GB_MT41K128M16-125_408Mhz_v02_Hynix_1GB_H5TC2G63FFR-PBA_408Mhz_v01.bct:flash_tegratab_p1640.bct \
+    $(NVFLASH_FILES_PATH)/nvflash/P1640_Micron_1GB_MT41K128M16-125_408Mhz_v8_0_Hynix_1GB_H5TC2G63FFR-PBA_408Mhz_v1_0.cfg:bct.cfg \
+    $(NVFLASH_FILES_PATH)/nvflash/P1640_Micron_1GB_MT41K128M16-125_408Mhz_v8_0_Hynix_1GB_H5TC2G63FFR-PBA_408Mhz_v1_0.bct:flash.bct \
+    $(NVFLASH_FILES_PATH)/nvflash/P1640_Micron_1GB_MT41K128M16-125_408Mhz_v8_0_Hynix_1GB_H5TC2G63FFR-PBA_408Mhz_v1_0.cfg:flash_tegratab_p1640.cfg \
+    $(NVFLASH_FILES_PATH)/nvflash/P1640_Micron_1GB_MT41K128M16-125_408Mhz_v8_0_Hynix_1GB_H5TC2G63FFR-PBA_408Mhz_v1_0.bct:flash_tegratab_p1640.bct \
     $(NVFLASH_FILES_PATH)/nvflash/E1569_Micron_1GB_MT41K128M16-125_408Mhz.cfg:flash_tegratab_e1569.cfg \
     $(NVFLASH_FILES_PATH)/nvflash/E1569_Micron_1GB_MT41K128M16-125_408Mhz.bct:flash_tegratab_e1569.bct \
     $(NVFLASH_FILES_PATH)/nvflash/eks_nokey.dat:eks.dat \
@@ -245,6 +245,14 @@ PRODUCT_COPY_FILES += \
 endif
 endif
 
+# User Manual
+ifneq ($(TARGET_PRODUCT),kalamata)
+    PRODUCT_COPY_FILES += $(LOCAL_PATH)/user_guide.sh:system/bin/user_guide.sh
+    ifneq ($(wildcard vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7UserGuide.pdf),)
+        PRODUCT_COPY_FILES += vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7UserGuide.pdf:system/media/TegraNOTE7UserGuide.pdf
+    endif
+endif
+
 #enable Widevine drm
 PRODUCT_PROPERTY_OVERRIDES += drm.service.enabled=true
 PRODUCT_PACKAGES += \
@@ -260,6 +268,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     LiveWallpapers \
     LiveWallpapersPicker \
+    HoloSpiralWallpaper \
+    MagicSmokeWallpapers \
+    NoiseField \
+    Galaxy4 \
+    VisualizationWallpapers \
+    PhaseBeam \
     librs_jni
 
 PRODUCT_PACKAGES += \
@@ -275,7 +289,8 @@ PRODUCT_PACKAGES += \
 	Gallery2 \
 	libdrmframework_jni \
 	e2fsck \
-	nvidiafeedback
+	nvidiafeedback \
+        NVSS
 
 PRODUCT_PACKAGES += \
 	charger\

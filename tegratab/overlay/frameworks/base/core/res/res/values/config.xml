@@ -57,7 +57,7 @@
     <bool name="config_lidControlsSleep">true</bool>
 
     <!-- Shutdown if the battery temperature exceeds (this value * 0.1) Celsius. -->
-    <integer name="config_shutdownBatteryTemperature">600</integer>
+    <integer name="config_shutdownBatteryTemperature">550</integer>
 
     <!-- Array of light sensor LUX values to define our levels for auto backlight brightness support.
          The N entries of this array define N  1 zones as follows:

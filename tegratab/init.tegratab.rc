@@ -91,6 +91,11 @@ on post-fs-data
     # enable Rt_reg_ctrl app to access device
     chmod 0666 /dev/snd/hwC1D0
 
+    mount ext4 /dev/block/platform/sdhci-tegra.3/by-name/FCT /mnt/factory rw remount
+    mkdir /mnt/factory/mpu 0777 system system
+    chmod 0644 /mnt/factory/mpu/inv_cal_data.bin
+    mount ext4 /dev/block/platform/sdhci-tegra.3/by-name/FCT /mnt/factory ro remount
+
     # export environment for touch and sensor
     export TOUCH_CONF_DIR /mnt/factory/touchscreen
     export TOUCH_DATA_DIR /data/touchscreen
@@ -119,7 +124,7 @@ on boot
     insmod /system/lib/modules/compat/compat.ko
     insmod /system/lib/modules/compat/cfg80211.ko
     insmod /system/lib/modules/compat/mac80211.ko
-    insmod /system/lib/modules/compat/wlcore.ko
+    insmod /system/lib/modules/compat/wlcore.ko suspen_rx_ba_activity=1
     insmod /system/lib/modules/compat/wl18xx.ko dc2dc=0 \
      low_band_component=0x2 low_band_component_type=0x5 \
      high_band_component=0x1 high_band_component_type=0x9 \
@@ -516,6 +521,16 @@ service camera_lbh /system/bin/camera_lbh.sh
     group root
     oneshot
 
+service user_guide /system/bin/user_guide.sh
+    disabled
+    class main
+    user root
+    group root
+    oneshot
+
+on property:service.bootanim.exit=1
+   start user_guide
+
 on init
     setprop persist.tegra.cursor.enable 1
     setprop sf.async.cursor.enable 1
@@ -525,7 +540,10 @@ on init
     setprop input.tch_blk.ext_for_ptrs 1
     setprop input.tch_blk.timeout_ms 500
     setprop input.tch_prs.ebc 0.9
-    setprop input.stl_blk.edge_pxls 2
+    setprop input.stl_blk.edge_left 0
+    setprop input.stl_blk.edge_top 0
+    setprop input.stl_blk.edge_right 15
+    setprop input.stl_blk.edge_bottom 0
 
 # Customers should remove this line
 import init.qvs.rc

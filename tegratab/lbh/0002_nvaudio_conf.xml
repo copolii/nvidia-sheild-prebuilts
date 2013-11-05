@@ -70,11 +70,13 @@
     <param name="ulp formats" val="mp3 aac"/>
     <param name="ulp rates" val="48000 44100"/>
     <param name="nvoice" val="1"/>
+    <param name="swapchannels" val="1"/>
     <param name="HW Rates" val="48000 44100"/>
 
     <path>
       <!--playback paths-->
       <ctl name="Speaker Playback Volume" val="0x1f"/>
+      <ctl name="HP Playback Volume" val="0x18"/>
     </path>
 
     <playback>
@@ -109,7 +111,7 @@
           <ctl name="Stereo ADC MIXL ADC2 Switch" val="1"/>
           <ctl name="Stereo ADC MIXR ADC2 Switch" val="1"/>
           <ctl name="IN2 Mode Control" val="Differential"/>
-          <ctl name="ADC Boost Gain" val="3"/>
+          <ctl name="ADC Boost Gain" val="2"/>
           <ctl name="Int Mic Switch" val="1"/>
         </path>
         <path name="off">

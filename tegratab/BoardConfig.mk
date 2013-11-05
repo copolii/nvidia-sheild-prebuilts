@@ -46,7 +46,11 @@ USE_OPENGL_RENDERER := true
 TARGET_RECOVERY_UPDATER_LIBS += libnvrecoveryupdater
 
 ifeq ($(TARGET_PRODUCT),kalamata)
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR ?= device/nvidia/tegratab/bluetooth-kalamata
+ifneq ($(wildcard vendor/nvidia/kalamata/bluetooth-kalamata),)
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR ?= vendor/nvidia/kalamata/bluetooth-kalamata
+else
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR ?= device/nvidia/tegratab/bluetooth
+endif
 else
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR ?= device/nvidia/tegratab/bluetooth
 endif
