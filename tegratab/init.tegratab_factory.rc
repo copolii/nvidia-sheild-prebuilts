@@ -410,12 +410,6 @@ service nvcpud /system/bin/nvcpud
     user system
     group system
 
-# Maxim touch setting
-service touch_fusion \
-    /vendor/bin/touch_fusion \
-    daemon touch_fusion /vendor/firmware/touch_fusion.cfg
-    class main
-
 # Charger Mode
 service charger /charger
 	class charger
