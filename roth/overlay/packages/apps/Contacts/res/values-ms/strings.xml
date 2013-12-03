@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Description in the dialog that appears if there are no pictures from which to create an icon for a contact -->
+    <string name="photoPickerNotFoundText" product="shield">Tiada gambar tersedia</string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is disabled.  [CHAR LIMIT=NONE] -->
+    <string name="noContactsHelpText" product="shield">"Anda tiada sebarang kenalan untuk dipaparkan.\n\nUntuk menambah kenalan, sentuh <font fgcolor="#ffffffff"><b>Menu</b></font>, kemudian sentuh:\n
+        \n <li><font fgcolor="#ffffffff"><b>Akaun</b></font> untuk menambah atau menyediakan akaun dengan kenalan yang anda boleh segerakkan ke SHIELD\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Kenalan baharu</b></font> untuk membuat kenalan baharu dari mula\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Import/eksport</b></font> untuk mengimport kenalan dari kad SIM atau SD anda\n</li>"
+    </string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is enabled.  [CHAR LIMIT=NONE] -->
+    <string name="noContactsHelpTextWithSync" product="shield">"Anda tiada sebarang kenalan untuk dipaparkan. (Jika anda baru menambahkan akaun, beberapa minit diperlukan untuk menyegerakkan kenalan.)\n\nUntuk menambah kenalan, sentuh <font fgcolor="#ffffffff"><b>Menu</b></font>, kemudian sentuh:\n
+        \n<li><font fgcolor="#ffffffff"><b>Akaun</b></font> untuk menambah atau menyediakan akaun dengan kenalan yang anda boleh segerakkan ke SHIELD\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Pilihan paparan</b></font> untuk menukar kenalan yang boleh dilihat\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Kenalan baharu</b></font> untuk membuat kenalan baharu dari mula\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Import/Eksport</b></font> untuk mengimport kenalan dari kad SIM atau SD anda\n</li>"
+    </string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is disabled, and there is no sim card (cdma).  [CHAR LIMIT=NONE]-->
+    <string name="noContactsNoSimHelpText" product="shield">"Anda tiada sebarang kenalan untuk dipaparkan.\n\nUntuk menambah kenalan, sentuh <font fgcolor="#ffffffff"><b>Menu</b></font>, kemudian sentuh:\n
+        \n<li><font fgcolor="#ffffffff"><b>Akaun</b></font> untuk menambah atau menyediakan akaun dengan kenalan yang anda boleh segerakkan ke SHIELD\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Kenalan baharu</b></font> untuk membuat kenalan baharu dari mula\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Import/Eksport</b></font> untuk mengimport kenalan dari kad SD anda\n</li>"
+    </string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is enabled, and there is no sim card (cdma).  [CHAR LIMIT=NONE] -->
+    <string name="noContactsNoSimHelpTextWithSync" product="shield">"Anda tiada sebarang kenalan untuk dipaparkan. (Jika anda baru menambahkan akaun, beberapa minit diperlukan untuk menyegerakkan kenalan.)\n\nUntuk menambah kenalan, sentuh <font fgcolor="#ffffffff"><b>Menu</b></font>, kemudian sentuh:\n
+        \n<li><font fgcolor="#ffffffff"><b>Akaun</b></font> untuk menambah atau menyediakan akaun dengan kenalan yang anda boleh segerakkan ke SHIELD\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Pilihan paparan</b></font> untuk menukar kenalan yang boleh dilihat\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Kenalan baharu</b></font> untuk membuat kenalan baharu dari mula\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Import/Eksport</b></font> untuk mengimport kenalan dari kad SD anda\n</li>"
+    </string>
+    <!-- This error message shown when the user actually have no contact (e.g. just after data-wiping), or, data providers of the contact list prohibits their contacts from being exported to outside world via vcard exporter, etc. [CHAR LIMIT=NONE] -->
+    <string name="composer_has_no_exportable_contact" product="shield">Tiada kenalan boleh dieksport. Jika anda mempunyai kenalan pada SHIELD, sesetengah penyedia data mungkin tidak membenarkan kenalan dieksport.</string>
+    <!-- Title for data source when creating or editing a contact that doesn't belong to a specific account.  This contact will only exist on the phone and will not be synced. -->
+    <string name="account_phone" product="shield">SHIELD sahaja, tidak disegerakkan</string>
+
+</resources>

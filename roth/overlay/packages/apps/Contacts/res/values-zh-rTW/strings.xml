@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Description in the dialog that appears if there are no pictures from which to create an icon for a contact -->
+    <string name="photoPickerNotFoundText" product="shield">沒有任何圖片可用。</string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is disabled.  [CHAR LIMIT=NONE] -->
+    <string name="noContactsHelpText" product="shield">"您沒有任何聯絡人可供顯示。\n\n若要新增聯絡人，請觸摸<font fgcolor="#ffffffff"><b>功能表</b></font>，然後觸摸：\n
+\n <li><font fgcolor="#ffffffff"><b>帳戶</b></font>以新增或設定具有可與 SHIELD 同步處理的聯絡人的帳戶\n</li>
+\n<li><font fgcolor="#ffffffff"><b>新聯絡人</b></font>以從頭建立新聯絡人\n</li>
+\n<li><font fgcolor="#ffffffff"><b>輸入/輸出</b></font>以從您的 SIM 或 SD 卡輸入聯絡人\n</li>"
+    </string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is enabled.  [CHAR LIMIT=NONE] -->
+    <string name="noContactsHelpTextWithSync" product="shield">"您沒有任何聯絡人可供顯示。（如果您剛剛才新增帳戶，系統需要幾分鐘的時間才能同步處理聯絡人。）\n\n若要新增聯絡人，觸摸<font fgcolor="#ffffffff"><b>功能表</b></font>，然後觸摸：\n
+\n<li><font fgcolor="#ffffffff"><b>帳戶</b></font>以新增或設定具有可與 SHIELD 同步處理的聯絡人的帳戶\n</li>
+\n<li><font fgcolor="#ffffffff"><b>顯示選項</b></font>以變更可見的聯絡人\n</li>
+\n<li><font fgcolor="#ffffffff"><b>新聯絡人</b></font>以從頭建立新聯絡人\n</li>
+\n<li><font fgcolor="#ffffffff"><b>輸入/輸出</b></font>以從您的 SIM 或 SD 卡輸入聯絡人\n</li>"
+    </string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is disabled, and there is no sim card (cdma).  [CHAR LIMIT=NONE]-->
+    <string name="noContactsNoSimHelpText" product="shield">"您沒有任何聯絡人可供顯示。\n\n若要新增聯絡人，觸摸<font fgcolor="#ffffffff"><b>功能表</b></font>，然後觸摸：\n
+\n<li><font fgcolor="#ffffffff"><b>帳戶</b></font>以新增或設定具有可與 SHIELD 同步處理的聯絡人的帳戶\n</li>
+\n<li><font fgcolor="#ffffffff"><b>新聯絡人</b></font>以從頭建立新聯絡人\n</li>
+\n<li><font fgcolor="#ffffffff"><b>輸入/輸出</b></font>以從您的 SD 卡輸入聯絡人\n</li>"
+    </string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is enabled, and there is no sim card (cdma).  [CHAR LIMIT=NONE] -->
+    <string name="noContactsNoSimHelpTextWithSync" product="shield">"您沒有任何聯絡人可供顯示。（如果您剛剛才新增帳戶，系統需要幾分鐘的時間才能同步處理聯絡人。）\n\n若要新增聯絡人，觸摸<font fgcolor="#ffffffff"><b>功能表</b></font>，然後觸摸：\n
+\n<li><font fgcolor="#ffffffff"><b>帳戶</b></font>以新增或設定具有可與 SHIELD 同步處理的聯絡人的帳戶\n</li>
+\n<li><font fgcolor="#ffffffff"><b>顯示選項</b></font>以變更可見的聯絡人\n</li>
+\n<li><font fgcolor="#ffffffff"><b>新聯絡人</b></font>以從頭建立新聯絡人\n</li>
+\n<li><font fgcolor="#ffffffff"><b>輸入/輸出</b></font>以從您的 SD 卡輸入聯絡人\n</li>"
+    </string>
+    <!-- This error message shown when the user actually have no contact (e.g. just after data-wiping), or, data providers of the contact list prohibits their contacts from being exported to outside world via vcard exporter, etc. [CHAR LIMIT=NONE] -->
+    <string name="composer_has_no_exportable_contact" product="shield">沒有任何可匯出的聯絡人。如果您的 SHIELD 中確實有聯絡人，某些資料提供者可能不允許聯絡人資料被匯出。</string>
+    <!-- Title for data source when creating or editing a contact that doesn't belong to a specific account.  This contact will only exist on the phone and will not be synced. -->
+    <string name="account_phone" product="shield">僅儲存於 SHIELD（不會同步處理）</string>
+
+</resources>

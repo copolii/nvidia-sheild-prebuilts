@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Description in the dialog that appears if there are no pictures from which to create an icon for a contact -->
+    <string name="photoPickerNotFoundText" product="shield">ไม่มีรูปภาพ</string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is disabled.  [CHAR LIMIT=NONE] -->
+    <string name="noContactsHelpText" product="shield">"คุณไม่มีรายชื่อให้แสดง\n\nหากต้องการเพิ่มรายชื่อ  ให้แตะ<font fgcolor="#ffffffff"><b>เมนู</b></font> จากนั้นแตะ:\n
+        \n <li><font fgcolor="#ffffffff"><b>บัญชี</b></font> เพื่อเพิ่มหรือตั้งค่าบัญชีด้วยรายชื่อที่คุณสามารถซิงค์ไปยัง SHIELD\n</li>
+        \n<li><FONT FGCOLOR="#FFFFFFFF"><B>สร้างรายชื่อใหม่</B></FONT> เพื่อสร้างรายชื่อใหม่ตั้งแต่ต้น\N</li>
+        \n<li><font fgcolor="#ffffffff"><b>นำเข้า/ส่งออก</b></font> เพื่อนำเข้ารายชื่อจากซิมหรือ SD การ์ดของคุณ\n</li>"
+    </string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is enabled.  [CHAR LIMIT=NONE] -->
+    <string name="noContactsHelpTextWithSync" product="shield">"คุณไม่มีรายชื่อที่จะแสดง (หากคุณเพิ่งเพิ่มบัญชีลงไป อาจต้องใช้เวลาในการซิงค์รายชื่อสักครู่)\n\nหากต้องการเพิ่มรายชื่อ ให้แตะ<font fgcolor="#ffffffff"><b>เมนู</b></font> จากนั้นแตะ:\n
+        \n<li><FONT FGCOLOR="#FFFFFFFF"><B>บัญชี</B></FONT> เพื่อเพิ่มหรือตั้งค่าบัญชีด้วยรายชื่อที่คุณสามารถซิงค์ไปยัง SHIELD\N</li>
+        \n<li><font fgcolor="#ffffffff"><b>แสดงตัวเลือก</b></font> เพื่อเปลี่ยนรายชื่อที่มองเห็นได้\n</li>
+        \n<li><FONT FGCOLOR="#FFFFFFFF"><B>สร้างรายชื่อใหม่</B></FONT> เพื่อสร้างรายชื่อใหม่ตั้งแต่ต้น\N</li>
+        \n<li><font fgcolor="#ffffffff"><b>นำเข้า/ส่งออก</b></font> เพื่อนำเข้ารายชื่อจากซิมหรือ SD การ์ดของคุณ\n</li>"
+    </string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is disabled, and there is no sim card (cdma).  [CHAR LIMIT=NONE]-->
+    <string name="noContactsNoSimHelpText" product="shield">"คุณไม่มีรายชื่อให้แสดง\n\nหากต้องการเพิ่มรายชื่อ  ให้แตะ<font fgcolor="#ffffffff"><b>เมนู</b></font> จากนั้นแตะ:\n
+        \n<li><font fgcolor="#ffffffff"><b>บัญชี</b></font> เพื่อเพิ่มหรือตั้งค่าบัญชีด้วยรายชื่อที่คุณสามารถซิงค์ไปยัง SHIELD\n</li>
+        \n<li><FONT FGCOLOR="#FFFFFFFF"><B>สร้างรายชื่อใหม่</B></FONT> เพื่อสร้างรายชื่อใหม่ตั้งแต่ต้น\N</li>
+        \n<li><font fgcolor="#ffffffff"><b>นำเข้า/ส่งออก</b></font> เพื่อนำเข้ารายชื่อจากซิมหรือ SD การ์ดของคุณ\n</li>"
+    </string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is enabled, and there is no sim card (cdma).  [CHAR LIMIT=NONE] -->
+    <string name="noContactsNoSimHelpTextWithSync" product="shield">"คุณไม่มีรายชื่อที่จะแสดง (หากคุณเพิ่งเพิ่มบัญชีลงไป อาจต้องใช้เวลาในการซิงค์รายชื่อสักครู่)\n\nหากต้องการเพิ่มรายชื่อ ให้แตะ<font fgcolor="#ffffffff"><b>เมนู</b></font> จากนั้นแตะ:\n
+        \n<li><font fgcolor="#ffffffff"><b>บัญชี</b></font> เพื่อเพิ่มหรือตั้งค่าบัญชีด้วยรายชื่อที่คุณสามารถซิงค์ไปยัง SHIELD\n</li>
+        \n<li><FONT FGCOLOR="#FFFFFFFF"><B>แสดงตัวเลือก</B></FONT> เพื่อเปลี่ยนรายชื่อที่มองเห็นได้\N</li>
+        \n<li><font fgcolor="#ffffffff"><b>สร้างรายชื่อใหม่</b></font> เพื่อสร้างรายชื่อใหม่ตั้งแต่ต้น\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>นำเข้า/ส่งออก</b></font> เพื่อนำเข้ารายชื่อจากซิมหรือ SD การ์ดของคุณ\n</li>"
+    </string>
+    <!-- This error message shown when the user actually have no contact (e.g. just after data-wiping), or, data providers of the contact list prohibits their contacts from being exported to outside world via vcard exporter, etc. [CHAR LIMIT=NONE] -->
+    <string name="composer_has_no_exportable_contact" product="shield">ไม่มีรายชื่อที่สามารถส่งออกได้ หากคุณมีรายชื่ออยู่ใน SHIELD ของคุณจริงๆ อาจเป็นเพราะผู้ให้บริการข้อมูลบางรายไม่อนุญาตให้ส่งออกรายชื่อ</string>
+    <!-- Title for data source when creating or editing a contact that doesn't belong to a specific account.  This contact will only exist on the phone and will not be synced. -->
+    <string name="account_phone" product="shield">SHIELD เท่านั้น ไม่ซิงค์</string>
+
+</resources>

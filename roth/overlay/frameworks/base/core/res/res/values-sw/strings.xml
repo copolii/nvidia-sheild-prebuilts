@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- If MMS discovers there isn't much space left on the device, it will show a toast with this message. -->
+    <string name="low_memory" product="shield">Hifadhi ya SHIELD imejaa. Futa baadhi ya faili ili kutoa nafasi.</string>
+    <!-- Title for the Phone Options dialog to lock the screen, turn off the phone etc. -->
+    <string name="power_dialog" product="shield">Chaguo za SHIELD</string>
+    <!-- Shutdown Confirmation Dialog.  When the user chooses to power off the phone, there will be a confirmation dialog.  This is the message. -->
+    <string name="shutdown_confirm" product="shield">SHIELD itazima.</string>
+    <!-- Title of the Global Actions Dialog -->
+    <string name="global_actions" product="shield">Chaguo za SHIELD</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readSms" product="shield">Huruhusu programu kusoma ujumbe wa SMS uliohifadhiwa kwenye SHIELD yako au kadi yako ya SIM. Hii inaruhusu programu kusoma ujumbe wote wa SMS, bila kujali maudhui au usiri.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeSms" product="shield">Huruhusu programu kuandika ujumbe wa SMS uliohifadhiwa kwenye SHIELD yako au kadi yako ya SIM. Programu hasidi zinaweza kufuta ujumbe wako.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_injectEvents" product="shield">Huruhusu programu kuwasilisha matukio yake ya ingizo (mibonyezo ya vitufe, nk.) kwa programu zingine. Programu hasidi zinaweza kutumia hii ili kutawala SHIELD.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_persistentActivity" product="shield">Huruhusu programu kuendeleza vijisehemu vyake kwenye kumbukumbu.  Hii inaweza kupunguza kumbukumbu inayopatikana kwa programu zingine na ipunguze kasi ya SHIELD.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_clearAppCache" product="shield">Huruhusu programu kutoa nafasi ya hifadhi ya SHIELD kwa kufuta faili katika saraka za kache za programu zingine.  Huenda hii ikasababisha programu zingine kuwaka polepole zaidi kwa sababu zinahitaji kuepua data zao.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readLogs" product="shield">Huruhusu programu kusoma kutoka kwa faili mbalimbali za logi za mfumo.  Hii huiruhusu kutambua maelezo ya jumla kuhusu unachofanya na SHIELD, ikiwezekana pamoja na maelezo ya kibinafsi au ya siri.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_changeComponentState" product="shield">Huruhusu programu kubadilisha iwe kiambajengo cha programu nyingine kimewezeshwa au la. Programu hasidi zinaweza kutumia hii kulemaza uwezo muhimu wa SHIELD. Lazina uangalifu utumike kwa ruhusa hii, kwa kuwa kuna uwezekano wa kupata viambajengo vya programu katika hali isiyotumika, isiyowiana, au hali isiyo thabiti.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_receiveBootCompleted" product="shield">Huruhusu programu kujianzisha baada ya mfumo kumaliza kuwaka upya. Hii inaweza kufanya ichukue muda mrefu kuwasha SHIELD na kuruhusu programu kupunguza kasi ya utendaji wote wa SHIELD kwa kuendeshwa kila wakati.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_broadcastSticky" product="shield">Huruhusu programu kutuma matangazo nata, ambayo hubakia baada ya matangazo kuisha. Matumizi zaidi yanaweza kuifanya SHIELD kufanya kazi polepole au kuifanya isiwe thabiti kwa kuisababisha itumie kumbukumbu zaidi.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readContacts" product="shield">Huruhusu programu kusoma data inayohusu wawasiliani wako waliohifadhiwa kwenye SHIELD, ikiwa ni pamoja na mara ulizopiga simu, ulizotuma barua pepe au kuwasiliana kwa njia nyingine na watu maalum. Ruhusa hii inaruhusu programu kuhifadhi data yako ya wawasiliani, na programu hasidi zinaweza kushiriki data ya wawasiliani bila wewe kujua.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeContacts" product="shield">Huruhusu programu kurekebisha data inayohusu wawasiliani waliohifadhiwa kwenye simu yako, ikiwa ni pamoja na mara ulizopiga simu, ulizotuma barua pepe, au kuwasiliana kwa njia nyingine na wawasiliani maalum. Ruhusa hii inaruhusu programu kufuta data ya wawasiliani.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readCallLog" product="shield">Huruhusu programu kusoma rajisi ya simu ya SHIELD, ikiwa ni pamoja na data kuhusu simu zinazoingia na zinazotoka. Ruhusa hii inairuhusu programu kuhifadhi data ya rajisi ya simu yako, na programu hasidi zinaweza kushiriki data ya rajisi ya simu bila wewe kujua.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeCallLog" product="shield">Huruhusu programu kurekebisha rajisi ya SHIELD, ikiwa ni pamoja na simu zinazoingia na zinazotoka.
+        Programu hasidi zinaweza kutumia hii kufuta au kurekebisha rajisi ya simu yako.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+
+    <string name="permdesc_readCalendar" product="shield">Huruhusu programu kusoma matukio yote ya kalenda yaliohifadhiwa kwenye SHIELD yako, ikiwa ni pamoja na yale ya marafiki au wafanyakazi wenza. Hii inaweza kuruhusu programu kushiriki au kuhifadhi data yako ya kalenda, bila kujali usiri au unyeti.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+
+<string name="permdesc_writeCalendar" product="shield">Huruhusu programu kuongeza, kuondoa, na kubadilisha matukio unayoweza kurekebisha kwenye SHIELD yako, ikiwa ni pamoja na yale ya marafiki na wafanyakazi wenza. Hii inaweza kuruhusu programu kutuma ujumbe unaoonekana kuwa unatoka kwa wamiliki wa kalenda, au kurekebisha matukio bila wamiliki kujua.</string>
+
+
+
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_brick" product="shield">lemaza SHIELD kabisa</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_brick" product="shield">Huruhusu programu kulemaza SHIELD kabisa. Hii ni hatari sana.</string>
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_reboot" product="shield">lazimisha SHIELD kuwaka upya</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_reboot" product="shield">Huruhusu programu kulazimisha SHIELD kuwaka upya.</string>
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_performCdmaProvisioning" product="shield">anzisha usanidi wa SHIELD ya CDMA moja kwa moja</string>
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_wakeLock" product="shield">zuia SHIELD isilale</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_wakeLock" product="shield">Huruhusu programu kuzuia SHIELD kulala.</string>
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_devicePower" product="shield">Washa au zima SHIELD</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_devicePower" product="shield">Huuhusu programu kuwasha au kuzima SHIELD.</string>
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_nvidiaCPUPower" product="shield">rekebisha CPU ya NVIDIA Tegra</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_nvidiaCPUPower" product="shield">Huruhusu programu kurekebisha vigezo vya CPU ya NVIDIA Tegra.  Hii inaweza kutumia nishati zaidi.</string>
+
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_factoryTest" product="shield">Endesha kama jaribio la mtengenezaji wa kiwango cha chini, ukiruhusu ufikiaji kamili wa maunzi ya SHIELD. Inapatikana tu wakati SHIELD inaendeshwa katika modi ya jaribio la mtengenezaji.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_setTime" product="shield">Huruhusu programu kubadilisha wakati wa saa ya SHIELD.</string>    
+<!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_setTimeZone" product="shield">Huruhusu programu kubadilisha  majira ya saa ya SHIELD.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_getAccounts" product="shield">Huruhusu programu kupata orodha ya akaunti zinazojulikana na SHIELD.  Hii inaweza kujumuisha akaunti zozote zilizoundwa na programu ambazo umesakinisha.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_changeWifiMulticastState" product="shield">Huruhusu programu kupokea pakiti zilizotumwa kwa vifaa vyote kwenye mtandao wa Wi-Fi kwa kutumia anwani za upeperushaji anuwai, sio tu SHIELD yako.  Hutumia nishati zaidi kuliko modi ya upeperushaji usio anuwai.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_bluetoothAdmin" product="shield">Huruhusu programu kusanidi SHIELD ya karibu ya Bluetooth, na kutambua na kuoanisha na vifaa vya mbali.</string>
+
+    <string name="permdesc_changeWimaxState" product="shield">Huruhusu programu kuunganisha SHIELD na kutenganisha SHIELD kutoka kwa mitandao ya WiMAX.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_bluetooth" product="shield">Huruhusu programu kutazama usanidi wa Bluetooth kwenye SHIELD, na kutengeneza na kukubali miunganisho na vifaa vilivyooanishwa.</string>
+    <!-- Description of policy access to watch user login attempts -->
+    <string name="policydesc_watchLogin" product="shield">Fuatilia idadi ya manenosiri yasiyo sahihi yaliyoingizwa wakati wa wakufungua skrini, na ufunge SHIELD au ufute data yote ya SHIELD kama manenosiri mengi yasiyo sahihi yameingizwa.</string>
+    <!-- Description of policy access to wipe the user's data -->
+    <string name="policydesc_wipeData" product="shield">Futa data ya SHIELD bila ilani kwa kutekeleza urejeshaji wa mipangilio ya kiwandani.</string>
+    <!-- Shown in the lock screen when there is no SIM card. -->
+    <string name="lockscreen_missing_sim_message" product="shield">Hakuna kadi ya SIM katika SHIELD.</string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user is almost at the limit where they will be locked out and may have to enter an alternate username/password to unlock the phone -->
+    <string name="lockscreen_failed_attempts_almost_glogin" product="shield">Umechora ruwaza yako ya kufungua vibaya mara <xliff:g id="number">%d</xliff:g>.  Baada ya majaribio <xliff:g id="number">%d</xliff:g> zaidi bila mafanikio, utaulizwa ufungue SHIELD yako kwa kutumia akaunti yako ya Google.\n\nJaribu tena baada ya sekunde <xliff:g id="number">%d</xliff:g>.</string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user is almost at the limit where the device will be wiped. -->
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="shield">Umejaribu kufungua SHIELD vibaya mara <xliff:g id="number">%d</xliff:g>. Baada ya kujaribu mara nyingine <xliff:g id="number">%d</xliff:g> zaidi bila mafanikio, SHIELD itawekwa upya kwa chaguo-msingi ya kiwanda na data yote ya mtumiaji itapotea.</string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user has exceeded the maximum attempts and the device will now be wiped -->
+    <string name="lockscreen_failed_attempts_now_wiping" product="shield">Umejaribu kufungua SHIELD vibaya mara <xliff:g id="number">%d</xliff:g>. Sasa SHIELD itawekwa upya kwa chaguo-msingi ya kiwanda.
+    </string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeHistoryBookmarks" product="shield">Huruhusu programu kurekebisha historia ya kivinjari au alamisho zilizohifadhiwa kwenye SHIELD. Hii inaweza kuruhusu programu kufuta au kurekebisha data ya kivinjari.  Kumbuka: idhini hii haiwezi kutekelezwa na vivinjari vya watu wengine au programu nyingine zilizo na uwezo wa kuvinjari wavuti.</string>
+    <!-- Summary for a warning message about the interaction model changes after allowing an accessibility service to put the device into explore by touch mode, displayed as a dialog message when the user selects to enables the service. (shield). [CHAR LIMIT=NONE] -->
+    <string name="enable_explore_by_touch_warning_message" product="shield">
+            <xliff:g id="accessibility_service_name">%1$s</xliff:g> inataka kuwezesha Kuangaanga kwa Kugusa. Wakati Kuangaanga kwa Kugusa kumewashwa, unaweza kusikia au kuona maelezo ya kilicho chini ya kidole chako au kutumia ishara kutumia SHIELD.</string>
+    <!-- Name of the default audio route for SHIELD when nothing is connected to a headphone or other wired audio output jack. [CHAR LIMIT=50] -->
+    <string name="default_audio_route_name" product="shield">SHIELD</string>
+    <!-- Message shown when user is almost at the limit of password attempts where the device will be wiped. -->
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield">Umejaribu kufungua SHIELD vibaya mara <xliff:g id="number">%d</xliff:g>. Baada ya kujaribu mara nyingine <xliff:g id="number">%d</xliff:g> zaidi bila mafanikio, SHIELD itawekwa upya kwa chaguo-msingi ya kiwanda na data yote ya mtumiaji itapotea.</string>
+    <!-- Message shown in dialog when user has exceeded the maximum attempts and the device will now be wiped -->
+    <string name="kg_failed_attempts_now_wiping" product="shield">Umejaribu kufungua SHIELD vibaya mara <xliff:g id="number">%d</xliff:g>. Sasa SHIELD itawekwa upya kwa chaguo-msingi ya kiwanda.</string>
+    <!-- Message shown in dialog when user is almost at the limit where they will be locked out and may have to enter an alternate username/password to unlock the phone -->
+    <string name="kg_failed_attempts_almost_at_login" product="shield">Umechora ruwaza yako ya kufungua vibaya mara <xliff:g id="number">%d</xliff:g>.  Baada ya majaribio <xliff:g id="number">%d</xliff:g> zaidi bila mafanikio, utaulizwa ufungue SHIELD yako kwa kutumia akaunti ya barua pepe.\n\n Jaribu tena baada ya sekunde <xliff:g id="number">%d</xliff:g>.</string>
+
+    <!-- label for item that turns off power in phone options dialog -->
+    <add-resource type="string" name="global_action_sleep" />
+    <string name="global_action_sleep">Lala</string>
+
+</resources>

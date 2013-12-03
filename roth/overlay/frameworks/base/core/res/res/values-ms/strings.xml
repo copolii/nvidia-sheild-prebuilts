@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- If MMS discovers there isn't much space left on the device, it will show a toast with this message. -->
+    <string name="low_memory" product="shield">Storan SHIELD penuh. Padamkan beberapa fail untuk mengosongkan ruang.</string>
+    <!-- Title for the Phone Options dialog to lock the screen, turn off the phone etc. -->
+    <string name="power_dialog" product="shield">Pilihan SHIELD</string>
+    <!-- Shutdown Confirmation Dialog.  When the user chooses to power off the phone, there will be a confirmation dialog.  This is the message. -->
+    <string name="shutdown_confirm" product="shield">SHIELD akan ditutup.</string>
+    <!-- Title of the Global Actions Dialog -->
+    <string name="global_actions" product="shield">Pilihan SHIELD</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readSms" product="shield">Membenarkan apl membaca mesej SMS yang disimpan pada SHIELD atau kad SIM anda. Ini membenarkan apl membaca semua mesej SMS, tanpa mengambil kira kandungan atau kerahsiaan.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeSms" product="shield">Membenarkan apl menulis pada mesej SMS yang disimpan pada SHIELD atau kad SIM anda. Apl hasad boleh memadam mesej anda.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_injectEvents" product="shield">Membenarkan apl menyampaikan peristiwa input sendiri (tekanan kekunci, dan sebagainya) kepada apl lain. Apl hasad boleh menggunakannya untuk mengambil alih SHIELD.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_persistentActivity" product="shield">Membenarkan apl menjadikan sebahagian dirinya berterusan dalam memori.  Ini boleh mengehadkan memori yang tersedia kepada apl lain dan menjadikan SHIELD perlahan.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_clearAppCache" product="shield">Membenarkan apl mengosongkan storan SHIELD dengan memadam fail dalam direktori cache apl lain.  Ini boleh menyebabkan apl lain bermula lebih perlahan kerana perlu mendapatkan semula datanya.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readLogs" product="shield">Membenarkan apl membaca dari pelbagai fail log sistem.  Hal ini membenarkannya menemui maklumat umum mengenai perkara yang anda lakukan dengan SHIELD, juga berpotensi menemui maklumat peribadi atau persendirian.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_changeComponentState" product="shield">Membenarkan apl untuk menukar sama ada komponen apl lain didayakan atau tidak. Apl hasad boleh menggunakannya untuk melumpuhkan keupayaan SHIELD yang penting. Berhati-hati semasa menggunakan kebenaran ini, kerana hal ini boleh menjadikan komponen apl berada dalam keadaan tidak boleh digunakan, tidak konsisten, atau tidak stabil.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_receiveBootCompleted" product="shield">Membenarkan apl memulakan dirinya sendiri sebaik sahaja sistem selesai mengebut. Ini boleh membuat masa untuk menghidupkan SHIELD menjadi lebih lama dan membenarkan apl untuk memperlahankan keseluruhan prestasi SHIELD dengan sentiasa berjalan.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_broadcastSticky" product="shield">Membenarkan apl untuk menghantar siaran melekit, yang kekal selepas siaran berakhir. Penggunaan berlebihan boleh membuat SHIELD perlahan atau tidak stabil dengan menyebabkannya menggunakan memori yang terlalu banyak.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readContacts" product="shield">Membenarkan apl membaca data tentang kenalan anda yang tersimpan di SHIELD, termasuk kekerapan anda memanggil, menghantar e-mel atau berkomunikasi dalam cara lain dengan individu tertentu. Kebenaran ini membenarkan apl menyimpan data kenalan anda dan apl hasad boleh berkongsi data kenalan anda tanpa pengetahuan anda.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeContacts" product="shield">Membenarkan apl mengubah suai data tentang kenalan anda yang tersimpan pada SHIELD anda, termasuk kekerapan anda memanggil, menghantar e-mel atau berkomunikasi dalam cara lain dengan kenalan tertentu. Kebenaran ini membenarkan apl untuk memadam data kenalan.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readCallLog" product="shield">Membenarkan apl membaca log panggilan SHIELD, termasuk data tentang panggilan masuk dan keluar. Kebenaran ini membenarkan apl menyimpan data log panggilan anda dan apl hasad boleh berkongsi data panggilan tanpa pengetahuan anda.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeCallLog" product="shield">Membenarkan apl mengubah suai log panggilan SHIELD, termasuk data tentang panggilan masuk dan keluar.
+        Apl hasad boleh menggunakannya untuk memadam atau mengubah suai log panggilan anda.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+
+    <string name="permdesc_readCalendar" product="shield">Membenarkan apl membaca semua acara kalendar yang tersimpan pada SHIELD anda, termasuk milik rakan atau rakan sekerja. Ini boleh membenarkan apl berkongsi atau menyimpan data kalendar anda, tanpa mengira kerahsiaan atau sensitiviti.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+
+<string name="permdesc_writeCalendar" product="shield">Membenarkan apl menambah, mengalih keluar dan mengubah acara yang anda boleh ubah suai pada SHIELD anda, termasuk milik rakan atau rakan sekerja. Ini boleh membenarkan apl menghantar mesej yang kelihatan seperti berasal daripada pemilik kalendar atau mengubah suai acara tanpa pengetahuan pemilik.</string>
+
+
+
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_brick" product="shield">lumpuhkan SHIELD secara kekal</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_brick" product="shield">Membenarkan apl melumpuhkan SHIELD secara kekal. Ini amat berbahaya.</string>
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_reboot" product="shield">memaksa SHIELD untuk but semula</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_reboot" product="shield">Membenarkan apl memaksa SHIELD untuk but semula.</string>
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_performCdmaProvisioning" product="shield">mulakan terus persediaan SHIELD CDMA</string>
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_wakeLock" product="shield">menghalang SHIELD daripada tidur</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_wakeLock" product="shield">Membenarkan apl menghalang SHIELD daripada tidur.</string>
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_devicePower" product="shield">hidupkan atau matikan SHIELD</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_devicePower" product="shield">Membenarkan apl menghidupkan atau mematikan SHIELD.</string>
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_nvidiaCPUPower" product="shield">laraskan CPU Tegra NVIDIA</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_nvidiaCPUPower" product="shield">Membenarkan apl melaraskan parameter CPU Tegra NVIDA.  Tindakan ini mungkin menggunakan kuasa tambahan.</string>
+
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_factoryTest" product="shield">Jalankan sebagai ujian pengeluar peringkat rendah, membenarkan akses penuh kepada perkakasan SHIELD. Hanya tersedia apabila SHIELD dijalankan dalam mod ujian pengeluar.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_setTime" product="shield">Membenarkan apl menukar masa jam SHIELD.</string>    
+<!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_setTimeZone" product="shield">Membenarkan apl menukar zon waktu SHIELD.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_getAccounts" product="shield">Membenarkan apl mendapatkan senarai akaun yang dikenali oleh SHIELD.  Ini mungkin termasuk sebarang akaun yang dibuat oleh aplikasi yang telah anda pasang.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_changeWifiMulticastState" product="shield">Membenarkan apl menerima paket yang dihantar kepada semua peranti pada rangkaian Wi-Fi menggunakan alamat multisiar, bukan hanya SHIELD anda.  Apl menggunakan lebih kuasa berbanding mod bukan multisiar.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_bluetoothAdmin" product="shield">Membenarkan apl mengkonfigurasikan SHIELD Bluetooth setempat dan menemui serta berpasangan dengan peranti jauh.</string>
+
+    <string name="permdesc_changeWimaxState" product="shield">Membenarkan apl menyambungkan SHIELD ke rangkaian WiMAX dan memutuskan sambungan SHIELD daripada rangkaian tersebut.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_bluetooth" product="shield">Membenarkan apl melihat konfigurasi Bluetooth pada SHIELD dan untuk membuat serta menerima sambungan dengan peranti yang dipasangkan.</string>
+    <!-- Description of policy access to watch user login attempts -->
+    <string name="policydesc_watchLogin" product="shield">Memantau bilangan kata laluan yang silap ditaip apabila membuka skrin dan mengunci SHIELD atau memadam semua data SHIELD jika terlalu banyak kesilapan menaip kata laluan.</string>
+    <!-- Description of policy access to wipe the user's data -->
+    <string name="policydesc_wipeData" product="shield">Memadamkan data SHIELD tanpa amaran dengan melakukan tetapan semula data kilang.</string>
+    <!-- Shown in the lock screen when there is no SIM card. -->
+    <string name="lockscreen_missing_sim_message" product="shield">Tiada kad SIM dalam SHIELD.</string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user is almost at the limit where they will be locked out and may have to enter an alternate username/password to unlock the phone -->
+    <string name="lockscreen_failed_attempts_almost_glogin" product="shield">Anda telah silap melukis corak buka kunci sebanyak <xliff:g id="number">%d</xliff:g> kali. Selepas <xliff:g id="number">%d</xliff:g> lagi cubaan yang tidak berjaya, anda akan diminta membuka SHIELD anda menggunakan log masuk Google anda.\n\nCuba lagi dalam <xliff:g id="number">%d</xliff:g> saat.</string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user is almost at the limit where the device will be wiped. -->
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="shield">Anda telah silap cuba membuka SHIELD sebanyak <xliff:g id="number">%d</xliff:g> kali. Selepas <xliff:g id="number">%d</xliff:g> lagi cubaan yang tidak berjaya, SHIELD akan ditetapkan semula kepada lalai kilang dan semua data pengguna akan hilang.</string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user has exceeded the maximum attempts and the device will now be wiped -->
+    <string name="lockscreen_failed_attempts_now_wiping" product="shield">Anda telah silap cuba membuka SHIELD sebanyak <xliff:g id="number">%d</xliff:g> kali. SHIELD kini akan ditetapkan semula kepada lalai kilang.
+    </string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeHistoryBookmarks" product="shield">Membenarkan apl mengubah suai sejarah atau penanda halaman penyemak imbas yang tersimpan pada SHIELD. Ini boleh membenarkan apl memadam atau mengubah suai data penyemak imbas.  Perhatian: kebenaran ini tidak boleh dikuatkuasakan oleh penyemak imbas pihak ketiga atau aplikasi lain dengan keupayaan menyemak imbas web.</string>
+    <!-- Summary for a warning message about the interaction model changes after allowing an accessibility service to put the device into explore by touch mode, displayed as a dialog message when the user selects to enables the service. (shield). [CHAR LIMIT=NONE] -->
+    <string name="enable_explore_by_touch_warning_message" product="shield">
+            <xliff:g id="accessibility_service_name">%1$s</xliff:g> ingin mendayakan Jelajah melalui Sentuhan. Apabila Jelajah melalui Sentuhan dihidupkan, anda boleh mendengar atau melihat penerangan tentang item di bawah jari anda atau melakukan gerak isyarat untuk berinteraksi dengan SHIELD.</string>
+    <!-- Name of the default audio route for SHIELD when nothing is connected to a headphone or other wired audio output jack. [CHAR LIMIT=50] -->
+    <string name="default_audio_route_name" product="shield">SHIELD</string>
+    <!-- Message shown when user is almost at the limit of password attempts where the device will be wiped. -->
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield">Anda telah silap cuba membuka SHIELD sebanyak <xliff:g id="number">%d</xliff:g> kali. Selepas <xliff:g id="number">%d</xliff:g> lagi cubaan yang tidak berjaya, SHIELD akan ditetapkan semula kepada lalai kilang dan semua data pengguna akan hilang.</string>
+    <!-- Message shown in dialog when user has exceeded the maximum attempts and the device will now be wiped -->
+    <string name="kg_failed_attempts_now_wiping" product="shield">Anda telah silap cuba membuka SHIELD sebanyak <xliff:g id="number">%d</xliff:g> kali. SHIELD kini akan ditetapkan semula kepada lalai kilang.</string>
+    <!-- Message shown in dialog when user is almost at the limit where they will be locked out and may have to enter an alternate username/password to unlock the phone -->
+    <string name="kg_failed_attempts_almost_at_login" product="shield">Anda telah silap melukis corak buka kunci sebanyak <xliff:g id="number">%d</xliff:g> kali. Selepas <xliff:g id="number">%d</xliff:g> lagi cubaan yang tidak berjaya, anda akan diminta membuka SHIELD anda menggunakan akaun e-mel.\n\n Cuba lagi dalam <xliff:g id="number">%d</xliff:g> saat.</string>
+
+    <!-- label for item that turns off power in phone options dialog -->
+    <add-resource type="string" name="global_action_sleep" />
+    <string name="global_action_sleep">Tidur</string>
+
+</resources>

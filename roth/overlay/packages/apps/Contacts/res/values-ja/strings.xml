@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Description in the dialog that appears if there are no pictures from which to create an icon for a contact -->
+    <string name="photoPickerNotFoundText" product="shield">使用できる写真はありません。</string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is disabled.  [CHAR LIMIT=NONE] -->
+    <string name="noContactsHelpText" product="shield">"表示する連絡先がありません。\n\n連絡先を追加するには、<font fgcolor="#ffffffff"><b>MENU</b></font> キーをタップして次の操作を行います。\n
+\n <li>SHIELD と同期可能な連絡先を使ってアカウントを追加またはセットアップする場合は [<font fgcolor="#ffffffff"><b>アカウント</b></font>] をタップ\n</li>
+\n<li>新しい連絡先を最初から作成する場合は [<font fgcolor="#ffffffff"><b>連絡先を新規登録</b></font>] をタップ\n</li>
+\n<li>SIM または SDカードから連絡先をインポートする場合は [<font fgcolor="#ffffffff"><b>インポート/エクスポート</b></font>] をタップ\n</li>"
+    </string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is enabled.  [CHAR LIMIT=NONE] -->
+    <string name="noContactsHelpTextWithSync" product="shield">"表示する連絡先がありません (アカウントを追加した直後の場合は、連絡先の同期に数分かかることがあります)。\n\n連絡先を追加するには、<font fgcolor="#ffffffff"><b>MENU</b></font> キーをタップして次の操作を行います。\n
+\n<li>SHIELD と同期可能な連絡先を使ってアカウントを追加またはセットアップする場合は [<font fgcolor="#ffffffff"><b>アカウント</b></font>] をタップ\n</li>
+\n<li>表示する連絡先を変更する場合は [<font fgcolor="#ffffffff"><b>表示オプション</b></font>] をタップ\n</li>
+\n<li>新しい連絡先を最初から作成する場合は [<font fgcolor="#ffffffff"><b>連絡先を新規登録</b></font>] をタップ\n</li>
+\n<li>SIM または SDカードから連絡先をインポートする場合は [<font fgcolor="#ffffffff"><b>インポート/エクスポート</b></font>] をタップ\n</li>"
+    </string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is disabled, and there is no sim card (cdma).  [CHAR LIMIT=NONE]-->
+    <string name="noContactsNoSimHelpText" product="shield">"表示する連絡先がありません。\n\n連絡先を追加するには、<font fgcolor="#ffffffff"><b>MENU</b></font> キーをタップして次の操作を行います。\n
+\n<li>SHIELD と同期可能な連絡先を使ってアカウントを追加またはセットアップする場合は [<font fgcolor="#ffffffff"><b>アカウント</b></font>] をタップ\n</li>
+\n<li>新しい連絡先を最初から作成する場合は [<font fgcolor="#ffffffff"><b>連絡先を新規登録</b></font>] をタップ\n</li>
+\n<li>SDカードから連絡先をインポートする場合は [<font fgcolor="#ffffffff"><b>インポート/エクスポート</b></font>] をタップ\n</li>"
+    </string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is enabled, and there is no sim card (cdma).  [CHAR LIMIT=NONE] -->
+    <string name="noContactsNoSimHelpTextWithSync" product="shield">"表示する連絡先がありません (アカウントを追加した直後の場合は、連絡先の同期に数分かかることがあります)。\n\n連絡先を追加するには、<font fgcolor="#ffffffff"><b>MENU</b></font> キーをタップして次の操作を行います。\n
+\n<li>SHIELD と同期可能な連絡先を使ってアカウントを追加またはセットアップする場合は [<font fgcolor="#ffffffff"><b>アカウント</b></font>] をタップ\n</li>
+\n<li>表示する連絡先を変更する場合は [<font fgcolor="#ffffffff"><b>表示オプション</b></font>] をタップ\n</li>
+\n<li>新しい連絡先を最初から作成する場合は [<font fgcolor="#ffffffff"><b>連絡先を新規登録</b></font>] をタップ\n</li>
+\n<li>SDカードから連絡先をインポートする場合は [<font fgcolor="#ffffffff"><b>インポート/エクスポート</b></font>] をタップ\n</li>"
+    </string>
+    <!-- This error message shown when the user actually have no contact (e.g. just after data-wiping), or, data providers of the contact list prohibits their contacts from being exported to outside world via vcard exporter, etc. [CHAR LIMIT=NONE] -->
+    <string name="composer_has_no_exportable_contact" product="shield">エクスポートできる連絡先がありません。SHIELD に連絡先がある場合でも、データ プロバイダーによっては連絡先をエクスポートできないことがあります。</string>
+    <!-- Title for data source when creating or editing a contact that doesn't belong to a specific account.  This contact will only exist on the phone and will not be synced. -->
+    <string name="account_phone" product="shield">SHIELD のみ (非同期)</string>
+
+</resources>

@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- If MMS discovers there isn't much space left on the device, it will show a toast with this message. -->
+    <string name="low_memory" product="shield">Isitoreji se-SHIELD sigcwele. Susa amafayela athile ukuze kuvuleke isikhala.</string>
+    <!-- Title for the Phone Options dialog to lock the screen, turn off the phone etc. -->
+    <string name="power_dialog" product="shield">Izinketho ze-SHIELD</string>
+    <!-- Shutdown Confirmation Dialog.  When the user chooses to power off the phone, there will be a confirmation dialog.  This is the message. -->
+    <string name="shutdown_confirm" product="shield">I-SHIELD izocima.</string>
+    <!-- Title of the Global Actions Dialog -->
+    <string name="global_actions" product="shield">Izinketho ze-SHIELD</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readSms" product="shield">Ivumela uhlelo ukuba lufunde imiyalezo yama-SMS egcinwe kwi-SHIELD noma ikhadi le-SIM lakho. Lokhu kuvumela uhlelo ukuba lufunde yonke imiyalezo yama-SMS, kungakhathaliseki ukuthi iquketheni noma imfihlo yayo.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeSms" product="shield">Ivumela uhlelo ukuba lubhale imiyalezo yama-SMS egcinwe kwi-SHIELD noma ekhadini le-SIM lakho. Izinhlelo ezonakalisayo zingase zisuse imiyalezo yakho.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_injectEvents" product="shield">Ivumela uhlelo ukuba luthumele izenzakalo zakho (ukucindezelwa kokhiye, njll.) kwezinye izinhlelo. Izinhlelo ezonakalisayo zingase zisebenzise lokhu ukulawula i-SHIELD.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_persistentActivity" product="shield">Ivumela uhlelo ukuba lwenze izingxenze ezithile zalo ziphikelele kwimemori.  Lokhu kungayenza ibe nomkhawulo imemori etholakala kwezinhle izinhlelo futhi kwenze i-SHIELD yenze kancane.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_clearAppCache" product="shield">Ivumela uhlelo ukuba lukhulule isitoreji se-SHIELD ngokususa amafayela ezinhlwini zemibhalo zesikhashana zezinye izinhlelo. Lokhu kungabangela ukuba ezinye izinhlelo ziqale kancane kancane njengoba kudingeka ziphinde zilande idatha yazo.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readLogs" product="shield">Ivumela uhlelo ukuba lufunde kumafayela okungena ahlukene esistimu.  Lokhu kuvumela ukuba ithole ukwaziswa okuvamile ngalokho okwenzayo nge-SHIELD, cishe okuhlanganisa ukwaziswa kwakho siqhu noma kwangasese.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_changeComponentState" product="shield">Ivumela uhlelo ukuba luguquke kungakhathaliseki ukuthi ingxenye yolunye uhlelo iyasebenza yini noma cha. Izinhlelo ezonakalisayo zingase zisebenzise lokhu ukuyekisa amakhono abalulekile e-SHIELD. Kumele kusetshenziswe ukucophelela ngale mvume, ngoba kungenzeka ukwenza izingxenye zohlelo zibe sesimweni sokungasebenzi, sokushintshashintsha, noma sokungasimami.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_receiveBootCompleted" product="shield">Ivumela uhlelo lokusebenza ukuthi luziqalise ngokushesha emuva kokuba isistimu isiqedile ukubhutha. Lokhu kungenza ukuthi kuthathe isikhathi esithe ukuba side ukuqalisa i-SHIELD nokuvumela uhlelo ukuthi lunciphise ukusebenza kwe-SHIELD ngokuthi luhlale lusebenza.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_broadcastSticky" product="shield">Ivumela uhlelo lokusebenza ukuthumela ukusakaza okunamathelayo, okusalayo emva kokuba ukusakazwa sekuphelile. Ukusebenzisa kakhulu kungase kwenze i-SHIELD ingasheshi noma ingahlali kahle ngokuyibangela ukusebenzisa imemori eningi kakhulu.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readContacts" product="shield">Ivumela uhlelo lokusebenza ukufunda idatha mayelana noxhumana nabo abalondolozwe kwi-SHIELD yakho, kufaka phakathi nobuningi obushayele, wathumela i-imeyili, noma oxhumene nabo ngezinye izindlela nomuntu oyedwa. Le mvume ivumela izinhlelo zokusebenza ukulondoloza idatha yoxhumana nabo, izinhlelo zokusebenza ezingalungile zingaba idatha yokuxhumana ngaphandle kolwazi lakho.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeContacts" product="shield">Ivumela uhlelo ukuba luguqule idatha mayelana noxhumana nabo abalondolozwe kwi-SHIELD yakho, kufaka phakathi nobuningi obushayele, wathumela i-imeyili, noma oxhumene nabo ngezinye izindlela nomuntu oyedwa. Le mvume ivumela izinhlelo zokusebenza ukususa idatha yoxhumana nabo.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readCallLog" product="shield">Ivumela uhlelo lokusebenza ukufunda irekhodi lwamakholi e-SHIELD, kufaka phakathi idatha mayelana namakholi angenayo noma aphumayo. Le mvume ivumela izinhlelo zokusebenza ukulondoloza idatha yakho yerekhodi lwamakholi, nezinhlelo zokusebenza ezingalungile zongaba idatha yerekhodi lwamakholi ngaphandle kolwazi lakho.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeCallLog" product="shield">Ivumela uhlelo lokusebenza ukushintsha irekhodi lwamakholi e-SHIELD, kufaka phakathi idatha mayelana namakholi angenayo noma aphumayo.
+        Izinhlelo zikusebenza ezingalungile zingasebenzisa lokhu ukusula noma ukushintsha irekhodi lwamakholi wakho.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+
+    <string name="permdesc_readCalendar" product="shield">Ivumela uhlelo lokusebenza ukuthi lifunde zonke izenzakalo zekhalenda kwi-SHIELD yakho, kufaka phakathi nezabangane noma labo osebenza nabo. Lokhu kungavumela uhlelo ukwabelana noma ukulondoloza idatha yakho esekhalendeni, kungakhathaliseki ukuba yimfihlo noma ukuba bucayi baleyonto.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+
+<string name="permdesc_writeCalendar" product="shield">Ivumela uhlelo lokusebenza ukungeza, ukususa, ukushintsha izehlakalo ongazishintsha kwi-SHIELD yakho, kufaka phakathi nalezo zabangani noma labo osebenza nabo.  Lokhu kungavumela uhlelo lokusebenza ukuthumela imilayezo ebonakala ngathi ivela kubanikazi bekhalenda, noma lishintshe izehlakalo ngaphandle kolwazi labanikazi.</string>
+
+
+
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_brick" product="shield">lwenze i-SHIELD ingabe isasebenza unomphelo</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_brick" product="shield">Ivumela uhlelo ukuba lwenze i-SHIELD ingabe isasebenza unomphelo. Lokhu kuyingozi kakhulu.</string>
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_reboot" product="shield">kuphoqelela ukuqalisa phansi kwe-SHIELD.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_reboot" product="shield">Ivumela uhlelo lokusebenza ukuphoqelela i-SHIELD ukuqalisa phansi.</string>
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_performCdmaProvisioning" product="shield">ngokuqondile qalisa ukumisa i-SHIELD nge-CDMA</string>
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_wakeLock" product="shield">gwema i-SHIELD ukuba ingalali</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_wakeLock" product="shield">Ivumela uhlelo lokusebenza ukuthi linqande i-SHIELD ukuthi ilale.</string>
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_devicePower" product="shield">amandla e-SHIELD avuliwe noma avaliwe</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_devicePower" product="shield">Ivumela uhlelo lokusebenza ukuvala noma ukuvula i-SHIELD.</string>
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_nvidiaCPUPower" product="shield">shintsha i-NVIDIA Tegra CPU</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_nvidiaCPUPower" product="shield">Ivumela uhlelo ukuba lushintshe imikhawulo ye-NVIDA Tegra CPU.  Lokhu kungase kudle amandla engeziwe.</string>
+
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_factoryTest" product="shield">Yisebenzise njengokuhlola komkhiqizi wezinga eliphansi, uvumela ukufinyelela okugcwele ihadiwe ye-SHIELD.  Itholakala kuphela lapho i-SHIELD isebenza kwimodi yokuhlola yomkhiqizi.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_setTime" product="shield">Ivumela uhlelo ukuthi luguqule isikhathi esikwi-SHIELD.</string>    
+<!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_setTimeZone" product="shield">Ivumela uhlelo ukuthi luguqule umkhawulo wesikhathi okwi-SHIELD.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_getAccounts" product="shield">Ivumela uhlelo lokusebenza ukuthola uhlu lwama-akhawunti aziwa i-SHIELD.   Lokhu kufaka phakathi noma yimaphi ama-akhawunti adalwe izinhlelo zokusebenza ozifakile.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_changeWifiMulticastState" product="shield">Ivumela uhlelo lokusebenza ukuthola amaphakethe athunyelwe kuwo onke amadivayisi kunethiwekhi ye-Wi-Fi asebenzisa amakheli amaningi okusakaza, hhayi nje i-SHIELD yakho.   Isebenzisa amandla aminingi ukudlula imodi okungeyona yokusakaza okuningi.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_bluetoothAdmin" product="shield">Ivumela uhlelo lokusebenza ukumisa i-SHIELD ye-Bluetooth yasendawni, nokuthola nokubhanqanisa namadivaysi okulawula okukude.</string>
+
+    <string name="permdesc_changeWimaxState" product="shield">Ivumela uhlelo ukuba luxhume kwi-SHIELD futhi lunqamule i-SHIELD kusuka kumanethiweki e-WiMAX.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_bluetooth" product="shield">Ivumela uhlelo lokusebenza ukubuka ukucushwa kwe-Bluetooth kuSHIELD, nokwenza futhi nokwamukela uxhumo namadivayisi amatanisiwe.</string>
+    <!-- Description of policy access to watch user login attempts -->
+    <string name="policydesc_watchLogin" product="shield">Bheka inani lamaphasiwedi angafanele athayishiwe uma kuvulwa iskrini bese kuvalwa i-SHIELD noma kususwe yonke idatha ye-SHIELD uma kubhalwe amaphasiwedi amaningi angalungile.</string>
+    <!-- Description of policy access to wipe the user's data -->
+    <string name="policydesc_wipeData" product="shield">Sula idatha ye-SHIELD ngaphandle kwesaziso ngokwenza ukusetha kabusha idatha kwemboni.</string>
+    <!-- Shown in the lock screen when there is no SIM card. -->
+    <string name="lockscreen_missing_sim_message" product="shield">Alikho ikhadi le-SIM kwi-SHIELD.</string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user is almost at the limit where they will be locked out and may have to enter an alternate username/password to unlock the phone -->
+    <string name="lockscreen_failed_attempts_almost_glogin" product="shield">Udwebe iphathini yakho yokuvula ngendlela engafanele izikhathi ezingu-<xliff:g id="number">%d</xliff:g>. Ngemva <xliff:g id="number">%d</xliff:g> kweminye imizamo engaphumelelanga, uzocelwa ukuvula i-SHIELD yakho usebenzisa ukungena ngemvume kwi-Google.\n\nSicela uzame futhi kwengu- <xliff:g id="number">%d</xliff:g> imizuzwana.</string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user is almost at the limit where the device will be wiped. -->
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="shield">Uzame ngokusebenzisa indlela engafanele ukuvula i-SHIELD izikhathi ezingu-<xliff:g id="number">%d</xliff:g>. Ngemva <xliff:g id="number">%d</xliff:g> kokuzama kaningana okungaphumelelanga, i-SHIELD izobuyela kwizimo zasembonini futhi yonke imininingwane yomsebenzisi izolahleka.</string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user has exceeded the maximum attempts and the device will now be wiped -->
+    <string name="lockscreen_failed_attempts_now_wiping" product="shield">Uzame ngokusebenzisa indlela engafanele ukuvula i-SHIELD izikhathi ezingu-<xliff:g id="number">%d</xliff:g>. I-SHIELD manje seyizosethwa kabusha ibe yizimiso zasembonini.
+    </string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeHistoryBookmarks" product="shield">Ivumela uhlelo lokusebenza ukushintsha umlando wesiphequluli noma wamabhukhimakhi olondolozwe kwi-SHIELD.  Lokhu kungavumela uhlelo lokusebenza ukususa noma ukushintsha idatha yesiphequluli.   Phawula: le mvume kungenzeka ingaphoqelelwa iziphequluli ezivela eceleni noma ezinye izinhlelo zokusebenza ezinamandla okuphequlula iwebhu.</string>
+    <!-- Summary for a warning message about the interaction model changes after allowing an accessibility service to put the device into explore by touch mode, displayed as a dialog message when the user selects to enables the service. (shield). [CHAR LIMIT=NONE] -->
+    <string name="enable_explore_by_touch_warning_message" product="shield">
+            <xliff:g id="accessibility_service_name">%1$s</xliff:g> ifuna ukunika amandla i-Explore by Touch. Uma i-Explore by Touch ikhanya, ungezwa noma ubone izincazelo ezingaphansi komunwe wakho noma wenze izenzo zomzimba ukuze uxhumane ne-SHIELD.</string>
+    <!-- Name of the default audio route for SHIELD when nothing is connected to a headphone or other wired audio output jack. [CHAR LIMIT=50] -->
+    <string name="default_audio_route_name" product="shield">I-SHIELD</string>
+    <!-- Message shown when user is almost at the limit of password attempts where the device will be wiped. -->
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield">Uzame ngokusebenzisa indlela engafanele ukuvula i-SHIELD izikhathi ezingu-<xliff:g id="number">%d</xliff:g>. Ngemva <xliff:g id="number">%d</xliff:g> kokuzama kaningana okungaphumelelanga, i-SHIELD izobuyela kwizimo zasembonini futhi yonke imininingwane yomsebenzisi izolahleka.</string>
+    <!-- Message shown in dialog when user has exceeded the maximum attempts and the device will now be wiped -->
+    <string name="kg_failed_attempts_now_wiping" product="shield">Uzame ngokusebenzisa indlela engafanele ukuvula i-SHIELD izikhathi ezingu-<xliff:g id="number">%d</xliff:g>. I-SHIELD manje seyizosethwa kabusha ibe yizimiso zasembonini.</string>
+    <!-- Message shown in dialog when user is almost at the limit where they will be locked out and may have to enter an alternate username/password to unlock the phone -->
+    <string name="kg_failed_attempts_almost_at_login" product="shield">Udwebe iphathini yakho yokuvula ngendlela engafanele izikhathi ezingu-<xliff:g id="number">%d</xliff:g>. Ngemva <xliff:g id="number">%d</xliff:g> kweminye imizamo engaphumelelanga, uzocelwa ukuvula i-SHIELD yakho usebenzisa i-akhawunti ye-imeyli.\n\n Zama futhi emasekhondini angu-<xliff:g id="number">%d</xliff:g>.</string>
+
+    <!-- label for item that turns off power in phone options dialog -->
+    <add-resource type="string" name="global_action_sleep" />
+    <string name="global_action_sleep">Lala</string>
+
+</resources>

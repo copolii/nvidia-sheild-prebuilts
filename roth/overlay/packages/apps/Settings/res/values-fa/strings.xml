@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Bluetooth settings screen, menu item to change this device's Bluetooth name. [CHAR LIMIT=30] -->
+    <string name="bluetooth_rename_device" product="shield">تغییر نام SHIELD</string>
+    <!-- Strings for asking to the user whether to allow an app to enable discovery mode -->
+    <string name="bluetooth_ask_discovery" product="shield">"برنامه‌ای در SHIELD می‌خواهد SHIELD را به گونه‌ای تنظیم کند که برای سایر دستگاه‌های بلوتوث به مدت <xliff:g id="timeout">%1$d</xliff:g> غیرقابل شناسایی باشد. اجاره می‌دهید؟"</string>
+    <!-- The title of the activity to see phone info -->
+    <string name="phone_info_label" product="shield">اطلاعات SHIELD</string>
+    <!-- mobile network settings screen, message in dialog box that appears when you select the "Data roaming" check box. This is for multiuser SHIELDS [CHAR LIMIT=none] -->
+    <string name="roaming_warning_multiuser" product="shield">وقتی به رومینگ داده اجازه می‌دهید، ممکن است هزینه‌های بسیار زیادی برای شما در پی داشته باشد!\n\nاین تنظیم روی همه کاربران موجود در این SHIELD تأثیر می‌گذارد.</string>
+    <!-- Title of the preferences item to control encryption -->
+    <string name="crypt_keeper_encrypt_title" product="shield">رمزگذاری SHIELD</string>
+    <!-- Summary of the preferences item to control encryption, when encryption is inactive -->
+    <string name="crypt_keeper_encrypt_summary" product="shield">هر بار که SHIELD  را روشن می‌کنید، برای رمزگشایی به یک پین عددی یا گذرواژه نیاز دارید</string>
+    <!-- Informational text in the first confirmation screen before starting device encryption -->
+    <string name="crypt_keeper_desc" product="shield">
+    می‌توانید حساب‌ها، تنظیمات، برنامه‌های دانلود شده و داده‌های آنها، رسانه و فایل‌های دیگر خود را رمزگذاری کنید. هنگامی که SHIELD خود را رمزگذاری کردید، هر بار که آن را روشن می‌کنید باید یک پین عددی یا یک گذرواژه را وارد کنید تا رمزگشایی شود. به هیچ وجه نمی‌توانید رمزگذاری SHIELD را لغو کنید مگر اینکه به تنظیمات کارخانه بازنشانی کنید که این کار هم تمام داده‌های شما را حذف می‌کند.\n\nعملیات رمزگذاری یک ساعت یا بیشتر طول می‌کشد. باید این کار را زمانی آغاز کنید که باتری دارای شارژ کامل باشد و SHIELD باید تا پایان کار رمزگذاری به برق وصل باشد. اگر در روند رمزگذاری تداخلی به وجود بیاورید، تمام یا بعضی از داده‌های خود را از دست خواهید داد.</string>
+    <!-- Button text to start encryption process -->
+    <string name="crypt_keeper_button_text" product="shield">رمزگذاری SHIELD</string>
+    <!-- Warning text in the final confirmation screen before starting device encryption -->
+    <string name="crypt_keeper_final_desc" product="shield">
+    عملیات رمزگذاری غیر قابل بازگشت است و در صورت ایجاد وقفه در آن، داده‌های خود را از دست خواهید داد.
+    رمزگذاری یک ساعت یا بیشتر طول می‌کشد که در طول آن، SHIELD چندین بار راه‌اندازی مجدد می‌شود.
+    </string>
+
+    <!-- Informational text on the progress screen while encrypting the device -->
+    <string name="crypt_keeper_setup_description" product="shield">هنگام رمزگذاری SHIELD منتظر بمانید. <xliff:g id="percent" example="50">^1</xliff:g>٪ کامل شده است.</string>
+    <!-- Informational text when encryption fails -->
+    <string name="crypt_keeper_failed_summary" product="shield"> رمزگذاری متوقف شد و امکان تکمیل کردن آن وجود ندارد. در نتیجه، داده‌های موجود در SHIELD دیگر قابل دسترسی نیست.\n\n
+      برای از سرگیری استفاده از SHIELD، باید یک بازنشانی کارخانه انجام دهید.
+      با تنظیم کردن SHIELD پس از بازنشانی، این فرصت را خواهید داشت تا هرگونه داده‌ای را که از آن در حساب Google نسخه پشتیبان تهیه شده بازیابی کنید.
+    </string>
+    <!-- Bluetooth settings.  Message for disconnecting from the PAN profile (NAP role). [CHAR LIMIT=80] -->
+    <string name="bluetooth_disconnect_pan_nap_profile" product="shield"> <xliff:g id="device_name">%1$s</xliff:g> از اشتراک‌گذاری اتصال اینترنتی SHIELD قطع خواهد شد.</string>
+
+    <!-- Description of NFC in the 1st level settings screen, for a SHIELD. [CHAR LIMIT=NONE] -->
+    <string name="nfc_quick_toggle_summary" product="shield">تبادل داده هنگامیکه SHIELD در تماس با دستگاه دیگر است مجاز باشد</string>
+    <!-- Text warning about skipping Wi-Fi with a mobile connect (SHIELD) [CHAR LIMIT=NONE]-->
+    <string name="wifi_skipped_message" product="shield" msgid="6518433975501257341">اخطار:  ممکن است هزینه‌ شرکت مخابراتی اضافی از شما دریافت شود.\n\nراه‌اندازی SHIELD ممکن است به فعالیت شبکه قابل‌توجهی نیاز داشته باشد.</string>
+    <!-- Text warning about skipping Wi-Fi without a mobile connect (SHIELD) [CHAR LIMIT=NONE] -->
+    <string name="wifi_and_mobile_skipped_message" product="shield" msgid="5647058314212144925">اخطار:  SHIELD به‌روز بودن نرم‌افزار شما را تأیید نمی‌کند.</string>
+    <!-- Text alerting that Wi-Fi couldn't connect (SHIELD) [CHAR LIMIT=NONE] -->
+    <string name="wifi_connect_failed_message" product="shield" msgid="2006689630582761529">SHIELD قادر به اتصال به این شبکه Wi-Fi نبود.</string>
+    <!-- Dock audio summary for undocked -->
+    <string name="dock_audio_summary_none" product="shield">Wi-Fi در جایگاه اتصال قرار ندارد</string>
+    <!-- Dock not found dialog text -->
+    <string name="dock_not_found_text" product="shield">قبل از تنظیم صدای جایگاه اتصال، باید SHIELD را به آن وصل کنید.</string>
+    <!-- Dock settings screen, setting option summary text when check box is selected -->
+    <string name="dock_sounds_enable_summary_on" product="shield">هنگام اتصال یا جدا کردن SHIELD از جایگاه، صدا پخش شود</string>
+    <!-- Sound settings screen, setting option summary text when check box is clear -->
+    <string name="dock_sounds_enable_summary_off" product="shield">هنگام اتصال یا جدا کردن SHIELD از جایگاه اتصال، صدا پخش نشود</string>
+
+    <!-- Sound & display settings screen, accelerometer-based rotation summary text when check box is selected -->
+    <string name="accelerometer_summary_on" product="shield">هنگام چرخاندن SHIELD، جهت به طور خودکار تغییر کند</string>
+    <!-- Sound & display settings screen, accelerometer-based rotation summary text when check box is clear -->
+    <string name="accelerometer_summary_off" product="shield">هنگام چرخاندن SHIELD، جهت به طور خودکار تغییر کند</string>
+    <!-- SIM card lock settings screen, setting option summary text when SIM lock check box is selected -->
+    <string name="sim_lock_on" product="shield">درخواست پین برای استفاده از SHIELD</string>
+    <!-- SIM card lock settings screen, setting option summary text when SIM lock check box is clear -->
+    <string name="sim_lock_off" product="shield">درخواست پین برای استفاده از SHIELD</string>
+    <!-- Advanced (used for diagnostics) device info activity title -->
+    <string name="device_info_settings" product="shield">وضعیت SHIELD</string>
+
+    <!-- About tablet screen, summary of the item that takes you to tablet status screen -->
+    <string name="device_status_summary" product="shield">وضعیت باتری، شبکه و اطلاعات دیگر</string>
+    <!-- About tablet, status item title.  The Mobile Directory Number [CHAR LIMIT=30] -->
+    <string name="status_number" product="shield">MDN</string>
+    <!-- SD card & phone storage settings screen, setting option summary text under Internal phone storage heading -->
+    <string name="master_clear_summary" product="shield">پاک کردن تمام داده‌های موجود در SHIELD</string>
+    <!-- SD card & phone storage settings screen, message on screen after user selects Factory data reset [CHAR LIMIT=NONE] -->
+    <string name="master_clear_desc" product="shield">"با این کار تمام داده‌های <b>فضای ذخیره‌سازی</b> SHIELD از جمله این موارد حذف خواهد شد:\n\n<li>حساب Google شما</li>\n<li>تنظیمات و داده‌های برنامه و سیستم</li>\n<li>برنامه‌های دانلود شده</li>"</string>
+    <!-- SD card & phone storage settings screen, button on screen after user selects Factory data reset -->
+    <string name="master_clear_button_text" product="shield">بازنشانی SHIELD</string>
+    <!-- Bluetooth available subtext - shown when Bluetooth tethering is turned on but it is not currently tethered to any devices [CHAR LIMIT=50]-->
+    <string name="bluetooth_tethering_available_subtext" product="shield">اشتراک‌گذاری اتصال اینترنت SHIELD</string>
+    <!-- Bluetooth connected subtext - shown when a device is tethered over Bluetooth [CHAR LIMIT=60]-->
+    <string name="bluetooth_tethering_device_connected_subtext" product="shield">اشتراک‌گذاری اتصال اینترنتی SHIELD با ۱ دستگاه</string>
+    <!-- Bluetooth connected subtext - shown when multiple devices are tethered over Bluetooth [CHAR LIMIT=60]-->
+    <string name="bluetooth_tethering_devices_connected_subtext" product="shield">اشتراک‌گذاری اتصال اینترنتی SHIELD با <xliff:g id="connectedDeviceCount">%1$d</xliff:g> دستگاه</string>
+    <!-- Bluetooth tethering off subtext - shown when Bluetooth Tethering is turned off [CHAR LIMIT=50]-->
+    <string name="bluetooth_tethering_off_subtext" product="shield">عدم اشتراک‌گذاری اتصال اینترنت SHIELD</string>
+    <!-- [CHAR LIMIT=100] Security & location settings screen, setting check box summary for GPS satellites on a SHIELD -->
+    <string name="location_street_level" product="shield">به برنامه‌ها اجازه داده شود برای تعیین دقیق موقعیت مکانی شما از GPS در SHIELD استفاده کنند</string>
+    <!-- Main settings screen, setting title for the user to go into the About phone screen -->
+    <string name="about_settings" product="shield">درباره SHIELD</string>
+    <!-- Applications settings screen, message text of alert that appears if user selects the "Unknown sources" check box -->
+    <string name="install_all_warning" product="shield">SHIELD و داده‌های شخصی شما بیشتر در معرض خطر حمله برنامه‌های منابع ناشناس هستند. شما موافقت می‌کنید که در قبال هر گونه آسیب وارده به SHIELD خود یا از دست دادن داده که در نتیجه استفاده از این برنامه‌ها روی دهد تنها خودتان مسئول هستید.</string>
+    <!-- Manage applications, individual application info screen, text that appears under the "Permissions" heading. This describes the permissions that the application has. -->
+    <string name="security_settings_desc" product="shield">این برنامه می‌تواند به موارد زیر در SHIELD شما دسترسی داشته باشد:</string>
+    <!-- [CHAR_LIMIT=NONE] Manage applications, individual application info screen, text that appears under the "Permissions" heading.
+         This describes the permissions that the application has.  It is used when multiple packages are contributing to the permissions and need to be listed here. -->
+    <string name="security_settings_desc_multi" product="shield">این برنامه می‌تواند به موارد زیر در SHIELD شما دسترسی داشته باشد. به منظور بهبود عملکرد و کاهش استفاده از حافظه، برخی از این مجوزها در <xliff:g id="base_app_name">%1$s</xliff:g> در دسترس هستند چون پردازش آن مانند <xliff:g id="additional_apps_list">%2$s</xliff:g> است:</string>
+
+    <!-- Manage applications, text for Move button to move app to internal storage -->
+    <string name="move_app_to_internal" product="shield">انتقال به SHIELD</string>
+    <!-- Running service details, stop confirmation descriptive text. Displays when user selects selects to stop a system service. -->
+    <string name="runningservicedetails_stop_dlg_text" product="shield">اگر این سرویس را متوقف کنید، برخی از ویژگی‌های SHIELD شما ممکن است تا زمانی که آن را خاموش و سپس دوباره روشن کنید، به درستی کار نکنند.</string>
+    <!-- In the Testing screen.  The item title of the activity that shows a bunch of phone-related information.  -->
+    <string name="testing_phone_info" product="shield">اطلاعات SHIELD</string>
+
+    <!-- Label for power consumed when Idle -->
+    <string name="power_idle" product="shield">حالت بلاستفاده SHIELD</string>
+
+    <!-- Label for Phone usage time -->
+    <string name="usage_type_phone" product="shield">SHIELD</string>
+    <!-- Description for standby detail -->
+    <string name="battery_desc_standby" product="shield">باتری استفاده شده در حالت بلااستفاده SHIELD</string>
+    <!-- Remove account message in dialog [CHAR LIMIT=NONE] -->
+    <string name="really_remove_account_message" product="shield">با حذف این حساب تمام پیام‌ها، مخاطبین و دیگر داده‌ها از  SHIELDنیز حذف می‌شوند!</string>
+    <!-- This is shown if the autheticator for a given account fails to remove it. -->
+    <string name="remove_account_failed" product="shield">برخی از برنامه‌ها به این حساب نیاز دارند. فقط با بازنشانی SHIELD به تنظیمات کارخانه (با این کار همه داده‌های شخصی شما حذف می‌شود) در تنظیمات &gt; تهیه نسخه پشتیبان و بازنشانی می‌‌توانید آن را حذف کنید.</string>
+    <!--  Body of dialog shown when user enables global auto sync, for shield [CHAR LIMIT=none] -->
+    <string name="data_usage_auto_sync_on_dialog" product="shield">هرگونه تغییراتی که در حساب‌های خود در وب انجام می‌دهید به طور خودکار در SHIELD شما کپی می‌شود.\n\nبعضی از حساب‌ها نیز ممکن است به طور خودکار تغییراتی را که در SHIELD خود انجام می‌دهید در وب کپی کنند. حساب Google به این صورت کار می‌کند.\n\nبرای انتخاب اینکه کدام نوع اطلاعات با هر یک از حساب‌ها همگام‌سازی شود، به تنظیمات &gt; حساب‌ها بروید.</string>
+    <!-- Body of dialog shown before user limits mobile data usage. [CHAR LIMIT=NONE] -->
+    <string name="data_usage_limit_dialog_mobile" product="shield">زمانی که مقدار تعیین شده استفاده از داده برای شما به پایان برسد، اتصال داده‌تلفن همراه شما غیرفعال می‌شود.\n\nاز آنجا که مقدار استفاده از داده، توسط SHIELD شما محاسبه شده است و شرکت مخابراتی شما ممکن است استفاده از داده را به صورت دیگری محاسبه کند، لطفاً سقف محتاطانه‌تری را در نظر بگیرید.</string>
+    <!-- Body of dialog shown before user restricts background data usage. This is for multiuser SHIELDS. [CHAR LIMIT=NONE] -->
+    <string name="data_usage_restrict_background_multiuser" product="shield">اگر شما داده‌های تلفن همراه پس‌زمینه را محدود کنید، برخی از برنامه‌ها و خدمات تنها در صورتی کار می‌کنند که به یک شبکه Wi-Fi متصل شوید.\n\n این تنظیم روی همه کاربران موجود در این SHIELD تأثیر می‌گذارد.</string>
+
+    <!-- Label displaying total network data transferred during a specific time period, including a disclaimer that contrasts device versus carrier reporting. [CHAR LIMIT=80] -->
+    <string name="data_usage_total_during_range_mobile" product="shield"> <xliff:g id="range" example="Jul 1 - Jul 31">%2$s</xliff:g>: حدود <xliff:g id="total" example="128KB">%1$s</xliff:g> طبق ارزیابی SHIELD استفاده شده است. ممکن است روش محاسبه مقدار استفاده از داده توسط شرکت مخابراتی شما متفاوت باشد.</string>
+    <!-- Message to secondary users that only owner can manage users [CHAR LIMIT=none] -->
+    <string name="user_cannot_manage_message" product="shield">فقط صاحب SHIELD می‌تواند کاربران را مدیریت کند.</string>
+    <!-- User (self) removal confirmation message [CHAR LIMIT=none] -->
+    <string name="user_confirm_remove_self_message" product="shield">داده‌ها و فضایتان را در این SHIELD از دست می‌دهید. نمی‌توانید این عملکرد را لغو کنید.</string>
+    <!-- User removal confirmation message [CHAR LIMIT=none] -->
+    <string name="user_confirm_remove_message" product="shield">این داده‌ها و فضای کاربر از این SHIELD پاک می‌شود. نمی‌توانید این عملکرد را لغو کنید.</string>
+    <!-- Warning message when changing a global setting for a SHIELD.[CHAR LIMIT=none] -->
+    <string name="global_change_warning" product="shield">این تنظیم روی همه کاربران موجود در این SHIELD تأثیر می‌گذارد.</string>
+
+    <!-- On Language & input settings screen, setting summary.  Setting for thor button brightness. [CHAR LIMIT=35] -->
+    <add-resource type="string" name="nv_led_brightness" />
+    <string name="nv_led_brightness">روشنایی LED</string>
+    <!-- Category title for Virtual mouse [CHAR LIMIT=40] -->
+    <add-resource type="string" name="nv_nvidia_button" />
+    <string name="nv_nvidia_button">دکمه NVIDIA</string>
+
+    <add-resource type="string" name="nv_category_controller_volume" />
+    <string name="nv_category_controller_volume">کنترل میزان صدا</string>
+
+    <add-resource type="string" name="controller_volume_text" />
+    <string name="controller_volume_text">استفاده از ضربه‌گیرها برای تنظیم میزان صدا</string>
+
+    <add-resource type="string" name="controller_volume_summary" />
+    <string name="controller_volume_summary">پس از فشردن دکمه میزان صدا، LB و RB میزان صدا را تنظیم می‌کنند</string>
+     <!-- Controller pulse nvidia led when sleeping-->
+     <add-resource type="string" name="controller_pulse_led" />
+     <string name="controller_pulse_led">دیود نوری پالس وقتی دستگاه در حالت خواب است</string>
+
+    <!-- Security & location settings screen, setting check box title. This controls whether the device locks immediately when the user closes the lid. [CHAR LIMIT=28]-->
+    <string name="lockpattern_settings_enable_power_button_instantly_locks">قفل شدن بلافاصله پس از بستن درب</string>
+
+    <add-resource type="string" name="nv_license_title" />
+    <string name="nv_license_title">اطلاعات حقوقی NVIDIA</string>
+    <add-resource type="string" name="nv_swla" />
+    <string name="nv_swla">قرارداد مجوز نرم‌افزار</string>
+    <add-resource type="string" name="nv_privacy" />
+    <string name="nv_privacy">خط‌مشی رازداری</string>
+    <add-resource type="string" name="nv_tegra_exp_tos" />
+    <string name="nv_tegra_exp_tos">شرایط خدمات Tegra Experience</string>
+    <add-resource type="string" name="nv_warranty" />
+    <string name="nv_warranty">اطلاعات ضمانت‌نامه</string>
+    <add-resource type="string" name="nv_settings_license_activity_title" />
+    <string name="nv_settings_license_activity_title">مجوزهای NVIDIA</string>
+
+    <!-- About device screen, report bug to nvidia -->
+    <add-resource type="string" name="nv_feedback" />
+    <string name="nv_feedback">ارسال نظر برای NVIDIA</string>
+
+</resources>

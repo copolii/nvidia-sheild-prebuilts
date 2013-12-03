@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- If MMS discovers there isn't much space left on the device, it will show a toast with this message. -->
+    <string name="low_memory" product="shield">SHIELD संग्रहण भर गया है.  स्थान रिक्त करने के लिए कुछ फ़ाइलें हटाएं.</string>
+    <!-- Title for the Phone Options dialog to lock the screen, turn off the phone etc. -->
+    <string name="power_dialog" product="shield">SHIELD विकल्प</string>
+    <!-- Shutdown Confirmation Dialog.  When the user chooses to power off the phone, there will be a confirmation dialog.  This is the message. -->
+    <string name="shutdown_confirm" product="shield">SHIELD शट डाउन होगा.</string>
+    <!-- Title of the Global Actions Dialog -->
+    <string name="global_actions" product="shield">SHIELD विकल्प</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readSms" product="shield">एप्लिकेशन को आपके SHIELD या SIM कार्ड में संग्रहित SMS संदेश पढ़ने देता है.  यह सामग्री या गोपनीयता पर ध्यान दिए बिना, एप्लिकेशन को सभी SMS संदेश पढ़ने देता है.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeSms" product="shield">एप्लिकेशन को आपके SHIELD या SIM कार्ड में संग्रहित SMS संदेश लिखने देता है.  दुर्भावनापूर्ण एप्लिकेशन आपके संदेशों को हटा सकते हैं.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_injectEvents" product="shield">एप्लिकेशन को स्वयं के इनपुट ईवेंट (कुंजी दबाना, आदि) को अन्य एप्लिकेशन को वितरित करने देता है.  दुर्भावनापूर्ण एप्लिकेशन इसका उपयोग SHIELD को टेक ओवर करने में कर सकते हैं.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_persistentActivity" product="shield">एप्लिकेशन को स्मृति में स्वयं के कुछ हिस्सों को लगातार बनाने की अनुमति देता है.   यह अन्य एप्लिकेशन के लिए उपलब्ध स्मृति को सीमित कर SHIELD को धीमा कर सकता है.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_clearAppCache" product="shield">एप्लिकेशन को अन्य एप्लिकेशन की संचय निर्देशिकाओं में से फ़ाइलें हटाकर SHIELD संग्रहण को खाली करने देता है.   इससे अन्य एप्लिकेशन अधिक धीमे प्रारंभ हो सकते हैं क्योंकि उन्हें अपना डेटा पुनर्प्राप्त करने की आवश्यकता होती है.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readLogs" product="shield">एप्लिकेशन को सिस्टम के विभिन्न लॉग फ़ाइलों से पढ़ने देता है.   संभावित रूप से व्यक्तिगत या निजी जानकारी शामिल करते हुए, SHIELD के साथ आप क्या कर रहे हैं इस बारे में सामान्य जानकारी खोजने देता है.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_changeComponentState" product="shield">एप्लिकेशन को बदलने देता है कि किसी अन्य एप्लिकेशन का घटक सक्षम है या नहीं.  दुर्भावनापूर्ण एप्लिकेशन महत्वपूर्ण SHIELD क्षमताओं को अक्षम करने में इसका उपयोग कर सकते हैं.  इस अनुमति का उपयोग सावधानी के साथ करना चाहिए, क्योंकि इससे एप्लिकेशन घटकों के अनुपयोगी, असंगत, या अस्थिर स्थिति में जाने की संभावना है.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_receiveBootCompleted" product="shield">एप्लिकेशन को सिस्टम द्वारा बूटिंग पूर्ण करते ही स्वतः आरंभ करने देता है.  इससे SHIELD को आरंभ होने में अधिक समय लग सकता है और एप्लिकेशन को निरंतर चलाकर संपूर्ण SHIELD को धीमा करने देता है.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_broadcastSticky" product="shield">एप्लिकेशन को स्टिकी प्रसारण भेजने देता है, जो प्रसारण समाप्त होने के बाद भी बने रहते हैं.  अत्यधिक उपयोग, SHIELD की बहुत अधिक स्मृति का उपयोग करके उसे धीमा या अस्थिर कर सकता है.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readContacts" product="shield">एप्लिकेशन को आपके SHIELD में संग्रहित संपर्कों के डेटा को, साथ ही आपके द्वारा विशिष्ट व्यक्तियों को कॉल करने, ईमेल करने, या अन्य तरीके से संवाद करने की आवृत्ति को पढ़ने देता है.  यह अनुमति एप्लिकेशन को आपके संपर्क डेटा को सहेजने देती है, और दुर्भावनापूर्ण एप्लिकेशन आपकी जानकारी के बिना संपर्क डेटा को साझा कर सकते हैं.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeContacts" product="shield">एप्लिकेशन को आपके SHIELD में संग्रहित संपर्कों के डेटा को, साथ ही आपके द्वारा विशिष्ट व्यक्तियों को कॉल करने, ईमेल करने, या अन्य तरीके से संवाद करने की आवृत्ति को संशोधित करने देता है.  यह अनुमति एप्लिकेशन को आपके संपर्क डेटा को हटाने देती है.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readCallLog" product="shield">एप्लिकेशन को इनकमिंग और आउटगोइंग कॉल के डेटा सहित, आपके SHIELD का कॉल लॉग संशोधित करने देता है.  यह अनुमति एप्लिकेशन को आपके कॉल लॉग डेटा को सहेजने देती है, और दुर्भावनापूर्ण एप्लिकेशन आपकी जानकारी के बिना कॉल लॉग डेटा को साझा कर सकते हैं.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeCallLog" product="shield">एप्लिकेशन को इनकमिंग और आउटगोइंग कॉल के डेटा सहित, आपके SHIELD का कॉल लॉग संशोधित करने देता है. 
+        दुर्भावनापूर्ण एप्लिकेशन आपके कॉल लॉग को मिटाने या संशोधित करने के लिए इसका उपयोग कर सकते हैं.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+
+    <string name="permdesc_readCalendar" product="shield">एप्लिकेशन को मित्रों या सहकर्मियों के कैलेंडर इवेंट सहित, आपके SHIELD पर संग्रहित कैलेंडर इवेंट पढ़ने देता है.  इससे गोपनीयता या संवेदनशीलता पर ध्यान दिए बिना, एप्लिकेशन आपके कैलेंडर डेटा को साझा कर सकता है या सहेज सकता है.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+
+<string name="permdesc_writeCalendar" product="shield">एप्लिकेशन को मित्रों या सहकर्मियों के ईवेंट के साथ ही वे ईवेंट जोड़ने, निकालने, बदलने देता है जिन्हें आप अपने SHIELD पर संशोधित कर सकते हैं.  इससे एप्लिकेशन, स्वामी की जानकारी के बिना उन संदेशों को भेज सकता है जो कैलेंडर स्वामियों की ओर से आते दिखाई देते हैं, या ईवेंट संशोधित कर सकता है.</string>
+
+
+
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_brick" product="shield">स्थाई रूप से SHIELD अक्षम करें</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_brick" product="shield">एप्लिकेशन द्वारा SHIELD को स्थाई रूप से अक्षम करने देता है. यह बहुत खतरनाक है.</string>
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_reboot" product="shield">बलपूर्वक SHIELD रीबूट करें</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_reboot" product="shield">एप्लिकेशन को SHIELD बलपूर्वक रीबूट करने देता है.</string>
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_performCdmaProvisioning" product="shield">सीधे CDMA SHIELD सेटअप प्रारंभ करें</string>
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_wakeLock" product="shield">SHIELD को निष्क्रिय होने से रोकें</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_wakeLock" product="shield">एप्लिकेशन द्वारा SHIELD को निष्क्रिय होने से रोकने देता है.</string>
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_devicePower" product="shield">SHIELD चालू या बंद करें</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_devicePower" product="shield">एप्लिकेशन द्वारा SHIELD को चालू या बंद करने देता है.</string>
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_nvidiaCPUPower" product="shield">NVIDIA Tegra CPU समायोजित करें</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_nvidiaCPUPower" product="shield">एप्लिकेशन द्वारा NVIDA Tegra CPU के प्राचलों को समायोजित करने देता है.  इसमें अतिरिक्त पॉवर की खपत हो सकती है.</string>
+
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_factoryTest" product="shield">SHIELD हार्डवेयर में पूर्ण पहुंच की अनुमति देते हुए निम्न-स्तर निर्माता परीक्षण के रूप में चलाएं.  केवल तभी उपलब्ध जब कोई SHIELD निर्माता परीक्षण मोड में चल रहा हो.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_setTime" product="shield">एप्लिकेशन को SHIELD की घड़ी का समय बदलने देता है.</string>    
+<!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_setTimeZone" product="shield">एप्लिकेशन को SHIELD का टाइम ज़ोन बदलने देता है.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_getAccounts" product="shield">एप्लिकेशन को SHIELD द्वारा ज्ञात खातों की सूची प्राप्त करने देता है.   इसमें वे खाते शामिल हो सकते हैं जिन्हें आपके द्वारा इंस्टॉल किए गए एप्लिकेशन ने बनाए हैं.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_changeWifiMulticastState" product="shield">एप्लिकेशन को Wi-Fi नेटवर्क पर मल्टीकास्ट पते के उपयोग से केवल आपके SHIELD पर ही नहीं, बल्कि सभी उपकरणों पर भेजे गए पैकेट प्राप्त करने देता है.   यह गैर-मल्टीकास्ट मोड से अधिक पॉवर का उपयोग करता है.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_bluetoothAdmin" product="shield">एप्लिकेशन को स्थानीय Bluetooth SHIELD कॉन्फ़िगर करने देता है, और रिमोट उपकरणों के साथ खोजने और युग्मित करने देता है.</string>
+
+    <string name="permdesc_changeWimaxState" product="shield">एप्लिकेशन को SHIELD से कनेक्ट और SHIELD को WiMAX नेटवर्क्स से डिस्कनेक्ट करने देता है.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_bluetooth" product="shield">एप्लिकेशन को SHIELD पर Bluetooth का कॉन्फ़िगरेशन देखने, और युग्मित उपकरणों के साथ कनेक्शन बनाने और स्वीकार करने देता है.</string>
+    <!-- Description of policy access to watch user login attempts -->
+    <string name="policydesc_watchLogin" product="shield">स्क्रीन को अनलॉक करते समय गलत लिखे गए पासवर्ड की संख्या पर निगरानी करें, और बहुत अधिक बार गलत पासवर्ड लिखे जाने पर SHIELD लॉक करें या SHIELD का संपूर्ण डेटा मिटाएं.</string>
+    <!-- Description of policy access to wipe the user's data -->
+    <string name="policydesc_wipeData" product="shield">फ़ैक्टरी डेटा रीसेट करके, बिना चेतावनी के SHIELD का डेटा मिटाएं.</string>
+    <!-- Shown in the lock screen when there is no SIM card. -->
+    <string name="lockscreen_missing_sim_message" product="shield">SHIELD में कोई सिम कार्ड नहीं है.</string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user is almost at the limit where they will be locked out and may have to enter an alternate username/password to unlock the phone -->
+    <string name="lockscreen_failed_attempts_almost_glogin" product="shield">आपने अपना अनलॉक प्रतिमान <xliff:g id="number">%d</xliff:g> बार गलत बनाया है.  <xliff:g id="number">%d</xliff:g> बार अधिक असफल प्रयासों के बाद, आपसे अपने Google साइन-इन का उपयोग करते हुए अपने SHIELD को अनलॉक करने के लिए कहा जाएगा.\n\n <xliff:g id="number">%d</xliff:g> सेकंड बाद दुबारा कोशिश करें.</string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user is almost at the limit where the device will be wiped. -->
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="shield">आपने <xliff:g id="number">%d</xliff:g> बार SHIELD को अनलॉक करने का प्रयास किया है.  <xliff:g id="number">%d</xliff:g> बार अधिक असफल प्रयासों के बाद, SHIELD को फ़ैक्टरी डिफ़ॉल्ट पर रीसेट किया जाएगा और सभी उपयोगकर्ता डेटा खो जाएगा.</string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user has exceeded the maximum attempts and the device will now be wiped -->
+    <string name="lockscreen_failed_attempts_now_wiping" product="shield">आपने <xliff:g id="number">%d</xliff:g> बार SHIELD को अनलॉक करने का प्रयास किया है.  SHIELD अब फ़ैक्टरी डिफ़ॉल्ट पर रीसेट होगा.
+    </string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeHistoryBookmarks" product="shield">एप्लिकेशन को आपके SHIELD में संग्रहित ब्राउज़र के इतिहास या बुकमार्क को संशोधित करने देता है.  इससे एप्लिकेशन ब्राउज़र डेटा को मिटा सकता है या संशोधित कर सकता है.   ध्यान दें:  यह अनुमति तृतीय-पक्ष ब्राउज़र या वेब ब्राउज़िंग क्षमताओं वाले अन्य एप्लिकेशन द्वारा लागू नहीं की जा सकती.</string>
+    <!-- Summary for a warning message about the interaction model changes after allowing an accessibility service to put the device into explore by touch mode, displayed as a dialog message when the user selects to enables the service. (shield). [CHAR LIMIT=NONE] -->
+    <string name="enable_explore_by_touch_warning_message" product="shield">
+            <xliff:g id="accessibility_service_name">%1$s</xliff:g> स्पर्श द्वारा अन्वेषण सक्षम करना चाहता है. स्पर्श द्वारा अन्वेषण चालू होने पर, आप अपनी उँगली के नीचे के विवरण क्या हैं यह सुन या देख सकते हैं या SHIELD से संवाद करने के लिए संकेत निष्पादित कर सकते हैं.</string>
+    <!-- Name of the default audio route for SHIELD when nothing is connected to a headphone or other wired audio output jack. [CHAR LIMIT=50] -->
+    <string name="default_audio_route_name" product="shield">SHIELD</string>
+    <!-- Message shown when user is almost at the limit of password attempts where the device will be wiped. -->
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield">आपने <xliff:g id="number">%d</xliff:g> बार SHIELD को अनलॉक करने का प्रयास किया है.  <xliff:g id="number">%d</xliff:g> बार अधिक असफल प्रयासों के बाद, SHIELD को फ़ैक्टरी डिफ़ॉल्ट पर रीसेट किया जाएगा और सभी उपयोगकर्ता डेटा खो जाएगा.</string>
+    <!-- Message shown in dialog when user has exceeded the maximum attempts and the device will now be wiped -->
+    <string name="kg_failed_attempts_now_wiping" product="shield">आपने <xliff:g id="number">%d</xliff:g> बार SHIELD को अनलॉक करने का प्रयास किया है.  SHIELD अब फ़ैक्टरी डिफ़ॉल्ट पर रीसेट होगा.</string>
+    <!-- Message shown in dialog when user is almost at the limit where they will be locked out and may have to enter an alternate username/password to unlock the phone -->
+    <string name="kg_failed_attempts_almost_at_login" product="shield">आपने अपना अनलॉक प्रतिमान <xliff:g id="number">%d</xliff:g> बार गलत बनाया है.  <xliff:g id="number">%d</xliff:g> बार अधिक असफल प्रयासों के बाद, आपसे ई-मेल खाते का उपयोग करते हुए अपने SHIELD को अनलॉक करने के लिए कहा जाएगा.\n\n <xliff:g id="number">%d</xliff:g> सेकंड में पुन: प्रयास करें.</string>
+
+    <!-- label for item that turns off power in phone options dialog -->
+    <add-resource type="string" name="global_action_sleep" />
+    <string name="global_action_sleep">निष्क्रिय</string>
+
+</resources>

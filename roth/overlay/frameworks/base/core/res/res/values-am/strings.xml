@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- If MMS discovers there isn't much space left on the device, it will show a toast with this message. -->
+    <string name="low_memory" product="shield">SHIELD ማከማቻው ሙሉ ነው። ቦታ ነፃ ለማድረግ አንዳንድ ፋይሎችን ሰርዝ።</string>
+    <!-- Title for the Phone Options dialog to lock the screen, turn off the phone etc. -->
+    <string name="power_dialog" product="shield">SHIELD አማራጮች</string>
+    <!-- Shutdown Confirmation Dialog.  When the user chooses to power off the phone, there will be a confirmation dialog.  This is the message. -->
+    <string name="shutdown_confirm" product="shield">SHIELD ይዘጋል።</string>
+    <!-- Title of the Global Actions Dialog -->
+    <string name="global_actions" product="shield">SHIELD አማራጮች</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readSms" product="shield">በአንተ SHIELD ወይም SIM ካርድ ላይ የተከማቹ SMS መልዕክቶች መተግበሪያው እንዲያነብ ይፈቅዳል። ምንም ዓይነት ይዘት ወይም ሚስጥር ቢኖራቸውም ሁሉንም SMS መልዕክቶች እንዲያነብ ለመተግበሪያው ይፈቅዳል።</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeSms" product="shield">በአንተ SHIELD ወይም SIM ካርድ ላይ የተከማቹ SMS መልዕክቶች ላይ መተግበሪያው እንዲጽፍ ይፈቅዳል። ጎጂ መተግበሪያዎች መልዕክቶችህን ሊሰርዙ ይችላሉ።</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_injectEvents" product="shield">መተግበሪያው የራሱን የግቤት ክስተቶች (የቁልፍ መጫኖች፣ ወዘተ) ወደ ሌሎች መተግበሪያዎች እንዲልክ ይፈቅዳል። ጎጂ መተግበሪያዎች SHIELD ን ለመቆጣጠር ይሄንን ሊጠቀሙበት ይችላሉ።</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_persistentActivity" product="shield">በማህደረ ትውስታው ውስጥ መተግበሪያው የራሱን ክፍሎች እንዲገኙ ያደርጋል።  ይሄ ለሌሎች መተግበሪያዎች የሚገኘውን ማህደረ ትውስታ ሊወስን እና SHIELD ን ሊያንጓትት ይችላል።</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_clearAppCache" product="shield">የሌሎች መተግበሪያዎችን የተሸጎጡ ማወጫዎችን ውስጥ ያሉ ፋይሎችን በመሰረዝ መተግበሪያው የ SHIELD ማከማቻን ነፃ እንዲያደርግ ይፈቅዳል። ይሄ ሌሎች መተግበሪያዎች ውሂባቸውን ሰርስረው ስለሚያወጡ በጣም በዝግታ እንዲጀምሩ ሊያደርግ ይችላል።</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readLogs" product="shield">ከስርዓቱ የተለያዩ ምዝግብ ማስታወሻ ፋይሎች መተግበሪያወ እንዲያነብ ይፈቅዳል። ይሄ ከ SHIELD ጋር ስለሚያደርጉት ጠቅላላ መረጃ እንዲያገኝ ያስችለዎል፣ የግል ወይም የግል መረጃን ያካትታል።</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_changeComponentState" product="shield">የሌላ መተግበሪያ ክፍለ አካል ነቃ አልነቃ መተግበሪያው እንዲለወጥ ያስችላል። ጎጂ መተግበሪያዎች አስፈላጊ SHIELD አቅሞችን ለማሰናከል ይሄንን ሊጠቀሙበት ይችላሉ። ከዚህ ፈቃድ ጋር ጥያቄ መወሰድ አለበት፣ ምክንያቱም የመተግበሪያ ክፍለ አካላቶችን ባልተረጋጋ፣ ወጥ ባልሆነ፣ ወይም ያልተረጋጉ ሁኔታ ውስጥ ሊከታቸው ይችላል።</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_receiveBootCompleted" product="shield">ስርዓቱ በድጋሚ ማስነሳት እንደጨረሰ መተግበሪያው በራሱ እንዲጀመር ያስችላል። ይሄ SHIELD ን ለማስጀመር ብዙ ጊዜ ሊወስድ ይችላል እና መተግበሪያው ጠቅላላውን የ SHIELD አፈፃፀም ሁልጊዜ በማስሄድ ዘገምተኛ እንዲያደርግ ያስችለዋል።</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_broadcastSticky" product="shield">ስርጭቱ ካለቀ በኃላ እንኳን የሚቀሩ ተለጣፊ ስርጭቶችን መተግበሪያው እንዲልክ ያስችለዋል። ከመጠን በላይ የሆነ አጠቃቀም SHIELD ን በጣም ብዙ ማህደረ ትውስታ እንዲጠቀም በማድረግ ቀሰስተኛ ወይም ያልተረጋጋ ያደርገዋል።</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readContacts" product="shield">መተግበሪያው በ SHIELD ላይ የተቀመጡ እውቅያዎችህን ውሂብ ለማንበብ ያስችለዋል ፣ ምን ያህል ጊዜ እንደደወልክ፣ ኢሜይል እንደላክ፣ ወይም ከተወሰኑ ግለስቦች ጋር በማንኛውም ሌላ መንገድ ያገኛቸሁንም ይጨምራል። ይሄ ፈቃድ መተግበሪያዎች የእውቅያ ውሂብህን እንዲያስቀምጡ፣ እና ጎጂ መተግበሪያዎች ያለአንተ ዕውቅና የእውቅያ ውሂብን ሊያጋሩ ይችላሉ።</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeContacts" product="shield">መተግበሪያው በ SHIELD ላይ የተቀመጡ እውቅያዎችህን ውሂብ ለመቀየር ያስችለዋል ፣ ምን ያህል ጊዜ እንደደወልክ፣ ኢሜይል እንደላክ፣ ወይም ከተወሰኑ ግለስቦች ጋር በማንኛውም ሌላ መንገድ ያገኛቸሁንም ይጨምራል። ይሄ ፈቃድ የእውቅያ ውሂብ እንዲሰርዝ ለመተግበሪያዎች ይፈቅዳል።</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readCallLog" product="shield">የ SHIELD ን ምዝግብ ማስታወሻ፣ ስለ ገቢ እና ወጪ ጥሪዎች ውሂብን ጨምሮ፣ መተግበሪያው እንዲያነብ ይፈቅዳል። ይሄ ፈቃድ መተግበሪያዎች የጥሪ ምዝግብ ማስታወሻ ውሂብህን እንዲያስቀምጡ፣ እና ጎጂ መተግበሪያዎች ያለአንተ ዕውቅና የእውቅያ ውሂብን ሊያጋሩ ይችላሉ።</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeCallLog" product="shield">የ SHIELD ን ምዝግብ ማስታወሻ፣ ስለ ገቢ እና ወጪ ጥሪዎች ውሂብን ጨምሮ፣ መተግበሪያው እንዲቀይር ይፈቅዳል።
+        ጎጂ መተግበሪያዎች ምዝግብ ማስታወሻህን ለመሰረዝ ወይም ለመለወጥ ሊጠቀሙበት ይችላሉ።</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+
+    <string name="permdesc_readCalendar" product="shield">የጓደኛዎችህን ወይም የስራ ባለደረባዎችህን ጨምሮ፣ በአንተ SHIELD ላይ የተከማቹ ሁሉንም የቀን መቁጠሪያ ክስተቶች መተግበሪያው እንዲያነብ ያስችላል። ይሄ ምስጥራዊነትን ወይም ስሜት ነክ ነገሮችን ከግምት ሳያስገባ፣ የቀን መቁጠሪያ ውሂብህን እንዲያጋራ ወይም እንዲያስቀምጥ ለመተግበሪያው ሊፈቅድ ይችላል።</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+
+<string name="permdesc_writeCalendar" product="shield">የጓደኛዎችህን ወይም የስራ ባለደረባዎችህን ጨምሮ፣ በአንተ SHIELD ላይ ልትቀይራቸው የምትችላቸውን ክስተቶች እንዲያክል፣ እንዲያስወግድ፣ እና እንዲለውጥ ለመተግበሪያው ያስችላል። ከቀን መቁጠሪያ ባለቤቶች የመጡ የሚመስሉ መልዕክቶችን እንዲልክ፣ ወይም ያለ ባለቤቱ ዕውቅና ክስተቶችን እንዲለውጥ ለመተግበሪያው ያስችላል።</string>
+
+
+
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_brick" product="shield">በቋሚነት የተሰናከለ SHIELD</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_brick" product="shield">መተግበሪያው በቋሚነት SHIELD ን እንዲያሰናክል ያስችለዋል። ይሄ በጣም አደገኛ ነው።</string>
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_reboot" product="shield">የ SHIELD ዳግም ማስነት አስገድድ</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_reboot" product="shield">መተግበሪያው SHIELD ን በግድ ዳግም እንዲነሳ እንዲያደርግ ያስችለዋል።</string>
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_performCdmaProvisioning" product="shield">በቀጥታ CDMA SHIELD ማወቀርን ይጀምራል</string>
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_wakeLock" product="shield">ከመተኛት SHIELD ን አግድ</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_wakeLock" product="shield">መተግበሪያው SHIELD ን ከመተኛት እንዲከላከል ያስችለዋል።</string>
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_devicePower" product="shield">SHIELD ን አብራ ወይም አጥፋ</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_devicePower" product="shield">መተግበሪያው SHIELD ን እንዲያበራ ወይም እንዲያጠፋ ያስችለዋል።</string>
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_nvidiaCPUPower" product="shield">NVIDIA Tegra CPU አስተካክል</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_nvidiaCPUPower" product="shield">መተግበሪያው NVIDA Tegra CPU ን እንዲያስተካክል ያስችለዋል።  ይሄ ተጨማሪ ኃይል እንዲጠቀም ሊያደርገው ይችላል።</string>
+
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_factoryTest" product="shield">SHIELD ሃርድዌር ላይ የተሟላ መዳረስ በመፍቀድ፣ እንደ ዝቅተኛ ደረጃ የአምራች ፍተሻ አስሂድ። SHIELD የአምራች ፍተሻ ሁናቴ ሲያስኬድ ብቻ ይገኛል።</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_setTime" product="shield">መተግበሪያው የ SHIELD ን የሰዓት ጊዜ እንዲለውጥ ያስችለዋል።</string>    
+<!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_setTimeZone" product="shield">መተግበሪያው የ SHIELD ን የሰዓት ሰቅ እንዲለውጥ ያስችለዋል።</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_getAccounts" product="shield">መተግበሪያው በ SHIELD የሚታወቁ የመለያዎችን ዝርዝር እንዲያገኝ ያስችለዋል።  ይሄ በጫንካቸው መተግበሪያዎች የተፈጠሩ ማንኛውንም መለያዎች ሊያካትት ይችላል።</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_changeWifiMulticastState" product="shield">በአንተ SHIELD ላይ ብቻ ሳይሆን፣ ባለብዙ ስርጭት አድራሻዎችን በመጠቀም Wi-Fi አውታረመረብ ላይ በሁሉም መሳሪያዎች ላይ የተላኩ ፓኬቶችን እንዲቀበል ለመተግበሪያው ያስችላል።  ከባለብዙ ስርጭት ሁናቴ በላይ ተጨማሪ ኃይል ይጠቀማል።</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_bluetoothAdmin" product="shield">መተግበሪያው የአካባቢውን ብሉቱዝ SHIELD እንዲያዋቅር፣ እና ከርቀት መሳሪያዎች ጋር እንዲያገኝ እና እንዲጣመር ያስችለዋል።</string>
+
+    <string name="permdesc_changeWimaxState" product="shield">ከ WiMAX አውታረመረቦች ጋር SHIELD እንዲገናኝ እና SHIELD እንዳይገናኝ መተግበሪያውን ያስችለዋል።</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_bluetooth" product="shield">መተግበሪያው በ SHIELD የብሉቱዝ አወቃቀርን እንዲመለከት፣ እና ከተጣመሩ መሳሪያዎች ጋር ግንኙነቶችን እንዲያደርግ እና እንዲቀበል ያስችለዋል።</string>
+    <!-- Description of policy access to watch user login attempts -->
+    <string name="policydesc_watchLogin" product="shield">ማያውን በመክፈት ወይም SHIELD ን በመቆለፍ ጊዜ የተተየቡትን ልክ ያልሆኑ የይለፍ ቃሎች ቁጥር ተቆጣጠር፣ እና SHIELD ን ቆልፍ ወይም በጣም ብዙ ልክ ያልሆኑ የይለፍ ቃሎች ሁሉም የ SHIELD ን ውሂቦች ሰርዝ።</string>
+    <!-- Description of policy access to wipe the user's data -->
+    <string name="policydesc_wipeData" product="shield">የፋብሪካ ውሂብ ዳግም አስጀምር በማከናወን የ SHIELD ን ውሂብ ያለማስጠንቀቂያ ሰርዝ።</string>
+    <!-- Shown in the lock screen when there is no SIM card. -->
+    <string name="lockscreen_missing_sim_message" product="shield">በ SHIELD ውስጥ ምንም SIM ካርድ የለም።</string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user is almost at the limit where they will be locked out and may have to enter an alternate username/password to unlock the phone -->
+    <string name="lockscreen_failed_attempts_almost_glogin" product="shield">የመክፈቻ ስርዓት ጥለትህን በስህተት <xliff:g id="number">%d</xliff:g> ጊዜ ያህል ስለሃል። ከ <xliff:g id="number">%d</xliff:g> ከብዙ ያልተሳኩ ሙከራዎች በኋላ፣ Google መግቢያህን በመጠቀም የአንተ SHIELD ላይ እንድትገባ ትጠየቃለህ።\n\nበ <xliff:g id="number">%d</xliff:g> ሰከንዶች ውስጥ በድጋሚ ሞክር።</string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user is almost at the limit where the device will be wiped. -->
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="shield">በስህተት SHIELD ን <xliff:g id="number">%d</xliff:g> ጊዜ ያህል ለመክፈት ምክረሃል። ከ <xliff:g id="number">%d</xliff:g> ተጨማሪ ያልተሳኩ ሙከራዎች በኋላ፣ SHIELD ወደ ፋብሪካ ነባሪ እንደነበር ይመለሳል እና ሁሉም የተጠቃሚ ውሂብ ይጠፋል።</string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user has exceeded the maximum attempts and the device will now be wiped -->
+    <string name="lockscreen_failed_attempts_now_wiping" product="shield">በስህተት SHIELD ን <xliff:g id="number">%d</xliff:g> ጊዜ ያህል ለመክፈት ምክረሃል። SHIELD አሁን ወደ ፋብሪካ ነባሪ እንደነበር ይመለሳል።
+    </string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeHistoryBookmarks" product="shield">በ SHIELD ላይ የተከማቹ የማሰሺያው ታሪክ እና ዕልባቶች እንዲቀይር ለመተግበሪያው ያስችላል። ይሄ መተግበሪያው የማሰሺያ ውሂብ እንዲሰርዝ እና እንዲቀይር ሊያስችለው ይችላል።  ማስታወሻ፥ ይሄ ፈቃድ የድር ማሰስ ብቃት ያላቸው ሶስተኛ ወገን ማሰሺያዎች ወይም ሌሎች መተግበሪያዎች ላይተገበር ይችላል።</string>
+    <!-- Summary for a warning message about the interaction model changes after allowing an accessibility service to put the device into explore by touch mode, displayed as a dialog message when the user selects to enables the service. (shield). [CHAR LIMIT=NONE] -->
+    <string name="enable_explore_by_touch_warning_message" product="shield">
+            <xliff:g id="accessibility_service_name">%1$s</xliff:g> አስስ በንኪን ሊያነቃ ይፈልጋል። አስስ በንኪ በሚበራበት ጊዜ፣ ከSHIELD ጋር ለመግባባት ከጣትህ ስር ያሉ መግለጫዎችን ለመስማት ወይም ለማየት ወይም እንቅስቃሴዎችን ማከናወን ትችላለህ።</string>
+    <!-- Name of the default audio route for SHIELD when nothing is connected to a headphone or other wired audio output jack. [CHAR LIMIT=50] -->
+    <string name="default_audio_route_name" product="shield">SHIELD</string>
+    <!-- Message shown when user is almost at the limit of password attempts where the device will be wiped. -->
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield">በስህተት SHIELD ን <xliff:g id="number">%d</xliff:g> ጊዜ ያህል ለመክፈት ምክረሃል። ከ <xliff:g id="number">%d</xliff:g> ተጫማሪ ያልተሳኩ ሙከራዎች በኋላ፣ SHIELD ወደ ፋብሪካ ነባሪ እንደነበር ይመለሳል እና ሁሉም የተጠቃሚ ውሂብ ይጠፋል።</string>
+    <!-- Message shown in dialog when user has exceeded the maximum attempts and the device will now be wiped -->
+    <string name="kg_failed_attempts_now_wiping" product="shield">በስህተት SHIELD ን <xliff:g id="number">%d</xliff:g> ጊዜ ያህል ለመክፈት ምክረሃል። SHIELD አሁን ወደ ፋብሪካ ነባሪ እንደነበር ይመለሳል።</string>
+    <!-- Message shown in dialog when user is almost at the limit where they will be locked out and may have to enter an alternate username/password to unlock the phone -->
+    <string name="kg_failed_attempts_almost_at_login" product="shield">የመክፈቻ ስርዓት ጥለትህን በስህተት <xliff:g id="number">%d</xliff:g> ጊዜ ያህል ስለሃል። ከ <xliff:g id="number">%d</xliff:g> ብዙ ያልተሳኩ ሙከራዎች በኋላ፣ የኢሜይል መለያን በመጠቀም የአንተ SHIELD ላይ እንድትገባ ትጠየቃለህ።\n\n በ<xliff:g id="number">%d</xliff:g> ሰኮንድ ውስጥ በድጋሚ ሞክር።</string>
+
+    <!-- label for item that turns off power in phone options dialog -->
+    <add-resource type="string" name="global_action_sleep" />
+    <string name="global_action_sleep">እንቅልፍ</string>
+
+</resources>

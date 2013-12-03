@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Description in the dialog that appears if there are no pictures from which to create an icon for a contact -->
+    <string name="photoPickerNotFoundText" product="shield">No hi ha imatges disponibles.</string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is disabled.  [CHAR LIMIT=NONE] -->
+    <string name="noContactsHelpText" product="shield">"No teniu cap contacte per mostrar.\n\nPer afegir contactes, prem <font fgcolor="#ffffffff"><b>Menú</b></font>, i després prem:\n
+        \n <li><font fgcolor="#ffffffff"><b>Comptes</b></font> per afegir o editar un compte amb contactes que es poden sincronitzar amb SHIELD\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Nou contacte</b></font> per crear un nou contacte des del principi\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Importar/exportar</b></font> per importar contactes des de la teva targeta SIM o SD\n</li>"
+    </string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is enabled.  [CHAR LIMIT=NONE] -->
+    <string name="noContactsHelpTextWithSync" product="shield">"No teniu cap contacte per mostrar.  (Si acabes d'afegir un compte, pot trigar uns minuts en sincronitzar els contactes.)\n\nPer afegir contactes, prem <font fgcolor="#ffffffff"><b>Menú</b></font>, i després prem:\n
+        \n<li><font fgcolor="#ffffffff"><b>Comptes</b></font> per afegir o editar un compte amb contactes que es poden sincronitzar amb SHIELD\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Opcions de visualització</b></font> per modificar els contactes visibles\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Nou contacte</b></font> per crear un nou contacte des del principi\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Importar/exportar</b></font> per importar contactes des de la teva targeta SIM o SD\n</li>"
+    </string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is disabled, and there is no sim card (cdma).  [CHAR LIMIT=NONE]-->
+    <string name="noContactsNoSimHelpText" product="shield">"No teniu cap contacte per mostrar.\n\nPer afegir contactes, prem <font fgcolor="#ffffffff"><b>Menú</b></font>, i després prem:\n
+        \n<li><font fgcolor="#ffffffff"><b>Comptes</b></font> per afegir o editar un compte amb contactes que es poden sincronitzar amb SHIELD\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Nou contacte</b></font> per crear un nou contacte des del principi\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Importar/exportar</b></font> per importar contactes des de la teva targeta SIM o SD\n</li>"
+    </string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is enabled, and there is no sim card (cdma).  [CHAR LIMIT=NONE] -->
+    <string name="noContactsNoSimHelpTextWithSync" product="shield">"No teniu cap contacte per mostrar.  (Si acabes d'afegir un compte, pot trigar uns minuts en sincronitzar els contactes.)\n\nPer afegir contactes, prem <font fgcolor="#ffffffff"><b>Menú</b></font>, i després prem:\n
+        \n<li><font fgcolor="#ffffffff"><b>Comptes</b></font> per afegir o editar un compte amb contactes que es poden sincronitzar amb SHIELD\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Opcions de visualització</b></font> per modificar els contactes visibles\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Nou contacte</b></font> per crear un nou contacte des del principi\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Importar/exportar</b></font> per importar contactes des de la teva targeta SIM o SD\n</li>"
+    </string>
+    <!-- This error message shown when the user actually have no contact (e.g. just after data-wiping), or, data providers of the contact list prohibits their contacts from being exported to outside world via vcard exporter, etc. [CHAR LIMIT=NONE] -->
+    <string name="composer_has_no_exportable_contact" product="shield">No hi ha cap contacte que es pugui exportar.  Si en tens algun a SHIELD, és possible que hi hagi proveïdors de dades que no permetin que els contactes s\'exportin.</string>
+    <!-- Title for data source when creating or editing a contact that doesn't belong to a specific account.  This contact will only exist on the phone and will not be synced. -->
+    <string name="account_phone" product="shield">Només SHIELD, sense sincronitzar</string>
+
+</resources>

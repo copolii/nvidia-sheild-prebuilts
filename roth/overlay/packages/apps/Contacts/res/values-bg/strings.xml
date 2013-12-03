@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Description in the dialog that appears if there are no pictures from which to create an icon for a contact -->
+    <string name="photoPickerNotFoundText" product="shield">Няма налични картини.</string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is disabled.  [CHAR LIMIT=NONE] -->
+    <string name="noContactsHelpText" product="shield">"Нямате никакви контакти за показване.\n\nЗа да добавите контакти, докоснете<font fgcolor="#ffffffff"><b>Меню</b></font>, после докоснете:\n 
+        \n <li><font fgcolor="#ffffffff"><b>Профили</b></font>, за да добавите или настроите профил с контакти, които можете да синхронизирате с SHIELD\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Нов контакт</b></font>, за да създадете съвсем нов контакт\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Импорт/експорт</b></font> , за да импортирате контакти от своята SIM карта или SD карта\n</li>"
+    </string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is enabled.  [CHAR LIMIT=NONE] -->
+    <string name="noContactsHelpTextWithSync" product="shield">"Нямате никакви контакти за показване.  (Ако сте добавили профил току-що, може да отнеме няколко минути за синхронизиране на контакти.)\n\nЗа да добавите контакти, докоснете <font fgcolor="#ffffffff"><b>Меню</b></font>, после докоснете:\n
+        \n<li><font fgcolor="#ffffffff"><b>Профили</b></font>, за да добавите или настроите профил с контакти, които можете да синхронизирате с SHIELD\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Опции на дисплей</b></font> за промяна на контактите, които да са видими\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Нов контакт</b></font>, за да създадете съвсем нов контакт\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Импорт/експорт</b></font> , за да импортирате контакти от своята SIM карта или SD карта\n</li>"
+    </string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is disabled, and there is no sim card (cdma).  [CHAR LIMIT=NONE]-->
+    <string name="noContactsNoSimHelpText" product="shield">"Нямате никакви контакти за показване.\n\nЗа да добавите контакти, докоснете<font fgcolor="#ffffffff"><b>Меню</b></font>, после докоснете:\n 
+        \n<li><font fgcolor="#ffffffff"><b>Профили</b></font>, за да добавите или настроите профил с контакти, които можете да синхронизирате с SHIELD\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Нов контакт</b></font>, за да създадете съвсем нов контакт\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Импорт/експорт</b></font> , за да импортирате контакти от своята SIM карта\n</li>"
+    </string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is enabled, and there is no sim card (cdma).  [CHAR LIMIT=NONE] -->
+    <string name="noContactsNoSimHelpTextWithSync" product="shield">"Нямате никакви контакти за показване.  (Ако сте добавили профил току-що, може да отнеме няколко минути за синхронизиране на контакти.)\n\nЗа да добавите контакти, докоснете <font fgcolor="#ffffffff"><b>Меню</b></font>, после докоснете:\n
+        \n<li><font fgcolor="#ffffffff"><b>Профили</b></font>, за да добавите или настроите профил с контакти, които можете да синхронизирате с SHIELD\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Опции на дисплей</b></font> за промяна на кои контакти са видими\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Нов контакт</b></font>, за да създадете съвсем нов контакт\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Импорт/експорт</b></font> , за да импортирате контакти от своята SIM карта\n</li>"
+    </string>
+    <!-- This error message shown when the user actually have no contact (e.g. just after data-wiping), or, data providers of the contact list prohibits their contacts from being exported to outside world via vcard exporter, etc. [CHAR LIMIT=NONE] -->
+    <string name="composer_has_no_exportable_contact" product="shield">Няма контакти, позволяващи експортиране.  Ако в SHIELD имате контакти, е възможно някои доставчици на данни да не позволяват експортирането им извън него.</string>
+    <!-- Title for data source when creating or editing a contact that doesn't belong to a specific account.  This contact will only exist on the phone and will not be synced. -->
+    <string name="account_phone" product="shield">Само в SHIELD, несинхронизиран</string>
+
+</resources>

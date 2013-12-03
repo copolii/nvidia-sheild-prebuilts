@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Description in the dialog that appears if there are no pictures from which to create an icon for a contact -->
+    <string name="photoPickerNotFoundText" product="shield">Δεν διατίθενται φωτογραφίες.</string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is disabled.  [CHAR LIMIT=NONE] -->
+    <string name="noContactsHelpText" product="shield">"Δεν υπάρχουν επαφές για προβολή.\n\nΓια την προσθήκη επαφών, αγγίξτε <font fgcolor="#ffffffff"><b>Μενού</b></font> και μετά αγγίξτε:\n
+        \n <li><font fgcolor="#ffffffff"><b>Λογαριασμοί</b></font> για την προσθήκη ή ρύθμιση λογαριασμού με επαφές τις οποίες μπορείτε να συγχρονίσετε στο SHIELD\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Νέα επαφή</b></font> για δημιουργία νέας επαφής\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Εισαγωγή/Εξαγωγή</b></font> για την εισαγωγή επαφών από την κάρτα SIM ή SD σας\n</li>"
+    </string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is enabled.  [CHAR LIMIT=NONE] -->
+    <string name="noContactsHelpTextWithSync" product="shield">"Δεν υπάρχουν επαφές για προβολή.  (Εάν προσθέσατε τώρα ένα λογαριασμό, ο συγχρονισμός των επαφών μπορεί να καθυστερήσει μερικά λεπτά).\n\nΓια την προσθήκη επαφών, αγγίξτε <font fgcolor="#ffffffff"><b>Μενού</b></font> και μετά αγγίξτε:\n
+        \n<li><font fgcolor="#ffffffff"><b>Λογαριασμοί</b></font> για την προσθήκη ή ρύθμιση λογαριασμού με επαφές τις οποίες μπορείτε να συγχρονίσετε στο SHIELD\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Επιλογές προβολής</b></font> για την αλλαγή των ορατών επαφών\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Νέα επαφή</b></font> για δημιουργία νέας επαφής\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Εισαγωγή/Εξαγωγή</b></font> για την εισαγωγή επαφών από την κάρτα SIM ή SD σας\n</li>"
+    </string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is disabled, and there is no sim card (cdma).  [CHAR LIMIT=NONE]-->
+    <string name="noContactsNoSimHelpText" product="shield">"Δεν υπάρχουν επαφές για προβολή.\n\nΓια την προσθήκη επαφών, αγγίξτε <font fgcolor="#ffffffff"><b>Μενού</b></font> και μετά αγγίξτε:\n
+        \n<li><font fgcolor="#ffffffff"><b>Λογαριασμοί</b></font> για την προσθήκη ή ρύθμιση λογαριασμού με επαφές τις οποίες μπορείτε να συγχρονίσετε στο SHIELD\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Νέα επαφή</b></font> για δημιουργία νέας επαφής\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Εισαγωγή/Εξαγωγή</b></font> για την εισαγωγή επαφών από την κάρτα SD σας\n</li>"
+    </string>
+    <!-- Displayed full screen when the user has no contacts and they are displaying the My Contacts group, and contact syncing is enabled, and there is no sim card (cdma).  [CHAR LIMIT=NONE] -->
+    <string name="noContactsNoSimHelpTextWithSync" product="shield">"Δεν υπάρχουν επαφές για προβολή.  (Εάν προσθέσατε τώρα ένα λογαριασμό, ο συγχρονισμός των επαφών μπορεί να καθυστερήσει μερικά λεπτά).\n\nΓια την προσθήκη επαφών, αγγίξτε <font fgcolor="#ffffffff"><b>Μενού</b></font> και μετά αγγίξτε:\n
+        \n<li><font fgcolor="#ffffffff"><b>Λογαριασμοί</b></font> για την προσθήκη ή ρύθμιση λογαριασμού με επαφές τις οποίες μπορείτε να συγχρονίσετε στο SHIELD\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Επιλογές προβολής</b></font> για την αλλαγή των ορατών επαφών\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Νέα επαφή</b></font> για δημιουργία νέας επαφής\n</li>
+        \n<li><font fgcolor="#ffffffff"><b>Εισαγωγή/Εξαγωγή</b></font> για την εισαγωγή επαφών από την κάρτα SD σας\n</li>"
+    </string>
+    <!-- This error message shown when the user actually have no contact (e.g. just after data-wiping), or, data providers of the contact list prohibits their contacts from being exported to outside world via vcard exporter, etc. [CHAR LIMIT=NONE] -->
+    <string name="composer_has_no_exportable_contact" product="shield">Δεν υπάρχουν επαφές προς εξαγωγή.  Εάν υπάρχουν επαφές στο SHIELD, ορισμένοι πάροχοι δεδομένων ενδέχεται να μην επιτρέπουν την εξαγωγή επαφών.</string>
+    <!-- Title for data source when creating or editing a contact that doesn't belong to a specific account.  This contact will only exist on the phone and will not be synced. -->
+    <string name="account_phone" product="shield">Μόνο στο SHIELD, χωρίς συγχρονισμό</string>
+
+</resources>

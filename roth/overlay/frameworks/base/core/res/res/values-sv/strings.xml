@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- If MMS discovers there isn't much space left on the device, it will show a toast with this message. -->
+    <string name="low_memory" product="shield">SHIELDs lager är fullt. Ta bort några filer för att frigöra utrymme.</string>
+    <!-- Title for the Phone Options dialog to lock the screen, turn off the phone etc. -->
+    <string name="power_dialog" product="shield">SHIELD alternativ</string>
+    <!-- Shutdown Confirmation Dialog.  When the user chooses to power off the phone, there will be a confirmation dialog.  This is the message. -->
+    <string name="shutdown_confirm" product="shield">SHIELD stängs av.</string>
+    <!-- Title of the Global Actions Dialog -->
+    <string name="global_actions" product="shield">SHIELD alternativ</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readSms" product="shield">Tillåter att appen läser SMS som sparats på SHIELD- eller SIM-kortet. Tillåter att appen läser alla SMS oavsett innehåll eller sekretess.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeSms" product="shield">Tillåter att appen skriver till SMS som lagras på SHIELD- eller SIM-kortet. Skadliga appar kan radera dina meddelanden.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_injectEvents" product="shield">Tillåter att appen levererar egna inmatningshändelser (knapptryckningar osv.) till andra appar. Skadliga appar kan använda detta för att kapa SHIELD.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_persistentActivity" product="shield">Tillåter att delar av appen läggs beständigt i minnet.   Detta kan innebära att det tillgängliga minnet för andra appar begränsas, vilket gör SHIELD långsam.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_clearAppCache" product="shield">Tillåter att appen frigör utrymme på SHIELD genom att ta bort filer i andra appars cachekataloger.  Detta kan medföra att andra appar startar långsammare eftersom samma data måste hämtas på nytt.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readLogs" product="shield">Tillåter att appen läser från systemets olika loggfiler.  Det innebär att appen kan upptäcka allmän information om vad du gör med SHIELD, vilket kan inkludera personlig eller privat information.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_changeComponentState" product="shield">Tillåter att appen ändrar inställningen för om en komponent i en annan app ska aktiveras eller inte. Skadliga appar kan använda detta för att inaktivera viktiga funktioner i SHIELD. Var försiktig med behörigheten, eftersom appkomponenter kan bli oanvändbara, inkonsekventa eller instabila.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_receiveBootCompleted" product="shield">Tillåter att appen startar automatiskt när systemet har startats om. Detta kan innebära att det tar längre tid att starta SHIELD och att SHIELD blir långsammare i och med att appen hela tiden körs i bakgrunden.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_broadcastSticky" product="shield">Tillåter att appen skickar sticky broadcasts, som finns kvar när sändningen är slut. Vid intensiv användning kan SHIELD bli långsam eller instabil eftersom minnet överbelastas.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readContacts" product="shield">Tillåter att appen läser kontaktuppgifter som sparats på SHIELD, inklusive information om hur ofta du har ringt, skickat e-post till eller på andra sätt kommunicerat med specifika personer. Med den här behörigheten tillåts appen att spara kontaktuppgifter, och skadliga appar kan dela kontaktuppgifter utan din vetskap.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeContacts" product="shield">Tillåter att appen ändrar kontaktuppgifter som sparats på SHIELD, inklusive information om hur ofta du har ringt, skickat e-post till eller på andra sätt kommunicerat med specifika kontakter. Med den här behörigheten tillåts appar att ta bort kontaktuppgifter.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readCallLog" product="shield">Tillåter att appen läser SHIELDs samtalslista, inklusive uppgifter om inkommande och utgående samtal. Med den här behörigheten tillåts appen att spara samtalshistoriken, och skadliga appar kan dela samtalshistorik utan din vetskap.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeCallLog" product="shield">Tillåter att appen gör ändringar i SHIELDs samtalslista, inklusive uppgifter om inkommande och utgående samtal.
+        Skadliga program kan använda detta för att radera eller ändra din samtalslista.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+
+    <string name="permdesc_readCalendar" product="shield">Tillåter att appen läser alla kalenderuppgifter som sparats på SHIELD, inklusive dina vänners eller kollegors uppgifter. Detta kan tillåta appen att dela eller spara kalenderuppgifter även om de är sekretessbelagda eller känsliga.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+
+<string name="permdesc_writeCalendar" product="shield">Tillåter att appen lägger till, tar bort och ändrar sådana händelser som du kan ändra på SHIELD, inklusive dina vänners eller kollegors uppgifter. Detta kan innebära att appen tillåts skicka meddelanden som ser ut att komma från kalenderns ägare eller ändra händelser utan ägarens vetskap.</string>
+
+
+
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_brick" product="shield">inaktivera SHIELD permanent</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_brick" product="shield">Tillåter att appen inaktiverar SHIELD permanent. Detta är mycket farligt.</string>
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_reboot" product="shield">tvinga SHIELD att starta om</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_reboot" product="shield">Tillåter att appen tvingar SHIELD att starta om.</string>
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_performCdmaProvisioning" product="shield">starta CDMA-SHIELD-inställningar direkt</string>
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_wakeLock" product="shield">förhindra att SHIELD sätts i viloläge</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_wakeLock" product="shield">Tillåter att appen förhindrar att SHIELD går in i viloläge.</string>
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_devicePower" product="shield">slå på eller stänga av SHIELD</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_devicePower" product="shield">Tillåter att appen slår på eller stänger av SHIELD.</string>
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_nvidiaCPUPower" product="shield">justera NVIDIA Tegra CPU-enhet</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_nvidiaCPUPower" product="shield">Tillåter att appen justerar parametrar på NVIDA Tegra CPU-enhet.  Detta kan dra extra ström.</string>
+
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_factoryTest" product="shield">Köra som ett testläge för tillverkaren på låg nivå, vilket ger fullständig åtkomst till SHIELDs maskinvara. Tillgängligt endast när SHIELD kör i tillverkarens testläge.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_setTime" product="shield">Tillåter att appen ändrar SHIELDs tid.</string>    
+<!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_setTimeZone" product="shield">Tillåter att appen ändrar SHIELDs tidszon.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_getAccounts" product="shield">Tillåter att appen hämtar en lista över alla kända konton på SHIELD.  Detta kan inkludera konton som har skapats av appar som du har installerat.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_changeWifiMulticastState" product="shield">Tillåter att appen tar emot paket som skickats med multicast-adress till alla enheter i ett Wi-Fi-nätverk och inte bara till SHIELD.  Detta drar mer batteri än när multicastläget inte används.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_bluetoothAdmin" product="shield">Tillåter att appen konfigurerar den lokala Bluetooth-SHIELD samt upptäcker och parkopplar den med fjärranslutna enheter.</string>
+
+    <string name="permdesc_changeWimaxState" product="shield">Tillåter att appen ansluter SHIELD till eller kopplar från WiMAX-nätverk.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_bluetooth" product="shield">Tillåter att appen kommer åt SHIELDs Bluetooth-konfiguration och upprättar och godkänner anslutningar till parkopplade enheter.</string>
+    <!-- Description of policy access to watch user login attempts -->
+    <string name="policydesc_watchLogin" product="shield">Övervaka antalet felaktiga lösenord som angetts för skärmlåset och lås SHIELD eller ta bort alla data från SHIELD om för många felaktiga försök görs.</string>
+    <!-- Description of policy access to wipe the user's data -->
+    <string name="policydesc_wipeData" product="shield">Ta bort data från SHIELD utan förvarning genom att återställa standardinställningarna.</string>
+    <!-- Shown in the lock screen when there is no SIM card. -->
+    <string name="lockscreen_missing_sim_message" product="shield">Inget SIM-kort i SHIELD.</string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user is almost at the limit where they will be locked out and may have to enter an alternate username/password to unlock the phone -->
+    <string name="lockscreen_failed_attempts_almost_glogin" product="shield">Du har ritat ditt grafiska lösenord fel <xliff:g id="number">%d</xliff:g> gånger. Efter ytterligare <xliff:g id="number">%d</xliff:g> försök till ombeds du att låsa upp SHIELD med uppgifterna som du använder när du loggar in på Google.\n\nFörsök igen om <xliff:g id="number">%d</xliff:g> sekunder.</string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user is almost at the limit where the device will be wiped. -->
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="shield">Du har försökt låsa upp SHIELD på fel sätt <xliff:g id="number">%d</xliff:g> gånger. Efter ytterligare <xliff:g id="number">%d</xliff:g> misslyckade försök kommer SHIELD att återställas till fabriksinställningarna. Alla användardata försvinner. </string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user has exceeded the maximum attempts and the device will now be wiped -->
+    <string name="lockscreen_failed_attempts_now_wiping" product="shield">Du har försökt låsa upp SHIELD på fel sätt <xliff:g id="number">%d</xliff:g> gånger. SHIELD kommer nu att återställas till fabriksinställningarna.
+    </string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeHistoryBookmarks" product="shield">Tillåter att appen ändrar historiken för besökta sidor i webbläsaren eller bokmärken som sparats på SHIELD. Det kan innebära att appen kan ta bort eller ändra webbläsarinformation.  Obs! den här behörigheten kan inte tvingas av tredje parts webbläsare eller andra appar som kan bläddra på webben.</string>
+    <!-- Summary for a warning message about the interaction model changes after allowing an accessibility service to put the device into explore by touch mode, displayed as a dialog message when the user selects to enables the service. (shield). [CHAR LIMIT=NONE] -->
+    <string name="enable_explore_by_touch_warning_message" product="shield">
+            <xliff:g id="accessibility_service_name">%1$s</xliff:g> vill aktivera Explore by Touch. När funktionen är aktiv kan du höra eller se beskrivningar av vad du har under fingret eller utföra gester för att göra saker med SHIELD.</string>
+    <!-- Name of the default audio route for SHIELD when nothing is connected to a headphone or other wired audio output jack. [CHAR LIMIT=50] -->
+    <string name="default_audio_route_name" product="shield">SHIELD</string>
+    <!-- Message shown when user is almost at the limit of password attempts where the device will be wiped. -->
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield">Du har försökt låsa upp SHIELD på fel sätt <xliff:g id="number">%d</xliff:g> gånger. Efter ytterligare <xliff:g id="number">%d</xliff:g> misslyckade försök kommer SHIELD att återställas till fabriksinställningarna. Alla användardata försvinner.</string>
+    <!-- Message shown in dialog when user has exceeded the maximum attempts and the device will now be wiped -->
+    <string name="kg_failed_attempts_now_wiping" product="shield">Du har försökt låsa upp SHIELD på fel sätt <xliff:g id="number">%d</xliff:g> gånger. SHIELD kommer nu att återställas till fabriksinställningarna.</string>
+    <!-- Message shown in dialog when user is almost at the limit where they will be locked out and may have to enter an alternate username/password to unlock the phone -->
+    <string name="kg_failed_attempts_almost_at_login" product="shield">Du har ritat ditt grafiska lösenord fel <xliff:g id="number">%d</xliff:g> gånger. Efter ytterligare <xliff:g id="number">%d</xliff:g> försök ombeds du att låsa upp SHIELD med uppgifterna som du använder när du loggar in på Google.\n\n Försök igen om <xliff:g id="number">%d</xliff:g> sekunder.</string>
+
+    <!-- label for item that turns off power in phone options dialog -->
+    <add-resource type="string" name="global_action_sleep" />
+    <string name="global_action_sleep">Viloläge</string>
+
+</resources>

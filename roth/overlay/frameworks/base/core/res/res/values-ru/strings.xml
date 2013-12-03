@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- If MMS discovers there isn't much space left on the device, it will show a toast with this message. -->
+    <string name="low_memory" product="shield">Память SHIELD заполнена. Удалите какие-нибудь файлы, чтобы освободить место.</string>
+    <!-- Title for the Phone Options dialog to lock the screen, turn off the phone etc. -->
+    <string name="power_dialog" product="shield">Параметры SHIELD</string>
+    <!-- Shutdown Confirmation Dialog.  When the user chooses to power off the phone, there will be a confirmation dialog.  This is the message. -->
+    <string name="shutdown_confirm" product="shield">Работа SHIELD будет завершена.</string>
+    <!-- Title of the Global Actions Dialog -->
+    <string name="global_actions" product="shield">Параметры SHIELD</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readSms" product="shield">Приложение сможет просматривать SMS-сообщения, сохраненные на SHIELD или SIM-карте. Приложение сможет просматривать все SMS-сообщения независимо от содержания или параметров конфиденциальности.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeSms" product="shield">Приложение сможет писать в SMS-сообщения, сохраненных на SHIELD или SIM-карте. Вредоносные программы смогут удалять ваши сообщения.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_injectEvents" product="shield">Приложение сможет передавать собственные входные события (нажатия клавиш и пр.) другим программам.  Вредоносные программы смогут таким образом перехватить управление SHIELD.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_persistentActivity" product="shield">Приложение сможет постоянно хранить свои компоненты в памяти.   Это может уменьшить объем памяти, доступный другим приложениям, и замедлить работу SHIELD.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_clearAppCache" product="shield">Разрешает приложению освобождать место в SHIELD, удаляя кэшированные файлы других программ.   В результате другие приложения могут запускаться медленнее, так как им потребуется повторно извлекать необходимые данные.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readLogs" product="shield">Приложение сможет считывать информацию из различных системных журналов.  Приложение сможет получать сведения о работе пользователя на SHIELD, в том числе к личной и конфиденциальной информации.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_changeComponentState" product="shield">Приложение сможет включать и отключать компоненты других программ. Вредоносные программы смогут таким образом отключать важные функции SHIELD. Используйте это разрешение с особой осторожностью, чтобы случайно не нарушить работу компонентов приложения.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_receiveBootCompleted" product="shield">Приложение сможет запускаться после начальной загрузки системы.  Это может привести к увеличению времени запуска SHIELD и уменьшить его быстродействие в связи с постоянной работой приложения.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_broadcastSticky" product="shield">Приложение сможет делать несрочные рассылки, которые не удаляются после их отправки.  Злоупотребление этими рассылками может замедлить работу SHIELD или сделать ее нестабильной из-за чрезмерного использования памяти.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readContacts" product="shield">Приложение сможет просматривать и сохранять все данные о контактах на SHIELD, включая то, как часто вы звоните, отправляете письма и другими способами связываетесь с определенными людьми.  Вредоносные программы смогут передавать данные о контактах без уведомления.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeContacts" product="shield">Приложение сможет изменять сведения о контактах на вашем SHIELD, включая то, как часто вы звоните, отправляете письма и другими способами связываетесь с определенными людьми. С этим разрешением приложения смогут удалять данные о контактах.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readCallLog" product="shield">Приложение сможет читать журнал вызовов в SHIELD и данные о входящих и исходящих звонках.  Приложение сможет сохранять данные журнала вызовов, и вредоносные программы смогут передавать их без вашего ведома.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeCallLog" product="shield">Приложение сможет вносить изменения в журнал вызовов в SHIELD и данные о входящих и исходящих звонках. 
+        Вредоносные приложения смогут воспользоваться этим для удаления или изменения информации о звонках.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+
+    <string name="permdesc_readCalendar" product="shield">Приложение сможет просматривать мероприятия в календаре SHIELD, в том числе добавленные друзьями или коллегами. Это также позволит приложению передавать и сохранять данные календаря независимо от настроек конфиденциальности.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+
+<string name="permdesc_writeCalendar" product="shield">Приложение сможет добавлять, удалять и изменять мероприятия, доступные для редактирования на SHIELD, включая мероприятия, добавленные друзьями или коллегами. Это позволит приложению рассылать сообщения от имени владельца календаря и изменять мероприятия без его ведома.</string>
+
+
+
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_brick" product="shield">полностью отключать SHIELD</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_brick" product="shield">Приложение сможет полностью отключать SHIELD. Это очень опасно.</string>
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_reboot" product="shield">принудительно перезагружать SHIELD</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_reboot" product="shield">Приложение сможет принудительно перезагружать SHIELD.</string>
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_performCdmaProvisioning" product="shield">напрямую запускать CDMA для SHIELD </string>
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_wakeLock" product="shield">препятствовать переключению SHIELD в спящий режим</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_wakeLock" product="shield">Приложение сможет запрещать перевод SHIELD в спящий режим.</string>
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_devicePower" product="shield">включать или выключать питание SHIELD</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_devicePower" product="shield">Приложение сможет включать и выключать SHIELD.</string>
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_nvidiaCPUPower" product="shield">изменять параметры ЦП NVIDIA Tegra</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_nvidiaCPUPower" product="shield">Приложение сможет изменять параметры ЦП NVIDA Tegra.  Это может привести к дополнительному расходу энергии.</string>
+
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_factoryTest" product="shield">Выполнять стандартную проверку нижнего уровня, обеспечивающую полный доступ к аппаратному обеспечению SHIELD.  Доступно только в режиме стандартной проверки.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_setTime" product="shield">Приложение сможет изменять время в параметрах настройки SHIELD.</string>    
+<!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_setTimeZone" product="shield">Приложение сможет изменять часовой пояс в параметрах настройки SHIELD.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_getAccounts" product="shield">Приложение сможет получить список всех используемых в SHIELD аккаунтов,  в том числе созданных установленными приложениями.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_changeWifiMulticastState" product="shield">Приложение сможет получать пакеты, отправленные всем устройствам в сети Wi-Fi (не только вашему SHIELD) в многоадресной рассылке.   При этом расходуется больше энергии, чем в одноадресном режиме.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_bluetoothAdmin" product="shield">Приложение сможет настраивать параметры SHIELD с поддержкой Bluetooth, а также обнаруживать удаленные устройства и выполнять сопряжение с ними.</string>
+
+    <string name="permdesc_changeWimaxState" product="shield">Приложение сможет подключать SHIELD к сетям WiMAX и отключать его от них.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_bluetooth" product="shield">Приложение сможет просматривать конфигурацию Bluetooth на SHIELD, а также запрашивать и подтверждать соединение с другими устройствами.</string>
+    <!-- Description of policy access to watch user login attempts -->
+    <string name="policydesc_watchLogin" product="shield">Отслеживать попытки ввода пароля при разблокировке экрана и блокировать SHIELD или удалять с него все данные, если было сделано слишком много таких попыток.</string>
+    <!-- Description of policy access to wipe the user's data -->
+    <string name="policydesc_wipeData" product="shield">Удалять все данные на SHIELD без предупреждения путем сброса параметров настройки.</string>
+    <!-- Shown in the lock screen when there is no SIM card. -->
+    <string name="lockscreen_missing_sim_message" product="shield">SIM-карта не установлена.</string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user is almost at the limit where they will be locked out and may have to enter an alternate username/password to unlock the phone -->
+    <string name="lockscreen_failed_attempts_almost_glogin" product="shield">Вы неверно указали графический ключ следующее количество раз: <xliff:g id="number">%d</xliff:g>.  После <xliff:g id="number">%d</xliff:g> неверных попыток для разблокировки SHIELD потребуется войти в аккаунт Google.\n\nПовторите попытку через <xliff:g id="number">%d</xliff:g> сек.</string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user is almost at the limit where the device will be wiped. -->
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="shield">Вам не удалось разблокировать SHIELD следующее количество раз: <xliff:g id="number">%d</xliff:g>.  После <xliff:g id="number">%d</xliff:g> неверных попыток параметры настройки SHIELD будут сброшены, а все пользовательские данные удалены.</string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user has exceeded the maximum attempts and the device will now be wiped -->
+    <string name="lockscreen_failed_attempts_now_wiping" product="shield">Вам не удалось разблокировать SHIELD следующее количество раз: <xliff:g id="number">%d</xliff:g>.  Теперь параметры настройки SHIELD будут сброшены.
+    </string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeHistoryBookmarks" product="shield">Приложение сможет изменять историю или закладки браузера, сохраненные на SHIELD, а также удалять и изменять данные браузера.  Обратите внимание:  браузеры независимых поставщиков или другие приложения для просмотра веб-страниц могут не применять это разрешение.</string>
+    <!-- Summary for a warning message about the interaction model changes after allowing an accessibility service to put the device into explore by touch mode, displayed as a dialog message when the user selects to enables the service. (shield). [CHAR LIMIT=NONE] -->
+    <string name="enable_explore_by_touch_warning_message" product="shield">
+            <xliff:g id="accessibility_service_name">%1$s</xliff:g> хочет включить функцию «Изучение касанием». Она позволяет прослушивать или просматривать описание элементов, которых вы касаетесь, и управлять SHIELD с помощью жестов.</string>
+    <!-- Name of the default audio route for SHIELD when nothing is connected to a headphone or other wired audio output jack. [CHAR LIMIT=50] -->
+    <string name="default_audio_route_name" product="shield">SHIELD</string>
+    <!-- Message shown when user is almost at the limit of password attempts where the device will be wiped. -->
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield">Вам не удалось разблокировать SHIELD следующее количество раз: <xliff:g id="number">%d</xliff:g>.  После <xliff:g id="number">%d</xliff:g> неверных попыток параметры настройки SHIELD будут сброшены, а все пользовательские данные удалены.</string>
+    <!-- Message shown in dialog when user has exceeded the maximum attempts and the device will now be wiped -->
+    <string name="kg_failed_attempts_now_wiping" product="shield">Вам не удалось разблокировать SHIELD следующее количество раз: <xliff:g id="number">%d</xliff:g>.  Теперь параметры настройки SHIELD будут сброшены.</string>
+    <!-- Message shown in dialog when user is almost at the limit where they will be locked out and may have to enter an alternate username/password to unlock the phone -->
+    <string name="kg_failed_attempts_almost_at_login" product="shield">Вы неверно указали графический ключ следующее количество раз: <xliff:g id="number">%d</xliff:g>.  После <xliff:g id="number">%d</xliff:g> неверных попыток для разблокировки SHIELD потребуется войти в аккаунт эл. почты.\n\n Повторите попытку через <xliff:g id="number">%d</xliff:g>  сек.</string>
+
+    <!-- label for item that turns off power in phone options dialog -->
+    <add-resource type="string" name="global_action_sleep" />
+    <string name="global_action_sleep">Спящий режим</string>
+
+</resources>

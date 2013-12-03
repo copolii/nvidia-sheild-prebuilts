@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Menu title to copy a selected message from the SIM card to the phone. -->
+    <string name="sim_copy_to_phone_memory" product="shield">کپی در حافظه SHIELD</string>
+</resources>

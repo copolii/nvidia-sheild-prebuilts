@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- If MMS discovers there isn't much space left on the device, it will show a toast with this message. -->
+    <string name="low_memory" product="shield">SHIELD меморија је пуна. Избришите неке датотеке да бисте ослободили простор.</string>
+    <!-- Title for the Phone Options dialog to lock the screen, turn off the phone etc. -->
+    <string name="power_dialog" product="shield">SHIELD опције</string>
+    <!-- Shutdown Confirmation Dialog.  When the user chooses to power off the phone, there will be a confirmation dialog.  This is the message. -->
+    <string name="shutdown_confirm" product="shield">SHIELD ће се угасити.</string>
+    <!-- Title of the Global Actions Dialog -->
+    <string name="global_actions" product="shield">SHIELD опције</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readSms" product="shield">Дозвољава апликацији да чита SMS поруке ускладиштене на SHIELD или SIM картици. Ово омогућава апликацији да чита све SMS поруке, без обзира на садржај или поверљивост.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeSms" product="shield">Дозвољава апликацији да уписује SMS поруке ускладиштене на SHIELD или SIM картици. Злонамерне апликације могу да избришу поруке.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_injectEvents" product="shield">Дозвољава апликацији да испоручи сопствене догађаје уноса (притисци тастера, итд.) другим апликацијама.  Злонамерне апликације на тај начин могу да преузму контролу над SHIELD-ом.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_persistentActivity" product="shield">Дозвољава апликацији да учини сопствене компоненте трајним у меморији.   Ово може да ограничи меморију доступну другим апликацијама и успори SHIELD.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_clearAppCache" product="shield">Дозвољава апликацији да ослободи меморију SHIELD-а брисањем датотека из директоријума кеша других апликација.   То може да доведе до споријег покретања других апликација јер ће поново морати да преузимају податке.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readLogs" product="shield">Дозвољава апликацији да чита разне системске датотеке записника.   То јој омогућава увид у опште информације о начину на који користите SHIELD, при чему могу да буду обухваћене личне или приватне информације.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_changeComponentState" product="shield">Дозвољава апликацији да промени да ли је компонента друге апликације омогућена или онемогућена.  Злонамерне апликације могу то да искористе да онемогуће важне функције SHIELD-а. Треба бити опрезан при додељивању ове дозволе, јер компоненте апликација могу постати неупотребљиве, непоуздане или нестабилне.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_receiveBootCompleted" product="shield">Омогућава да се апликација покрене одмах након покретања система. То може да успори покретање SHIELD-а, при чему ова апликација може да успори функционисање целог SHIELD-а тиме што ће увек бити активна.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_broadcastSticky" product="shield">Дозвољава апликацији да шаље пријемчива емитовања, која остају по завршетку емитовања. Прекомерна употреба може да успори или дестабилизује SHIELD тако што ће га приморати да троши превише меморије.</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readContacts" product="shield">Дозвољава апликацији да чита податке о контактима ускладиштене на SHIELD-у, укључујући податке о томе колико често зовете одређене особе, шаљете им е-писма или на други начин комуницирате са њима. Ова дозвола омогућава апликацијама да чувају податке о контактима, а злонамерне апликације могу да деле податке о контактима без вашег знања.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeContacts" product="shield">Дозвољава апликацији да измени податке о контактима ускладиштене на SHIELD-у, укључујући податке о томе колико често зовете одређене особе, шаљете им е-писма или на други начин комуницирате са њима. Ова дозвола омогућава апликацијама да бришу податке о контактима.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_readCallLog" product="shield">Дозвољава апликацији да чита евиденцију позива на SHIELD-у, укључујући податке о долазним и одлазним позивима. Ова дозвола омогућава апликацијама да чувају податке о евиденцији позива, а злонамерне апликације могу да деле податке о евиденцији позива без вашег знања.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeCallLog" product="shield">Дозвољава апликацији да измени евиденцију позива на SHIELD-у, укључујући податке о долазним и одлазним позивима.
+        Злонамерне апликације могу ово да користе да би брисале или мењале евиденцију позива.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+
+    <string name="permdesc_readCalendar" product="shield">Дозвољава апликацији да чита све догађаје календара ускладиштене на SHIELD-у, укључујући догађаје пријатеља или колега. Ово може да омогући апликацији да дели или чува податке календара, без обзира на поверљивост или осетљивост.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+
+<string name="permdesc_writeCalendar" product="shield">Дозвољава апликацији да додаје, уклања и мења догађаје које можете да измените на SHIELD-у, укључујући догађаје пријатеља и колега. Ово може да омогући апликацији да шаље поруке које изгледају као да их шаљу власници календара или мења догађаје без знања власника.</string>
+
+
+
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_brick" product="shield">трајно онемогућавање SHIELD-а</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_brick" product="shield">Дозвољава апликацији да трајно онемогући SHIELD. Ово је веома опасно.</string>
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_reboot" product="shield">принудно поновно покретање SHIELD-а</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_reboot" product="shield">Дозвољава апликацији да принудно поново покрене SHIELD.</string>
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_performCdmaProvisioning" product="shield">директно покретање подешавања кодираног вишеструког приступа за SHIELD (Code Division Multiple Access – CDMA)</string>
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_wakeLock" product="shield">спречавање преласка SHIELD-а у стање спавања</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_wakeLock" product="shield">Дозвољава апликацији да спречи SHIELD да пређе у стање спавања.</string>
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_devicePower" product="shield">укључивање или искључивање SHIELD-а</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_devicePower" product="shield">Дозвољава апликацији да укључује и искључује SHIELD.</string>
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_nvidiaCPUPower" product="shield">подешавање NVIDIA Tegra процесора</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_nvidiaCPUPower" product="shield">Дозвољава апликацији да подеси параметре NVIDIA Tegra процесора.  Ово може да доведе до додатне потрошње енергије.</string>
+
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_factoryTest" product="shield">Покреће се као тест произвођача ниског нивоа, омогућавајући комплетан приступ хардверу SHIELD-а. Доступно је само када је SHIELD покренут у пробном режиму произвођача.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_setTime" product="shield">Дозвољава апликацији да промени време на сату SHIELD-а.</string>    
+<!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_setTimeZone" product="shield">Дозвољава апликацији да промени временску зону SHIELD-а.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_getAccounts" product="shield">Дозвољава апликацији да преузима листу налога познатих SHIELD-у.  Ово може да обухвата било које налоге које праве апликације које инсталирате.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_changeWifiMulticastState" product="shield">Дозвољава апликацији да прима пакете који се шаљу на све уређаје на Wi-Fi мрежи помоћу вишесмерних адреса, а не само на SHIELD.  Користи више напајања од режима једносмерног саобраћаја.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_bluetoothAdmin" product="shield">Дозвољава апликацији да конфигурише локални Bluetooth SHIELD-а, као и да открије даљинске уређаје и упари се са њима.</string>
+
+    <string name="permdesc_changeWimaxState" product="shield">Дозвољава апликацији да повезује SHIELD са WiMAX мрежама и прекида везе са њима.</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_bluetooth" product="shield">Дозвољава апликацији да прегледа конфигурацију Bluetooth-а на SHIELD-у, као и да успоставља и прихвата везе са упареним уређајима.</string>
+    <!-- Description of policy access to watch user login attempts -->
+    <string name="policydesc_watchLogin" product="shield">Прати број нетачно унетих лозинки приликом откључавања екрана и закључава SHIELD или брише податке са SHIELD-а ако је нетачна лозинка унета превише пута.</string>
+    <!-- Description of policy access to wipe the user's data -->
+    <string name="policydesc_wipeData" product="shield">Брисање података на SHIELD-у без упозорења враћањем фабричких података.</string>
+    <!-- Shown in the lock screen when there is no SIM card. -->
+    <string name="lockscreen_missing_sim_message" product="shield">У SHIELD-у нема SIM картице.</string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user is almost at the limit where they will be locked out and may have to enter an alternate username/password to unlock the phone -->
+    <string name="lockscreen_failed_attempts_almost_glogin" product="shield">Неправилно сте нацртали образац за откључавање <xliff:g id="number">%d</xliff:g> пута. Након још <xliff:g id="number">%d</xliff:g> неуспешних покушаја, бићете упитани да откључате свој SHIELD користећи свој Google налог.\n\nПокушајте поново за <xliff:g id="number">%d</xliff:g> секунди.</string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user is almost at the limit where the device will be wiped. -->
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="shield">Неправилно сте покушали да откључате SHIELD <xliff:g id="number">%d</xliff:g> пута. Након још <xliff:g id="number">%d</xliff:g> неуспешних покушаја, SHIELD ће бити враћен на подразумевана фабричка подешавања и сви кориснички подаци биће изгубљени.</string>
+
+    <!-- For the unlock screen, informational message shown in dialog when user has exceeded the maximum attempts and the device will now be wiped -->
+    <string name="lockscreen_failed_attempts_now_wiping" product="shield">Неправилно сте покушали да откључате SHIELD <xliff:g id="number">%d</xliff:g> пута. SHIELD ће сада бити враћен на подразумевана фабричка подешавања.
+    </string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_writeHistoryBookmarks" product="shield">Дозвољава апликацији да мења историју прегледача или обележиваче ускладиштене на SHIELD-у. Ово може да омогући апликацији да брише или мења податке прегледача.  Напомена: Ова дозвола се можда на примењује на прегледаче треће стране и друге апликације са могућношћу веб прегледања.</string>
+    <!-- Summary for a warning message about the interaction model changes after allowing an accessibility service to put the device into explore by touch mode, displayed as a dialog message when the user selects to enables the service. (shield). [CHAR LIMIT=NONE] -->
+    <string name="enable_explore_by_touch_warning_message" product="shield">
+            <xliff:g id="accessibility_service_name">%1$s</xliff:g>жели да омогући Истраживање додиром. Када је Истраживање додиром укључено, можете да чујете или видите описе ставки на које сте ставили прст или да комуницирате са SHIELD-ом помоћу покрета.</string>
+    <!-- Name of the default audio route for SHIELD when nothing is connected to a headphone or other wired audio output jack. [CHAR LIMIT=50] -->
+    <string name="default_audio_route_name" product="shield">SHIELD</string>
+    <!-- Message shown when user is almost at the limit of password attempts where the device will be wiped. -->
+    <string name="kg_failed_attempts_almost_at_wipe" product="shield">Неправилно сте покушали да откључате SHIELD <xliff:g id="number">%d</xliff:g> пута. Након још <xliff:g id="number">%d</xliff:g> неуспешних покушаја, SHIELD ће бити враћен на подразумевана фабричка подешавања и сви кориснички подаци биће изгубљени.</string>
+    <!-- Message shown in dialog when user has exceeded the maximum attempts and the device will now be wiped -->
+    <string name="kg_failed_attempts_now_wiping" product="shield">Неправилно сте покушали да откључате SHIELD <xliff:g id="number">%d</xliff:g> пута. SHIELD ће сада бити враћен на подразумевана фабричка подешавања.</string>
+    <!-- Message shown in dialog when user is almost at the limit where they will be locked out and may have to enter an alternate username/password to unlock the phone -->
+    <string name="kg_failed_attempts_almost_at_login" product="shield">Неправилно сте нацртали образац за откључавање <xliff:g id="number">%d</xliff:g> пута. Након још <xliff:g id="number">%d</xliff:g> неуспешних покушаја, бићете упитани да откључате свој SHIELD користећи налог е-поште.\n\n Покушајте поново за <xliff:g id="number">%d</xliff:g> секунди.</string>
+
+    <!-- label for item that turns off power in phone options dialog -->
+    <add-resource type="string" name="global_action_sleep" />
+    <string name="global_action_sleep">Спавај</string>
+
+</resources>
