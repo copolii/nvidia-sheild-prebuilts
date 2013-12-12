@@ -53,7 +53,7 @@
 /dev/emc_freq_max	0660	system	system
 /dev/hci_tty	0660	system	net_bt_stack
 /dev/tigps	0660	system	gps
-/dev/quadd	0660	system	system
+/dev/quadd	0660	shell	shell
 /dev/quadd_auth	0660	system	system
 
 #Touch

@@ -560,9 +560,10 @@ on init
     setprop input.stl_blk.edge_top 0
     setprop input.stl_blk.edge_right 15
     setprop input.stl_blk.edge_bottom 0
-    setprop input.ptr_trk.toolswitch_time 200
-    setprop input.ptr_trk.toolswitch_range 30
+    setprop input.ptr_trk.toolswitch_time 400
+    setprop input.ptr_trk.toolswitch_range 700
     setprop input.ptr_trk.eraserlatch_range 10
+    setprop input.ptr_trk.eraserdelay_time 250
 
 # Customers should remove this line
 import init.qvs.rc
