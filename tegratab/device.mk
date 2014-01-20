@@ -377,6 +377,8 @@ PRODUCT_PACKAGES += \
 # OV5693 bayer sensor calibration manager
 PRODUCT_PACKAGES += otp-ov5693
 
+PRODUCT_PACKAGES += ControllerMapper
+
 ifeq ($(TARGET_PRODUCT),kalamata)
 PRODUCT_PACKAGES += gen_tegranote_fuseblob
 endif

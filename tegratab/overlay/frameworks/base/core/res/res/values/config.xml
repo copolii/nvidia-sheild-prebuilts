@@ -175,4 +175,8 @@
          provide full support for multiple displays.  -->
     <integer name="config_undockedHdmiRotation">90</integer>
 
+    <!-- Whether enable controller mapper -->
+    <add-resource type="bool" name="config_controllerMapper" />
+    <bool name="config_controllerMapper">true</bool>
+
 </resources>
