@@ -11,28 +11,46 @@
 # default: y
 SECURE_OS_BUILD ?= y
 
-# NV_TN_SKU - allowed values tn7_114gp, tn7_114np, tn7_114gp_2014, tn7_114np_2014
-# Default: tn7_114gp (GMS + PREMIUM)
-NV_TN_SKU ?= tn7_114gp
+## NV_TN_SKU
+NV_TN_SKU := flaxen
 
 ## REFERENCE_DEVICE
-REFERENCE_DEVICE := tegratab
+REFERENCE_DEVICE := flaxen
 
-# DEV_TEGRATAB_PATH
+## NV_TN_PLATFORM
+NV_TN_PLATFORM := premium
+
+## NV_TN_WITH_GMS - allowed values true, false
+NV_TN_WITH_GMS := true
+
+## DEV_TEGRATAB_PATH
 DEV_TEGRATAB_PATH := device/nvidia/tegratab
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/generic_no_telephony.mk)
 
-# Thse are default settings, it gets changed as per sku manifest properties
-PRODUCT_NAME := tegratab
+## Thse are default settings, it gets changed as per sku manifest properties
+PRODUCT_NAME := flaxen
 PRODUCT_DEVICE := tegratab
+PRODUCT_MODEL := TegraNote-Premium
 PRODUCT_MANUFACTURER := NVIDIA
 PRODUCT_BRAND := nvidia
+PRODUCT_LOCALES += en_US
 
-# SKU specific packages, variables resides in sku specific device makefile
-$(call inherit-product, device/nvidia/tegratab/skus/$(NV_TN_SKU).mk)
 
-# Rest of the packages
+## Property overrides
+PRODUCT_PROPERTY_OVERRIDES += ro.com.google.clientidbase=android-nvidia
+
+## All GMS apps for tegratab_gms
+$(call inherit-product-if-exists, 3rdparty/google/gms-apps/products/gms.mk)
+
+## GMS 3rd-party preinstalled apk for tegratab_gms
+$(call inherit-product-if-exists, 3rdparty/applications/prebuilt/common/tegratab_gms.mk)
+
+## SKU specific apps
+## All specific apps for flaxen
+$(call inherit-product-if-exists, vendor/nvidia/flaxen/flaxen_apps.mk)
+
+## Rest of the packages
 $(call inherit-product, device/nvidia/tegratab/device.mk)
 $(call inherit-product-if-exists, device/nvidia/tegratab/lbh/lbh.mk)
 $(call inherit-product-if-exists, vendor/nvidia/tegra/secureos/nvsi/nvsi.mk)

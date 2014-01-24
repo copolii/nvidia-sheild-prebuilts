@@ -1,23 +1,23 @@
 #
-# Copyright (c) 2013 NVIDIA Corporation.  All rights reserved.
+# Copyright (c) 2013-2014 NVIDIA Corporation.  All rights reserved.
 #
 
 ifneq ($(TARGET_SIMULATOR),true)
 LOCAL_PATH:= $(call my-dir)
 include $(NVIDIA_DEFAULTS)
 
-nvflash_cfg_names := np nb gp gb
+nvflash_cfg_names := np np_2014 gp gp_2014
 ifeq ($(NV_TN_SKU),tn7_114gp)
 nvflash_cfg_default := gp
 endif
-ifeq ($(NV_TN_SKU),tn7_114gb)
-nvflash_cfg_default := gb
+ifeq ($(NV_TN_SKU),tn7_114gp_2014)
+nvflash_cfg_default := gp_2014
 endif
 ifeq ($(NV_TN_SKU),tn7_114np)
 nvflash_cfg_default := np
 endif
-ifeq ($(NV_TN_SKU),tn7_114nb)
-nvflash_cfg_default := nb
+ifeq ($(NV_TN_SKU),tn7_114np_2014)
+nvflash_cfg_default := np_2014
 endif
 ifeq ($(NV_TN_SKU),kalamata)
 nvflash_cfg_default := gp
@@ -28,32 +28,32 @@ ifneq ($(wildcard vendor/nvidia/tegra/tegratab/partition-data),)
 sedoptionnp := -e "s/name=LBH/name=LBH\nfilename=lbh_np.img/" \
 	-e "s/name=NCT/name=NCT\n\#filename=nct_np.txt/"
 
-sedoptionnb := -e "s/name=LBH/name=LBH\nfilename=lbh_nb.img/" \
-	-e "s/tegra114-tegratab.dtb/tegra114-tegratab-b.dtb/" \
-	-e "s/name=NCT/name=NCT\n\#filename=nct_nb.txt/"
+sedoptionnp_2014 := -e "s/name=LBH/name=LBH\nfilename=lbh_np.img/" \
+	-e "s/tegra114-tegratab.dtb/tegra114-tegratab-p1988.dtb/" \
+	-e "s/name=NCT/name=NCT\n\#filename=nct_np.txt/"
 
 sedoptiongp := -e "s/name=LBH/name=LBH\nfilename=lbh_gp.img/" \
 	-e "s/name=NCT/name=NCT\n\#filename=nct_gp.txt/"
 
-sedoptiongb := -e "s/name=LBH/name=LBH\nfilename=lbh_gb.img/" \
-	-e "s/tegra114-tegratab.dtb/tegra114-tegratab-b.dtb/" \
+sedoptiongp_2014 := -e "s/name=LBH/name=LBH\nfilename=lbh_gp.img/" \
+	-e "s/tegra114-tegratab.dtb/tegra114-tegratab-p1988.dtb/" \
 	-e "s/name=NCT/name=NCT\n\#filename=nct_gp.txt/"
 else
 sedoptionnp := -e "s/name=LBH/name=LBH\nfilename=lbh_np.img/" \
 	-e "s/name=NCT/name=NCT\n\#filename=nct_np.txt/" \
 	-e "s/factory_ramdisk.img/boot.img/"
 
-sedoptionnb := -e "s/name=LBH/name=LBH\nfilename=lbh_nb.img/" \
-	-e "s/tegra114-tegratab.dtb/tegra114-tegratab-b.dtb/" \
-	-e "s/name=NCT/name=NCT\n\#filename=nct_nb.txt/" \
+sedoptionnp_2014 := -e "s/name=LBH/name=LBH\nfilename=lbh_np.img/" \
+	-e "s/tegra114-tegratab.dtb/tegra114-tegratab-p1988.dtb/" \
+	-e "s/name=NCT/name=NCT\n\#filename=nct_np.txt/" \
 	-e "s/factory_ramdisk.img/boot.img/"
 
 sedoptiongp := -e "s/name=LBH/name=LBH\nfilename=lbh_gp.img/" \
 	-e "s/name=NCT/name=NCT\n\#filename=nct_gp.txt/" \
 	-e "s/factory_ramdisk.img/boot.img/"
 
-sedoptiongb := -e "s/name=LBH/name=LBH\nfilename=lbh_gb.img/" \
-	-e "s/tegra114-tegratab.dtb/tegra114-tegratab-b.dtb/" \
+sedoptiongp_2014 := -e "s/name=LBH/name=LBH\nfilename=lbh_gp.img/" \
+	-e "s/tegra114-tegratab.dtb/tegra114-tegratab-p1988.dtb/" \
 	-e "s/name=NCT/name=NCT\n\#filename=nct_gp.txt/" \
 	-e "s/factory_ramdisk.img/boot.img/"
 endif

@@ -21,6 +21,8 @@ PRODUCT_COPY_FILES += \
     $(NVFLASH_FILES_PATH)/nvflash/P1640_Micron_1GB_MT41K128M16-125_408Mhz_v9_0_Hynix_1GB_H5TC2G63FFR-PBA_408Mhz_v2_0.bct:flash.bct \
     $(NVFLASH_FILES_PATH)/nvflash/P1640_Micron_1GB_MT41K128M16-125_408Mhz_v9_0_Hynix_1GB_H5TC2G63FFR-PBA_408Mhz_v2_0.cfg:flash_tegratab_p1640.cfg \
     $(NVFLASH_FILES_PATH)/nvflash/P1640_Micron_1GB_MT41K128M16-125_408Mhz_v9_0_Hynix_1GB_H5TC2G63FFR-PBA_408Mhz_v2_0.bct:flash_tegratab_p1640.bct \
+    $(NVFLASH_FILES_PATH)/nvflash/P1988_512MBx2_MT41K128M16JT-125_408Mhz_4.1.7.bct:flash_tegratab_p1988.bct \
+    $(NVFLASH_FILES_PATH)/nvflash/P1988_512MBx2_MT41K128M16JT-125_408Mhz_4.1.7.cfg:flash_tegratab_p1988.cfg \
     $(NVFLASH_FILES_PATH)/nvflash/E1569_Micron_1GB_MT41K128M16-125_408Mhz.cfg:flash_tegratab_e1569.cfg \
     $(NVFLASH_FILES_PATH)/nvflash/E1569_Micron_1GB_MT41K128M16-125_408Mhz.bct:flash_tegratab_e1569.bct \
     $(NVFLASH_FILES_PATH)/nvflash/eks_nokey.dat:eks.dat \
@@ -379,7 +381,7 @@ PRODUCT_PACKAGES += otp-ov5693
 
 PRODUCT_PACKAGES += ControllerMapper
 
-ifeq ($(TARGET_PRODUCT),kalamata)
+ifneq ($(filter $(TARGET_PRODUCT),kalamata flaxen),)
 PRODUCT_PACKAGES += gen_tegranote_fuseblob
 endif
 
@@ -412,5 +414,11 @@ endif
 endif
 
 # Include ShieldTech
-#$(call inherit-product-if-exists, vendor/nvidia/shieldtech/common/shieldtech.mk)
+ifeq ($(NV_ANDROID_FRAMEWORK_ENHANCEMENTS),TRUE)
+SHIELDTECH_FEATURE_NVGALLERY := false
+SHIELDTECH_FEATURE_KEYBOARD := false
+SHIELDTECH_FEATURE_CONSOLE_MODE := false
+SHIELDTECH_FEATURE_BLAKE := false
+$(call inherit-product-if-exists, vendor/nvidia/shieldtech/common/shieldtech.mk)
+endif
 
