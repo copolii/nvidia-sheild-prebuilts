@@ -27,3 +27,6 @@ nvwfd.gamemode = 0
 
 #max resolution supported for Miracast is 720p, represented interms of macroblocks
 nvwfd.maxresolution_macroblocks = 3600
+
+# don't preload OpenGL in Zygote, the Tegra drivers do not like it
+ro.zygote.disable_gl_preload=true
