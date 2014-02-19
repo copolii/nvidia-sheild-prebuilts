@@ -35,9 +35,26 @@ BOARD_SUPPORT_NVOICE := true
 BOARD_SUPPORT_NVAUDIOFX := true
 
 TARGET_USERIMAGES_USE_EXT4 := true
-BOARD_SYSTEMIMAGE_PARTITION_SIZE := 805306368
-BOARD_USERDATAIMAGE_PARTITION_SIZE := 13704888320
+ifneq ($(TARGET_PRODUCT),flaxen)
+  BOARD_SYSTEMIMAGE_PARTITION_SIZE := 805306368
+else
+  BOARD_SYSTEMIMAGE_PARTITION_SIZE := 1073741824
+endif
+
+ifeq ($(TARGET_PRODUCT),kalamata)
+  BOARD_USERDATAIMAGE_PARTITION_SIZE := 13704888320
+else
+  ifneq ($(TARGET_PRODUCT),flaxen)
+    BOARD_USERDATAIMAGE_PARTITION_SIZE := 13600030720
+  else
+    BOARD_USERDATAIMAGE_PARTITION_SIZE := 13331595264
+  endif
+endif
 BOARD_FLASH_BLOCK_SIZE := 4096
+
+ifeq ($(TARGET_PRODUCT),flaxen)
+  HEADSET_AMP_TPA6130A2 := true
+endif
 
 TARGET_KERNEL_CONFIG := tegra_tegratab_android_defconfig
 
@@ -48,11 +65,19 @@ USE_OPENGL_RENDERER := true
 TARGET_RECOVERY_UPDATER_LIBS += libnvrecoveryupdater
 TARGET_RECOVERY_UPDATER_EXTRA_LIBS += libfs_mgr
 
+ifneq (,$(filter $(TARGET_PRODUCT),kalamata flaxen))
 ifeq ($(TARGET_PRODUCT),kalamata)
 ifneq ($(wildcard vendor/nvidia/kalamata/bluetooth-kalamata),)
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR ?= vendor/nvidia/kalamata/bluetooth-kalamata
 else
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR ?= device/nvidia/tegratab/bluetooth
+endif
+else
+ifneq ($(wildcard vendor/nvidia/flaxen/bluetooth-flaxen),)
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR ?= vendor/nvidia/flaxen/bluetooth-flaxen
+else
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR ?= device/nvidia/tegratab/bluetooth
+endif
 endif
 else
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR ?= device/nvidia/tegratab/bluetooth

@@ -46,12 +46,14 @@ class Cm3217Light : public SensorBase {
     InputEventCircularReader mInputReader;
     sensors_event_t mPendingEvent;
     bool mHasPendingEvent;
+    float mLuxConvFactor;
 
     int setInitialState();
 
 public:
             Cm3217Light();
     virtual ~Cm3217Light();
+    void setLuxConvFactor(float);
     virtual int readEvents(sensors_event_t* data, int count);
     virtual bool hasPendingEvents() const;
     virtual int enable(int32_t handle, int enabled);

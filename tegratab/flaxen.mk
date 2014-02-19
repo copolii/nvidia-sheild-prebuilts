@@ -53,5 +53,14 @@ $(call inherit-product-if-exists, vendor/nvidia/flaxen/flaxen_apps.mk)
 ## Rest of the packages
 $(call inherit-product, device/nvidia/tegratab/device.mk)
 $(call inherit-product-if-exists, device/nvidia/tegratab/lbh/lbh.mk)
+
+ifeq ($(wildcard device/nvidia/tegratab/lbh),device/nvidia/tegratab/lbh)
+PRODUCT_COPY_FILES += \
+device/nvidia/tegratab/lbh/1124_nvaudio_conf.xml:system/etc/lbh/1124_nvaudio_conf.xml \
+    device/nvidia/tegratab/lbh/1124_nvaudio_tune.xml:system/etc/lbh/1124_nvaudio_tune.xml \
+    device/nvidia/tegratab/lbh/1124_audioConfig_qvoice_icera_pc400.xml:system/etc/lbh/1124_audioConfig_qvoice_icera_pc400.xml \
+    device/nvidia/tegratab/lbh/1124_nvaudio_fx.xml:system/etc/lbh/1124_nvaudio_fx.xml
+endif
+
 $(call inherit-product-if-exists, vendor/nvidia/tegra/secureos/nvsi/nvsi.mk)
 $(call inherit-product-if-exists, vendor/nvidia/tegra/tegratab/partition-data/factory-ramdisk/factory.mk)

@@ -35,21 +35,38 @@ PRODUCT_COPY_FILES += \
     $(NVFLASH_FILES_PATH)/nvflash/nct_nb.txt:nct_nb.txt \
     $(NVFLASH_FILES_PATH)/nvflash/nct_np.txt:nct_np.txt
 
-ifeq ($(TARGET_PRODUCT),kalamata)
-    ifneq ($(wildcard vendor/nvidia/kalamata/media/hpLogo.bmp),)
-        PRODUCT_COPY_FILES += vendor/nvidia/kalamata/media/hpLogo.bmp:nvidia.bmp
+ifneq (,$(filter $(TARGET_PRODUCT),kalamata flaxen))
+    ifeq ($(TARGET_PRODUCT),kalamata)
+        ifneq ($(wildcard vendor/nvidia/kalamata/media/hpLogo.bmp),)
+            PRODUCT_COPY_FILES += vendor/nvidia/kalamata/media/hpLogo.bmp:nvidia.bmp
+        else
+            PRODUCT_COPY_FILES += $(NVFLASH_FILES_PATH)/nvflash/nvidia.bmp:nvidia.bmp
+        endif
     else
-        PRODUCT_COPY_FILES += $(NVFLASH_FILES_PATH)/nvflash/nvidia.bmp:nvidia.bmp
+        ifneq ($(wildcard vendor/nvidia/flaxen/media/hpLogo.bmp),)
+            PRODUCT_COPY_FILES += vendor/nvidia/flaxen/media/hpLogo.bmp:nvidia.bmp
+        else
+            PRODUCT_COPY_FILES += $(NVFLASH_FILES_PATH)/nvflash/nvidia.bmp:nvidia.bmp
+        endif
     endif
 else
     PRODUCT_COPY_FILES += $(NVFLASH_FILES_PATH)/nvflash/nvidia.bmp:nvidia.bmp
 endif
 
 ifeq ($(APPEND_DTB_TO_KERNEL), true)
-PRODUCT_COPY_FILES += \
-    $(NVFLASH_FILES_PATH)/nvflash/android_fastboot_emmc_full.cfg:flash.cfg
+        ifneq ($(TARGET_PRODUCT),flaxen)
+        PRODUCT_COPY_FILES += \
+                $(NVFLASH_FILES_PATH)/nvflash/android_fastboot_emmc_full.cfg:flash.cfg
+        else
+        PRODUCT_COPY_FILES += \
+                $(NVFLASH_FILES_PATH)/nvflash/android_fastboot_emmc_full.cfg_1gb_system:flash.cfg
+        endif
 else
-NVFLASH_CFG_BASE_FILE := $(NVFLASH_FILES_PATH)/nvflash/android_fastboot_dtb_emmc_full_noxusb_nosif.cfg
+        ifneq ($(TARGET_PRODUCT), flaxen)
+        NVFLASH_CFG_BASE_FILE := $(NVFLASH_FILES_PATH)/nvflash/android_fastboot_dtb_emmc_full_noxusb_nosif.cfg
+        else
+        NVFLASH_CFG_BASE_FILE := $(NVFLASH_FILES_PATH)/nvflash/android_fastboot_dtb_emmc_full_noxusb_nosif_1gb_system.cfg
+       endif
 endif
 
 NVFLASH_FILES_PATH :=
@@ -212,18 +229,22 @@ PRODUCT_COPY_FILES += \
 
 # Promotional content
 ifneq ($(TARGET_PRODUCT),kalamata)
+ifneq ($(TARGET_PRODUCT),flaxen)
 ifneq ($(wildcard vendor/nvidia/tegra/tegratab/partition-data/media_ad/Movies/TEGRA_NOTE_TapToTrack.mp4),)
 PRODUCT_COPY_FILES += \
     vendor/nvidia/tegra/tegratab/partition-data/media_ad/Movies/TEGRA_NOTE_TapToTrack.mp4:data/media/Movies/TEGRA_NOTE_TapToTrack.mp4
 endif
 endif
+endif
 
 # User Manual
 ifneq ($(TARGET_PRODUCT),kalamata)
+ifneq ($(TARGET_PRODUCT),flaxen)
     PRODUCT_COPY_FILES += $(LOCAL_PATH)/user_guide.sh:system/bin/user_guide.sh
     ifneq ($(wildcard vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7UserGuide.pdf),)
         PRODUCT_COPY_FILES += vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7UserGuide.pdf:system/media/TegraNOTE7UserGuide.pdf
     endif
+endif
 endif
 
 #enable Widevine drm
@@ -392,8 +413,12 @@ PRODUCT_TAGS += dalvik.gc.type-precise
 
 PRODUCT_CHARACTERISTICS := tablet
 
+ifneq (,$(filter $(TARGET_PRODUCT),kalamata flaxen))
 ifeq ($(TARGET_PRODUCT),kalamata)
     PRODUCT_PACKAGE_OVERLAYS := $(LOCAL_PATH)/../../../vendor/nvidia/kalamata/overlay
+else
+    PRODUCT_PACKAGE_OVERLAYS := $(LOCAL_PATH)/../../../vendor/nvidia/flaxen/overlay
+endif
 else
     PRODUCT_PACKAGE_OVERLAYS := $(LOCAL_PATH)/overlay
 endif

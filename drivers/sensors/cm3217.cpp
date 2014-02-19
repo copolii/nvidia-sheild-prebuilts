@@ -39,7 +39,8 @@ Cm3217Light::Cm3217Light()
     : SensorBase(LS_DEVICE_NAME, "cm3217-ls"),
       mEnabled(0),
       mInputReader(4),
-      mHasPendingEvent(false)
+      mHasPendingEvent(false),
+      mLuxConvFactor(CM3217_LUX_CONV_FACTOR)
 {
     mPendingEvent.version = sizeof(sensors_event_t);
     mPendingEvent.sensor = ID_L;
@@ -100,6 +101,11 @@ bool Cm3217Light::hasPendingEvents() const {
     return mHasPendingEvent;
 }
 
+void Cm3217Light::setLuxConvFactor(float luxConvFactor)
+{
+    mLuxConvFactor = luxConvFactor;
+}
+
 int Cm3217Light::readEvents(sensors_event_t* data, int count)
 {
     if (count < 1)
@@ -125,7 +131,7 @@ int Cm3217Light::readEvents(sensors_event_t* data, int count)
             if (event->code == EVENT_TYPE_LIGHT) {
                 if (event->value != -1) {
                     // FIXME: not sure why we're getting -1 sometimes
-                    mPendingEvent.light = event->value * CM3217_LUX_CONV_FACTOR;
+                    mPendingEvent.light = event->value * mLuxConvFactor;
                 }
             }
         } else if (type == EV_SYN) {

@@ -22,6 +22,9 @@ endif
 ifeq ($(NV_TN_SKU),kalamata)
 nvflash_cfg_default := gp
 endif
+ifeq ($(NV_TN_SKU),flaxen)
+nvflash_cfg_default := gp
+endif
 nvflash_cfg_default_target := $(PRODUCT_OUT)/flash.cfg
 
 ifneq ($(wildcard vendor/nvidia/tegra/tegratab/partition-data),)
