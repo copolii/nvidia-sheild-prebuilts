@@ -1,4 +1,4 @@
-# Copyright (c) 2011-2013 NVIDIA Corporation.  All Rights Reserved.
+# Copyright (c) 2011-2014 NVIDIA Corporation.  All Rights Reserved.
 #
 # NVIDIA Corporation and its licensors retain all intellectual property and
 # proprietary rights in and to this software and related documentation.  Any
@@ -29,6 +29,10 @@ on init
     mkdir /storage/emulated 0555 root root
     mkdir /mnt/media_rw/sdcard1 0700 media_rw media_rw
     mkdir /storage/sdcard1 0700 root root
+
+    # SECONDARY_STORAGE_MOUNTPOINT is used by factory_install_apk.sh
+    # to check if sdcard is mounted.
+    export SECONDARY_STORAGE_MOUNTPOINT /mnt/media_rw/sdcard1
 
     export SECONDARY_STORAGE /storage/sdcard1
     export EXTERNAL_STORAGE /storage/emulated/legacy

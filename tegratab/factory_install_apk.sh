@@ -1,6 +1,6 @@
 #!/system/bin/sh
 
-# Copyright (c) 2013, NVIDIA CORPORATION.  All rights reserved.
+# Copyright (c) 2013-2014, NVIDIA CORPORATION.  All rights reserved.
 #
 # NVIDIA CORPORATION and its licensors retain all intellectual property
 # and proprietary rights in and to this software, related documentation
@@ -12,11 +12,23 @@
 #
 # This script checks external sdcard and installs the factory apk
 
+SD_MOUNTPOINT=/storage/sdcard1
 SD_PATH=/storage/sdcard1
 LIST_FILE=/data/factory_install.list
 ODM_PRODUCTION=/sys/devices/platform/tegra-fuse/odm_production_mode
 
 bInstall=0
+
+if [ $SECONDARY_STORAGE_MOUNTPOINT ]; then
+    SD_MOUNTPOINT=$SECONDARY_STORAGE_MOUNTPOINT
+elif [ $SECONDARY_STORAGE ]; then
+    SD_MOUNTPOINT=$SECONDARY_STORAGE
+fi
+
+if [ $SECONDARY_STORAGE ]; then
+    SD_PATH=$SECONDARY_STORAGE
+fi
+
 while [ 1 ]
 do
     if [ -e "$ODM_PRODUCTION" ]; then
@@ -27,7 +39,7 @@ do
         touch $LIST_FILE
     fi
 
-    if grep -qa $SD_PATH /proc/mounts; then
+    if grep -qa $SD_MOUNTPOINT /proc/mounts; then
         installed_apks=`cat $LIST_FILE`
         for new_apk in `ls $SD_PATH/`
         do

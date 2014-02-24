@@ -580,6 +580,9 @@ static void set_camera_hint(struct powerhal_info *pInfo, camera_hint_t *data)
         case CAMERA_HINT_VIDEO_RECORD_POWER:
             cap = &(pInfo->camera_power.cam_cap[CAMERA_VIDEO_RECORD]);
             break;
+        case CAMERA_HINT_VIDEO_SLOW_RECORD_POWER:
+            cap = &(pInfo->camera_power.cam_cap[CAMERA_VIDEO_RECORD]);
+            break;
         case CAMERA_HINT_PERF:
             break;
         case CAMERA_HINT_FPS:
@@ -612,10 +615,15 @@ static void set_camera_hint(struct powerhal_info *pInfo, camera_hint_t *data)
         }
         else if(data[0] == CAMERA_HINT_VIDEO_RECORD_POWER)
         {
-            ALOGE("%s: set cpu min freq to %d and emc min freq to %d during video recording\n", __FUNCTION__, cap->freq, cap->emc_freq);
+            ALOGE("%s: set emc min freq to %d during video recording\n", __FUNCTION__, cap->emc_freq);
+            reset_camera_hint(pInfo);
+            set_camera_emc_freq_min(pInfo, cap->emc_freq);
+        }
+        else if(data[0] == CAMERA_HINT_VIDEO_SLOW_RECORD_POWER)
+        {
+            ALOGE("%s: set cpu min freq to %d during video slow mo recording\n", __FUNCTION__, cap->freq);
             reset_camera_hint(pInfo);
             set_camera_cpu_freq_min(pInfo, cap->freq);
-            set_camera_emc_freq_min(pInfo, cap->emc_freq);
         }
 #endif
     }
