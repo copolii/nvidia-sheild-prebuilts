@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"Βοήθεια SHIELD"</string>
+    <add-resource type="string" name="pg1_tle" />
+    <string name="pg1_tle">"ΜΑΘΕΤΕ ΤΟ SHIELD ΣΑΣ"</string>
+    <add-resource type="string" name="pg2_tle" />
+    <string name="pg2_tle">"ΧΡΗΣΗ ΤΩΝ ΚΟΥΜΠΙΩΝ ΛΕΙΤΟΥΡΓΙΑΣ"</string>
+    <add-resource type="string" name="pg3_tle" />
+    <string name="pg3_tle">"ΧΡΗΣΗ ΤΩΝ ΚΟΥΜΠΙΩΝ ΕΠΙΛΟΓΗΣ"</string>
+    <add-resource type="string" name="pg4_tle" />
+    <string name="pg4_tle">"ΠΕΡΙΣΣΟΤΕΡΟΙ ΤΡΟΠΟΙ ΓΙΑ ΑΛΛΗΛΕΠΙΔΡΑΣΗ ΜΕ ΤΟ SHIELD"</string>
+    <add-resource type="string" name="pg0_tle" />
+    <string name="pg0_title">"ΚΑΛΩΣ ΟΡΙΣΑΤΕ ΣΤΟ SHIELD"</string>
+    <add-resource type="string" name="pg0_text" />
+    <string name="pg0_text">"Μάθετε για όλες τις δυνατότητες SHIELD επιλέγοντας τον σύνδεσμο του οδηγού χρήσης παρακάτω ή συνεχίστε και προβάλλετε τις βασικές λειτουργίες και δυνατότητες."</string>
+    <add-resource type="string" name="pg1_blktle" />
+    <string name="pg1_blktle">"ΚΟΥΜΠΙ NVIDIA"</string>
+    <add-resource type="string" name="pg1_blktxt" />
+    <string name="pg1_blktxt">"<b>Πιέστε μία φορά</b> για να εκκινήσετε παιχνίδια SHIELD, να βρείτε καινούρια παιχνίδια και να αναπαράγετε ροή παιχνιδιών από τον υπολογιστή GeForce GTX.\n\n<b>Πιέστε παρατεταμένα</b> για να ανοίξετε το μενού ενέργειας."</string>
+    <add-resource type="string" name="pg2_voltle" />
+    <string name="pg2_voltle">"ΕΝΤΑΣΗ ΗΧΟΥ"</string>
+    <add-resource type="string" name="pg2_voltxt" />
+    <string name="pg2_voltxt">"<b>Πιέστε</b> για έλεγχο της έντασης ήχου\n\n<b>Πιέστε παρατεταμένα</b> για σίγαση"</string>
+    <add-resource type="string" name="pg2_backtle" />
+    <string name="pg2_backtle">"ΠΙΣΩ"</string>
+    <add-resource type="string" name="pg2_backtxt" />
+    <string name="pg2_backtxt">"Γίνεται μετάβαση στην προηγούμενη οθόνη"</string>
+    <add-resource type="string" name="pg2_starttxt" />
+    <string name="pg2_starttle">"ΕΝΑΡΞΗ"</string>
+    <add-resource type="string" name="pg2_hometle" />
+    <string name="pg2_hometle">"ΑΡΧΗ"</string>
+    <add-resource type="string" name="pg2_hometxt" />
+    <string name="pg2_hometxt">"Ανοίγει την αρχική οθόνη Android\n\n<b>Πατήστε δύο φορές</b> για προβολή των πρόσφατων εφαρμογών"</string>
+    <add-resource type="string" name="pg3_ytle" />
+    <string name="pg3_ytle">"ΚΟΥΜΠΙ Y"</string>
+    <add-resource type="string" name="pg3_ytxt" />
+    <string name="pg3_ytxt">"Μενού στις περισσότερες εφαρμογές"</string>
+    <add-resource type="string" name="pg3_xtle" />
+    <string name="pg3_xtle">"ΚΟΥΜΠΙ X"</string>
+    <add-resource type="string" name="pg3_btle" />
+    <string name="pg3_btle">"ΚΟΥΜΠΙ B"</string>
+    <add-resource type="string" name="pg3_btxt" />
+    <string name="pg3_btxt">"Επιστροφή ή ακύρωση στις περισσότερες εφαρμογές"</string>
+    <add-resource type="string" name="pg3_atle" />
+    <string name="pg3_atle">"ΚΟΥΜΠΙ A"</string>
+    <add-resource type="string" name="pg3_atxt" />
+    <string name="pg3_atxt">"Ενεργοποίηση του επιλεγμένου στοιχείου στις περισσότερες εφαρμογές"</string>
+    <add-resource type="string" name="pg4_mtdtle" />
+    <string name="pg4_mtdtle">"ΟΘΟΝΗ ΠΟΛΛΑΠΛΗΣ ΑΦΗΣ"</string>
+    <add-resource type="string" name="pg4_virtle" />
+    <string name="pg4_virtle">"ΕΙΚΟΝΙΚΟ ΠΟΝΤΙΚΙ"</string>
+    <add-resource type="string" name="pg4_rstxt" />
+    <string name="pg4_rstxt">"<b>Δεξιός μοχλός</b>\nΧρησιμοποιήστε για να μετακινήσετε το δείκτη του ποντικιού"</string>
+    <add-resource type="string" name="pg4_btntxt" />
+    <string name="pg4_btntxt">"<b>Πατήστε </b>{R.drawable.stickTrigger}<b> ή </b>{R.drawable.aButton} για κλικ"</string>
+</resources>

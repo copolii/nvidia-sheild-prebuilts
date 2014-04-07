@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"Помоћ на SHIELD-у"</string>
+    <add-resource type="string" name="pg1_tle" />
+    <string name="pg1_tle">"УПОЗНАЈТЕ СВОЈ SHIELD"</string>
+    <add-resource type="string" name="pg2_tle" />
+    <string name="pg2_tle">"УПОТРЕБА ФУНКЦИЈСКИХ ДУГМАДИ"</string>
+    <add-resource type="string" name="pg3_tle" />
+    <string name="pg3_tle">"УПОТРЕБА ДУГМАДИ ЗА БИРАЊЕ"</string>
+    <add-resource type="string" name="pg4_tle" />
+    <string name="pg4_tle">"ЈОШ НАЧИНА ЗА ИНТЕРАКЦИЈУ СА SHIELD-ОМ"</string>
+    <add-resource type="string" name="pg0_tle" />
+    <string name="pg0_title">"ДОБРО ДОШЛИ У SHIELD"</string>
+    <add-resource type="string" name="pg0_text" />
+    <string name="pg0_text">"Сазнајте све у вези са карактеристикама SHIELD-а тако што ћете изабрати везу на корисничком упутству испод, или наставите и прегледајте основне функције и карактеристике."</string>
+    <add-resource type="string" name="pg1_blktle" />
+    <string name="pg1_blktle">"NVIDIA ДУГМЕ"</string>
+    <add-resource type="string" name="pg1_blktxt" />
+    <string name="pg1_blktxt">"<b>Притисните једном</b> да бисте покренули SHIELD игре, пронашли нове игре и прослеђивали игре са свог рачунара са картицом GeForce GTX .\n\n<b>Притисните и држите</b> да бисте отворили мени напајања."</string>
+    <add-resource type="string" name="pg2_voltle" />
+    <string name="pg2_voltle">"ЈАЧИНА ЗВУКА"</string>
+    <add-resource type="string" name="pg2_voltxt" />
+    <string name="pg2_voltxt">"<b>Притисните</b> за контролисање јачине звука\n\n<b>Притисните и држите</b> за искључивање звука"</string>
+    <add-resource type="string" name="pg2_backtle" />
+    <string name="pg2_backtle">"НАЗАД"</string>
+    <add-resource type="string" name="pg2_backtxt" />
+    <string name="pg2_backtxt">"Враћа се на претходни екран"</string>
+    <add-resource type="string" name="pg2_starttxt" />
+    <string name="pg2_starttle">"СТАРТ"</string>
+    <add-resource type="string" name="pg2_hometle" />
+    <string name="pg2_hometle">"ПОЧЕТНА"</string>
+    <add-resource type="string" name="pg2_hometxt" />
+    <string name="pg2_hometxt">"Отвара почетни екран на Android-u\n\n<b>Притисните два пута</b> за приказ недавно коришћених апликација"</string>
+    <add-resource type="string" name="pg3_ytle" />
+    <string name="pg3_ytle">"ДУГМЕ Y"</string>
+    <add-resource type="string" name="pg3_ytxt" />
+    <string name="pg3_ytxt">"Мени у већини апликација"</string>
+    <add-resource type="string" name="pg3_xtle" />
+    <string name="pg3_xtle">"ДУГМЕ X"</string>
+    <add-resource type="string" name="pg3_btle" />
+    <string name="pg3_btle">"ДУГМЕ B"</string>
+    <add-resource type="string" name="pg3_btxt" />
+    <string name="pg3_btxt">"Назад или отказивање у већини апликација"</string>
+    <add-resource type="string" name="pg3_atle" />
+    <string name="pg3_atle">"ДУГМЕ A"</string>
+    <add-resource type="string" name="pg3_atxt" />
+    <string name="pg3_atxt">"Активира изабрану ставку у већини апликација"</string>
+    <add-resource type="string" name="pg4_mtdtle" />
+    <string name="pg4_mtdtle">"ЕКРАН КОЈИ ПОДРЖАВА ВИШЕ ИСТОВРЕМЕНИХ ДОДИРА"</string>
+    <add-resource type="string" name="pg4_virtle" />
+    <string name="pg4_virtle">"ВИРТУЕЛНИ МИШ"</string>
+    <add-resource type="string" name="pg4_rstxt" />
+    <string name="pg4_rstxt">"<b>Десна палица</b>\nКористите за померање показивача миша"</string>
+    <add-resource type="string" name="pg4_btntxt" />
+    <string name="pg4_btntxt">"<b>Притисните </b>{R.drawable.stickTrigger}<b> или </b>{R.drawable.aButton} за клик"</string>
+</resources>

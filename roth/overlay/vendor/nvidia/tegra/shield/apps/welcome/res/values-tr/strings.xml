@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"SHIELD Yardımı"</string>
+    <add-resource type="string" name="pg1_tle" />
+    <string name="pg1_tle">"SHIELD\'INIZI TANIYIN"</string>
+    <add-resource type="string" name="pg2_tle" />
+    <string name="pg2_tle">"İŞLEV DÜĞMELERİNİN KULLANIMI"</string>
+    <add-resource type="string" name="pg3_tle" />
+    <string name="pg3_tle">"SEÇİM DÜĞMELERİNİN KULLANIMI"</string>
+    <add-resource type="string" name="pg4_tle" />
+    <string name="pg4_tle">"SHIELD İLE ETKİLEŞİMİN ÇEŞİTLİ YOLLARI"</string>
+    <add-resource type="string" name="pg0_tle" />
+    <string name="pg0_title">"SHIELD\'A HOŞ GELDİNİZ"</string>
+    <add-resource type="string" name="pg0_text" />
+    <string name="pg0_text">"Aşağıdaki kullanıcı kılavuzu bağlantısını seçerek tüm SHIELD özellikleri hakkında daha fazla bilgi edinin veya devam edip başlıca işlevleri ve özellikleri görün."</string>
+    <add-resource type="string" name="pg1_blktle" />
+    <string name="pg1_blktle">"NVIDIA DÜĞMESİ"</string>
+    <add-resource type="string" name="pg1_blktxt" />
+    <string name="pg1_blktxt">"SHIELD oyunlarını başlatmak, yeni oyunlar bulmak ve GeForce GTX PC\'nizden oyun akışı yapmak için <b>bir kez basın</b>.\n\nGüç Menüsü\'nü açmak için <b>basıp basılı tutun</b>."</string>
+    <add-resource type="string" name="pg2_voltle" />
+    <string name="pg2_voltle">"SES DÜZEYİ"</string>
+    <add-resource type="string" name="pg2_voltxt" />
+    <string name="pg2_voltxt">"Ses düzeyini kontrol etmek için <b>basın</b>\n\nSessize almak için <b>basıp basılı tutun</b>"</string>
+    <add-resource type="string" name="pg2_backtle" />
+    <string name="pg2_backtle">"GERİ"</string>
+    <add-resource type="string" name="pg2_backtxt" />
+    <string name="pg2_backtxt">"Önceki ekrana atlar"</string>
+    <add-resource type="string" name="pg2_starttxt" />
+    <string name="pg2_starttle">"BAŞLAT"</string>
+    <add-resource type="string" name="pg2_hometle" />
+    <string name="pg2_hometle">"ANA SAYFA"</string>
+    <add-resource type="string" name="pg2_hometxt" />
+    <string name="pg2_hometxt">"Android Ana Sayfası\'nı açar\n\nSon Uygulamalar\'ı görüntülemek için <b>çift basın</b>"</string>
+    <add-resource type="string" name="pg3_ytle" />
+    <string name="pg3_ytle">"Y DÜĞMESİ"</string>
+    <add-resource type="string" name="pg3_ytxt" />
+    <string name="pg3_ytxt">"Çoğu uygulamada menü"</string>
+    <add-resource type="string" name="pg3_xtle" />
+    <string name="pg3_xtle">"X DÜĞMESİ"</string>
+    <add-resource type="string" name="pg3_btle" />
+    <string name="pg3_btle">"B DÜĞMESİ"</string>
+    <add-resource type="string" name="pg3_btxt" />
+    <string name="pg3_btxt">"Çoğu uygulamada geri veya iptal"</string>
+    <add-resource type="string" name="pg3_atle" />
+    <string name="pg3_atle">"A DÜĞMESİ"</string>
+    <add-resource type="string" name="pg3_atxt" />
+    <string name="pg3_atxt">"Çoğu uygulamada, seçili öğeyi etkinleştirir"</string>
+    <add-resource type="string" name="pg4_mtdtle" />
+    <string name="pg4_mtdtle">"BİRDEN ÇOK DOKUNMALI EKRAN"</string>
+    <add-resource type="string" name="pg4_virtle" />
+    <string name="pg4_virtle">"SANAL FARE"</string>
+    <add-resource type="string" name="pg4_rstxt" />
+    <string name="pg4_rstxt">"<b>Sağ Çubuk</b>\nFare işaretçisini hareket ettirir"</string>
+    <add-resource type="string" name="pg4_btntxt" />
+    <string name="pg4_btntxt">"<b>Tıklatmak için </b>{R.drawable.stickTrigger}<b> veya </b>{R.drawable.aButton} düğmesine basın"</string>
+</resources>

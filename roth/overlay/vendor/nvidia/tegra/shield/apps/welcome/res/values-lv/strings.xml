@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"Spēļdatora SHIELD palīdzība"</string>
+    <add-resource type="string" name="pg1_tle" />
+    <string name="pg1_tle">"IEPAZĪŠANĀS AR SPĒĻDATORU SHIELD"</string>
+    <add-resource type="string" name="pg2_tle" />
+    <string name="pg2_tle">"FUNKCIJU POGU IZMANTOŠANA"</string>
+    <add-resource type="string" name="pg3_tle" />
+    <string name="pg3_tle">"IZVĒLES POGU IZMANTOŠANA"</string>
+    <add-resource type="string" name="pg4_tle" />
+    <string name="pg4_tle">"VAIRĀK VEIDU MIJIEDARBĪBAI AR SPĒĻDATORU SHIELD"</string>
+    <add-resource type="string" name="pg0_tle" />
+    <string name="pg0_title">"LAIPNI LŪDZAM SPĒĻDATORĀ SHIELD"</string>
+    <add-resource type="string" name="pg0_text" />
+    <string name="pg0_text">"Uzziniet par visiem spēļdatora SHIELD līdzekļiem, atlasot tālāk norādīto lietošanas pamācības saiti, vai turpiniet un skatiet pamatfunkcijas un līdzekļus."</string>
+    <add-resource type="string" name="pg1_blktle" />
+    <string name="pg1_blktle">"NVIDIA POGA"</string>
+    <add-resource type="string" name="pg1_blktxt" />
+    <string name="pg1_blktxt">"<b>Nospiediet vienreiz</b>, lai palaistu spēļdatora SHIELD spēles, atrastu jaunas spēles un straumētu spēles no sava GeForce GTX datora.\n\n<b>Nospiediet un paturiet</b>, lai atvērtu barošanas izvēlni."</string>
+    <add-resource type="string" name="pg2_voltle" />
+    <string name="pg2_voltle">"SKAĻUMS"</string>
+    <add-resource type="string" name="pg2_voltxt" />
+    <string name="pg2_voltxt">"<b>Nospiediet</b>, lai kontrolētu skaļumu\n\n<b>Nospiediet un paturiet</b>, lai izslēgtu skaņu"</string>
+    <add-resource type="string" name="pg2_backtle" />
+    <string name="pg2_backtle">"ATPAKAĻ"</string>
+    <add-resource type="string" name="pg2_backtxt" />
+    <string name="pg2_backtxt">"Pāriet uz iepriekšējo ekrānu"</string>
+    <add-resource type="string" name="pg2_starttxt" />
+    <string name="pg2_starttle">"SĀKT"</string>
+    <add-resource type="string" name="pg2_hometle" />
+    <string name="pg2_hometle">"SĀKUMS"</string>
+    <add-resource type="string" name="pg2_hometxt" />
+    <string name="pg2_hometxt">"Atver Android sākumekrānu\n\n<b>Nospiediet divreiz</b>, lai skatītu nesenās lietotnes"</string>
+    <add-resource type="string" name="pg3_ytle" />
+    <string name="pg3_ytle">"Y POGA"</string>
+    <add-resource type="string" name="pg3_ytxt" />
+    <string name="pg3_ytxt">"Izvēlne vairumā lietotņu"</string>
+    <add-resource type="string" name="pg3_xtle" />
+    <string name="pg3_xtle">"X POGA"</string>
+    <add-resource type="string" name="pg3_btle" />
+    <string name="pg3_btle">"B POGA"</string>
+    <add-resource type="string" name="pg3_btxt" />
+    <string name="pg3_btxt">"Atpakaļ vai atcelt vairumā lietotņu"</string>
+    <add-resource type="string" name="pg3_atle" />
+    <string name="pg3_atle">"A POGA"</string>
+    <add-resource type="string" name="pg3_atxt" />
+    <string name="pg3_atxt">"Aktivizē atlasīto vienumu vairumā lietotņu"</string>
+    <add-resource type="string" name="pg4_mtdtle" />
+    <string name="pg4_mtdtle">"VAIRĀKSKĀRIENU DISPLEJS"</string>
+    <add-resource type="string" name="pg4_virtle" />
+    <string name="pg4_virtle">"VIRTUĀLĀ PELE"</string>
+    <add-resource type="string" name="pg4_rstxt" />
+    <string name="pg4_rstxt">"<b>Labā kursorsvira</b>\nIzmantojiet peles rādītāja pārvietošanai"</string>
+    <add-resource type="string" name="pg4_btntxt" />
+    <string name="pg4_btntxt">"<b>Nospiediet </b>{R.drawable.stickTrigger}<b> vai </b>{R.drawable.aButton}, lai noklikšķinātu"</string>
+</resources>

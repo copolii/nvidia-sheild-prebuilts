@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"راهنمای SHIELD"</string>
+    <add-resource type="string" name="pg1_tle" />
+    <string name="pg1_tle">"آشنایی با SHIELD"</string>
+    <add-resource type="string" name="pg2_tle" />
+    <string name="pg2_tle">"استفاده از دکمه‌های عملکرد"</string>
+    <add-resource type="string" name="pg3_tle" />
+    <string name="pg3_tle">"استفاده از دکمه‌های انتخاب"</string>
+    <add-resource type="string" name="pg4_tle" />
+    <string name="pg4_tle">"روش‌های دیگر برای ارتباط با SHIELD"</string>
+    <add-resource type="string" name="pg0_tle" />
+    <string name="pg0_title">"به SHIELD خوش آمدید"</string>
+    <add-resource type="string" name="pg0_text" />
+    <string name="pg0_text">"با انتخاب پیوند راهنمای کاربر در زیر، درباره تمام ویژگی‌های SHIELD بیشتر بدانید یا ادامه دهید و عملکردها و ویژگی‌های اصلی را مشاهده کنید."</string>
+    <add-resource type="string" name="pg1_blktle" />
+    <string name="pg1_blktle">"دکمه NVIDIA"</string>
+    <add-resource type="string" name="pg1_blktxt" />
+    <string name="pg1_blktxt">"<b>یکبار فشار دهید</b> تا بازی‌های SHIELD راه‌اندازی شود، بازی‌های جدید را بیابید و آنها را از رایانه GeForce GTX خودتان پخش جریانی کنید.\n\n<b>فشار دهید و نگه دارید</b> تا منوی نیرو باز شود."</string>
+    <add-resource type="string" name="pg2_voltle" />
+    <string name="pg2_voltle">"میزان صدا"</string>
+    <add-resource type="string" name="pg2_voltxt" />
+    <string name="pg2_voltxt">"برای کنترل میزان صدا <b>فشار دهید</b>\n\nبرای بی‌صدا کردن <b>فشار دهید و نگه دارید</b>"</string>
+    <add-resource type="string" name="pg2_backtle" />
+    <string name="pg2_backtle">"بازگشت"</string>
+    <add-resource type="string" name="pg2_backtxt" />
+    <string name="pg2_backtxt">"به صفحه قبلی می‌رود"</string>
+    <add-resource type="string" name="pg2_starttxt" />
+    <string name="pg2_starttle">"شروع"</string>
+    <add-resource type="string" name="pg2_hometle" />
+    <string name="pg2_hometle">"صفحه اصلی"</string>
+    <add-resource type="string" name="pg2_hometxt" />
+    <string name="pg2_hometxt">"صفحه اصلی Android را باز می‌کند\n\nبرای مشاهه برنامه‌های اخیر <b>دوبار فشار دهید</b>"</string>
+    <add-resource type="string" name="pg3_ytle" />
+    <string name="pg3_ytle">"دکمه Y"</string>
+    <add-resource type="string" name="pg3_ytxt" />
+    <string name="pg3_ytxt">"منو در اکثر برنامه‌ها"</string>
+    <add-resource type="string" name="pg3_xtle" />
+    <string name="pg3_xtle">"دکمه X"</string>
+    <add-resource type="string" name="pg3_btle" />
+    <string name="pg3_btle">"دکمه B"</string>
+    <add-resource type="string" name="pg3_btxt" />
+    <string name="pg3_btxt">"بازگشت یا لغو در اکثر برنامه‌ها"</string>
+    <add-resource type="string" name="pg3_atle" />
+    <string name="pg3_atle">"دکمه A"</string>
+    <add-resource type="string" name="pg3_atxt" />
+    <string name="pg3_atxt">"مورد انتخابی را در اکثر برنامه‌ها فعال می‌کند"</string>
+    <add-resource type="string" name="pg4_mtdtle" />
+    <string name="pg4_mtdtle">"صفحه نمایش با قابلیت لمسی چندگانه"</string>
+    <add-resource type="string" name="pg4_virtle" />
+    <string name="pg4_virtle">"موشواره مجازی"</string>
+    <add-resource type="string" name="pg4_rstxt" />
+    <string name="pg4_rstxt">"<b>دسته راست</b>\nاز این گزینه برای انتقال نشانگر موشواره استفاده کنید"</string>
+    <add-resource type="string" name="pg4_btntxt" />
+    <string name="pg4_btntxt">"<b></b>{R.drawable.stickTrigger}<b> یا </b>{R.drawable.aButton} را برای کلیک فشار دهید"</string>
+</resources>

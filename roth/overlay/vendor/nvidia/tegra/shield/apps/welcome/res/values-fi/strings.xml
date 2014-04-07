@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"SHIELDin ohje"</string>
+    <add-resource type="string" name="pg1_tle" />
+    <string name="pg1_tle">"OPI TUNTEMAAN SHIELD"</string>
+    <add-resource type="string" name="pg2_tle" />
+    <string name="pg2_tle">"TOIMINTOPAINIKKEIDEN KÄYTTÖ"</string>
+    <add-resource type="string" name="pg3_tle" />
+    <string name="pg3_tle">"VALINTAPAINIKKEIDEN KÄYTTÖ"</string>
+    <add-resource type="string" name="pg4_tle" />
+    <string name="pg4_tle">"MUITA TAPOJA KÄYTTÄÄ SHIELDIÄ"</string>
+    <add-resource type="string" name="pg0_tle" />
+    <string name="pg0_title">"TERVETULOA SHIELDIIN"</string>
+    <add-resource type="string" name="pg0_text" />
+    <string name="pg0_text">"Tutustu kaikkiin SHIELD-toimintoihin valitsemalla linkki käyttöoppaaseen alla tai jatka ja tutustu perustoimintoihin ja -ominaisuuksiin."</string>
+    <add-resource type="string" name="pg1_blktle" />
+    <string name="pg1_blktle">"NVIDIA-PAINIKE"</string>
+    <add-resource type="string" name="pg1_blktxt" />
+    <string name="pg1_blktxt">"Käynnistä SHIELD-pelit, etsi uusia pelejä ja käytä pelejä GeForce GTX PC:stä <b>painamalla kerran</b>.\n\nAvaa virtavalikko <b>painamalla ja pitämällä alhaalla</b>."</string>
+    <add-resource type="string" name="pg2_voltle" />
+    <string name="pg2_voltle">"ÄÄNENVOIMAKKUUS"</string>
+    <add-resource type="string" name="pg2_voltxt" />
+    <string name="pg2_voltxt">"Säädä äänenvoimakkuus <b>painamalla</b>\n\nVaimenna ääni <b>painamalla ja pitämällä alhaalla</b>"</string>
+    <add-resource type="string" name="pg2_backtle" />
+    <string name="pg2_backtle">"TAKAISIN"</string>
+    <add-resource type="string" name="pg2_backtxt" />
+    <string name="pg2_backtxt">"Hyppää edelliseen näyttöön"</string>
+    <add-resource type="string" name="pg2_starttxt" />
+    <string name="pg2_starttle">"KÄYNNISTÄ"</string>
+    <add-resource type="string" name="pg2_hometle" />
+    <string name="pg2_hometle">"KOTI"</string>
+    <add-resource type="string" name="pg2_hometxt" />
+    <string name="pg2_hometxt">"Avaa Androidin aloitusnäytön\n\nNäet viimeisimmät sovellukset <b>kaksoisnapsauttamalla</b>"</string>
+    <add-resource type="string" name="pg3_ytle" />
+    <string name="pg3_ytle">"Y-PAINIKE"</string>
+    <add-resource type="string" name="pg3_ytxt" />
+    <string name="pg3_ytxt">"Valikko useimmissa sovelluksissa"</string>
+    <add-resource type="string" name="pg3_xtle" />
+    <string name="pg3_xtle">"X-PAINIKE"</string>
+    <add-resource type="string" name="pg3_btle" />
+    <string name="pg3_btle">"B-PAINIKE"</string>
+    <add-resource type="string" name="pg3_btxt" />
+    <string name="pg3_btxt">"Edellinen tai peruuta useimmissa sovelluksissa"</string>
+    <add-resource type="string" name="pg3_atle" />
+    <string name="pg3_atle">"A-PAINIKE"</string>
+    <add-resource type="string" name="pg3_atxt" />
+    <string name="pg3_atxt">"Aktivoi valitun kohteen useimmissa sovelluksissa"</string>
+    <add-resource type="string" name="pg4_mtdtle" />
+    <string name="pg4_mtdtle">"MONIKOSKETUSNÄYTTÖ"</string>
+    <add-resource type="string" name="pg4_virtle" />
+    <string name="pg4_virtle">"VIRTUAALINEN HIIRI"</string>
+    <add-resource type="string" name="pg4_rstxt" />
+    <string name="pg4_rstxt">"<b>Oikea ohjaussauva</b>\nSiirrä hiirikohdistinta"</string>
+    <add-resource type="string" name="pg4_btntxt" />
+    <string name="pg4_btntxt">"<b>Napsauta painamalla </b>{R.drawable.stickTrigger}<b> tai </b>{R.drawable.aButton}"</string>
+</resources>

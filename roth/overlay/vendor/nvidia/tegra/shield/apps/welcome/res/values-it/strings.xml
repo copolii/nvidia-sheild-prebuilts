@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"Guida di SHIELD"</string>
+    <add-resource type="string" name="pg1_tle" />
+    <string name="pg1_tle">"IMPARARE A CONOSCERE SHIELD"</string>
+    <add-resource type="string" name="pg2_tle" />
+    <string name="pg2_tle">"USO DEI PULSANTI FUNZIONE"</string>
+    <add-resource type="string" name="pg3_tle" />
+    <string name="pg3_tle">"USO DEI PULSANTI DI SELEZIONE"</string>
+    <add-resource type="string" name="pg4_tle" />
+    <string name="pg4_tle">"ALTRE MODALITÀ DI INTERAZIONE CON SHIELD"</string>
+    <add-resource type="string" name="pg0_tle" />
+    <string name="pg0_title">"BENVENUTI IN SHIELD"</string>
+    <add-resource type="string" name="pg0_text" />
+    <string name="pg0_text">"Per conoscere tutte le funzionalità di SHIELD selezionare il collegamento alla guida dell\'utente indicato di seguito oppure continuare per visualizzare le funzioni e le caratteristiche di base."</string>
+    <add-resource type="string" name="pg1_blktle" />
+    <string name="pg1_blktle">"PULSANTE NVIDIA"</string>
+    <add-resource type="string" name="pg1_blktxt" />
+    <string name="pg1_blktxt">"<b>Premere una volta</b> per avviare i giochi SHIELD, trovare nuovi giochi e trasmettere giochi da un PC con GeForce GTX.\n\n<b>Premere e tenere premuto</b> per aprire il menu di accensione."</string>
+    <add-resource type="string" name="pg2_voltle" />
+    <string name="pg2_voltle">"VOLUME"</string>
+    <add-resource type="string" name="pg2_voltxt" />
+    <string name="pg2_voltxt">"<b>Premere</b> per controllare il volume.\n\n<b>Premere e tenere premuto</b> per disattivare l\'audio"</string>
+    <add-resource type="string" name="pg2_backtle" />
+    <string name="pg2_backtle">"INDIETRO"</string>
+    <add-resource type="string" name="pg2_backtxt" />
+    <string name="pg2_backtxt">"Salta alla schermata precedente"</string>
+    <add-resource type="string" name="pg2_starttxt" />
+    <string name="pg2_starttle">"START"</string>
+    <add-resource type="string" name="pg2_hometle" />
+    <string name="pg2_hometle">"HOME"</string>
+    <add-resource type="string" name="pg2_hometxt" />
+    <string name="pg2_hometxt">"Apre la schermata iniziale Android.\n\n<b>Premere due volte</b> per visualizzare le applicazioni recenti"</string>
+    <add-resource type="string" name="pg3_ytle" />
+    <string name="pg3_ytle">"PULSANTE Y"</string>
+    <add-resource type="string" name="pg3_ytxt" />
+    <string name="pg3_ytxt">"Accede al menu nella maggior parte delle applicazioni"</string>
+    <add-resource type="string" name="pg3_xtle" />
+    <string name="pg3_xtle">"PULSANTE X"</string>
+    <add-resource type="string" name="pg3_btle" />
+    <string name="pg3_btle">"PULSANTE B"</string>
+    <add-resource type="string" name="pg3_btxt" />
+    <string name="pg3_btxt">"Corrisponde a \"Indietro\" o \"Annulla\" nella maggior parte delle applicazioni"</string>
+    <add-resource type="string" name="pg3_atle" />
+    <string name="pg3_atle">"PULSANTE A"</string>
+    <add-resource type="string" name="pg3_atxt" />
+    <string name="pg3_atxt">"Attiva l\'oggetto selezionato nella maggior parte delle applicazioni"</string>
+    <add-resource type="string" name="pg4_mtdtle" />
+    <string name="pg4_mtdtle">"SCHERMO MULTI-TOUCH"</string>
+    <add-resource type="string" name="pg4_virtle" />
+    <string name="pg4_virtle">"MOUSE VIRTUALE"</string>
+    <add-resource type="string" name="pg4_rstxt" />
+    <string name="pg4_rstxt">"<b>Levetta destra</b>\nConsente di spostare il puntatore del mouse"</string>
+    <add-resource type="string" name="pg4_btntxt" />
+    <string name="pg4_btntxt">"<b>Premere </b>{R.drawable.stickTrigger}<b> o </b>{R.drawable.aButton} per fare clic"</string>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"Pomoc urządzenia SHIELD"</string>
+    <add-resource type="string" name="pg1_tle" />
+    <string name="pg1_tle">"POZNAJ SWOJE URZĄDZENIE SHIELD"</string>
+    <add-resource type="string" name="pg2_tle" />
+    <string name="pg2_tle">"KORZYSTANIE Z PRZYCISKÓW FUNKCYJNYCH"</string>
+    <add-resource type="string" name="pg3_tle" />
+    <string name="pg3_tle">"KORZYSTANIE Z PRZYCISKÓW WYBORU"</string>
+    <add-resource type="string" name="pg4_tle" />
+    <string name="pg4_tle">"WIĘCEJ SPOSOBÓW NA INTERAKCJĘ Z URZĄDZENIEM SHIELD"</string>
+    <add-resource type="string" name="pg0_tle" />
+    <string name="pg0_title">"WITAMY W URZĄDZENIU SHIELD"</string>
+    <add-resource type="string" name="pg0_text" />
+    <string name="pg0_text">"Dowiedz się więcej na temat funkcji urządzenia SHIELD, wybierając poniższe łącze do podręcznika użytkownika lub kontynuuj i wyświetl informacje o podstawowych funkcjach i właściwościach urządzenia."</string>
+    <add-resource type="string" name="pg1_blktle" />
+    <string name="pg1_blktle">"PRZYCISK NVIDIA"</string>
+    <add-resource type="string" name="pg1_blktxt" />
+    <string name="pg1_blktxt">"<b>Naciśnij raz</b>, aby uruchomić gry SHIELD, wyszukać nowe gry i przesyłać strumieniowo gry z komputera z kartą GeForce GTX.\n\n<b>Naciśnij i przytrzymaj</b>, aby otworzyć menu zasilania."</string>
+    <add-resource type="string" name="pg2_voltle" />
+    <string name="pg2_voltle">"GŁOŚNOŚĆ"</string>
+    <add-resource type="string" name="pg2_voltxt" />
+    <string name="pg2_voltxt">"<b>Naciśnij</b>, aby wyregulować głośność\n\n<b>Naciśnij i przytrzymaj</b>, aby wyciszyć"</string>
+    <add-resource type="string" name="pg2_backtle" />
+    <string name="pg2_backtle">"WSTECZ"</string>
+    <add-resource type="string" name="pg2_backtxt" />
+    <string name="pg2_backtxt">"Przechodzi do poprzedniego ekranu"</string>
+    <add-resource type="string" name="pg2_starttxt" />
+    <string name="pg2_starttle">"URUCHOM"</string>
+    <add-resource type="string" name="pg2_hometle" />
+    <string name="pg2_hometle">"STRONA GŁÓWNA"</string>
+    <add-resource type="string" name="pg2_hometxt" />
+    <string name="pg2_hometxt">"Otwiera ekran główny systemu Android\n\n<b>Naciśnij dwukrotnie</b>, aby wyświetlić Ostatnie aplikacje"</string>
+    <add-resource type="string" name="pg3_ytle" />
+    <string name="pg3_ytle">"PRZYCISK Y"</string>
+    <add-resource type="string" name="pg3_ytxt" />
+    <string name="pg3_ytxt">"Menu w większości aplikacji"</string>
+    <add-resource type="string" name="pg3_xtle" />
+    <string name="pg3_xtle">"PRZYCISK X"</string>
+    <add-resource type="string" name="pg3_btle" />
+    <string name="pg3_btle">"PRZYCISK B"</string>
+    <add-resource type="string" name="pg3_btxt" />
+    <string name="pg3_btxt">"Wstecz lub Anuluj w większości aplikacji"</string>
+    <add-resource type="string" name="pg3_atle" />
+    <string name="pg3_atle">"PRZYCISK A"</string>
+    <add-resource type="string" name="pg3_atxt" />
+    <string name="pg3_atxt">"Aktywuje wybrany element w większości aplikacji"</string>
+    <add-resource type="string" name="pg4_mtdtle" />
+    <string name="pg4_mtdtle">"EKRAN WIELODOTYKOWY"</string>
+    <add-resource type="string" name="pg4_virtle" />
+    <string name="pg4_virtle">"WIRTUALNA MYSZ"</string>
+    <add-resource type="string" name="pg4_rstxt" />
+    <string name="pg4_rstxt">"<b>Prawy drążek</b>\nUżyj do poruszania wskaźnikiem myszy"</string>
+    <add-resource type="string" name="pg4_btntxt" />
+    <string name="pg4_btntxt">"<b>Naciśnij </b>{R.drawable.stickTrigger}<b> lub </b>{R.drawable.aButton}, aby kliknąć"</string>
+</resources>

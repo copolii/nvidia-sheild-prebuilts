@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"วิธีใช้ SHIELD"</string>
+    <add-resource type="string" name="pg1_tle" />
+    <string name="pg1_tle">"ทำความรู้จัก SHIELD ของคุณ"</string>
+    <add-resource type="string" name="pg2_tle" />
+    <string name="pg2_tle">"การใช้ปุ่มฟังก์ชัน"</string>
+    <add-resource type="string" name="pg3_tle" />
+    <string name="pg3_tle">"การใช้ปุ่มตัวเลือก"</string>
+    <add-resource type="string" name="pg4_tle" />
+    <string name="pg4_tle">"วิธีเพิ่มเติมเพื่อโต้ตอบกับ SHIELD"</string>
+    <add-resource type="string" name="pg0_tle" />
+    <string name="pg0_title">"ยินดีต้องรับสู่ SHIELD"</string>
+    <add-resource type="string" name="pg0_text" />
+    <string name="pg0_text">"เรียนรู้เกี่ยวกับคุณลักษณะของ SHIELD ทั้งหมดโดยการเลือกลิงค์คู่มือผู้ใช้ที่ด้านล่างหรือไปต่อเพื่อดูฟังก์ชันพื้นฐานและคุณลักษณะ"</string>
+    <add-resource type="string" name="pg1_blktle" />
+    <string name="pg1_blktle">"ปุ่ม NVIDIA"</string>
+    <add-resource type="string" name="pg1_blktxt" />
+    <string name="pg1_blktxt">"<b>กดเพียงครั้งเดียว</b>เพื่อเริ่มเกม SHIELD ค้นหาเกมใหม่ และสตรีมเกมจากเครื่องคอมพิวเตอร์ GeForce GTX ของคุณ\n\n<b>กดค้าง</b>เพื่อเปิดเมนูพลังงาน"</string>
+    <add-resource type="string" name="pg2_voltle" />
+    <string name="pg2_voltle">"ระดับความดัง"</string>
+    <add-resource type="string" name="pg2_voltxt" />
+    <string name="pg2_voltxt">"<b>กด</b>เพื่อควบคุมระดับเสียง\n\n<b>กดค้าง</b>เพื่อปิดเสียง"</string>
+    <add-resource type="string" name="pg2_backtle" />
+    <string name="pg2_backtle">"ย้อนกลับ"</string>
+    <add-resource type="string" name="pg2_backtxt" />
+    <string name="pg2_backtxt">"กระโดดไปที่หน้าจอก่อนหน้า"</string>
+    <add-resource type="string" name="pg2_starttxt" />
+    <string name="pg2_starttle">"เริ่ม"</string>
+    <add-resource type="string" name="pg2_hometle" />
+    <string name="pg2_hometle">"หน้าหลัก"</string>
+    <add-resource type="string" name="pg2_hometxt" />
+    <string name="pg2_hometxt">"เปิดหน้าจอหลัก Android\n\n<b>กดสองครั้ง</b>เพื่อดูแอปพลิเคชันล่าสุด"</string>
+    <add-resource type="string" name="pg3_ytle" />
+    <string name="pg3_ytle">"ปุ่ม Y"</string>
+    <add-resource type="string" name="pg3_ytxt" />
+    <string name="pg3_ytxt">"เมนูในแอปพลิเคชันส่วนใหญ่"</string>
+    <add-resource type="string" name="pg3_xtle" />
+    <string name="pg3_xtle">"ปุ่ม X"</string>
+    <add-resource type="string" name="pg3_btle" />
+    <string name="pg3_btle">"ปุ่ม B"</string>
+    <add-resource type="string" name="pg3_btxt" />
+    <string name="pg3_btxt">"ย้อนกลับหรือยกเลิกในแอปพลิเคชันส่วนใหญ่"</string>
+    <add-resource type="string" name="pg3_atle" />
+    <string name="pg3_atle">"ปุ่ม A"</string>
+    <add-resource type="string" name="pg3_atxt" />
+    <string name="pg3_atxt">"เปิดใช้รายการที่เลือกไว้ในแอปพลิเคชันส่วนใหญ่"</string>
+    <add-resource type="string" name="pg4_mtdtle" />
+    <string name="pg4_mtdtle">"หน่วยแสดงผลมัลติทัช"</string>
+    <add-resource type="string" name="pg4_virtle" />
+    <string name="pg4_virtle">"เมาส์เสมือน"</string>
+    <add-resource type="string" name="pg4_rstxt" />
+    <string name="pg4_rstxt">"<b>คันบังคับขวา</b>\nใช้เพื่อย้ายตัวชี้เมาส์"</string>
+    <add-resource type="string" name="pg4_btntxt" />
+    <string name="pg4_btntxt">"<b>กด</b>{R.drawable.stickTrigger}<b> หรือ </b>{R.drawable.aButton} เพื่อคลิก"</string>
+</resources>

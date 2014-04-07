@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"Ajutor SHIELD"</string>
+    <add-resource type="string" name="pg1_tle" />
+    <string name="pg1_tle">"CUNOAŞTEŢI-VĂ PROPRIUL SHIELD"</string>
+    <add-resource type="string" name="pg2_tle" />
+    <string name="pg2_tle">"UTILIZAREA BUTOANELOR FUNCŢIONALE"</string>
+    <add-resource type="string" name="pg3_tle" />
+    <string name="pg3_tle">"UTILIZAREA BUTOANELOR DE SELECŢIE"</string>
+    <add-resource type="string" name="pg4_tle" />
+    <string name="pg4_tle">"MAI MULTE MODURI DE A INTERACŢIONA CU SHIELD"</string>
+    <add-resource type="string" name="pg0_tle" />
+    <string name="pg0_title">"BUN VENIT LA SHIELD"</string>
+    <add-resource type="string" name="pg0_text" />
+    <string name="pg0_text">"Aflaţi mai multe despre caracteristicile SHIELD prin accesarea linkului de mai jos pentru ghidul de utilizare sau continuaţi şi consultaţi funcţiile şi caracteristicile de bază."</string>
+    <add-resource type="string" name="pg1_blktle" />
+    <string name="pg1_blktle">"BUTON NVIDIA"</string>
+    <add-resource type="string" name="pg1_blktxt" />
+    <string name="pg1_blktxt">"<b>Apăsaţi odată</b> pentru a lansa jocuri SHIELD, pentru a căuta jocuri noi şi pentru a transmite jocuri în flux de pe PC-ul dumneavoastră GeForce GTX.\n\n<b>Apăsaţi continuu</b> pentru a deschide Meniul de pornire."</string>
+    <add-resource type="string" name="pg2_voltle" />
+    <string name="pg2_voltle">"VOLUM"</string>
+    <add-resource type="string" name="pg2_voltxt" />
+    <string name="pg2_voltxt">"<b>Apăsaţi</b> pentru a regla volumul\n\n<b>Apăsaţi continuu</b> pentru a dezactiva sonorul"</string>
+    <add-resource type="string" name="pg2_backtle" />
+    <string name="pg2_backtle">"ÎNAPOI"</string>
+    <add-resource type="string" name="pg2_backtxt" />
+    <string name="pg2_backtxt">"Sare la ecranul anterior"</string>
+    <add-resource type="string" name="pg2_starttxt" />
+    <string name="pg2_starttle">"START"</string>
+    <add-resource type="string" name="pg2_hometle" />
+    <string name="pg2_hometle">"ECRAN DE PORNIRE"</string>
+    <add-resource type="string" name="pg2_hometxt" />
+    <string name="pg2_hometxt">"Deschide ecranul de pornire Android\n\n<b>Apăsaţi de două ori</b> pentru a vedea Aplicaţiile recente"</string>
+    <add-resource type="string" name="pg3_ytle" />
+    <string name="pg3_ytle">"BUTON Y"</string>
+    <add-resource type="string" name="pg3_ytxt" />
+    <string name="pg3_ytxt">"Meniu în majoritatea aplicaţiilor"</string>
+    <add-resource type="string" name="pg3_xtle" />
+    <string name="pg3_xtle">"BUTON X"</string>
+    <add-resource type="string" name="pg3_btle" />
+    <string name="pg3_btle">"BUTON B"</string>
+    <add-resource type="string" name="pg3_btxt" />
+    <string name="pg3_btxt">"Înapoi sau anulare în majoritatea aplicaţiilor"</string>
+    <add-resource type="string" name="pg3_atle" />
+    <string name="pg3_atle">"BUTON A"</string>
+    <add-resource type="string" name="pg3_atxt" />
+    <string name="pg3_atxt">"Activează elementul selectat în majoritatea aplicaţiilor"</string>
+    <add-resource type="string" name="pg4_mtdtle" />
+    <string name="pg4_mtdtle">"AFIŞAJ CU ATINGERI MULTIPLE"</string>
+    <add-resource type="string" name="pg4_virtle" />
+    <string name="pg4_virtle">"MOUSE VIRTUAL"</string>
+    <add-resource type="string" name="pg4_rstxt" />
+    <string name="pg4_rstxt">"<b>Maneta din dreapta</b>\nUtilizaţi pentru a mişca pointerul mouse-ului"</string>
+    <add-resource type="string" name="pg4_btntxt" />
+    <string name="pg4_btntxt">"<b>Apăsaţi </b>{R.drawable.stickTrigger}<b> sau </b>{R.drawable.aButton} pentru clic"</string>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"Ajuda do SHIELD"</string>
+    <add-resource type="string" name="pg1_tle" />
+    <string name="pg1_tle">"INTRODUÇÃO AO SHIELD"</string>
+    <add-resource type="string" name="pg2_tle" />
+    <string name="pg2_tle">"UTILIZAR OS BOTÕES DE FUNÇÃO"</string>
+    <add-resource type="string" name="pg3_tle" />
+    <string name="pg3_tle">"UTILIZAR OS BOTÕES DE SELECÇÃO"</string>
+    <add-resource type="string" name="pg4_tle" />
+    <string name="pg4_tle">"MAIS FORMAS DE INTERAGIR COM O SHIELD"</string>
+    <add-resource type="string" name="pg0_tle" />
+    <string name="pg0_title">"BEM-VINDO AO SHIELD"</string>
+    <add-resource type="string" name="pg0_text" />
+    <string name="pg0_text">"Obtenha mais informações sobre todas as funções do SHIELD seleccionando a ligação do manual do utilizador abaixo ou continue e veja as funções e funcionalidades básicas."</string>
+    <add-resource type="string" name="pg1_blktle" />
+    <string name="pg1_blktle">"BOTÃO NVIDIA"</string>
+    <add-resource type="string" name="pg1_blktxt" />
+    <string name="pg1_blktxt">"<b>Prima uma vez</b> para iniciar jogos do SHIELD, obter jogos novos e transmitir jogos em fluxo do PC GeForce GTX.\n\n<b>Prima sem soltar</b> para abrir o menu avançado."</string>
+    <add-resource type="string" name="pg2_voltle" />
+    <string name="pg2_voltle">"VOLUME"</string>
+    <add-resource type="string" name="pg2_voltxt" />
+    <string name="pg2_voltxt">"<b>Prima</b> para controlar o volume\n\n<b>Prima sem soltar</b> para anular o som"</string>
+    <add-resource type="string" name="pg2_backtle" />
+    <string name="pg2_backtle">"ANTERIOR"</string>
+    <add-resource type="string" name="pg2_backtxt" />
+    <string name="pg2_backtxt">"Volta para o ecrã anterior"</string>
+    <add-resource type="string" name="pg2_starttxt" />
+    <string name="pg2_starttle">"INICIAR"</string>
+    <add-resource type="string" name="pg2_hometle" />
+    <string name="pg2_hometle">"INÍCIO"</string>
+    <add-resource type="string" name="pg2_hometxt" />
+    <string name="pg2_hometxt">"Abre o ecrã inicial do Android\n\n<b>Prima duas vezes</b> para ver Aplicações recentes"</string>
+    <add-resource type="string" name="pg3_ytle" />
+    <string name="pg3_ytle">"BOTÃO Y"</string>
+    <add-resource type="string" name="pg3_ytxt" />
+    <string name="pg3_ytxt">"Menu na maioria das aplicações"</string>
+    <add-resource type="string" name="pg3_xtle" />
+    <string name="pg3_xtle">"BOTÃO X"</string>
+    <add-resource type="string" name="pg3_btle" />
+    <string name="pg3_btle">"BOTÃO B"</string>
+    <add-resource type="string" name="pg3_btxt" />
+    <string name="pg3_btxt">"Retroceder ou cancelar na maioria das aplicações"</string>
+    <add-resource type="string" name="pg3_atle" />
+    <string name="pg3_atle">"BOTÃO A"</string>
+    <add-resource type="string" name="pg3_atxt" />
+    <string name="pg3_atxt">"Activa o item seleccionado na maioria das aplicações"</string>
+    <add-resource type="string" name="pg4_mtdtle" />
+    <string name="pg4_mtdtle">"ECRÃ MULTITOQUE"</string>
+    <add-resource type="string" name="pg4_virtle" />
+    <string name="pg4_virtle">"RATO VIRTUAL"</string>
+    <add-resource type="string" name="pg4_rstxt" />
+    <string name="pg4_rstxt">"<b>Manípulo à direita</b>\nUtilize para mover o ponteiro do rato"</string>
+    <add-resource type="string" name="pg4_btntxt" />
+    <string name="pg4_btntxt">"<b>Prima </b>{R.drawable.stickTrigger}<b> ou </b>{R.drawable.aButton} para clicar"</string>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"Tulong sa SHIELD"</string>
+    <add-resource type="string" name="pg1_tle" />
+    <string name="pg1_tle">"KILALANIN ANG IYONG SHIELD"</string>
+    <add-resource type="string" name="pg2_tle" />
+    <string name="pg2_tle">"PAGGAMIT SA MGA FUNCTION BUTTON"</string>
+    <add-resource type="string" name="pg3_tle" />
+    <string name="pg3_tle">"PAGGAMIT SA MGA SELECTION BUTTON"</string>
+    <add-resource type="string" name="pg4_tle" />
+    <string name="pg4_tle">"HIGIT PANG PARAAN SA PAGGAMIT NG SHIELD"</string>
+    <add-resource type="string" name="pg0_tle" />
+    <string name="pg0_title">"WELCOME SA SHIELD"</string>
+    <add-resource type="string" name="pg0_text" />
+    <string name="pg0_text">"Matuto tungkol sa lahat ng tampok ng SHIELD sa pamamagitan ng pagpili sa link sa gabay sa user sa ibaba, o magpatuloy at tingnan ang mga pangunahing function at tampok."</string>
+    <add-resource type="string" name="pg1_blktle" />
+    <string name="pg1_blktle">"BUTTON NG NVIDIA"</string>
+    <add-resource type="string" name="pg1_blktxt" />
+    <string name="pg1_blktxt">"<b>Pindutin nang isang beses</b> upang ilunsad ang mga laro ng SHIELD, maghanap ng mga bagong laro, at i-stream ang mga laro mula sa iyong GeForce GTX PC.\n\n<b>Pindutin nang matagal</b> upang buksan ang Power Menu."</string>
+    <add-resource type="string" name="pg2_voltle" />
+    <string name="pg2_voltle">"VOLUME"</string>
+    <add-resource type="string" name="pg2_voltxt" />
+    <string name="pg2_voltxt">"<b>Pindutin</b> upang kontrolin ang volume\n\n<b>Pindutin nang matagal</b> upang i-mute"</string>
+    <add-resource type="string" name="pg2_backtle" />
+    <string name="pg2_backtle">"BUMALIK"</string>
+    <add-resource type="string" name="pg2_backtxt" />
+    <string name="pg2_backtxt">"Bumalik sa nakaraang screen"</string>
+    <add-resource type="string" name="pg2_starttxt" />
+    <string name="pg2_starttle">"MAGSIMULA"</string>
+    <add-resource type="string" name="pg2_hometle" />
+    <string name="pg2_hometle">"HOME"</string>
+    <add-resource type="string" name="pg2_hometxt" />
+    <string name="pg2_hometxt">"Binubuksan ang Android Home screen\n\n<b>Pindutin nang dalawang beses</b> upang tingnan ang Mga Kamakailang App"</string>
+    <add-resource type="string" name="pg3_ytle" />
+    <string name="pg3_ytle">"BUTTON NA Y"</string>
+    <add-resource type="string" name="pg3_ytxt" />
+    <string name="pg3_ytxt">"Menu sa karamihan ng mga app"</string>
+    <add-resource type="string" name="pg3_xtle" />
+    <string name="pg3_xtle">"BUTTON NA X"</string>
+    <add-resource type="string" name="pg3_btle" />
+    <string name="pg3_btle">"BUTTON NA B"</string>
+    <add-resource type="string" name="pg3_btxt" />
+    <string name="pg3_btxt">"Pagbalik o pagkansela sa karamihan ng mga app"</string>
+    <add-resource type="string" name="pg3_atle" />
+    <string name="pg3_atle">"BUTTON NA A"</string>
+    <add-resource type="string" name="pg3_atxt" />
+    <string name="pg3_atxt">"Ina-activate ang piniling item sa karamihan ng mga app"</string>
+    <add-resource type="string" name="pg4_mtdtle" />
+    <string name="pg4_mtdtle">"MULTI-TOUCH DISPLAY"</string>
+    <add-resource type="string" name="pg4_virtle" />
+    <string name="pg4_virtle">"VIRTUAL MOUSE"</string>
+    <add-resource type="string" name="pg4_rstxt" />
+    <string name="pg4_rstxt">"<b>Right Stick</b>\nGamitin upang igalaw ang mouse pointer"</string>
+    <add-resource type="string" name="pg4_btntxt" />
+    <string name="pg4_btntxt">"<b>Pindutin</b>{R.drawable.stickTrigger}<b> o </b>{R.drawable.aButton} upang mag-click"</string>
+</resources>

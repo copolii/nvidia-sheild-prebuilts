@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"Pomoć za uređaj SHIELD"</string>
+    <add-resource type="string" name="pg1_tle" />
+    <string name="pg1_tle">"UPOZNAVANJE S UREĐAJEM SHIELD"</string>
+    <add-resource type="string" name="pg2_tle" />
+    <string name="pg2_tle">"UPORABA FUNKCIJSKIH GUMBA"</string>
+    <add-resource type="string" name="pg3_tle" />
+    <string name="pg3_tle">"UPORABA GUMBA ZA ODABIR"</string>
+    <add-resource type="string" name="pg4_tle" />
+    <string name="pg4_tle">"OSTALI NAČINI INTERAKCIJE S UREĐAJEM SHIELD"</string>
+    <add-resource type="string" name="pg0_tle" />
+    <string name="pg0_title">"DOBRODOŠLI NA SHIELD"</string>
+    <add-resource type="string" name="pg0_text" />
+    <string name="pg0_text">"Saznajte sve o značajkama uređaja SHIELD tako da odaberete vezu korisničkog vodiča u nastavku ili nastavite kako biste pregledali osnovne funkcije i značajke."</string>
+    <add-resource type="string" name="pg1_blktle" />
+    <string name="pg1_blktle">"GUMB NVIDIA"</string>
+    <add-resource type="string" name="pg1_blktxt" />
+    <string name="pg1_blktxt">"<b>Pritisnite jedanput</b> kako biste na uređaju SHIELD pokrenuli igre, pronašli nove igre i emitirali igre s računala s grafičkom karticom GeForce GTX.\n\n<b>Držite pritisnuto</b> kako biste otvorili izbornik napajanja."</string>
+    <add-resource type="string" name="pg2_voltle" />
+    <string name="pg2_voltle">"GLASNOĆA"</string>
+    <add-resource type="string" name="pg2_voltxt" />
+    <string name="pg2_voltxt">"<b>Pritisnite</b> za podešavanje glasnoće\n\n<b>Držite pritisnuto</b> za isključivanje zvuka"</string>
+    <add-resource type="string" name="pg2_backtle" />
+    <string name="pg2_backtle">"NATRAG"</string>
+    <add-resource type="string" name="pg2_backtxt" />
+    <string name="pg2_backtxt">"Vraća na prethodni zaslon"</string>
+    <add-resource type="string" name="pg2_starttxt" />
+    <string name="pg2_starttle">"START"</string>
+    <add-resource type="string" name="pg2_hometle" />
+    <string name="pg2_hometle">"POČETNA"</string>
+    <add-resource type="string" name="pg2_hometxt" />
+    <string name="pg2_hometxt">"Otvara početni zaslon sustava Android\n\n<b>Dvaput pritisnite</b> za pregled nedavnih aplikacija"</string>
+    <add-resource type="string" name="pg3_ytle" />
+    <string name="pg3_ytle">"GUMB Y"</string>
+    <add-resource type="string" name="pg3_ytxt" />
+    <string name="pg3_ytxt">"Izbornik u većini aplikacija"</string>
+    <add-resource type="string" name="pg3_xtle" />
+    <string name="pg3_xtle">"GUMB X"</string>
+    <add-resource type="string" name="pg3_btle" />
+    <string name="pg3_btle">"GUMB B"</string>
+    <add-resource type="string" name="pg3_btxt" />
+    <string name="pg3_btxt">"Natrag ili poništavanje u većini aplikacija"</string>
+    <add-resource type="string" name="pg3_atle" />
+    <string name="pg3_atle">"GUMB A"</string>
+    <add-resource type="string" name="pg3_atxt" />
+    <string name="pg3_atxt">"Aktivira odabranu stavku u većini aplikacija"</string>
+    <add-resource type="string" name="pg4_mtdtle" />
+    <string name="pg4_mtdtle">"VIŠEDODIRNI ZASLON"</string>
+    <add-resource type="string" name="pg4_virtle" />
+    <string name="pg4_virtle">"VIRTUALNI MIŠ"</string>
+    <add-resource type="string" name="pg4_rstxt" />
+    <string name="pg4_rstxt">"<b>Desna igraća palica</b>\nUpotrijebite za pomicanje pokazivača miša"</string>
+    <add-resource type="string" name="pg4_btntxt" />
+    <string name="pg4_btntxt">"<b>Pritisnite </b>{R.drawable.stickTrigger}<b> ili </b>{R.drawable.aButton} za klik"</string>
+</resources>

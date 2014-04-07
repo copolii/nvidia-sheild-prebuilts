@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"Trợ giúp SHIELD"</string>
+    <add-resource type="string" name="pg1_tle" />
+    <string name="pg1_tle">"TÌM HIỂU SHIELD CỦA BẠN"</string>
+    <add-resource type="string" name="pg2_tle" />
+    <string name="pg2_tle">"SỬ DỤNG CÁC NÚT CHỨC NĂNG"</string>
+    <add-resource type="string" name="pg3_tle" />
+    <string name="pg3_tle">"SỬ DỤNG CÁC NÚT CHỌN"</string>
+    <add-resource type="string" name="pg4_tle" />
+    <string name="pg4_tle">"CÁC CÁCH KHÁC ĐỂ TƯƠNG TÁC VỚI SHIELD"</string>
+    <add-resource type="string" name="pg0_tle" />
+    <string name="pg0_title">"CHÀO MỪNG ĐẾN VỚI SHIELD"</string>
+    <add-resource type="string" name="pg0_text" />
+    <string name="pg0_text">"Tìm hiểu về tất cả các tính năng SHIELD bằng cách chọn liên kết hướng dẫn người dùng dưới đây, hoặc tiếp tục và xem các chức năng và tính năng cơ bản."</string>
+    <add-resource type="string" name="pg1_blktle" />
+    <string name="pg1_blktle">"NÚT NVIDIA"</string>
+    <add-resource type="string" name="pg1_blktxt" />
+    <string name="pg1_blktxt">"<b>Ấn một lần</b> để khởi động trò chơi SHIELD, tìm trò chơi mới, và truyền trực tiếp trò chơi từ GeForce GTX PC.\n\n<b>Ấn giữ</b> để mở Menu Bật Tắt Nguồn."</string>
+    <add-resource type="string" name="pg2_voltle" />
+    <string name="pg2_voltle">"ÂM LƯỢNG"</string>
+    <add-resource type="string" name="pg2_voltxt" />
+    <string name="pg2_voltxt">"<b>Ấn</b> để điều chỉnh âm lượng\n\n<b>Ấn giữ</b> để tắt tiếng"</string>
+    <add-resource type="string" name="pg2_backtle" />
+    <string name="pg2_backtle">"QUAY LẠI"</string>
+    <add-resource type="string" name="pg2_backtxt" />
+    <string name="pg2_backtxt">"Trở về màn hình trước đó"</string>
+    <add-resource type="string" name="pg2_starttxt" />
+    <string name="pg2_starttle">"BẮT ĐẦU"</string>
+    <add-resource type="string" name="pg2_hometle" />
+    <string name="pg2_hometle">"TRANG CHỦ"</string>
+    <add-resource type="string" name="pg2_hometxt" />
+    <string name="pg2_hometxt">"Mở màn hình Trang Chủ Android\n\n<b>Ấn đúp</b> để xem Ứng Dụng Gần Đây"</string>
+    <add-resource type="string" name="pg3_ytle" />
+    <string name="pg3_ytle">"NÚT Y"</string>
+    <add-resource type="string" name="pg3_ytxt" />
+    <string name="pg3_ytxt">"Menu trong hầu hết các ứng dụng"</string>
+    <add-resource type="string" name="pg3_xtle" />
+    <string name="pg3_xtle">"NÚT X"</string>
+    <add-resource type="string" name="pg3_btle" />
+    <string name="pg3_btle">"NÚT B"</string>
+    <add-resource type="string" name="pg3_btxt" />
+    <string name="pg3_btxt">"Quay lại hoặc hủy trong hầu hết các ứng dụng"</string>
+    <add-resource type="string" name="pg3_atle" />
+    <string name="pg3_atle">"NÚT A"</string>
+    <add-resource type="string" name="pg3_atxt" />
+    <string name="pg3_atxt">"Kích hoạt mục được lựa chọn trong hầu hết các ứng dụng"</string>
+    <add-resource type="string" name="pg4_mtdtle" />
+    <string name="pg4_mtdtle">"MÀN HÌNH CẢM ỨNG ĐA CHẠM"</string>
+    <add-resource type="string" name="pg4_virtle" />
+    <string name="pg4_virtle">"CHUỘT ẢO"</string>
+    <add-resource type="string" name="pg4_rstxt" />
+    <string name="pg4_rstxt">"<b>Thanh Phải</b>\nSử dụng để di chuyển con trỏ chuột"</string>
+    <add-resource type="string" name="pg4_btntxt" />
+    <string name="pg4_btntxt">"<b>Ấn </b>{R.drawable.stickTrigger}<b> hoặc </b>{R.drawable.aButton} để nhấp"</string>
+</resources>

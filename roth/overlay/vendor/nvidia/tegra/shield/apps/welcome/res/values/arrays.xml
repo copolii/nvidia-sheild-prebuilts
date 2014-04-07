@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="helpapp">
+        <item>LayoutFragment:guidepage0</item>
+        <item>LayoutFragment:guidepage1</item>
+        <item>LayoutFragment:guidepage2</item>
+        <item>LayoutFragment:guidepage3</item>
+        <item>LayoutFragment:guidepage4</item>
+    </string-array>
+    <string-array name="firstrun">
+        <item>LayoutFragment:guidepage1</item>
+        <item>LayoutFragment:guidepage2</item>
+        <item>LayoutFragment:guidepage3</item>
+        <item>LayoutFragment:guidepage4</item>
+    </string-array>
+    <string-array name="btnbar_fr">
+        <item>pagefirst_btn</item>
+        <item>pagemid_btn</item>
+        <item>pagemid_btn</item>
+        <item>pagelast_btn</item>
+    </string-array>
+    <string-array name="btnbar_ha">
+        <item>pagezero_btn</item>
+        <item>pagemid_btn</item>
+        <item>pagemid_btn</item>
+        <item>pagemid_btn</item>
+        <item>pagelast_btn</item>
+    </string-array>
+    <string-array name="layers">
+        <item>btnbar</item>
+        <item>mainDV</item>
+    </string-array>
+</resources>

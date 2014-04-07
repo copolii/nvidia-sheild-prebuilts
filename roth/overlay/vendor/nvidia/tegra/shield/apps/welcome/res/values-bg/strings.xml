@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"Помощ относно SHIELD "</string>
+    <add-resource type="string" name="pg1_tle" />
+    <string name="pg1_tle">"ОПОЗНАЙТЕ ВАШИЯ SHIELD"</string>
+    <add-resource type="string" name="pg2_tle" />
+    <string name="pg2_tle">"ИЗПОЛЗВАНЕ НА ФУНКЦИОНАЛНИТЕ БУТОНИ"</string>
+    <add-resource type="string" name="pg3_tle" />
+    <string name="pg3_tle">"ИЗПОЛЗВАНЕ НА БУТОНИТЕ ЗА ИЗБОР"</string>
+    <add-resource type="string" name="pg4_tle" />
+    <string name="pg4_tle">"ПОВЕЧЕ НАЧИНИ ЗА ВЗАИМОДЕЙСТВИЕ С SHIELD"</string>
+    <add-resource type="string" name="pg0_tle" />
+    <string name="pg0_title">"ДОБРЕ ДОШЛИ В SHIELD"</string>
+    <add-resource type="string" name="pg0_text" />
+    <string name="pg0_text">"Научете за всички възможности на SHIELD като изберете долу връзката към ръководство за потребителя, или продължете и вижте основните функции и възможности."</string>
+    <add-resource type="string" name="pg1_blktle" />
+    <string name="pg1_blktle">"БУТОН NVIDIA"</string>
+    <add-resource type="string" name="pg1_blktxt" />
+    <string name="pg1_blktxt">"<b>Натиснете веднъж</b> за да стартирате SHIELD игри, намерите нови игри, и стриймвате игри от вашия GeForce GTX PC.\n\n<b>Натиснете и задръжте</b>, за да отворите Power менюто."</string>
+    <add-resource type="string" name="pg2_voltle" />
+    <string name="pg2_voltle">"СИЛА НА ЗВУКА"</string>
+    <add-resource type="string" name="pg2_voltxt" />
+    <string name="pg2_voltxt">"<b>Натиснете</b>, за да управлявате силата на звука\n\n<b>Натиснете и задръжте</b>, за да заглушите"</string>
+    <add-resource type="string" name="pg2_backtle" />
+    <string name="pg2_backtle">"НАЗАД"</string>
+    <add-resource type="string" name="pg2_backtxt" />
+    <string name="pg2_backtxt">"Преминава към предишния екран"</string>
+    <add-resource type="string" name="pg2_starttxt" />
+    <string name="pg2_starttle">"СТАРТ"</string>
+    <add-resource type="string" name="pg2_hometle" />
+    <string name="pg2_hometle">"НАЧАЛО"</string>
+    <add-resource type="string" name="pg2_hometxt" />
+    <string name="pg2_hometxt">"Отваря началния екран на Android\n\n<b>Натиснете два пъти</b>, за да видите последните приложения"</string>
+    <add-resource type="string" name="pg3_ytle" />
+    <string name="pg3_ytle">"БУТОН Y"</string>
+    <add-resource type="string" name="pg3_ytxt" />
+    <string name="pg3_ytxt">"Меню в повечето приложения"</string>
+    <add-resource type="string" name="pg3_xtle" />
+    <string name="pg3_xtle">"БУТОН X"</string>
+    <add-resource type="string" name="pg3_btle" />
+    <string name="pg3_btle">"БУТОН B"</string>
+    <add-resource type="string" name="pg3_btxt" />
+    <string name="pg3_btxt">"Назад или отказ в повечето приложения"</string>
+    <add-resource type="string" name="pg3_atle" />
+    <string name="pg3_atle">"БУТОН A"</string>
+    <add-resource type="string" name="pg3_atxt" />
+    <string name="pg3_atxt">"В повечето приложения активира избрания елемент"</string>
+    <add-resource type="string" name="pg4_mtdtle" />
+    <string name="pg4_mtdtle">"MULTI-TOUCH ЕКРАН"</string>
+    <add-resource type="string" name="pg4_virtle" />
+    <string name="pg4_virtle">"ВИРТУАЛНА МИШКА"</string>
+    <add-resource type="string" name="pg4_rstxt" />
+    <string name="pg4_rstxt">"<b>Десен джойстик</b>\nИзползвайте, за да движите показалеца на мишката"</string>
+    <add-resource type="string" name="pg4_btntxt" />
+    <string name="pg4_btntxt">"<b>Натиснете </b>{R.drawable.stickTrigger}<b> или </b>{R.drawable.aButton}, за да кликнете"</string>
+</resources>

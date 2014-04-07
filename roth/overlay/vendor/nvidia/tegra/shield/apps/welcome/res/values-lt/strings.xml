@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"SHIELD pagalba"</string>
+    <add-resource type="string" name="pg1_tle" />
+    <string name="pg1_tle">"PAŽINKITE SAVO „SHIELD"</string>
+    <add-resource type="string" name="pg2_tle" />
+    <string name="pg2_tle">"FUNKCINIŲ MYGTUKŲ NAUDOJIMAS"</string>
+    <add-resource type="string" name="pg3_tle" />
+    <string name="pg3_tle">"PASIRINKIMO MYGTUKŲ NAUDOJIMAS"</string>
+    <add-resource type="string" name="pg4_tle" />
+    <string name="pg4_tle">"DAUGIAU SĄVEIKOS SU „SHIELD“ BŪDŲ"</string>
+    <add-resource type="string" name="pg0_tle" />
+    <string name="pg0_title">"SVEIKINAME PRISIJUNGUS PRIE „SHIELD"</string>
+    <add-resource type="string" name="pg0_text" />
+    <string name="pg0_text">"Sužinokite apie visas SHIELD ypatybes, pasirinkę toliau pateiktą vartotojo vadovo nuorodą, arba tęskite ir peržiūrėkite pagrindines funkcijas bei ypatybes."</string>
+    <add-resource type="string" name="pg1_blktle" />
+    <string name="pg1_blktle">"NVIDIA“ MYGTUKAS"</string>
+    <add-resource type="string" name="pg1_blktxt" />
+    <string name="pg1_blktxt">"<b>Spustelėkite vieną kartą</b>, jei norite paleisti SHIELD žaidimus, sužinoti apie naujus žaidimus arba perduoti žaidimus iš savo „GeForce GTX PC“.\n\n<b>Paspauskite ir palaikykite</b>, kad būtų atvertas meniu."</string>
+    <add-resource type="string" name="pg2_voltle" />
+    <string name="pg2_voltle">"GARSUMAS"</string>
+    <add-resource type="string" name="pg2_voltxt" />
+    <string name="pg2_voltxt">"<b>Spustelėkite</b>, jei norite valdyti garsą.\n\n<b>Paspauskite ir laikykite</b>, jei norite nutildyti"</string>
+    <add-resource type="string" name="pg2_backtle" />
+    <string name="pg2_backtle">"ATGAL"</string>
+    <add-resource type="string" name="pg2_backtxt" />
+    <string name="pg2_backtxt">"Nukreipiama į ankstesnį ekraną"</string>
+    <add-resource type="string" name="pg2_starttxt" />
+    <string name="pg2_starttle">"PRADĖTI"</string>
+    <add-resource type="string" name="pg2_hometle" />
+    <string name="pg2_hometle">"Į PRADŽIĄ"</string>
+    <add-resource type="string" name="pg2_hometxt" />
+    <string name="pg2_hometxt">"Atidaromas „Android“ pradžios ekranas. \n\n<b>Spustelėję du kartus</b>, galėsite peržiūrėti naujausias programas"</string>
+    <add-resource type="string" name="pg3_ytle" />
+    <string name="pg3_ytle">"Y MYGTUKAS"</string>
+    <add-resource type="string" name="pg3_ytxt" />
+    <string name="pg3_ytxt">"Daugelio programų meniu"</string>
+    <add-resource type="string" name="pg3_xtle" />
+    <string name="pg3_xtle">"X MYGTUKAS"</string>
+    <add-resource type="string" name="pg3_btle" />
+    <string name="pg3_btle">"B MYGTUKAS"</string>
+    <add-resource type="string" name="pg3_btxt" />
+    <string name="pg3_btxt">"Daugelyje programų grįžtama arba nutraukiama"</string>
+    <add-resource type="string" name="pg3_atle" />
+    <string name="pg3_atle">"A MYGTUKAS"</string>
+    <add-resource type="string" name="pg3_atxt" />
+    <string name="pg3_atxt">"Daugelyje programų aktyvinamas pažymėtas elementas"</string>
+    <add-resource type="string" name="pg4_mtdtle" />
+    <string name="pg4_mtdtle">"KELIŲ LIETIMŲ EKRANAS"</string>
+    <add-resource type="string" name="pg4_virtle" />
+    <string name="pg4_virtle">"VIRTUALI PELĖ"</string>
+    <add-resource type="string" name="pg4_rstxt" />
+    <string name="pg4_rstxt">"<b>Dešiniuoju klavišu</b>judinkite pelės žymeklį"</string>
+    <add-resource type="string" name="pg4_btntxt" />
+    <string name="pg4_btntxt">"<b>Paspauskite </b>{R.drawable.stickTrigger}<b> arba </b>{R.drawable.aButton}, jei norite spustelėti"</string>
+</resources>

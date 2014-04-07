@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <add-resource type="string" name="permlab_nvidiaCPUPower" />
+    <string name="permlab_nvidiaCPUPower">регулювати ЦП NVIDIA Tegra</string>
+
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <add-resource type="string" name="permdesc_nvidiaCPUPower" />
+    <string name="permdesc_nvidiaCPUPower">Дозволяє програмі регулювати параметри ЦП NVIDA Tegra.  Це може споживати додаткове живлення.</string>
+
+    <!-- label for item that turns off power in phone options dialog -->
+    <add-resource type="string" name="global_action_sleep" />
+    <string name="global_action_sleep">Режим сну</string>
+
+    <add-resource type="string" name="hdmiAudio" />
+    <string name="hdmiAudio">Звук через HDMI</string>
+
+    <add-resource type="string" name="miracastAudio" />
+    <string name="miracastAudio">Звук через Miracast</string>
+</resources>

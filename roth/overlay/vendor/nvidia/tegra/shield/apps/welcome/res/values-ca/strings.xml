@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"Ajuda de SHIELD"</string>
+    <add-resource type="string" name="pg1_tle" />
+    <string name="pg1_tle">"CONEIX LA TEVA SHIELD"</string>
+    <add-resource type="string" name="pg2_tle" />
+    <string name="pg2_tle">"FER SERVIR ELS BOTONS DE FUNCIÓ"</string>
+    <add-resource type="string" name="pg3_tle" />
+    <string name="pg3_tle">"FER SERVIR ELS BOTONS DE SELECCIÓ"</string>
+    <add-resource type="string" name="pg4_tle" />
+    <string name="pg4_tle">"MÉS MANERES D\'INTERACTUAR AMB SHIELD"</string>
+    <add-resource type="string" name="pg0_tle" />
+    <string name="pg0_title">"BENVINGUT/UDA A SHIELD"</string>
+    <add-resource type="string" name="pg0_text" />
+    <string name="pg0_text">"Aprèn sobre totes les característiques de SHIELD seleccionant l\'enllaç a la guia de l\'usuari que trobaràs a continuació o continua i visualitza les funcions i característiques bàsiques."</string>
+    <add-resource type="string" name="pg1_blktle" />
+    <string name="pg1_blktle">"BOTÓ NVIDIA"</string>
+    <add-resource type="string" name="pg1_blktxt" />
+    <string name="pg1_blktxt">"<b>Prem una vegada</b> per a iniciar els jocs de SHIELD, trobar jocs nous i descarregar jocs des del teu PC GeForce GTX PC.\n\n<b>Mantén premut</b> per a obrir el menú d\'encesa."</string>
+    <add-resource type="string" name="pg2_voltle" />
+    <string name="pg2_voltle">"VOLUM"</string>
+    <add-resource type="string" name="pg2_voltxt" />
+    <string name="pg2_voltxt">"<b>Prem</b> per a controlar el volum\n\n<b>Mantén premut</b> per a silenciar"</string>
+    <add-resource type="string" name="pg2_backtle" />
+    <string name="pg2_backtle">"ENRERE"</string>
+    <add-resource type="string" name="pg2_backtxt" />
+    <string name="pg2_backtxt">"Salta a la pantalla anterior"</string>
+    <add-resource type="string" name="pg2_starttxt" />
+    <string name="pg2_starttle">"START"</string>
+    <add-resource type="string" name="pg2_hometle" />
+    <string name="pg2_hometle">"PÀGINA D\'INICI"</string>
+    <add-resource type="string" name="pg2_hometxt" />
+    <string name="pg2_hometxt">"Obre la pantalla d\'inici d\'Android\n\n<b>Prem dues vegades</b> per a veure les aplicacions recents"</string>
+    <add-resource type="string" name="pg3_ytle" />
+    <string name="pg3_ytle">"BOTÓ Y"</string>
+    <add-resource type="string" name="pg3_ytxt" />
+    <string name="pg3_ytxt">"Menú a la majoria d\'aplicacions"</string>
+    <add-resource type="string" name="pg3_xtle" />
+    <string name="pg3_xtle">"BOTÓ X"</string>
+    <add-resource type="string" name="pg3_btle" />
+    <string name="pg3_btle">"BOTÓ B"</string>
+    <add-resource type="string" name="pg3_btxt" />
+    <string name="pg3_btxt">"Enrere o cancel·la a la majoria d\'aplicacions"</string>
+    <add-resource type="string" name="pg3_atle" />
+    <string name="pg3_atle">"BOTÓ A"</string>
+    <add-resource type="string" name="pg3_atxt" />
+    <string name="pg3_atxt">"Activa l\'element seleccionat a la majoria d\'aplicacions"</string>
+    <add-resource type="string" name="pg4_mtdtle" />
+    <string name="pg4_mtdtle">"PANTALLA MULTITÀCTIL"</string>
+    <add-resource type="string" name="pg4_virtle" />
+    <string name="pg4_virtle">"RATOLÍ VIRTUAL"</string>
+    <add-resource type="string" name="pg4_rstxt" />
+    <string name="pg4_rstxt">"<b>Palanca dreta</b>\nFes servir per a moure el punter del ratolí"</string>
+    <add-resource type="string" name="pg4_btntxt" />
+    <string name="pg4_btntxt">"<b>Prem </b>{R.drawable.stickTrigger}<b> o </b>{R.drawable.aButton} per a fer clic"</string>
+</resources>

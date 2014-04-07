@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"SHIELD hjälp"</string>
+    <add-resource type="string" name="pg1_tle" />
+    <string name="pg1_tle">"LÄR KÄNNA DIN SHIELD"</string>
+    <add-resource type="string" name="pg2_tle" />
+    <string name="pg2_tle">"ANVÄND FUNKTIONSKNAPPARNA"</string>
+    <add-resource type="string" name="pg3_tle" />
+    <string name="pg3_tle">"ANVÄNDA KNAPPARNA"</string>
+    <add-resource type="string" name="pg4_tle" />
+    <string name="pg4_tle">"FLER SÄTT ATT SAMVERKA MED SHIELD"</string>
+    <add-resource type="string" name="pg0_tle" />
+    <string name="pg0_title">"VÄLKOMMEN TILL SHIELD"</string>
+    <add-resource type="string" name="pg0_text" />
+    <string name="pg0_text">"Läs mer om alla SHIELD-funktioner genom att markera länken till bruksanvisningen nedan eller fortsätt och visa de grundläggande funktionerna."</string>
+    <add-resource type="string" name="pg1_blktle" />
+    <string name="pg1_blktle">"NVIDIA-KNAPP"</string>
+    <add-resource type="string" name="pg1_blktxt" />
+    <string name="pg1_blktxt">"<b>Tryck en gång på</b> när du vill starta SHIELD-spel, hitta nya spel och strömma spel från din GeForce GTX PC.\n\n<b>Tryck på och håll ned</b> när du vill öppna startmenyn."</string>
+    <add-resource type="string" name="pg2_voltle" />
+    <string name="pg2_voltle">"VOLYM"</string>
+    <add-resource type="string" name="pg2_voltxt" />
+    <string name="pg2_voltxt">"<b>Tryck på</b> när du vill styra volymen\n\n<b>Tryck på och håll ned</b> när du vill stänga av ljudet"</string>
+    <add-resource type="string" name="pg2_backtle" />
+    <string name="pg2_backtle">"TILLBAKA"</string>
+    <add-resource type="string" name="pg2_backtxt" />
+    <string name="pg2_backtxt">"Hoppar till föregående skärm"</string>
+    <add-resource type="string" name="pg2_starttxt" />
+    <string name="pg2_starttle">"STARTA"</string>
+    <add-resource type="string" name="pg2_hometle" />
+    <string name="pg2_hometle">"STARTSIDA"</string>
+    <add-resource type="string" name="pg2_hometxt" />
+    <string name="pg2_hometxt">"Öppnar Androids Startsida\n\n<b>Dubbelklicka på</b> när du vill visa de senaste apparna"</string>
+    <add-resource type="string" name="pg3_ytle" />
+    <string name="pg3_ytle">"KNAPPEN Y "</string>
+    <add-resource type="string" name="pg3_ytxt" />
+    <string name="pg3_ytxt">"Meny i de flesta appar"</string>
+    <add-resource type="string" name="pg3_xtle" />
+    <string name="pg3_xtle">"KNAPPEN X"</string>
+    <add-resource type="string" name="pg3_btle" />
+    <string name="pg3_btle">"KNAPPEN B"</string>
+    <add-resource type="string" name="pg3_btxt" />
+    <string name="pg3_btxt">"Tillbaka eller avbryt i de flesta appar"</string>
+    <add-resource type="string" name="pg3_atle" />
+    <string name="pg3_atle">"KNAPPEN A"</string>
+    <add-resource type="string" name="pg3_atxt" />
+    <string name="pg3_atxt">"Aktiverar valt objekt i de flesta appar"</string>
+    <add-resource type="string" name="pg4_mtdtle" />
+    <string name="pg4_mtdtle">"MULTIPEKSKÄRM"</string>
+    <add-resource type="string" name="pg4_virtle" />
+    <string name="pg4_virtle">"VIRTUELL MUS"</string>
+    <add-resource type="string" name="pg4_rstxt" />
+    <string name="pg4_rstxt">"<b>Höger pinne</b>\nAnvänd den till att flytta muspekaren"</string>
+    <add-resource type="string" name="pg4_btntxt" />
+    <string name="pg4_btntxt">"<b>Tryck på </b>{R.drawable.stickTrigger}<b> eller </b>{R.drawable.aButton} när du vill klicka på"</string>
+</resources>

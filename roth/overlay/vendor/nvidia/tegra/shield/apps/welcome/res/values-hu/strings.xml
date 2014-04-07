@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"SHIELD súgó"</string>
+    <add-resource type="string" name="pg1_tle" />
+    <string name="pg1_tle">"ISMERJE MEG SHIELDJÉT"</string>
+    <add-resource type="string" name="pg2_tle" />
+    <string name="pg2_tle">"A FUNKCIÓGOMBOK HASZNÁLATA"</string>
+    <add-resource type="string" name="pg3_tle" />
+    <string name="pg3_tle">"A KIVÁLASZTÓGOMBOK HASZNÁLATA"</string>
+    <add-resource type="string" name="pg4_tle" />
+    <string name="pg4_tle">"A SHIELD KEZELÉSÉNEK TOVÁBBI MÓDJAI"</string>
+    <add-resource type="string" name="pg0_tle" />
+    <string name="pg0_title">"ÜDVÖZLI A SHIELD"</string>
+    <add-resource type="string" name="pg0_text" />
+    <string name="pg0_text">"Ismerje meg a SHIELD összes funkcióját a felhasználói útmutató alábbi hivatkozásának kiválasztásával, vagy folytassa az alapvető funkciók és jellemzők megtekintését."</string>
+    <add-resource type="string" name="pg1_blktle" />
+    <string name="pg1_blktle">"NVIDIA GOMB"</string>
+    <add-resource type="string" name="pg1_blktxt" />
+    <string name="pg1_blktxt">"<b>Nyomja meg egyszer</b> SHIELD-játékok elindításához, új játékok kereséséhez és játékok streameléséhez a GeForce GTX számítógépről.\n\n<b>Nyomja meg és tartsa lenyomva</b> az Energiaellátás menü megnyitásához."</string>
+    <add-resource type="string" name="pg2_voltle" />
+    <string name="pg2_voltle">"HANGERŐ"</string>
+    <add-resource type="string" name="pg2_voltxt" />
+    <string name="pg2_voltxt">"<b>Nyomja meg</b> a hangerő szabályozásához\n\n<b>Nyomja meg és tartsa lenyomva</b> az elnémításhoz"</string>
+    <add-resource type="string" name="pg2_backtle" />
+    <string name="pg2_backtle">"VISSZA"</string>
+    <add-resource type="string" name="pg2_backtxt" />
+    <string name="pg2_backtxt">"Visszaugrik az előző képernyőre"</string>
+    <add-resource type="string" name="pg2_starttxt" />
+    <string name="pg2_starttle">"START"</string>
+    <add-resource type="string" name="pg2_hometle" />
+    <string name="pg2_hometle">"KEZDŐKÉPERNYŐ"</string>
+    <add-resource type="string" name="pg2_hometxt" />
+    <string name="pg2_hometxt">"Megnyitja az Android kezdőképernyőt\n\n<b>Nyomja le duplán</b> a Legutóbbi alkalmazások megtekintéséhez"</string>
+    <add-resource type="string" name="pg3_ytle" />
+    <string name="pg3_ytle">"Y GOMB"</string>
+    <add-resource type="string" name="pg3_ytxt" />
+    <string name="pg3_ytxt">"Menü a legtöbb alkalmazásban"</string>
+    <add-resource type="string" name="pg3_xtle" />
+    <string name="pg3_xtle">"X GOMB"</string>
+    <add-resource type="string" name="pg3_btle" />
+    <string name="pg3_btle">"B GOMB"</string>
+    <add-resource type="string" name="pg3_btxt" />
+    <string name="pg3_btxt">"Vissza vagy Mégse a legtöbb alkalmazásban"</string>
+    <add-resource type="string" name="pg3_atle" />
+    <string name="pg3_atle">"A GOMB"</string>
+    <add-resource type="string" name="pg3_atxt" />
+    <string name="pg3_atxt">"Aktiválja a kiválasztott elemet a legtöbb alkalmazásban"</string>
+    <add-resource type="string" name="pg4_mtdtle" />
+    <string name="pg4_mtdtle">"TÖBBÉRINTÉSES KIJELZŐ"</string>
+    <add-resource type="string" name="pg4_virtle" />
+    <string name="pg4_virtle">"VIRTUÁLIS EGÉR"</string>
+    <add-resource type="string" name="pg4_rstxt" />
+    <string name="pg4_rstxt">"<b>Jobb joystick</b>\nHasználja az egérmutató mozgatásához"</string>
+    <add-resource type="string" name="pg4_btntxt" />
+    <string name="pg4_btntxt">"<b>Nyomja meg a </b>{R.drawable.stickTrigger}<b> vagy a </b>{R.drawable.aButton} gombot a kattintáshoz"</string>
+</resources>

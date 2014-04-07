@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"Bantuan SHIELD"</string>
+    <add-resource type="string" name="pg1_tle" />
+    <string name="pg1_tle">"MEMPELAJARI SHIELD ANDA"</string>
+    <add-resource type="string" name="pg2_tle" />
+    <string name="pg2_tle">"MENGGUNAKAN TOMBOL FUNGSI"</string>
+    <add-resource type="string" name="pg3_tle" />
+    <string name="pg3_tle">"MENGGUNAKAN TOMBOL PEMILIHAN"</string>
+    <add-resource type="string" name="pg4_tle" />
+    <string name="pg4_tle">"CARA LAINNYA UNTUK BERINTERAKSI DENGAN SHIELD"</string>
+    <add-resource type="string" name="pg0_tle" />
+    <string name="pg0_title">"SELAMAT DATANG DI SHIELD"</string>
+    <add-resource type="string" name="pg0_text" />
+    <string name="pg0_text">"Pelajari semua fitur SHIELD dengan memilih tautan panduan pengguna berikut, atau lanjutkan dan lihat fungsi dan fitur dasar."</string>
+    <add-resource type="string" name="pg1_blktle" />
+    <string name="pg1_blktle">"TOMBOL NVIDIA"</string>
+    <add-resource type="string" name="pg1_blktxt" />
+    <string name="pg1_blktxt">"<b>Tekan sekali</b> untuk menjalankan game SHIELD, menemukan game baru, dan mengalirkan game dari PC GeForce GTX Anda.\n\n<b>Tekan dan tahan</b> untuk membuka Menu Daya."</string>
+    <add-resource type="string" name="pg2_voltle" />
+    <string name="pg2_voltle">"VOLUME"</string>
+    <add-resource type="string" name="pg2_voltxt" />
+    <string name="pg2_voltxt">"<b>Tekan</b> untuk mengendalikan volume\n\n<b>Tekan dan tahan</b> untuk menghilangkan suara"</string>
+    <add-resource type="string" name="pg2_backtle" />
+    <string name="pg2_backtle">"KEMBALI"</string>
+    <add-resource type="string" name="pg2_backtxt" />
+    <string name="pg2_backtxt">"Pindah ke layar sebelumnya"</string>
+    <add-resource type="string" name="pg2_starttxt" />
+    <string name="pg2_starttle">"START"</string>
+    <add-resource type="string" name="pg2_hometle" />
+    <string name="pg2_hometle">"BERANDA"</string>
+    <add-resource type="string" name="pg2_hometxt" />
+    <string name="pg2_hometxt">"Membuka layar Beranda Android\n\n<b>Tekan dua kali</b> untuk melihat Aplikasi Terkini"</string>
+    <add-resource type="string" name="pg3_ytle" />
+    <string name="pg3_ytle">"TOMBOL Y"</string>
+    <add-resource type="string" name="pg3_ytxt" />
+    <string name="pg3_ytxt">"Menu di kebanyakan aplikasi"</string>
+    <add-resource type="string" name="pg3_xtle" />
+    <string name="pg3_xtle">"TOMBOL X"</string>
+    <add-resource type="string" name="pg3_btle" />
+    <string name="pg3_btle">"TOMBOL B"</string>
+    <add-resource type="string" name="pg3_btxt" />
+    <string name="pg3_btxt">"Kembali atau batal di kebanyakan aplikasi"</string>
+    <add-resource type="string" name="pg3_atle" />
+    <string name="pg3_atle">"TOMBOL A"</string>
+    <add-resource type="string" name="pg3_atxt" />
+    <string name="pg3_atxt">"Mengaktifkan item pilihan di kebanyakan aplikasi"</string>
+    <add-resource type="string" name="pg4_mtdtle" />
+    <string name="pg4_mtdtle">"LAYAR MULTI SENTUH"</string>
+    <add-resource type="string" name="pg4_virtle" />
+    <string name="pg4_virtle">"MOUSE VIRTUAL"</string>
+    <add-resource type="string" name="pg4_rstxt" />
+    <string name="pg4_rstxt">"<b>Stik Kanan</b>\nGunakan untuk memindahkan penunjuk mouse"</string>
+    <add-resource type="string" name="pg4_btntxt" />
+    <string name="pg4_btntxt">"<b>Tekan </b>{R.drawable.stickTrigger}<b> atau </b>{R.drawable.aButton} untuk mengeklik"</string>
+</resources>

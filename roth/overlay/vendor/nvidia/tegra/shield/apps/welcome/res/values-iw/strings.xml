@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"עזרה של SHIELD"</string>
+    <add-resource type="string" name="pg1_tle" />
+    <string name="pg1_tle">"הכר את ה-SHIELD שלך"</string>
+    <add-resource type="string" name="pg2_tle" />
+    <string name="pg2_tle">"שימוש בלחצני הפונקציות"</string>
+    <add-resource type="string" name="pg3_tle" />
+    <string name="pg3_tle">"שימוש בלחצני הבחירה"</string>
+    <add-resource type="string" name="pg4_tle" />
+    <string name="pg4_tle">"יותר דרכים לאינטראקציה עם SHIELD"</string>
+    <add-resource type="string" name="pg0_tle" />
+    <string name="pg0_title">"ברוכים הבאים ל-SHIELD"</string>
+    <add-resource type="string" name="pg0_text" />
+    <string name="pg0_text">"למד על כל התכונות של SHIELD על-ידי בחירה בקישור למדריך למשתמש שלמטה, או המשך וצפה בפונקציות ובתכונות הבסיסיות."</string>
+    <add-resource type="string" name="pg1_blktle" />
+    <string name="pg1_blktle">"לחצן NVIDIA"</string>
+    <add-resource type="string" name="pg1_blktxt" />
+    <string name="pg1_blktxt">"<b>לחץ פעם אחת</b> כדי להפעיל משחקי  SHIELD, למצוא משחקים חדשים, ולהזרים משחקים ממחשב GeForce GTX.\n\n<b>לחץ והחזק</b> כדי לפתוח את Power Menu."</string>
+    <add-resource type="string" name="pg2_voltle" />
+    <string name="pg2_voltle">"עוצמת קול"</string>
+    <add-resource type="string" name="pg2_voltxt" />
+    <string name="pg2_voltxt">"<b>לחץ</b> כדי לשלוט על עוצמת הקול\n\n<b>לחץ והחזק</b> כדי להשתיק"</string>
+    <add-resource type="string" name="pg2_backtle" />
+    <string name="pg2_backtle">"חזרה"</string>
+    <add-resource type="string" name="pg2_backtxt" />
+    <string name="pg2_backtxt">"חוזר למסך הקודם"</string>
+    <add-resource type="string" name="pg2_starttxt" />
+    <string name="pg2_starttle">"התחל"</string>
+    <add-resource type="string" name="pg2_hometle" />
+    <string name="pg2_hometle">"דף הבית"</string>
+    <add-resource type="string" name="pg2_hometxt" />
+    <string name="pg2_hometxt">"פותח את מסך הבית של  Android\n\n<b>לחץ פעמיים</b> כדי להציג את היישומים האחרונים"</string>
+    <add-resource type="string" name="pg3_ytle" />
+    <string name="pg3_ytle">"לחצן Y"</string>
+    <add-resource type="string" name="pg3_ytxt" />
+    <string name="pg3_ytxt">"תפריט ברוב ביישומים"</string>
+    <add-resource type="string" name="pg3_xtle" />
+    <string name="pg3_xtle">"לחצן X"</string>
+    <add-resource type="string" name="pg3_btle" />
+    <string name="pg3_btle">"לחצן B"</string>
+    <add-resource type="string" name="pg3_btxt" />
+    <string name="pg3_btxt">"חזרה או ביטול ברוב היישומים"</string>
+    <add-resource type="string" name="pg3_atle" />
+    <string name="pg3_atle">"לחצן A"</string>
+    <add-resource type="string" name="pg3_atxt" />
+    <string name="pg3_atxt">"מפעיל את הפריט שנבחר ברוב היישומים"</string>
+    <add-resource type="string" name="pg4_mtdtle" />
+    <string name="pg4_mtdtle">"מסך נגיעות מרובות"</string>
+    <add-resource type="string" name="pg4_virtle" />
+    <string name="pg4_virtle">"עכבר וירטואלי"</string>
+    <add-resource type="string" name="pg4_rstxt" />
+    <string name="pg4_rstxt">"<b>ידית ימנית</b>\nהשתמש כדי להזיז את סמן העכבר"</string>
+    <add-resource type="string" name="pg4_btntxt" />
+    <string name="pg4_btntxt">"<b>לחץ על </b>{R.drawable.stickTrigger}<b> או על </b>{R.drawable.aButton} כדי ללחוץ"</string>
+
+</resources>

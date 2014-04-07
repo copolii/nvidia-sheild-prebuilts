@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"Nápověda SHIELD"</string>
+    <add-resource type="string" name="pg1_tle" />
+    <string name="pg1_tle">"POZNEJ SVOU KONZOLI SHIELD"</string>
+    <add-resource type="string" name="pg2_tle" />
+    <string name="pg2_tle">"POUŽÍVÁNÍ TLAČÍTEK FUNKCÍ"</string>
+    <add-resource type="string" name="pg3_tle" />
+    <string name="pg3_tle">"POUŽÍVÁNÍ TLAČÍTEK VÝBĚRU"</string>
+    <add-resource type="string" name="pg4_tle" />
+    <string name="pg4_tle">"VÍCE ZPŮSOBŮ INTERAKCE S KONZOLÍ SHIELD"</string>
+    <add-resource type="string" name="pg0_tle" />
+    <string name="pg0_title">"VÍTÁ VÁS SHIELD"</string>
+    <add-resource type="string" name="pg0_text" />
+    <string name="pg0_text">"O všech funkcích a vlastnostech konzole SHIELD se dozvíte v uživatelské příručce na níže uvedeném odkazu nebo pokračujte dál a seznamte se základními funkcemi a vlastnostmi."</string>
+    <add-resource type="string" name="pg1_blktle" />
+    <string name="pg1_blktle">"TLAČÍTKO NVIDIA"</string>
+    <add-resource type="string" name="pg1_blktxt" />
+    <string name="pg1_blktxt">"<b>Jedním stisknutím</b> spustíte hry konzole SHIELD, najdete nové hry a budete streamovat hry ze svého počítače GeForce GTX.\n\n<b>Stisknutím a podržením</b> tlačítka se otevře hlavní nabídka."</string>
+    <add-resource type="string" name="pg2_voltle" />
+    <string name="pg2_voltle">"HLASITOST"</string>
+    <add-resource type="string" name="pg2_voltxt" />
+    <string name="pg2_voltxt">"<b>Stisknutím</b> ovládáte hlasitost\n\n<b>Stisknutím a podržením</b> vypnete zvuk"</string>
+    <add-resource type="string" name="pg2_backtle" />
+    <string name="pg2_backtle">"ZPĚT"</string>
+    <add-resource type="string" name="pg2_backtxt" />
+    <string name="pg2_backtxt">"Vrátíte se zpět na předchozí obrazovku"</string>
+    <add-resource type="string" name="pg2_starttxt" />
+    <string name="pg2_starttle">"START"</string>
+    <add-resource type="string" name="pg2_hometle" />
+    <string name="pg2_hometle">"DOMŮ"</string>
+    <add-resource type="string" name="pg2_hometxt" />
+    <string name="pg2_hometxt">"Otevře domovskou obrazovku systému Android\n\n<b>Dvojitým stisknutím</b> se zobrazí naposledy používané aplikace"</string>
+    <add-resource type="string" name="pg3_ytle" />
+    <string name="pg3_ytle">"TLAČÍTKO Y"</string>
+    <add-resource type="string" name="pg3_ytxt" />
+    <string name="pg3_ytxt">"Nabídka ve většině aplikací"</string>
+    <add-resource type="string" name="pg3_xtle" />
+    <string name="pg3_xtle">"TLAČÍTKO X"</string>
+    <add-resource type="string" name="pg3_btle" />
+    <string name="pg3_btle">"TLAČÍTKO B"</string>
+    <add-resource type="string" name="pg3_btxt" />
+    <string name="pg3_btxt">"Zpět nebo zrušit ve většině aplikací"</string>
+    <add-resource type="string" name="pg3_atle" />
+    <string name="pg3_atle">"TLAČÍTKO A"</string>
+    <add-resource type="string" name="pg3_atxt" />
+    <string name="pg3_atxt">"Aktivuje vybranou položku ve většině aplikací"</string>
+    <add-resource type="string" name="pg4_mtdtle" />
+    <string name="pg4_mtdtle">"VÍCEDOTYKOVÝ DISPLEJ"</string>
+    <add-resource type="string" name="pg4_virtle" />
+    <string name="pg4_virtle">"VIRTUÁLNÍ MYŠ"</string>
+    <add-resource type="string" name="pg4_rstxt" />
+    <string name="pg4_rstxt">"<b>Pravý stisknutí</b>\nSlouží k pohybování kurzorem myši"</string>
+    <add-resource type="string" name="pg4_btntxt" />
+    <string name="pg4_btntxt">"<b>Stiskem </b>{R.drawable.stickTrigger}<b> nebo </b>{R.drawable.aButton} kliknete"</string>
+</resources>

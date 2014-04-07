@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimplew">38px</dimen>
+    <dimen name="dimpleh">38px</dimen>
+    <dimen name="dimplem">20px</dimen>
+    <dimen name="pg0_tlewidth">750dp</dimen>
+    <dimen name="pg1_textWidth">286dp</dimen>
+    <dimen name="pg1_textY">175dp</dimen>
+    <dimen name="pg2_STARTtextX">287dp</dimen>
+    <dimen name="pg2_STARTtextY">140dp</dimen>
+    <dimen name="pg2_HOMEtextX">287dp</dimen>
+    <dimen name="pg2_HOMEtextY">230dp</dimen>
+    <dimen name="pg2_VOLtextX">287dp</dimen>
+    <dimen name="pg2_VOLtextY">100dp</dimen>
+    <dimen name="pg2_BACKtextX">287dp</dimen>
+    <dimen name="pg2_BACKtextY">300dp</dimen>
+    <dimen name="pg3_ytextX">302dp</dimen>
+    <dimen name="pg3_ytextY">130dp</dimen>
+    <dimen name="pg3_xtextX">302dp</dimen>
+    <dimen name="pg3_xtextY">238dp</dimen>
+    <dimen name="pg3_atextX">302dp</dimen>
+    <dimen name="pg3_atextY">310dp</dimen>
+    <dimen name="pg3_btextX">302dp</dimen>
+    <dimen name="pg3_btextY">205dp</dimen>
+    <dimen name="pg4_mtdtextX">233dp</dimen>
+    <dimen name="pg4_mtdtextY">95dp</dimen>
+    <dimen name="pg4_virtextX">233dp</dimen>
+    <dimen name="pg4_virtextY">88dp</dimen>
+    <dimen name="pg4_btntextX">222dp</dimen>
+    <dimen name="pg4_btntextY">275dp</dimen>
+    <dimen name="pg4_btntextmarg">11dp</dimen>
+    <dimen name="smalltxt">22.5sp</dimen>
+    <dimen name="mediumtxt">30sp</dimen>
+    <dimen name="largetxt">37.5sp</dimen>
+    <dimen name="button_txt">19sp</dimen>
+    <dimen name="button_width">160dp</dimen>
+</resources>

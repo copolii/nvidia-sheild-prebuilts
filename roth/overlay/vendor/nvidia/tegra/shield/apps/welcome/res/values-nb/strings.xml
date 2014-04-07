@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"Hjelp for SHIELD"</string>
+    <add-resource type="string" name="pg1_tle" />
+    <string name="pg1_tle">"BLI KJENT MED DIN SHIELD"</string>
+    <add-resource type="string" name="pg2_tle" />
+    <string name="pg2_tle">"BRUKE FUNKSJONSKNAPPENE"</string>
+    <add-resource type="string" name="pg3_tle" />
+    <string name="pg3_tle">"BRUKE VALGKNAPPENE"</string>
+    <add-resource type="string" name="pg4_tle" />
+    <string name="pg4_tle">"FLERE MÅTER Å SAMHANDLE MED SHIELD PÅ"</string>
+    <add-resource type="string" name="pg0_tle" />
+    <string name="pg0_title">"VELKOMMEN TIL SHIELD"</string>
+    <add-resource type="string" name="pg0_text" />
+    <string name="pg0_text">"Lær om alle SHIELD-funksjonene ved å velge brukerveiledningskoblingen nedenfor, eller fortsett og vis standardfunksjonene."</string>
+    <add-resource type="string" name="pg1_blktle" />
+    <string name="pg1_blktle">"NVIDIA-KNAPP"</string>
+    <add-resource type="string" name="pg1_blktxt" />
+    <string name="pg1_blktxt">"<b>Trykk én gang</b> for å starte SHIELD-spill, finne nye spill og direkteavspille spill fra din GeForce GTX-PC.\n\n<b>Trykk og hold inne</b> for å åpne batterimenyen."</string>
+    <add-resource type="string" name="pg2_voltle" />
+    <string name="pg2_voltle">"VOLUM"</string>
+    <add-resource type="string" name="pg2_voltxt" />
+    <string name="pg2_voltxt">"<b>Trykk</b> for å regulere volumet\n\n<b>Trykk og hold inne</b> for å dempe"</string>
+    <add-resource type="string" name="pg2_backtle" />
+    <string name="pg2_backtle">"TILBAKE"</string>
+    <add-resource type="string" name="pg2_backtxt" />
+    <string name="pg2_backtxt">"Hopper til forrige skjermbilde"</string>
+    <add-resource type="string" name="pg2_starttxt" />
+    <string name="pg2_starttle">"START"</string>
+    <add-resource type="string" name="pg2_hometle" />
+    <string name="pg2_hometle">"HJEM"</string>
+    <add-resource type="string" name="pg2_hometxt" />
+    <string name="pg2_hometxt">"Åpner startsiden til Android\n\n<b>Dobbelttrykk</b> for å vise nylige apper"</string>
+    <add-resource type="string" name="pg3_ytle" />
+    <string name="pg3_ytle">"Y-KNAPP"</string>
+    <add-resource type="string" name="pg3_ytxt" />
+    <string name="pg3_ytxt">"Meny i de fleste apper"</string>
+    <add-resource type="string" name="pg3_xtle" />
+    <string name="pg3_xtle">"X-KNAPP"</string>
+    <add-resource type="string" name="pg3_btle" />
+    <string name="pg3_btle">"B-KNAPP"</string>
+    <add-resource type="string" name="pg3_btxt" />
+    <string name="pg3_btxt">"Tilbake eller avbryt i de fleste apper"</string>
+    <add-resource type="string" name="pg3_atle" />
+    <string name="pg3_atle">"A-KNAPP"</string>
+    <add-resource type="string" name="pg3_atxt" />
+    <string name="pg3_atxt">"Aktiverer det valgte elementet i de fleste apper"</string>
+    <add-resource type="string" name="pg4_mtdtle" />
+    <string name="pg4_mtdtle">"MULTI-BERØRINGSSKJERM"</string>
+    <add-resource type="string" name="pg4_virtle" />
+    <string name="pg4_virtle">"VIRTUELL MUS"</string>
+    <add-resource type="string" name="pg4_rstxt" />
+    <string name="pg4_rstxt">"<b>Høyre spake</b>\nBrukes til å bevege musepekeren"</string>
+    <add-resource type="string" name="pg4_btntxt" />
+    <string name="pg4_btntxt">"<b>Trykk på </b>{R.drawable.stickTrigger}<b> eller </b>{R.drawable.aButton} for å klikke"</string>
+</resources>

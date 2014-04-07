@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="60dp"
+    android:paddingRight="60dp" >
+
+    <TextView
+        android:id="@+id/dt_title"
+        style="@style/HoloTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dt_nonspinnerpadding"
+        android:layout_marginRight="@dimen/dt_nonspinnerpadding"
+        android:text="@string/datetime_title" />
+
+    <View
+        android:id="@+id/datetime_titleline"
+        style="@style/HoloSeparator"
+        android:layout_marginLeft="@dimen/dt_nonspinnerpadding"
+        android:layout_marginRight="@dimen/dt_nonspinnerpadding" />
+
+    <LinearLayout
+        android:id="@+id/dt_layout_date"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/focusabletv"
+        android:focusable="true"
+        android:onClick="onClick"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/dt_paddingbetween"
+        android:paddingLeft="@dimen/dt_nonspinnerpadding"
+        android:paddingRight="@dimen/dt_nonspinnerpadding"
+        android:paddingTop="@dimen/dt_paddingbetween" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/datetime_date"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/dt_bigtextsize" />
+
+        <TextView
+            android:id="@+id/date_text_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:paddingTop="@dimen/dt_tvpadtop"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textSize="@dimen/dt_smalltextsize" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/dt_layout_time"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/focusabletv"
+        android:focusable="true"
+        android:onClick="onClick"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/dt_paddingbetween"
+        android:paddingLeft="@dimen/dt_nonspinnerpadding"
+        android:paddingRight="@dimen/dt_nonspinnerpadding"
+        android:paddingTop="@dimen/dt_paddingbetween" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/datetime_time"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/dt_bigtextsize" />
+
+        <TextView
+            android:id="@+id/time_text_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/dt_tvpadtop"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textSize="@dimen/dt_smalltextsize" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/dt_layout_timezone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/focusabletv"
+        android:focusable="true"
+        android:onClick="onClick"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/dt_paddingbetween"
+        android:paddingTop="@dimen/dt_paddingbetween" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dt_spinnerheadermargin"
+            android:layout_marginRight="@dimen/dt_spinnerheadermargin"
+            android:text="@string/datetime_tzone"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/dt_bigtextsize" />
+
+        <TextView
+            android:id="@+id/time_zone_button"
+            style="?android:attr/dropDownSpinnerStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dt_spinnertxtmargin"
+            android:layout_marginRight="@dimen/dt_spinnertxtmargin"
+            android:onClick="onClick"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textSize="@dimen/dt_smalltextsize" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp" >
+
+        <ImageButton
+            android:id="@+id/previous"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:background="@null"
+            android:onClick="onClick"
+            android:rotation="180"
+            android:scaleType="fitCenter"
+            android:src="@drawable/arrowbutton" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:background="@null"
+            android:onClick="onClick"
+            android:scaleType="fitCenter"
+            android:src="@drawable/arrowbutton" />
+    </LinearLayout>
+
+</LinearLayout>

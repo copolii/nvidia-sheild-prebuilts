@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"SHIELD ヘルプ"</string>
+    <add-resource type="string" name="pg1_tle" />
+    <string name="pg1_tle">"SHIELD の概要"</string>
+    <add-resource type="string" name="pg2_tle" />
+    <string name="pg2_tle">"機能ボタンの使用"</string>
+    <add-resource type="string" name="pg3_tle" />
+    <string name="pg3_tle">"選択ボタンの使用"</string>
+    <add-resource type="string" name="pg4_tle" />
+    <string name="pg4_tle">"SHIELD のその他の操作方法"</string>
+    <add-resource type="string" name="pg0_tle" />
+    <string name="pg0_title">"SHIELD へようこそ"</string>
+    <add-resource type="string" name="pg0_text" />
+    <string name="pg0_text">"下のユーザー ガイド リンクを選択して SHIELD の全機能について学ぶか、先に進んで基本的な機能を確認してください。"</string>
+    <add-resource type="string" name="pg1_blktle" />
+    <string name="pg1_blktle">"NVIDIA ボタン"</string>
+    <add-resource type="string" name="pg1_blktxt" />
+    <string name="pg1_blktxt">"SHIELD ゲームの起動、新しいゲームの検索、GeForce GTX PC からのゲームのストリーミングを行うには、<b>1 回押します</b>。\n\n電源メニューを開くには、<b>押したままにします</b>。"</string>
+    <add-resource type="string" name="pg2_voltle" />
+    <string name="pg2_voltle">"音量"</string>
+    <add-resource type="string" name="pg2_voltxt" />
+    <string name="pg2_voltxt">"音量をコントロールするには<b>押します</b>。\n\nミュートにするには<b>押したままにします</b>。"</string>
+    <add-resource type="string" name="pg2_backtle" />
+    <string name="pg2_backtle">"戻る"</string>
+    <add-resource type="string" name="pg2_backtxt" />
+    <string name="pg2_backtxt">"前の画面に移動します。"</string>
+    <add-resource type="string" name="pg2_starttxt" />
+    <string name="pg2_starttle">"開始"</string>
+    <add-resource type="string" name="pg2_hometle" />
+    <string name="pg2_hometle">"ホーム"</string>
+    <add-resource type="string" name="pg2_hometxt" />
+    <string name="pg2_hometxt">"Android ホーム画面が開きます。\n\n最近使ったアプリを表示するには、<b>2 回押します</b>。"</string>
+    <add-resource type="string" name="pg3_ytle" />
+    <string name="pg3_ytle">"Y ボタン"</string>
+    <add-resource type="string" name="pg3_ytxt" />
+    <string name="pg3_ytxt">"ほとんどのアプリで「メニュー」に相当します。"</string>
+    <add-resource type="string" name="pg3_xtle" />
+    <string name="pg3_xtle">"X ボタン"</string>
+    <add-resource type="string" name="pg3_btle" />
+    <string name="pg3_btle">"B ボタン"</string>
+    <add-resource type="string" name="pg3_btxt" />
+    <string name="pg3_btxt">"ほとんどのアプリで「戻る」または「キャンセル」に相当します。"</string>
+    <add-resource type="string" name="pg3_atle" />
+    <string name="pg3_atle">"A ボタン"</string>
+    <add-resource type="string" name="pg3_atxt" />
+    <string name="pg3_atxt">"ほとんどのアプリで選択した項目がアクティブになります。"</string>
+    <add-resource type="string" name="pg4_mtdtle" />
+    <string name="pg4_mtdtle">"マルチタッチ ディスプレイ"</string>
+    <add-resource type="string" name="pg4_virtle" />
+    <string name="pg4_virtle">"仮想マウス"</string>
+    <add-resource type="string" name="pg4_rstxt" />
+    <string name="pg4_rstxt">"<b>右スティック</b>\nマウスのポインターを移動するために使用します。"</string>
+    <add-resource type="string" name="pg4_btntxt" />
+    <string name="pg4_btntxt">"クリックするには {R.drawable.stickTrigger}<b> または</b> {R.drawable.aButton} を<b>押します</b>。"</string>
+</resources>

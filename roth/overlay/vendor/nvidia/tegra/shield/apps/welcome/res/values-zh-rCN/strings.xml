@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"SHIELD 帮助"</string>
+    <add-resource type="string" name="pg1_tle" />
+    <string name="pg1_tle">"了解您的 SHIELD"</string>
+    <add-resource type="string" name="pg2_tle" />
+    <string name="pg2_tle">"使用功能按钮"</string>
+    <add-resource type="string" name="pg3_tle" />
+    <string name="pg3_tle">"使用选择按钮"</string>
+    <add-resource type="string" name="pg4_tle" />
+    <string name="pg4_tle">"与 SHIELD 互动的更多方式 "</string>
+    <add-resource type="string" name="pg0_tle" />
+    <string name="pg0_title">"SHIELD 欢迎您"</string>
+    <add-resource type="string" name="pg0_text" />
+    <string name="pg0_text">"选择下面的用户指南链接，了解 SHIELD 的所有功能，或继续并查看基本功能和特色。"</string>
+    <add-resource type="string" name="pg1_blktle" />
+    <string name="pg1_blktle">"NVIDIA 按钮"</string>
+    <add-resource type="string" name="pg1_blktxt" />
+    <string name="pg1_blktxt">"<b>按一次</b>以启动 SHIELD 游戏、搜索新游戏，并从您的 GeForce GTX PC 上导入游戏。\n\n<b>按住</b>以打开电源键菜单。"</string>
+    <add-resource type="string" name="pg2_voltle" />
+    <string name="pg2_voltle">"音量"</string>
+    <add-resource type="string" name="pg2_voltxt" />
+    <string name="pg2_voltxt">"<b>按</b>此按钮以控制音量\n\n<b>按住</b>以调成静音"</string>
+    <add-resource type="string" name="pg2_backtle" />
+    <string name="pg2_backtle">"上一步"</string>
+    <add-resource type="string" name="pg2_backtxt" />
+    <string name="pg2_backtxt">"跳回至上一个屏幕"</string>
+    <add-resource type="string" name="pg2_starttxt" />
+    <string name="pg2_starttle">"开始"</string>
+    <add-resource type="string" name="pg2_hometle" />
+    <string name="pg2_hometle">"主页"</string>
+    <add-resource type="string" name="pg2_hometxt" />
+    <string name="pg2_hometxt">"打开安卓主界面\n\n<b>双击</b>查看最新应用程序"</string>
+    <add-resource type="string" name="pg3_ytle" />
+    <string name="pg3_ytle">"Y 按钮"</string>
+    <add-resource type="string" name="pg3_ytxt" />
+    <string name="pg3_ytxt">"大部分应用程序中的‘菜单’"</string>
+    <add-resource type="string" name="pg3_xtle" />
+    <string name="pg3_xtle">"X 按钮"</string>
+    <add-resource type="string" name="pg3_btle" />
+    <string name="pg3_btle">"B 按钮"</string>
+    <add-resource type="string" name="pg3_btxt" />
+    <string name="pg3_btxt">"大部分应用程序中的‘后退’或‘取消’"</string>
+    <add-resource type="string" name="pg3_atle" />
+    <string name="pg3_atle">"A 按钮"</string>
+    <add-resource type="string" name="pg3_atxt" />
+    <string name="pg3_atxt">"激活大部分应用程序中的选中项"</string>
+    <add-resource type="string" name="pg4_mtdtle" />
+    <string name="pg4_mtdtle">"多触点显示器"</string>
+    <add-resource type="string" name="pg4_virtle" />
+    <string name="pg4_virtle">"虚拟鼠标"</string>
+    <add-resource type="string" name="pg4_rstxt" />
+    <string name="pg4_rstxt">"<b>右摇杆</b>\n用于移动鼠标指针"</string>
+    <add-resource type="string" name="pg4_btntxt" />
+    <string name="pg4_btntxt">"<b>按 </b>{R.drawable.stickTrigger}<b> 或 </b>{R.drawable.aButton}点击"</string>
+</resources>
