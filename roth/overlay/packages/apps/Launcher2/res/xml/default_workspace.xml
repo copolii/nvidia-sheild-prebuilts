@@ -20,6 +20,7 @@
     <!-- Left screen [1] -->
 
     <!-- Middle screen [2] -->
+
     <appwidget
         launcher:packageName="com.google.android.googlequicksearchbox"
         launcher:className="com.google.android.googlequicksearchbox.SearchWidgetProvider"
@@ -29,6 +30,67 @@
         launcher:spanX="4"
         launcher:spanY="1">
     </appwidget>
+    <!-- Google Folder: -->
+    <!-- folder - Google -->
+    <folder
+            launcher:title="@string/google_folder_name"
+            launcher:screen="2"
+            launcher:x="0"
+            launcher:y="2" >
+
+        <!-- Chrome -->
+        <favorite
+            launcher:packageName="com.android.chrome"
+            launcher:className="com.google.android.apps.chrome.Main" />
+        <!-- Gmail -->
+        <favorite
+            launcher:packageName="com.google.android.gm"
+            launcher:className="com.google.android.gm.ConversationListActivityGmail" />
+        <!-- Google+ -->
+        <favorite
+            launcher:packageName="com.google.android.apps.plus"
+            launcher:className="com.google.android.apps.plus.phone.HomeActivity" />
+        <!-- Maps -->
+        <favorite
+            launcher:packageName="com.google.android.apps.maps"
+            launcher:className="com.google.android.maps.MapsActivity" />
+        <!-- Play Music -->
+        <favorite
+            launcher:packageName="com.google.android.music"
+            launcher:className="com.android.music.activitymanagement.TopLevelActivity" />
+        <!-- Play Movies & TV -->
+        <favorite
+            launcher:packageName="com.google.android.videos"
+            launcher:className="com.google.android.youtube.videos.EntryPoint" />
+        <!-- Play Books -->
+        <favorite
+            launcher:packageName="com.google.android.apps.books"
+            launcher:className="com.google.android.apps.books.app.BooksActivity" />
+        <!-- Play Newsstand -->
+        <favorite
+            launcher:packageName="com.google.android.apps.magazines"
+            launcher:className="com.google.apps.dots.android.app.activity.CurrentsStartActivity" />
+        <!-- Play Games -->
+        <favorite
+            launcher:packageName="com.google.android.play.games"
+            launcher:className="com.google.android.gms.games.ui.destination.main.MainActivity" />
+        <!-- Drive -->
+        <favorite
+            launcher:packageName="com.google.android.apps.docs"
+            launcher:className="com.google.android.apps.docs.app.NewMainProxyActivity" />
+        <!-- YouTube -->
+        <favorite
+            launcher:packageName="com.google.android.youtube"
+            launcher:className="com.google.android.youtube.app.honeycomb.Shell$HomeActivity" />
+        <!-- Photos -->
+        <favorite
+            launcher:packageName="com.google.android.apps.plus"
+            launcher:className="com.google.android.apps.plus.phone.ConversationListActivity" />
+        <!-- Hangouts -->
+        <favorite
+            launcher:packageName="com.google.android.talk"
+            launcher:className="com.google.android.talk.SigningInActivity" />
+    </folder>
     <favorite
         launcher:packageName="com.hulu.plus"
         launcher:className="com.hulu.plusx.activity.Root"
@@ -65,12 +127,19 @@
         launcher:screen="2"
         launcher:x="6"
         launcher:y="2" />
+    <favorite
+        launcher:packageName="com.android.vending"
+        launcher:className="com.android.vending.AssetBrowserActivity"
+        launcher:screen="2"
+        launcher:x="7"
+        launcher:y="2" />
 
     <!-- Right screen [3] -->
 
     <!-- Far-right screen [4] -->
 
     <!-- Hotseat (We use the screen as the position of the item in the hotseat) -->
+    <!-- YouTube -->
     <favorite
         launcher:packageName="com.google.android.youtube"
         launcher:className="com.google.android.youtube.app.honeycomb.Shell$HomeActivity"
@@ -78,6 +147,7 @@
         launcher:screen="0"
         launcher:x="0"
         launcher:y="0" />
+    <!-- Browser -->
     <favorite
         launcher:packageName="com.android.browser"
         launcher:className="com.android.browser.BrowserActivity"
@@ -85,6 +155,7 @@
         launcher:screen="1"
         launcher:x="1"
         launcher:y="0" />
+    <!-- TegraZone -->
     <favorite
         launcher:packageName="com.nvidia.tegrazone3"
         launcher:className="com.nvidia.tegrazone3.LaunchActivity"
@@ -92,13 +163,15 @@
         launcher:screen="2"
         launcher:x="2"
         launcher:y="0" />
+    <!-- Gmail -->
     <favorite
-        launcher:packageName="com.android.vending"
-        launcher:className="com.android.vending.AssetBrowserActivity"
+        launcher:packageName="com.google.android.gm"
+        launcher:className="com.google.android.gm.ConversationListActivityGmail"
         launcher:container="-101"
         launcher:screen="4"
         launcher:x="4"
         launcher:y="0" />
+    <!-- Music -->
     <favorite
         launcher:packageName="com.google.android.music"
         launcher:className="com.android.music.activitymanagement.TopLevelActivity"
@@ -106,6 +179,7 @@
         launcher:screen="5"
         launcher:x="5"
         launcher:y="0" />
+    <!-- Play Movies & TV -->
     <favorite
         launcher:packageName="com.google.android.videos"
         launcher:className="com.google.android.youtube.videos.EntryPoint"
