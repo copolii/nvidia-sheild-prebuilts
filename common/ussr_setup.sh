@@ -1,12 +1,18 @@
 #!/system/bin/sh
 
-# Copyright (c) 2013, NVIDIA CORPORATION.  All rights reserved.
+# Copyright (c) 2013-2014, NVIDIA CORPORATION.  All rights reserved.
 #
 # NVIDIA CORPORATION and its licensors retain all intellectual property
 # and proprietary rights in and to this software, related documentation
 # and any modifications thereto.  Any use, reproduction, disclosure or
 # distribution of this software and related documentation without an express
 # license agreement from NVIDIA CORPORATION is strictly prohibited.
+
+# create a folder for phs to store various files
+mkdir -p /data/misc/phs
+chown system /data/misc/phs
+chmod 0775 /data/misc/phs
+restorecon -R /data/misc/phs
 
 # set up power management nodes for user space control
 chown system /sys/kernel/cluster/active
@@ -47,6 +53,19 @@ chown system /d/clock/cpu_g/min
 chmod 0444 /d/clock/cpu_g/min
 chown system /sys/kernel/debug/clock/c2bus/possible_rates
 chmod 0444 /sys/kernel/debug/clock/c2bus/possible_rates
+
+chown system /d/clock/cpu_lp/max
+chmod 0664 /d/clock/cpu_lp/max
+chown system /sys/class/graphics/fb0/device/enable
+chmod 0644 /sys/class/graphics/fb0/device/enable
+
+# FPS nodes
+chown system /sys/kernel/debug/fps
+chmod 0444 /sys/kernel/debug/fps
+chown system /sys/devices/virtual/misc/tegra-throughput/fps
+chmod 0444 /sys/devices/virtual/misc/tegra-throughput/fps
+
+# gr3d nodes
 chown system /sys/devices/platform/host1x/gr3d/freq_request
 chmod 0664 /sys/devices/platform/host1x/gr3d/freq_request
 chown system /sys/devices/platform/host1x/gr3d/user

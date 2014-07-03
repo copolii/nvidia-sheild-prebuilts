@@ -277,6 +277,7 @@ void common_power_open(struct powerhal_info *pInfo)
     pInfo->hint_interval[POWER_HINT_APP_PROFILE] = 200000;
     pInfo->hint_interval[POWER_HINT_APP_LAUNCH] = 2000000;
     pInfo->hint_interval[POWER_HINT_SHIELD_STREAMING] = 500000;
+    pInfo->hint_interval[POWER_HINT_MT_CALL] = 2000000;
     pInfo->hint_interval[POWER_HINT_HIGH_RES_VIDEO] = 500000;
     pInfo->hint_interval[POWER_HINT_MIRACAST] = 500000;
 
@@ -291,6 +292,8 @@ void common_power_open(struct powerhal_info *pInfo)
     pInfo->fds.bt_a2dp_min_freq = -1;
 	pInfo->fds.interactive_max_cpus = -1;
 
+    pInfo->fd_music_freq_min = -1;
+    pInfo->fds.fd_speaker_freq_min = -1;
     // Initialize features
     pInfo->features.fan = sysfs_exists("/sys/devices/platform/pwm-fan/pwm_cap");
 
@@ -680,6 +683,28 @@ static void set_bt_a2dp_hint(struct powerhal_info *pInfo, int *data)
             pInfo->mTimeoutPoker->requestPmQos("/dev/cpu_freq_min", value);
 }
 
+static void set_audio_speaker_hint(struct powerhal_info *pInfo, int *data)
+{
+	if (data[0] == 1) {
+		pInfo->fds.fd_speaker_freq_min =
+			pInfo->mTimeoutPoker->requestPmQos("/dev/cpu_freq_min", 306000);
+	}else if (pInfo->fds.fd_speaker_freq_min >= 0) {
+		close(pInfo->fds.fd_speaker_freq_min);
+		pInfo->fds.fd_speaker_freq_min = -1;
+	}
+}
+
+static void set_music_hint(struct powerhal_info *pInfo, int *data)
+{
+	if (data[0] == 1) {
+		pInfo->fd_music_freq_min =
+			pInfo->mTimeoutPoker->requestPmQos("/dev/emc_freq_min", 68000);
+	}else if (pInfo->fd_music_freq_min != -1) {
+		close(pInfo->fd_music_freq_min);
+		pInfo->fd_music_freq_min = -1;
+	}
+}
+
 void common_power_init(struct power_module *module, struct powerhal_info *pInfo)
 {
     common_power_open(pInfo);
@@ -689,6 +714,9 @@ void common_power_init(struct power_module *module, struct powerhal_info *pInfo)
     // Boost to max frequency on initialization to decrease boot time
     pInfo->mTimeoutPoker->requestPmQosTimed("/dev/cpu_freq_min",
                                      pInfo->available_frequencies[pInfo->num_available_frequencies - 1],
+                                     s2ns(15));
+    pInfo->mTimeoutPoker->requestPmQosTimed("dev/min_online_cpus",
+                                     4,
                                      s2ns(15));
 }
 
@@ -781,6 +809,12 @@ void common_power_hint(struct power_module *module, struct powerhal_info *pInfo,
                                                  816000,
                                                  s2ns(1));
         break;
+    case POWER_HINT_MT_CALL:
+        // Boost to 816 Mhz frequency for two second
+        pInfo->mTimeoutPoker->requestPmQosTimed("/dev/cpu_freq_min",
+                                                 816000,
+                                                 s2ns(2));
+        break;
     case POWER_HINT_HIGH_RES_VIDEO:
         // Boost to max LP frequency for one second
         pInfo->mTimeoutPoker->requestPmQosTimed("/dev/cpu_freq_min",
@@ -792,18 +826,26 @@ void common_power_hint(struct power_module *module, struct powerhal_info *pInfo,
         pInfo->mTimeoutPoker->requestPmQosTimed("/dev/cpu_freq_min",
                                                  816000,
                                                  s2ns(1));
+        break;
     case POWER_HINT_CAMERA:
         set_camera_hint(pInfo, (camera_hint_t*)data);
+
 
         break;
     case POWER_HINT_BT_A2DP:
         set_bt_a2dp_hint(pInfo, (int*)data);
         break;
+    case POWER_HINT_MUSIC:
+	set_music_hint(pInfo, (int *)data);
+	break;
     case POWER_HINT_AUDIO_OUT:
         // Boost to 204Mhz frequency
         pInfo->mTimeoutPoker->requestPmQosTimed("/dev/cpu_freq_min",
                                                  204000,
                                                  ms2ns(100));
+        break;
+    case POWER_HINT_AUDIO_SPEAKER:
+		set_audio_speaker_hint(pInfo, (int*)data);
         break;
     default:
         break;
