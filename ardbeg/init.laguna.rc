@@ -1,0 +1,31 @@
+#Copyright (c) 2011-2013 NVIDIA Corporation.  All Rights Reserved.
+#
+#NVIDIA Corporation and its licensors retain all intellectual property and
+#proprietary rights in and to this software and related documentation.  Any
+#use, reproduction, disclosure or distribution of this software and related
+#documentation without an express license agreement from NVIDIA Corporation
+#is strictly prohibited.
+
+import init.tegra_emmc.rc
+import init.t132.rc
+
+on fs
+    setprop ro.crypto.tmpfs_options size=128m,mode=0771,uid=1000,gid=1000
+    setprop ro.crypto.umount_sd false
+    setprop ro.crypto.fuse_sdcard true
+    mount_all /fstab.laguna
+
+#create NFC symlink
+    mkdir /data/nfc
+    chmod 0770 /data/nfc/
+    chown nfc system /data/nfc/
+    symlink /system/etc/android.hardware.nfc.xml /data/nfc/nfc.xml
+
+# Start GPS daemon
+on boot
+    service gps-daemon /system/bin/glgps_nvidiaTegra2android -c /system/etc/gps/gpsconfig.xml
+    user gps
+    socket gps seqpacket 0660 gps system
+    group system inet sdcard_rw sdcard_r
+    class main
+    disabled
