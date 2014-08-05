@@ -24,8 +24,23 @@ def FullOTA_InstallEnd(info):
         info.script.AppendExtra(
                 """nv_copy_blob_file("blob", "/staging");""")
 
+def FullOTA_Assertions(info):
+    try:
+        device = info.info_dict.get("build.prop", {})["ro.product.name"]
+    except KeyError:
+        return;
+    else:
+        cmd = ('assert(getprop("ro.product.name") == "%s");' % (device))
+        info.script.script.append(info.script._WordWrap(cmd))
 
-
+def IncrementalOTA_Assertions(info):
+    try:
+        device = info.info_dict.get("build.prop", {})["ro.product.name"]
+    except KeyError:
+        return;
+    else:
+        cmd = ('assert(getprop("ro.product.name") == "%s");' % (device))
+        info.script.script.append(info.script._WordWrap(cmd))
 
 def IncrementalOTA_InstallEnd(info):
     try:

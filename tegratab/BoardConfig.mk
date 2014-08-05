@@ -36,24 +36,38 @@ BOARD_SUPPORT_NVAUDIOFX := true
 
 TARGET_USERIMAGES_USE_EXT4 := true
 ifneq ($(TARGET_PRODUCT),flaxen)
-  BOARD_SYSTEMIMAGE_PARTITION_SIZE := 805306368
+  ifneq (,$(filter $(NV_TN_SKU),tn7_114gp_2014 tn7_114np_2014))
+      BOARD_SYSTEMIMAGE_PARTITION_SIZE := 1073741824
+  else
+      BOARD_SYSTEMIMAGE_PARTITION_SIZE := 805306368
+  endif
 else
-  BOARD_SYSTEMIMAGE_PARTITION_SIZE := 1073741824
+  BOARD_SYSTEMIMAGE_PARTITION_SIZE := 1702887424
 endif
 
 ifeq ($(TARGET_PRODUCT),kalamata)
   BOARD_USERDATAIMAGE_PARTITION_SIZE := 13704888320
 else
   ifneq ($(TARGET_PRODUCT),flaxen)
-    BOARD_USERDATAIMAGE_PARTITION_SIZE := 13600030720
+    ifneq (,$(filter $(NV_TN_SKU),tn7_114gp_2014 tn7_114np_2014))
+       BOARD_USERDATAIMAGE_PARTITION_SIZE := 13352566784
+    else
+       BOARD_USERDATAIMAGE_PARTITION_SIZE := 13600030720
+    endif
   else
-    BOARD_USERDATAIMAGE_PARTITION_SIZE := 13331595264
+    BOARD_USERDATAIMAGE_PARTITION_SIZE := 11804868608
   endif
 endif
 BOARD_FLASH_BLOCK_SIZE := 4096
 
 ifeq ($(TARGET_PRODUCT),flaxen)
   HEADSET_AMP_TPA6130A2 := true
+endif
+
+ifneq (,$(filter $(TARGET_PRODUCT),kalamata flaxen))
+  SET_DCP_CURRENT_LIMIT_2A := false
+else
+  SET_DCP_CURRENT_LIMIT_2A := true
 endif
 
 TARGET_KERNEL_CONFIG := tegra_tegratab_android_defconfig
@@ -65,23 +79,8 @@ USE_OPENGL_RENDERER := true
 TARGET_RECOVERY_UPDATER_LIBS += libnvrecoveryupdater
 TARGET_RECOVERY_UPDATER_EXTRA_LIBS += libfs_mgr
 
-ifneq (,$(filter $(TARGET_PRODUCT),kalamata flaxen))
-ifeq ($(TARGET_PRODUCT),kalamata)
-ifneq ($(wildcard vendor/nvidia/kalamata/bluetooth-kalamata),)
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR ?= vendor/nvidia/kalamata/bluetooth-kalamata
-else
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR ?= device/nvidia/tegratab/bluetooth
-endif
-else
-ifneq ($(wildcard vendor/nvidia/flaxen/bluetooth-flaxen),)
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR ?= vendor/nvidia/flaxen/bluetooth-flaxen
-else
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR ?= device/nvidia/tegratab/bluetooth
-endif
-endif
-else
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR ?= device/nvidia/tegratab/bluetooth
-endif
+
 BOARD_HAVE_BLUETOOTH := true
 
 BOARD_HAVE_TI_BLUETOOTH := true
@@ -190,4 +189,14 @@ BOARD_SEPOLICY_UNION := healthd.te \
     installd.te \
     netd.te \
     untrusted_app.te \
-    vold.te
+    vold.te \
+    file_contexts \
+    file.te
+
+# ALS LUX conversion factor
+ifneq (,$(filter $(NV_TN_SKU),tn7_114gp_2014 tn7_114np_2014))
+BOARD_LUX_CONV_FACTOR := 8.407
+endif
+
+#Enable power hint for Auido playback with speaker
+AUDIO_SPEAKER_POWER_HINT := true

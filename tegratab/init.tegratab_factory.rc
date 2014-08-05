@@ -27,8 +27,8 @@ on early-init
 on init
     mkdir /mnt/shell/emulated 0700 shell shell
     mkdir /storage/emulated 0555 root root
-    mkdir /mnt/media_rw/sdcard1 0700 media_rw media_rw
-    mkdir /storage/sdcard1 0700 root root
+    mkdir /mnt/media_rw/sdcard1 0777 media_rw media_rw
+    mkdir /storage/sdcard1 0777 root root
 
     # SECONDARY_STORAGE_MOUNTPOINT is used by factory_install_apk.sh
     # to check if sdcard is mounted.
@@ -46,8 +46,8 @@ on init
     symlink /mnt/shell/emulated/0 /storage/emulated/legacy
 
     # create directory for mounting usb drives
-    mkdir /mnt/media_rw/usbdrive 0700 media_rw media_rw
-    mkdir /storage/usbdrive 0700 root root
+    mkdir /mnt/media_rw/usbdrive 0777 media_rw media_rw
+    mkdir /storage/usbdrive 0777 root root
     symlink /mnt/media_rw/usbdrive /storage/usbdrive
     symlink /mnt/media_rw/usbdrive /usbdrive
 
@@ -97,7 +97,6 @@ on post-fs-data
     mount ext4 /dev/block/platform/sdhci-tegra.3/by-name/FCT /mnt/factory rw remount
     mkdir /mnt/factory/touchscreen 0777 system system
     mkdir /mnt/factory/mpu 0777 system system
-    chmod 0666 /mnt/factory/mpu/inv_cal_data.bin
 
     export TOUCH_CONF_DIR /mnt/factory/touchscreen
     export TOUCH_DATA_DIR /mnt/factory/touchscreen
@@ -146,7 +145,7 @@ on boot
     insmod /system/lib/modules/compat/compat.ko
     insmod /system/lib/modules/compat/cfg80211.ko
     insmod /system/lib/modules/compat/mac80211.ko
-    insmod /system/lib/modules/compat/wlcore.ko
+    insmod /system/lib/modules/compat/wlcore.ko suspen_rx_ba_activity=1
     insmod /system/lib/modules/compat/wl18xx.ko dc2dc=0 \
     low_band_component=0x2 low_band_component_type=0x5 \
     high_band_component=0x1 high_band_component_type=0x9 \
@@ -156,6 +155,10 @@ on boot
 
 # backlight
     chown system system /sys/class/backlight/pwm-backlight/brightness
+
+# charging
+    chown system system /sys/class/i2c-dev/i2c-0/device/0-006b/chg_complete_soc
+    chmod 0666 /sys/class/i2c-dev/i2c-0/device/0-006b/chg_complete_soc
 
 # didim
     chown system system /sys/class/graphics/fb0/device/smartdimmer/enable
@@ -217,6 +220,13 @@ on boot
     chown system system /sys/class/input/input0/enabled
     chown system system /sys/class/input/input1/enabled
     chown system system /sys/class/input/input2/enabled
+    chown system system /sys/class/input/input3/enabled
+    chown system system /sys/class/input/input4/enabled
+    chown system system /sys/class/input/input5/enabled
+    chown system system /sys/class/input/input6/enabled
+    chown system system /sys/class/input/input7/enabled
+    chown system system /sys/class/input/input8/enabled
+    chown system system /sys/class/input/input9/enabled
 
     chown system system /sys/kernel/tegra_cap/cbus_cap_level
     chown system system /sys/kernel/tegra_cap/cbus_cap_state
@@ -357,7 +367,12 @@ service dhcpcd_eth0 /system/bin/dhcpcd -ABKL -f/system/etc/dhcpcd/dhcpcd.conf
      disabled
      oneshot
 
-service dhcpcd_bnep0 /system/bin/dhcpcd -ABKL
+service dhcpcd_bt-pan /system/bin/dhcpcd -ABKL
+    class main
+    disabled
+    oneshot
+
+service iprenew_bt-pan /system/bin/dhcpcd -n
     class main
     disabled
     oneshot
@@ -394,7 +409,7 @@ service fuse_usbdrive /system/bin/sdcard -u 1023 -g 1023 -w 1023 -d /mnt/media_r
     disabled
 
 # bugreport is triggered by the VOLUME-DOWN and VOLUME-UP keys
-service bugreport /system/bin/dumpstate -d -v -o /data/storage/bugreports/bugreport
+service bugreport /system/bin/dumpstate -d -p -B -o /data/data/com.android.shell/files/bugreports/bugreport
     class main
     disabled
     oneshot
@@ -431,7 +446,6 @@ service nvcpud /system/bin/nvcpud
     user system
     group system
 
-
 # Charger Mode
 service charger /charger
 	class charger
@@ -464,6 +478,13 @@ on property:ril.testmode=0
     stop ril-daemon-test
     start ril-daemon
 
+service dns_masq /system/bin/dnsmasq --no-daemon --no-resolv --no-poll --dhcp-option-force=43,ANDROID_METERED --dhcp-range=192.168.42.2,192.168.42.254,1h &
+    class main
+    user dhcp
+    group dhcp wifi system
+    disabled
+    oneshot
+
 service p2p_supplicant /system/bin/wpa_supplicant \
     -iwlan0 -Dnl80211 -c/data/misc/wifi/wpa_supplicant.conf \
     -I/system/etc/wifi/p2p_disabled.conf -N \
@@ -479,7 +500,15 @@ service p2p_supplicant /system/bin/wpa_supplicant \
     disabled
     oneshot
 
-service add_p2p_iface /system/bin/iw phy0 interface add p2p0 type managed
+service wpa_supplicant /system/bin/wpa_supplicant \
+    -iwlan0 -Dnl80211 -c/data/misc/wifi/wpa_supplicant.conf -e/data/misc/wifi/entropy.bin \
+    -O/data/misc/wifi/sockets -g@android:wpa_wlan0
+    class main
+    socket wpa_wlan0 dgram 660 wifi wifi
+    disabled
+    oneshot
+
+service add_p2p_iface /system/bin/add_p2p_iface.sh
     disabled
     class main
     user root
@@ -503,6 +532,12 @@ service agnss_connect /system/bin/agnss_connect -p
 
 # make symlink to proper configuration according to lbh
 service link_lbh /system/bin/link_lbh.sh
+    class main
+    user root
+    group root
+    oneshot
+
+service camera_lbh /system/bin/camera_lbh.sh
     class main
     user root
     group root

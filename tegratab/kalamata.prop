@@ -4,5 +4,6 @@ ro.usb.vid=03f0
 ro.usb.pid.charger=5c1d
 ro.usb.pid.mtp=5c1d
 ro.usb.pid.mtp_adb=5d1d
+ro.usb.pid.adb=5e1d
 ro.usb.pid.ptp=5f1d
 ro.usb.pid.ptp_adb=601d

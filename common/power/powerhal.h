@@ -120,7 +120,12 @@ struct powerhal_info {
         int app_min_freq;
         int bt_a2dp_min_freq;
         int interactive_max_cpus;
+		/* FD for audio playback with speaker */
+		int fd_speaker_freq_min;
     } fds;
+
+    //File handle for music
+    int fd_music_freq_min;
 
     /* Camera power hint struct*/
     struct {

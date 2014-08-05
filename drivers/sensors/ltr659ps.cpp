@@ -27,11 +27,8 @@
 
 /*****************************************************************************/
 
-#define LTR659PS_SYS_PATH "/sys/bus/iio/devices/iio:device1/ps_data"
+#define LTR659PS_SYS_PATH "/sys/bus/iio/devices/iio:device1/distance"
 #define LTR659PS_SYS_ENABLE_PATH "/sys/bus/iio/devices/iio:device1/enable"
-#define LTR659PS_THRESHOLD1 20  /* 3.0cm threshold */
-#define LTR659PS_THRESHOLD2 30  /* 0.1cm threshold */
-#define LTR659PS_THRESHOLD3 150 /* invalid threshold */
 
 ltr659ps::ltr659ps(const char *sysPath, const char *sysEnablePath,
                        unsigned int ProxThreshold)
@@ -55,7 +52,6 @@ ltr659ps::ltr659ps()
 {
     mSysPath = LTR659PS_SYS_PATH;
     mSysEnablePath = LTR659PS_SYS_ENABLE_PATH;
-    mProximityThreshold = LTR659PS_THRESHOLD1;
 }
 
 
@@ -118,12 +114,10 @@ int ltr659ps::readEvents(sensors_event_t* data, int count) {
     (*data).version = sizeof(sensors_event_t);
     (*data).sensor = ID_P;
     (*data).type = SENSOR_TYPE_PROXIMITY;
-    if ((value >= LTR659PS_THRESHOLD1) && (value < LTR659PS_THRESHOLD2))
+    if (value == 0)
         (*data).distance = 3.0f;
-    else if ((value >= LTR659PS_THRESHOLD2) && (value < LTR659PS_THRESHOLD3))
-        (*data).distance = 0.0f;
     else
-        (*data).distance = 10.0f;
+        (*data).distance = 0.0f;
     (*data).timestamp = Currentns.timestamp;
     mLast_value = value;
     ALOGV("ProximitySensor: value is %i", (int)value );

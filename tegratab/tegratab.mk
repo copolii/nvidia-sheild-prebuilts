@@ -30,7 +30,7 @@ PRODUCT_MANUFACTURER := NVIDIA
 PRODUCT_BRAND := nvidia
 
 # SKU specific packages, variables resides in sku specific device makefile
-$(call inherit-product, device/nvidia/tegratab/skus/$(NV_TN_SKU).mk)
+$(call inherit-product, device/nvidia/tegratab/skus/tn7/$(NV_TN_SKU).mk)
 
 # Rest of the packages
 $(call inherit-product, device/nvidia/tegratab/device.mk)

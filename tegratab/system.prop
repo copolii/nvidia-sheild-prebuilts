@@ -19,6 +19,9 @@ ro.streaming.video.drs=true
 # use glcomposer as the default compositor
 persist.tegra.compositor=glcomposer
 
+# disable input resampling
+ro.input.noresample=1
+
 #Support high quality audio sample rate conversion
 af.resampler.quality = 3
 

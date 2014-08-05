@@ -61,12 +61,16 @@ sedoptiongp_2014 := -e "s/name=LBH/name=LBH\nfilename=lbh_gp.img/" \
 	-e "s/factory_ramdisk.img/boot.img/"
 endif
 
+sedoptionsigned := -e "s/bootloader.bin/bootloader_signed.bin/"
+
 define nvflash-cfg-populate-lbh
 $(foreach _lbh,$(nvflash_cfg_names), \
   $(eval _target := $(PRODUCT_OUT)/flash_$(_lbh).cfg) \
+  $(eval _target_signed := $(PRODUCT_OUT)/flash_$(_lbh)_signed.cfg) \
   $(eval _out2 := $(if $(call streq,$(_lbh),$(nvflash_cfg_default)),| tee $(nvflash_cfg_default_target),)) \
   mkdir -p $(dir $(_target)); \
   sed $(sedoption$(_lbh)) < $(NVFLASH_CFG_BASE_FILE) $(_out2) > $(_target); \
+  sed $(sedoptionsigned) < $(NVFLASH_CFG_BASE_FILE) $(_target) > $(_target_signed); \
 )
 endef
 
@@ -78,8 +82,7 @@ include $(BUILD_SYSTEM)/base_rules.mk
 $(LOCAL_BUILT_MODULE): $(NVFLASH_CFG_BASE_FILE)
 	@echo "Generating flash config file"; \
 	mkdir -p $(dir $@); \
-	rm -rf $@; \
-	touch $@;
+	touch -t 200001010000.00 $@;
 	$(hide) $(call nvflash-cfg-populate-lbh)
 
 endif # !TARGET_SIMULATOR

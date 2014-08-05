@@ -83,7 +83,6 @@ Only the three quirks included above are recognized at this point:
         <MediaCodec name="OMX.Nvidia.mp3.decoder" type="audio/mpeg" />
         <MediaCodec name="OMX.Nvidia.eaacp.decoder" type="audio/mp4a-latm" />
         <MediaCodec name="OMX.Nvidia.mjpeg.decoder" type="video/mjpeg" />
-        <MediaCodec name="OMX.Nvidia.h264.decode.secure" type="video/avc" />
         <MediaCodec name="OMX.Nvidia.vp8.decode" type="video/x-vnd.on2.vp8" />
         <MediaCodec name="OMX.Nvidia.bypass.decoder" type="audio/ac3" />
         <MediaCodec name="OMX.Nvidia.bypass.decoder" type="audio/dts" />

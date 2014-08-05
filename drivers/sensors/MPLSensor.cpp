@@ -408,7 +408,9 @@ int MPLSensor::inv_constructor_default_enable()
         ALOGE("HAL:Cannot enable quaternion\n");
         return result;
     }
-    result = inv_enable_in_use_auto_calibration();
+    ALOGV("HAL:in_use_auto_calibration, disable");
+    mAccelAccuracy = 3;
+    inv_set_accel_bias(NULL, 3);
     if (result) {
         return result;
     }

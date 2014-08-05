@@ -54,19 +54,28 @@ else
 endif
 
 ifeq ($(APPEND_DTB_TO_KERNEL), true)
-        ifneq ($(TARGET_PRODUCT),flaxen)
-        PRODUCT_COPY_FILES += \
-                $(NVFLASH_FILES_PATH)/nvflash/android_fastboot_emmc_full.cfg:flash.cfg
+    ifneq ($(TARGET_PRODUCT),flaxen)
+        ifneq (,$(filter $(NV_TN_SKU),tn7_114gp_2014 tn7_114np_2014))
+            PRODUCT_COPY_FILES += \
+                    $(NVFLASH_FILES_PATH)/nvflash/android_fastboot_emmc_full_2014.cfg:flash.cfg
         else
+            PRODUCT_COPY_FILES += \
+                    $(NVFLASH_FILES_PATH)/nvflash/android_fastboot_emmc_full.cfg:flash.cfg
+        endif
+    else
         PRODUCT_COPY_FILES += \
                 $(NVFLASH_FILES_PATH)/nvflash/android_fastboot_emmc_full.cfg_1gb_system:flash.cfg
-        endif
+    endif
 else
-        ifneq ($(TARGET_PRODUCT), flaxen)
-        NVFLASH_CFG_BASE_FILE := $(NVFLASH_FILES_PATH)/nvflash/android_fastboot_dtb_emmc_full_noxusb_nosif.cfg
+    ifneq ($(TARGET_PRODUCT), flaxen)
+        ifneq (,$(filter $(NV_TN_SKU),tn7_114gp_2014 tn7_114np_2014))
+            NVFLASH_CFG_BASE_FILE := $(NVFLASH_FILES_PATH)/nvflash/android_fastboot_dtb_emmc_full_noxusb_nosif_2014.cfg
         else
+            NVFLASH_CFG_BASE_FILE := $(NVFLASH_FILES_PATH)/nvflash/android_fastboot_dtb_emmc_full_noxusb_nosif.cfg
+        endif
+    else
         NVFLASH_CFG_BASE_FILE := $(NVFLASH_FILES_PATH)/nvflash/android_fastboot_dtb_emmc_full_noxusb_nosif_1gb_system.cfg
-       endif
+    endif
 endif
 
 NVFLASH_FILES_PATH :=
@@ -174,7 +183,8 @@ PRODUCT_COPY_FILES += \
 	external/alsa-lib/src/conf/pcm/surround71.conf:system/usr/share/alsa/pcm/surround71.conf \
 	external/alsa-lib/src/conf/pcm/front.conf:system/usr/share/alsa/pcm/front.conf \
 	external/alsa-lib/src/conf/cards/aliases.conf:system/usr/share/alsa/cards/aliases.conf \
-	device/nvidia/tegratab/asound.conf:system/etc/asound.conf
+	device/nvidia/tegratab/asound.conf:system/etc/asound.conf \
+	device/nvidia/tegratab/nvaudio_conf.xml:system/etc/nvaudio_conf.xml
 
 ifeq ($(NV_ANDROID_FRAMEWORK_ENHANCEMENTS),TRUE)
 # Configuration files for WiiMote support
@@ -310,6 +320,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
 		TQS_S_2.6.ini \
 		iw \
+		wl18xx-conf-default.bin \
+		wl18xx-conf-us.bin \
+		wl18xx-conf-eu.bin \
 		crda \
 		regulatory.bin \
 		wpa_supplicant.conf \
@@ -391,6 +404,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
         TegraDraw
 
+# Stylus apps
+PRODUCT_PACKAGES += \
+        NvLauncher \
+        nvlasso
+
 # HDCP SRM Support
 PRODUCT_PACKAGES += \
                 hdcp1x.srm \
@@ -420,8 +438,15 @@ else
     PRODUCT_PACKAGE_OVERLAYS := $(LOCAL_PATH)/../../../vendor/nvidia/flaxen/overlay
 endif
 else
-    PRODUCT_PACKAGE_OVERLAYS := $(LOCAL_PATH)/overlay
+    ifneq (,$(filter $(NV_TN_SKU),tn7_114gp_2014 tn7_114np_2014))
+        PRODUCT_PACKAGE_OVERLAYS := $(LOCAL_PATH)/overlay_tn7cw
+    else
+        PRODUCT_PACKAGE_OVERLAYS := $(LOCAL_PATH)/overlay
+    endif
 endif
+
+# override runtimes to dvm only(removing android runtime)
+OVERRIDE_RUNTIMES := runtime_libdvm_default
 
 # Set default USB interface
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \

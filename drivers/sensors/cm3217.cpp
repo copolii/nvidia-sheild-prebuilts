@@ -1,7 +1,7 @@
 /*
  * Copyright (C) 2012 The Android Open Source Project
  *
- * Copyright (c) 2012-2013, NVIDIA CORPORATION. All Rights Reserved.
+ * Copyright (c) 2012-2014, NVIDIA CORPORATION. All Rights Reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -53,7 +53,6 @@ Cm3217Light::Cm3217Light()
     if (!ioctl(dev_fd, LIGHTSENSOR_IOCTL_GET_ENABLED, &flags)) {
         if (flags) {
             mEnabled = 1;
-            setInitialState();
         }
     }
 
@@ -63,15 +62,6 @@ Cm3217Light::Cm3217Light()
 }
 
 Cm3217Light::~Cm3217Light() {
-}
-
-int Cm3217Light::setInitialState() {
-    struct input_absinfo absinfo;
-    if (!ioctl(data_fd, EVIOCGABS(EVENT_TYPE_LIGHT), &absinfo)) {
-        mPendingEvent.light = absinfo.value;
-        mHasPendingEvent = true;
-    }
-    return 0;
 }
 
 int Cm3217Light::enable(int32_t, int en) {
@@ -86,9 +76,6 @@ int Cm3217Light::enable(int32_t, int en) {
         ALOGE_IF(err, "LIGHTSENSOR_IOCTL_ENABLE failed (%s)", strerror(-err));
         if (!err) {
             mEnabled = en ? 1 : 0;
-            if (en) {
-                setInitialState();
-            }
         }
         if (!mEnabled) {
             close_device();

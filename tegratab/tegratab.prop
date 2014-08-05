@@ -6,6 +6,7 @@ ro.usb.pid.mtp=CF02
 ro.usb.pid.mtp_adb=CF00
 ro.usb.pid.ptp=CF02
 ro.usb.pid.ptp_adb=CF00
+ro.usb.pid.adb=CF04
 
 # lock screen is disabled
 ro.lockscreen.disable.default=true

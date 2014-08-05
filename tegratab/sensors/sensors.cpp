@@ -1,5 +1,5 @@
 /* Copyright (C) 2012 The Android Open Source Project
- * Copyright (c) 2011-2013, NVIDIA CORPORATION.  All rights reserved.
+ * Copyright (c) 2011-2014, NVIDIA CORPORATION.  All rights reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -273,7 +273,11 @@ sensors_poll_context_t::sensors_poll_context_t()
         mPollFds[compass].revents = 0;
     }
 
-    mSensors[light] = new Cm3217Light();
+    Cm3217Light *cm3217 = new Cm3217Light();
+#ifdef DEFAULT_LUX_CONV_FACTOR
+    cm3217->setLuxConvFactor(DEFAULT_LUX_CONV_FACTOR);
+#endif
+    mSensors[light] = cm3217;
     mPollFds[light].fd = mSensors[light]->getFd();
     mPollFds[light].events = POLLIN;
     mPollFds[light].revents = 0;

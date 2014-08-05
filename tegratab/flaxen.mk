@@ -11,8 +11,9 @@
 # default: y
 SECURE_OS_BUILD ?= y
 
-## NV_TN_SKU
-NV_TN_SKU := flaxen
+# NV_TN_SKU - allowed values flaxen, blond
+# Default: flaxen
+NV_TN_SKU ?= flaxen
 
 ## REFERENCE_DEVICE
 REFERENCE_DEVICE := flaxen
@@ -40,15 +41,34 @@ PRODUCT_LOCALES += en_US
 ## Property overrides
 PRODUCT_PROPERTY_OVERRIDES += ro.com.google.clientidbase=android-nvidia
 
-## All GMS apps for tegratab_gms
-$(call inherit-product-if-exists, 3rdparty/google/gms-apps/products/gms.mk)
+#Enable TI BT power table
+TI_BT_POWER_TABLE := true
 
-## GMS 3rd-party preinstalled apk for tegratab_gms
-$(call inherit-product-if-exists, 3rdparty/applications/prebuilt/common/tegratab_gms.mk)
+#Enable beats audio
+BOARD_SUPPORT_BEATS := true
 
-## SKU specific apps
-## All specific apps for flaxen
-$(call inherit-product-if-exists, vendor/nvidia/flaxen/flaxen_apps.mk)
+#power table for TI WiFi Wl18xx
+WL18XX_POWER_TABLE := true
+
+#Enable power hint for Auido playback with speaker
+AUDIO_SPEAKER_POWER_HINT := true
+
+# Configuration files for Beats
+ifeq ($(wildcard vendor/nvidia/flaxen/beats),vendor/nvidia/flaxen/beats)
+PRODUCT_COPY_FILES += \
+    vendor/nvidia/flaxen/beats/BeatsSpeakerProfile.bin:system/etc/BeatsSpeakerProfile.bin \
+    vendor/nvidia/flaxen/beats/BeatsHpProfile.bin:system/etc/BeatsHpProfile.bin
+endif
+
+# Beats
+PRODUCT_PACKAGES += \
+    libbeatsaudio.so \
+    BeatsSpeakerProfile.bin \
+    BeatsHpProfile.bin
+
+
+# SKU specific packages, variables resides in sku specific device makefile
+$(call inherit-product, device/nvidia/tegratab/skus/flaxen/$(NV_TN_SKU).mk)
 
 ## Rest of the packages
 $(call inherit-product, device/nvidia/tegratab/device.mk)

@@ -1,6 +1,6 @@
 #!/system/bin/sh
 
-# Copyright (c) 2013, NVIDIA CORPORATION.  All rights reserved.
+# Copyright (c) 2014, NVIDIA CORPORATION.  All rights reserved.
 #
 # NVIDIA CORPORATION and its licensors retain all intellectual property
 # and proprietary rights in and to this software, related documentation
@@ -39,3 +39,8 @@ chown system:system /sys/class/input/input*/akm89xx/delay
 chown system:system /sys/class/input/input*/akm89xx/max_range
 chown system:system /sys/class/input/input*/akm89xx/resolution
 
+if [ '0' -ne `getprop ro.factorytest` ]; then
+    touch /mnt/factory/mpu/inv_cal_data.bin
+    chown system:system /mnt/factory/mpu/inv_cal_data.bin
+    chmod 0666 /mnt/factory/mpu/inv_cal_data.bin
+fi
