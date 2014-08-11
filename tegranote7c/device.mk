@@ -240,7 +240,8 @@ PRODUCT_COPY_FILES += \
 	external/alsa-lib/src/conf/pcm/front.conf:system/usr/share/alsa/pcm/front.conf \
 	external/alsa-lib/src/conf/cards/aliases.conf:system/usr/share/alsa/cards/aliases.conf \
 	device/nvidia/tegranote7c/asound.conf:system/etc/asound.conf \
-	device/nvidia/tegranote7c/nvaudio_conf.xml:system/etc/nvaudio_conf.xml
+	device/nvidia/tegranote7c/nvaudio_conf.xml:system/etc/nvaudio_conf.xml \
+	device/nvidia/tegranote7c/nvaudio_fx.xml:system/etc/nvaudio_fx.xml
 
 ifeq ($(NV_ANDROID_FRAMEWORK_ENHANCEMENTS),TRUE)
 # Configuration files for WiiMote support
