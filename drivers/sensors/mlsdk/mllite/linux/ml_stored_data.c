@@ -193,8 +193,13 @@ inv_error_t inv_write_cal(unsigned char *cal, size_t len)
         MPL_LOGI("cal data size to write = %d", len);
     }
 
-    if (!inv_exist_cal_default_path())
+    if (!inv_exist_cal_default_path() || !inv_exist_cal_protected_path())
         return INV_ERROR_FILE_OPEN;
+
+    if (!strcmp(mpl_cal_default_path, mpl_cal_protected_path)) {
+        MPL_LOGE("Factory mode: Do not write calibration\n");
+        return INV_ERROR_FILE_OPEN;
+    }
 
     fp = fopen(mpl_cal_default_path, "wb");
     if (fp == NULL) {
