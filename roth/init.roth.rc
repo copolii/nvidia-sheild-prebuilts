@@ -120,18 +120,6 @@ on boot
     chown system system /sys/class/graphics/fb0/device/cmu_enable
     chown system system /sys/class/graphics/fb1/device/cmu_enable
 
-    on property:persist.sys.dpy0.colorspace=srgb
-        write /sys/class/graphics/fb0/device/cmu_enable 1
-
-    on property:persist.sys.dpy0.colorspace=native
-        write /sys/class/graphics/fb0/device/cmu_enable 0
-
-    on property:persist.sys.dpy1.colorspace=srgb
-        write /sys/class/graphics/fb1/device/cmu_enable 1
-
-    on property:persist.sys.dpy1.colorspace=native
-        write /sys/class/graphics/fb1/device/cmu_enable 0
-
 #nvdps
     chown system system /sys/class/graphics/fb0/device/nvdps
 
@@ -273,6 +261,19 @@ service jscheck /system/bin/sh /system/bin/js_daemon.sh
     class main
     user system
     group system
+
+# Enable/disable CMU according to the colorspace
+on property:persist.sys.dpy0.colorspace=srgb
+    write /sys/class/graphics/fb0/device/cmu_enable 1
+
+on property:persist.sys.dpy0.colorspace=native
+    write /sys/class/graphics/fb0/device/cmu_enable 0
+
+on property:persist.sys.dpy1.colorspace=srgb
+    write /sys/class/graphics/fb1/device/cmu_enable 1
+
+on property:persist.sys.dpy1.colorspace=native
+    write /sys/class/graphics/fb1/device/cmu_enable 0
 
 on property:ro.debuggable=1
     # EMC debug interface
