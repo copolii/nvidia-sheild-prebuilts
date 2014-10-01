@@ -1,1 +1,1 @@
-daily-2014.08.28.0_rel-st8-r2.4-partner
+daily-2014.10.01.0_rel-st8-r2.5-partner

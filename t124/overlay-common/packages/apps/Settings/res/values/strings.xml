@@ -34,4 +34,7 @@
     <!-- headset notification enable title. -->
     <add-resource type="string" name="headset_notification_enable_title" />
     <string name="headset_notification_enable_title">Enable headset notifications</string>
+
+    <!-- Text to display in regulatory info screen (from device overlay). -->
+    <string name="regulatory_info_text">To be replaced with regulatory info drawable regulatory_info.png whose width and height must both > 2 pixels.</string>
 </resources>
