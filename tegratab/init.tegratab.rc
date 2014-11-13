@@ -345,6 +345,11 @@ service dhcpcd_p2p_p2p0 /system/bin/dhcpcd p2p-p2p0-0
     disabled
     oneshot
 
+service dhcpcd_p2p_p2p1 /system/bin/dhcpcd p2p-p2p0-1
+    class main
+    disabled
+    oneshot
+
 service dhcpcd_wlan0 /system/bin/dhcpcd -aABKL
     class main
     disabled

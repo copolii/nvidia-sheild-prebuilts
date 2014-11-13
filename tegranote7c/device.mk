@@ -326,23 +326,11 @@ ifneq ($(TARGET_PRODUCT),kalamata)
     ifneq ($(wildcard vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide-it.pdf),)
         PRODUCT_COPY_FILES += vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide-it.pdf:system/media/TegraNOTE7LTEUserGuide-it.pdf
     endif
-    ifneq ($(wildcard vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide-ja.pdf),)
-        PRODUCT_COPY_FILES += vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide-ja.pdf:system/media/TegraNOTE7LTEUserGuide-ja.pdf
-    endif
-    ifneq ($(wildcard vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide-ko.pdf),)
-        PRODUCT_COPY_FILES += vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide-ko.pdf:system/media/TegraNOTE7LTEUserGuide-ko.pdf
-    endif
-    ifneq ($(wildcard vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide-pt.pdf),)
-        PRODUCT_COPY_FILES += vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide-pt.pdf:system/media/TegraNOTE7LTEUserGuide-pt.pdf
-    endif
     ifneq ($(wildcard vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide-ru.pdf),)
         PRODUCT_COPY_FILES += vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide-ru.pdf:system/media/TegraNOTE7LTEUserGuide-ru.pdf
     endif
-    ifneq ($(wildcard vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide-zh.pdf),)
-        PRODUCT_COPY_FILES += vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide-zh.pdf:system/media/TegraNOTE7LTEUserGuide-zh.pdf
-    endif
-    ifneq ($(wildcard vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide-zt.pdf),)
-        PRODUCT_COPY_FILES += vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide-zt.pdf:system/media/TegraNOTE7LTEUserGuide-zt.pdf
+    ifneq ($(wildcard vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide-pl.pdf),)
+        PRODUCT_COPY_FILES += vendor/nvidia/tegra/tegratab/partition-data/media/TegraNOTE7LTEUserGuide-pl.pdf:system/media/TegraNOTE7LTEUserGuide-pl.pdf
     endif
 endif
 
